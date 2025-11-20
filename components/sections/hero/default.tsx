@@ -33,7 +33,7 @@ interface HeroProps {
 export default function Hero({
   title = "Payroll made for Jamaican businesses",
   description =
-    "Run payroll in minutes. Stay compliant with MOF requirements and generate statutory reports with one click.",
+    "Run payroll in minutes. Stay secure and compliant with MOF requirements and generate statutory reports with one click.",
   mockup = (
     <Screenshot
       srcLight="/dashboard-light.png"
@@ -46,7 +46,7 @@ export default function Hero({
   ),
   badge = (
     <Badge variant="outline" className="animate-appear">
-      <span className="text-muted-foreground">Secure • MOF compliant</span>
+      <span className="text-muted-foreground">#1 Jamaican payroll software</span>
       <a href="#" data-open-fillout="true" className="flex items-center gap-1">
         Contact us
         <ArrowRightIcon className="size-3" />
@@ -94,7 +94,7 @@ export default function Hero({
                 >
                   <a href={button.href} data-open-fillout="true">
                     {button.icon}
-                    {"Get Started"}
+                    {button.text}
                     {button.iconRight}
                   </a>
                 </Button>

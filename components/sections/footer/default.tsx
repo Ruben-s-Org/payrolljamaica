@@ -14,6 +14,7 @@ import { ModeToggle } from "../../ui/mode-toggle";
 interface FooterLink {
   text: string;
   href: string;
+  openFillout?: boolean;
 }
 
 interface FooterColumnProps {
@@ -38,21 +39,21 @@ export default function FooterSection({
     {
       title: "Product",
       links: [
-        { text: "Features", href: "#features" },
+        { text: "Features", href: "/" },
       ],
     },
     {
-      title: "Company",
+      title: "Blog",
       links: [
-        { text: "About", href: "#about" },
-        { text: "Contact", href: siteConfig.getStartedUrl },
+        { text: "Latest", href: "/blog" },
+        { text: "Articles", href: "/blog" },
       ],
     },
     {
       title: "Support",
       links: [
         { text: "Email", href: siteConfig.links.email },
-        { text: "Twitter", href: siteConfig.links.twitter },
+        { text: "Contact Form", href: "#", openFillout: true },
       ],
     },
   ],
@@ -80,6 +81,7 @@ export default function FooterSection({
                     key={linkIndex}
                     href={link.href}
                     className="text-muted-foreground text-sm"
+                    data-open-fillout={link.openFillout ? "true" : undefined}
                   >
                     {link.text}
                   </a>

@@ -23,12 +23,17 @@ interface CTAProps {
 }
 
 export default function CTA({
-  title = "Start building",
+  title = "Ready to simplify payroll?",
   buttons = [
     {
       href: "#",
       text: "Get Started",
       variant: "default",
+    },
+    {
+      href: "#",
+      text: "Contact us",
+      variant: "ghost",
     },
   ],
   className,
@@ -50,7 +55,7 @@ export default function CTA({
               >
                 <a href={button.href} data-open-fillout="true">
                   {button.icon}
-                  {"Get Started"}
+                  {button.text}
                   {button.iconRight}
                 </a>
               </Button>

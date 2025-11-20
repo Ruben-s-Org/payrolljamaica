@@ -79,7 +79,7 @@ export default function BlocksPage() {
               <AccordionItem value="item-2">
                 <AccordionTrigger>How fast can I run payroll?</AccordionTrigger>
                 <AccordionContent>
-                  Run payroll in minutes and stay compliant automatically.
+                  Run payroll in minutes and stay secure and compliant automatically.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

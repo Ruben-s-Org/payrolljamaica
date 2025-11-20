@@ -48,12 +48,8 @@ export default function Navbar({
     { text: "Contact", href: siteConfig.getStartedUrl },
   ],
   actions = [
-    {
-      text: "Request Demo",
-      href: siteConfig.getStartedUrl,
-      isButton: true,
-      variant: "default",
-    },
+    { text: "Contact us", href: "#", isButton: false },
+    { text: "Get Started", href: "#", isButton: true, variant: "default" },
   ],
   showNavigation = false,
   customNavigation,
@@ -80,18 +76,18 @@ export default function Navbar({
                 >
                   <a href="#" data-open-fillout="true">
                     {action.icon}
-                    {"Get Started"}
+                    {action.text}
                     {action.iconRight}
                   </a>
                 </Button>
               ) : (
                 <a
                   key={index}
-                  href="#"
+                  href={action.href}
                   data-open-fillout="true"
                   className="hidden text-sm md:block"
                 >
-                  {"Contact us"}
+                  {action.text}
                 </a>
               ),
             )}

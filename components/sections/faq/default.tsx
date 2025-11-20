@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ReactNode } from "react";
 
 import { siteConfig } from "@/config/site";
@@ -24,98 +23,124 @@ interface FAQProps {
 }
 
 export default function FAQ({
-  title = "Questions and Answers",
+  title = "Frequently asked questions",
   items = [
     {
-      question:
-        "Why building a great landing page is critical for your business?",
+      question: "What is Payroll Jamaica?",
       answer: (
         <>
-          <p className="text-muted-foreground mb-4 max-w-[640px] text-balance">
-            In today&apos;s AI-driven world, standing out is harder than ever.
-            While anyone can build a product, a professional landing page makes
-            the difference between success and failure.
-          </p>
-          <p className="text-muted-foreground mb-4 max-w-[640px] text-balance">
-            Launch UI helps you ship faster without compromising on quality.
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            Payroll Jamaica is modern payroll software tailored for Jamaican businesses. It is built on a proven open‑source payroll engine and adapted for local tax rules, reporting and banking formats.
           </p>
         </>
       ),
     },
     {
-      question: "Why use Launch UI instead of a no-code tool?",
+      question: "Is my data secure?",
       answer: (
         <>
-          <p className="text-muted-foreground mb-4 max-w-[600px]">
-            No-code tools lock you into their ecosystem with recurring fees and
-            limited control. They often come with performance issues and make it
-            difficult to integrate with your product.
-          </p>
-          <p className="text-muted-foreground mb-4 max-w-[600px]">
-            You can&apos;t even change your hosting provider and basic things
-            like web analytics come as extra costs and paid add-ons.
-          </p>
-          <p className="text-muted-foreground mb-4 max-w-[600px]">
-            What might seem like a convenient solution today could paint you
-            into a corner tomorrow, limiting your ability to scale and adapt.
-            Launch UI gives you full control of your code while maintaining
-            professional quality.
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            Yes. We use TLS encryption in transit, encrypted storage at rest, role‑based access controls, audit trails, and automated backups. Access can be limited by role and we provide least‑privilege defaults.
           </p>
         </>
       ),
     },
     {
-      question:
-        "How Launch UI is different from other components libraries and templates?",
+      question: "Which statutory calculations are supported?",
       answer: (
         <>
-          <p className="text-muted-foreground mb-4 max-w-[580px]">
-            Launch UI stands out with premium design quality and delightful
-            touches of custom animations and illustrations.
-          </p>
-          <p className="text-muted-foreground mb-4 max-w-[580px]">
-            All components are carefully crafted to help position your product
-            as a professional tool, avoiding the generic template look.
-          </p>
-          <p className="text-muted-foreground mb-4 max-w-[640px] text-balance">
-            Unlike many libraries that rely on outdated CSS practices and old
-            dependencies, Launch UI is built with modern technologies and best
-            practices in mind.
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            We support PAYE, NIS, NHT, and Education Tax out of the box, including thresholds and current rates. Deductions and allowances are configurable as salary components.
           </p>
         </>
       ),
     },
-    
     {
-      question: "Are Figma files included?",
+      question: "What reports and remittances can I generate?",
       answer: (
-        <p className="text-muted-foreground mb-4 max-w-[580px]">
-          Yes! The complete Launch UI template is available for free on the{" "}
-          <Link
-            href="https://www.figma.com/community/file/1420131743903900629/launch-ui-landing-page-components-ui-kit"
-            className="text-foreground underline"
-          >
-            Figma community
-          </Link>
-          .
-        </p>
+        <>
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            Generate payslips, payroll summaries, and statutory remittance files required by MOF/TAJ. Exports are ready for submission and can be archived for audits.
+          </p>
+        </>
       ),
     },
     {
-      question: "Can I get a discount?",
+      question: "Which banks are supported?",
       answer: (
         <>
-          <p className="text-muted-foreground mb-4 max-w-[580px]">
-            Actually, yes! I&apos;m always acively looking for beta testers of
-            new features. If you are interested in exchanging feedback for a
-            discount, please contact me via{" "}
-            <a
-              href={siteConfig.links.email}
-              className="underline underline-offset-2"
-            >
-              email
-            </a>
-            .
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            We export payment files compatible with major local banks, including NCB, JN, Scotiabank, Sagicor Bank, and FirstCaribbean. If you need a new format, we can add it quickly.
+          </p>
+        </>
+      ),
+    },
+    {
+      question: "Can I import from Excel or migrate existing data?",
+      answer: (
+        <>
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            Yes. Use CSV templates to import employees, salary structures, and historical payroll. Our team can help you map columns and validate before going live.
+          </p>
+        </>
+      ),
+    },
+    {
+      question: "How long does it take to run payroll?",
+      answer: (
+        <>
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            After initial setup, you can run payroll in minutes using bulk actions, recurring components, and automated calculations.
+          </p>
+        </>
+      ),
+    },
+    {
+      question: "Does it handle overtime, allowances, and deductions?",
+      answer: (
+        <>
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            Yes. Create salary components and rules for overtime, allowances, deductions, loans, and more. Configure per employee or per salary structure.
+          </p>
+        </>
+      ),
+    },
+    {
+      question: "Is there an employee self‑service portal?",
+      answer: (
+        <>
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            Employees can securely access payslips and personal details, and you can optionally enable requests like leave or updates for HR review.
+          </p>
+        </>
+      ),
+    },
+    {
+      question: "Cloud or self‑hosted?",
+      answer: (
+        <>
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            We provide a fully managed cloud service. Because we build on open‑source, a self‑hosted option is also possible for teams that require it.
+          </p>
+        </>
+      ),
+    },
+    {
+      question: "How is pricing handled?",
+      answer: (
+        <>
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            Pricing depends on team size and support needs. Contact us and we\'ll recommend the most cost‑effective plan for your stage.
+          </p>
+        </>
+      ),
+    },
+    {
+      question: "What support do you offer?",
+      answer: (
+        <>
+          <p className="text-muted-foreground mb-4 max-w-[640px]">
+            We offer business‑hours email support and guided onboarding. SLAs and premium support options are available upon request.
           </p>
         </>
       ),
