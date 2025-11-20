@@ -61,7 +61,7 @@ export default function Hero({
     },
     {
       href: "#",
-      text: "Get Started",
+      text: "Contact us",
       variant: "ghost",
     },
   ],

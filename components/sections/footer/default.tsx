@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ReactNode } from "react";
 
 import { siteConfig } from "@/config/site";
@@ -33,7 +32,7 @@ interface FooterProps {
 }
 
 export default function FooterSection({
-  logo = (<img src="/logo.png" alt="Payroll Jamaica" className="w-56 h-auto" />),
+  logo = (<img src="/logo.png" alt="Payroll Jamaica" className="w-[202px] h-auto" />),
   name = "",
   columns = [
     {

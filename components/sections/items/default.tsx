@@ -26,7 +26,7 @@ interface ItemsProps {
 }
 
 export default function Items({
-  title = "Everything Jamaican payroll needs—built in",
+  title = "Everything Jamaican payroll needs. Built in.",
   items = [
     {
       title: "Automatic statutory deductions",

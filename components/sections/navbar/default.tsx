@@ -41,7 +41,7 @@ interface NavbarProps {
 }
 
 export default function Navbar({
-  logo = (<img src="/logo.png" alt="Payroll Jamaica" className="w-56 h-auto" />),
+  logo = (<img src="/logo.png" alt="Payroll Jamaica" className="w-[202px] h-auto" />),
   name = "Payroll Jamaica",
   homeUrl = siteConfig.url,
   mobileLinks = [
