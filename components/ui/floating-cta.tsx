@@ -6,8 +6,8 @@ interface FloatingCTAProps {
 }
 
 export default function FloatingCTA({ headline, text }: FloatingCTAProps) {
-  const defaultHeadline = "Ready to get started?";
-  const defaultText = "Set up your account and run your first payroll in minutes.";
+  const defaultHeadline = "Ready to modernize your payroll?";
+  const defaultText = "Run payroll in minutes with the most advanced payroll software in Jamaica.";
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-50 px-4 pb-4">

@@ -58,9 +58,9 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
   const cta = post.links?.ctaBottom || post.links?.ctaInline;
 
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="w-full px-4 pb-28">
+      <main className="w-full px-4 pb-28 flex-1">
         <div className="max-w-container mx-auto py-12">
           <Link href="/blog" className="text-sm text-muted-foreground underline">
             ← Back to Blog
@@ -77,6 +77,6 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
       </main>
       <FooterSection />
       <FloatingCTA headline={cta?.headline} text={cta?.text} />
-    </>
+    </div>
   );
 }

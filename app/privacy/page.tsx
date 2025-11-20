@@ -1,10 +1,14 @@
 import { Section } from "@/components/ui/section";
+import Navbar from "@/components/sections/navbar/default";
+import FooterSection from "@/components/sections/footer/default";
 
 export default function PrivacyPage() {
   return (
-    <main className="bg-background text-foreground min-h-screen w-full">
-      <Section className="py-16">
-        <div className="max-w-container mx-auto px-4 prose prose-invert">
+    <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
+      <Navbar />
+      <main className="flex-1">
+        <Section className="py-16">
+          <div className="max-w-container mx-auto px-4 prose prose-invert">
           <h1>Privacy Policy</h1>
           <p><strong>Last updated:</strong> {new Date().toLocaleDateString()}</p>
 
@@ -100,8 +104,10 @@ export default function PrivacyPage() {
           <p>
             If you have questions about this Privacy Policy or our privacy practices, contact us via <a href="#" data-open-fillout="true">Contact us</a>.
           </p>
-        </div>
-      </Section>
-    </main>
+          </div>
+        </Section>
+      </main>
+      <FooterSection />
+    </div>
   );
 }
