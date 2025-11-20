@@ -30,7 +30,7 @@ export default function FAQ({
       answer: (
         <>
           <p className="text-muted-foreground mb-4 max-w-[640px]">
-            Payroll Jamaica is modern payroll software tailored for Jamaican businesses. It is built on a proven open‑source payroll engine and adapted for local tax rules, reporting and banking formats.
+            Payroll Jamaica is modern payroll software tailored for Jamaican businesses. It is purpose‑built for local tax rules, reporting, and banking formats.
           </p>
         </>
       ),
@@ -120,7 +120,7 @@ export default function FAQ({
       answer: (
         <>
           <p className="text-muted-foreground mb-4 max-w-[640px]">
-            We provide a fully managed cloud service. Because we build on open‑source, a self‑hosted option is also possible for teams that require it.
+            We provide a fully managed cloud service. A self‑hosted option is also possible for teams that require it.
           </p>
         </>
       ),

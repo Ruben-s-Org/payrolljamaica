@@ -33,7 +33,7 @@ interface FooterProps {
 }
 
 export default function FooterSection({
-  logo = (<img src="/logo.png" alt="Payroll Jamaica" className="w-[202px] h-auto" />),
+  logo = (<img src="/logo.png" alt="Payroll Jamaica" className="w-[170px] h-auto" />),
   name = "",
   columns = [
     {

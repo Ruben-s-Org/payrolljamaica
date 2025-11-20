@@ -243,6 +243,9 @@ async function main() {
   const urls = new Set();
   // Always include home page
   urls.add('/');
+  // Include legal pages
+  urls.add('/privacy');
+  urls.add('/terms');
 
   // Only blog routes from /content
   for (const p of getBlogRoutes()) urls.add(p);
