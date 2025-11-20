@@ -56,7 +56,7 @@ export default function Hero({
   buttons = [
     {
       href: "#",
-      text: "Contact us",
+      text: "Get Started",
       variant: "default",
     },
     {
