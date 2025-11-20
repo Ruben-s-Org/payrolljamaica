@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Auto-generate a real estate marketing blog article for RealStage Pro.
+ * Auto-generate a payroll and HR compliance blog article for PayrollJamaica.
  *
  * Flow:
  * 1) Accept an optional --topic. If not provided, ask the model to propose a good travel topic.
@@ -26,10 +26,10 @@ import { spawnSync } from 'node:child_process';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
-// Repo uses flat JSON posts in /content and assets under /assets
+// Repo uses flat JSON posts in /content; images served from /public
 const blogsDir = path.join(projectRoot, 'content');
-// Flat blog structure only
-const blogImagesDir = path.join(projectRoot, 'assets', 'img', 'blog');
+// Flat blog structure only (no dedicated assets dir in this repo)
+const blogImagesDir = path.join(projectRoot, 'public');
 
 const OPENROUTER_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
 const DEFAULT_MODEL = process.env.OPENROUTER_MODEL || 'anthropic/claude-4.5-sonnet';
@@ -62,24 +62,26 @@ function getModelCandidates(baseModel) {
   return [baseModel, 'anthropic/claude-3.5-sonnet'];
 }
 
-// Brand/search phrases to promote; select a few to guarantee inclusion and anchor linking (real estate focus)
+// Brand/search phrases to promote; select a few to guarantee inclusion and anchor linking (payroll in Jamaica focus)
 const BRAND_LINK_KEYWORDS = [
-  'ai virtual staging', 'virtual staging for real estate', 'real estate virtual staging', 'ai staging app', 'ai home staging', 'virtual staging software', 'mls ready photos', 'listing marketing', 'real estate branding', 'agent marketing', 'property photos', 'before and after staging', 'real estate content', 'ai interior design for listings', 'staging app for agents'
+  'jamaica payroll outsourcing', 'payroll services jamaica', 'paye jamaica', 'nis jamaica', 'nht contributions', 'education tax jamaica', 'overtime rules jamaica', 'severance pay jamaica', 'vacation leave jamaica', 'statutory deductions jamaica', 'p45 equivalent jamaica', 'income tax jamaica rates', 'minimum wage jamaica', 'payroll compliance jamaica', 'hr payroll software jamaica'
 ];
 
-// High-intent seeds to bias topics and on-page SEO toward people searching for tools
-// and interior design AI queries. These will be merged into keywords and occasionally linked.
+// High-intent seeds to bias topics and on-page SEO toward people searching for payroll help in Jamaica
+// These will be merged into keywords and occasionally linked.
 const INTENT_SEED_KEYWORDS = [
-  'virtual staging software',
-  'virtual staging app',
-  'ai virtual staging',
-  'best virtual staging tools',
-  'virtual staging pricing',
-  'virtual staging for real estate',
-  'interior design AI',
-  'ai room design',
-  'room planner AI',
-  'ai interior design'
+  'jamaica payroll',
+  'payroll outsourcing jamaica',
+  'paye jamaica calculator',
+  'nis rates jamaica',
+  'nht rates jamaica',
+  'education tax rates jamaica',
+  'overtime calculation jamaica',
+  'severance calculation jamaica',
+  'vacation leave jamaica rules',
+  'statutory deductions jamaica',
+  'tax tables jamaica 2025',
+  'minimum wage jamaica 2025'
 ];
 
 // Strict JSON schema for generated article (flat; no industry/useCase)
@@ -217,7 +219,7 @@ async function pickBlogImageFilenameLLM(topic, keywords = []) {
     properties: { filename: { type: 'string' } },
     required: ['filename']
   };
-  const prompt = `You are choosing a hero image for a real estate marketing blog post.
+  const prompt = `You are choosing a hero image for a payroll and HR compliance blog post focused on Jamaica.
 Topic: ${topic}
 Top keywords: ${Array.isArray(keywords) ? keywords.slice(0, 12).join(', ') : ''}
 
@@ -260,7 +262,7 @@ function enrichLinksInHtml(html, keywords, { maxLinks = 8 } = {}) {
       if (existsAsLink) { used.add(k); continue; }
       // Replace first occurrence outside tags with anchor
       const pattern = new RegExp(`(>[^<]*)\b(${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\b`, 'i');
-      const replaced = out.replace(pattern, (m, p1, p2) => `${p1}<a href=\"https://realstage.pro/auth/signin\" rel=\"nofollow noopener\">${p2}</a>`);
+      const replaced = out.replace(pattern, (m, p1, p2) => `${p1}<a href=\"https://payrolljamaica.com\" rel=\"nofollow noopener\">${p2}</a>`);
       if (replaced !== out) {
         out = replaced;
         used.add(k);
@@ -275,7 +277,7 @@ function usageAndExit(msg) {
 }
 
 function parseArgs(argv) {
-  const args = { topic: null, theme: null, dryRun: false, verbose: false, maxTokens: 7000, minWords: 1000, maxWords: 1500, times: 100 };
+  const args = { topic: null, theme: null, dryRun: false, verbose: false, maxTokens: 7000, minWords: 1000, maxWords: 1500, times: 1 };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     // If user passed a bare numeric positional arg (e.g., `bun blog 5`), treat as --times
@@ -312,11 +314,11 @@ async function proposeTravelTopic(existingTitles = [], seed = '', theme = null) 
   const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) throw new Error('OPENROUTER_API_KEY is not set');
 
-  const sys = `You are a real estate marketing content strategist for RealStage Pro (realstage.pro). Propose one helpful, specific blog topic suitable for 1200–1500 words. Avoid overlap with existing titles. Target real estate agents and teams.
+  const sys = `You are a payroll and HR compliance content strategist for PayrollJamaica (payrolljamaica.com). Propose one helpful, specific blog topic suitable for 1200–1500 words. Avoid overlap with existing titles. Target Jamaican business owners, HR managers, and finance leaders.
 
-Priority: Focus on high-intent search queries around virtual staging tools and interior design AI. Great angles include: tool comparisons, pricing guides, setup/how-to, workflows, before/after case studies, and ROI. Examples of head terms to align with: "virtual staging software", "virtual staging app", "best virtual staging tools", "interior design AI", "ai room design". Topics should still fall into one of: virtual staging, listing marketing, or seller guides, but lean toward tool and buyer-intent content.
+Priority: Focus on high‑intent search queries around statutory deductions (PAYE, NIS, NHT, Education Tax), payroll processing, tax tables/updates, overtime rules, leave policies, and compliance checklists in Jamaica. Great angles include: how‑to calculations, updated 2025 thresholds and rates, common mistakes and penalties, outsourcing vs in‑house payroll, and templates.
 
-Subtly favor angles that showcase how AI virtual staging helps agents win listings and ship MLS-ready visuals faster. No clickbait.`;
+Subtly favor angles that showcase how partnering with a specialist payroll provider reduces risk and saves time. No clickbait.`;
   const user = {
     role: 'user',
     content: [
@@ -341,8 +343,8 @@ Subtly favor angles that showcase how AI virtual staging helps agents win listin
     const headers = {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${apiKey}`,
-      'HTTP-Referer': 'https://realstage.pro',
-      'X-Title': 'RealStage Blog Generator'
+      'HTTP-Referer': 'https://payrolljamaica.com',
+      'X-Title': 'PayrollJamaica Blog Generator'
     };
     if (withPolicy) headers['X-Data-Policy'] = DATA_POLICY;
     const res = await fetch(OPENROUTER_ENDPOINT, {
@@ -414,8 +416,8 @@ async function callOpenRouter(model, messages, { max_tokens, response_format, te
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${apiKey}`,
       'Accept': 'application/json',
-      'HTTP-Referer': 'https://realstage.pro',
-      'X-Title': 'RealStage Blog Generator'
+      'HTTP-Referer': 'https://payrolljamaica.com',
+      'X-Title': 'PayrollJamaica'
     };
     if (withPolicy) headers['X-Data-Policy'] = DATA_POLICY;
     const res = await fetch(OPENROUTER_ENDPOINT, {
@@ -695,7 +697,7 @@ function uniqueSlugPath(baseSlug) {
 function buildKeywordCondensePrompt(topic, rawKeywordsCsv) {
   return `You are an SEO strategist. Given the topic "${topic}", you are provided a comma-separated list of up to 50 candidate keywords aggregated from top Google results.
 
-Your task: Return EXACTLY 18 non-branded, generic, high-intent keywords (comma-separated, one line). No quotes, no markdown, no commentary. Avoid company, product, and proper names. Prioritize queries aligned to virtual staging tools and interior design AI (e.g., "virtual staging software", "virtual staging app", "interior design AI", "ai room design"). Prefer a balanced mix of head and long-tail queries.
+Your task: Return EXACTLY 18 non-branded, generic, high-intent keywords (comma-separated, one line). No quotes, no markdown, no commentary. Avoid company, product, and proper names. Prioritize queries aligned to payroll in Jamaica (e.g., "PAYE Jamaica", "NIS rates Jamaica", "NHT contributions", "education tax Jamaica", "overtime rules Jamaica"). Prefer a balanced mix of head and long-tail queries.
 
 Candidates:
 ${rawKeywordsCsv}`;
@@ -708,7 +710,7 @@ function buildInitialJsonPrompt(researchContext, topic, minWords, maxWords, must
     seo: {
       slug: 'temp-slug',
       title: topic,
-      description: `Sell listings faster with AI‑powered virtual staging`,
+      description: `Understand Jamaican payroll and statutory deductions with clear, practical guidance`,
       keywords: Array.isArray(researchContext?.top_keywords)
         ? researchContext.top_keywords.slice(0, 15)
         : []
@@ -726,16 +728,16 @@ function buildInitialJsonPrompt(researchContext, topic, minWords, maxWords, must
   return `{
   "// --- OVERRIDING DIRECTIVE ---": "// Your absolute top priority is to generate text that reads exactly like something written by a seasoned, insightful human expert addressing a professional audience.\n// That means dropping the over-polished, formulaic cadence common in AI writing. Real executives don't write like algorithms.\n// Prioritize voice, judgment, and realism over perfect grammar or structure. If it's a choice between natural and flawless, go natural—every time.",
 
-  "// --- PERSONA & CORE DIRECTIVE ---": "// You are not a generic content generator. You are a seasoned interior designer who has helped thousands of real estate agencies sell listings faster with AI-powered virtual staging.\n// Persona: Friendly, practical, insightful. \n// Your goal: deliver meaningful, practical advice. Avoid starting sentences with 'Every'.",
+  "// --- PERSONA & CORE DIRECTIVE ---": "// You are not a generic content generator. You are a seasoned Jamaican payroll specialist who has helped hundreds of companies stay compliant and pay teams on time.\n// Persona: Friendly, practical, insightful. \n// Your goal: deliver meaningful, practical advice. Avoid starting sentences with 'Every'.",
 
   "You must output ONLY valid JSON that matches the schema of the Original JSON down below.": "",
 
   "// --- CONTEXTUAL INPUTS (Unchanged) ---": "Condensed research context (from top-10 sites’ SEO tags and headings):\n${JSON.stringify(researchContext, null, 2)}",
 
-  "// --- CORE TASK & TOPIC ---": "Task:\n- Write a new, original real estate marketing article for agents and teams.\n- Focus on a specific, overlooked or misunderstood angle.\nThe exact angle is \"${topic}\" — go deep and provide real perspective for practitioners.\n- Skip the obvious; start where the useful details begin.",
+  "// --- CORE TASK & TOPIC ---": "Task:\n- Write a new, original payroll and HR compliance article for Jamaican businesses.\n- Focus on a specific, overlooked or misunderstood angle.\nThe exact angle is \"${topic}\" — go deep and provide real perspective for practitioners.\n- Skip the obvious; start where the useful details begin.",
 
-  "// --- CONTENT & STYLE GUIDELINES (HUMAN VOICE + REAL ESTATE FOCUSED) ---": "- **Voice & Tone:** Friendly, concise, and helpful. Avoid fluff and hype.\\n    - Use natural rhythm: mix short tips with slightly longer explanations.\\n    - Use contractions naturally (it’s, can’t, won’t).\\n    - Use rhetorical questions sparingly and purposefully—to make the reader pause, not to dramatize.\\n    - Include small, specific asides in parentheses for realism (e.g., “yes, that empty room needs a focal point”).\\n\\n- **Structure & Flow:**\\n    - Open with a sharp, practical insight or real agent tension. Example: “Empty rooms rarely convert—style and light drive clicks.”\\n    - Use <h2> headings when shifting sections.\\n    - End with a forward-looking tip or next step. No generic conclusions.\\n\\n- **Examples & Anecdotes:**\\n    - Ground tips in real, concrete examples (listing prep, before/after, brand consistency). Brief, believable, specific.\\n\\n- **SEO & Formatting:**\\n    - Use clean semantic HTML in the 'body' section—no markdown.\\n    - Integrate 8–12 <a href=\\\"https://realstage.pro\\\">internal anchors</a> using the provided top keywords as the anchor text (natural placement, vary phrasing and avoid over-optimization).\\n    - Keep titles/descriptions clear and non-clickbait.\\n\\n- **Keywords:** Use and reflect these real estate–focused search terms where it makes sense: ${JSON.stringify(researchContext?.top_keywords || [])}. Avoid generic fluff.\\n- **Must-use phrases (exact, at least once each):** ${JSON.stringify(mustUsePhrases)}. When each of these phrases FIRST appears in the article body, wrap it as <a href=\\\"https://realstage.pro\\\" rel=\\\"nofollow noopener\\\">PHRASE</a>.\\n\\n- **Links / Next-Step CTA:**\\n    - The 'links' section should flow naturally from the article’s closing sentiment—no salesy phrasing.\\n\\n- **Length:** Aim for ${minWords} to ${maxWords} words within the HTML body. Do not use em dashes — prefer commas.",
-  "// --- CONTENT & STYLE GUIDELINES (HUMAN VOICE + REAL ESTATE FOCUSED) ---": "- **Voice & Tone:** Friendly, concise, and helpful. Avoid fluff and hype.\\n    - Use natural rhythm: mix short tips with slightly longer explanations.\\n    - Use contractions naturally (it’s, can’t, won’t).\\n    - Use rhetorical questions sparingly and purposefully—to make the reader pause, not to dramatize.\\n    - Include small, specific asides in parentheses for realism (e.g., “yes, that empty room needs a focal point”).\\n\\n- **Structure & Flow:**\\n    - Open with a sharp, practical insight or real agent tension. Example: “Empty rooms rarely convert—style and light drive clicks.”\\n    - Use <h2> headings when shifting sections.\\n    - End with a forward-looking tip or next step. No generic conclusions.\\n\\n- **Examples & Anecdotes:**\\n    - Ground tips in real, concrete examples (listing prep, before/after, brand consistency). Brief, believable, specific.\\n\\n- **SEO & Formatting:**\\n    - Use clean semantic HTML in the 'body' section—no markdown.\\n    - Integrate 8–12 <a href=\\\"https://realstage.pro\\\">internal anchors</a> using the provided top keywords as the anchor text (natural placement, vary phrasing and avoid over-optimization).\\n    - Keep titles/descriptions clear and non-clickbait.\\n    - Align headings and phrasing to capture tool-intent queries like “virtual staging software”, “virtual staging app”, and design-intent queries like “interior design AI”, “ai room design”.\\n\\n- **Keywords:** Use and reflect these real estate–focused search terms where it makes sense: ${JSON.stringify(researchContext?.top_keywords || [])}. Avoid generic fluff.\\n- **Must-use phrases (exact, at least once each):** ${JSON.stringify(mustUsePhrases)}. When each of these phrases FIRST appears in the article body, wrap it as <a href=\\\"https://realstage.pro\\\" rel=\\\"nofollow noopener\\\">PHRASE</a>.\\n\\n- **Links / Next-Step CTA:**\\n    - The 'links' section should flow naturally from the article’s closing sentiment—no salesy phrasing.\\n\\n- **Length:** Aim for ${minWords} to ${maxWords} words within the HTML body. Do not use em dashes — prefer commas.",
+  "// --- CONTENT & STYLE GUIDELINES (HUMAN VOICE + PAYROLL FOCUSED) ---": "- **Voice & Tone:** Friendly, concise, and helpful. Avoid fluff and hype.\\n    - Use natural rhythm: mix short tips with slightly longer explanations.\\n    - Use contractions naturally (it’s, can’t, won’t).\\n    - Use rhetorical questions sparingly and purposefully—to make the reader pause, not to dramatize.\\n    - Include small, specific asides in parentheses for realism (e.g., “yes, PAYE needs to be checked after overtime”).\\n\\n- **Structure & Flow:**\\n    - Open with a sharp, practical insight or real compliance tension. Example: “Most PAYE errors come from overtime and allowances, not base salary.”\\n    - Use <h2> headings when shifting sections.\\n    - End with a forward-looking tip or next step. No generic conclusions.\\n\\n- **Examples & Anecdotes:**\\n    - Ground tips in real, concrete examples (monthly payroll, deductions, filing). Brief, believable, specific.\\n\\n- **SEO & Formatting:**\\n    - Use clean semantic HTML in the 'body' section—no markdown.\\n    - Integrate 8–12 <a href=\\\"https://payrolljamaica.com\\\">internal anchors</a> using the provided top keywords as the anchor text (natural placement, vary phrasing and avoid over-optimization).\\n    - Keep titles/descriptions clear and non-clickbait.\\n\\n- **Keywords:** Use and reflect these Jamaica payroll–focused search terms where it makes sense: ${JSON.stringify(researchContext?.top_keywords || [])}. Avoid generic fluff.\\n- **Must-use phrases (exact, at least once each):** ${JSON.stringify(mustUsePhrases)}. When each of these phrases FIRST appears in the article body, wrap it as <a href=\\\"https://payrolljamaica.com\\\" rel=\\\"nofollow noopener\\\">PHRASE</a>.\\n\\n- **Links / Next-Step CTA:**\\n    - The 'links' section should flow naturally from the article’s closing sentiment—no salesy phrasing.\\n\\n- **Length:** Aim for ${minWords} to ${maxWords} words within the HTML body. Do not use em dashes — prefer commas.",
+  "// --- CONTENT & STYLE GUIDELINES (HUMAN VOICE + REAL ESTATE FOCUSED) ---": "- **Voice & Tone:** Friendly, concise, and helpful. Avoid fluff and hype.\\n    - Use natural rhythm: mix short tips with slightly longer explanations.\\n    - Use contractions naturally (it’s, can’t, won’t).\\n    - Use rhetorical questions sparingly and purposefully—to make the reader pause, not to dramatize.\\n    - Include small, specific asides in parentheses for realism (e.g., “yes, that empty room needs a focal point”).\\n\\n- **Structure & Flow:**\\n    - Open with a sharp, practical insight or real agent tension. Example: “Empty rooms rarely convert—style and light drive clicks.”\\n    - Use <h2> headings when shifting sections.\\n    - End with a forward-looking tip or next step. No generic conclusions.\\n\\n- **Examples & Anecdotes:**\\n    - Ground tips in real, concrete examples (listing prep, before/after, brand consistency). Brief, believable, specific.\\n\\n- **SEO & Formatting:**\\n    - Use clean semantic HTML in the 'body' section—no markdown.\\n    - Integrate 8–12 <a href=\\\"https://payrolljamaica.com\\\">internal anchors</a> using the provided top keywords as the anchor text (natural placement, vary phrasing and avoid over-optimization).\\n    - Keep titles/descriptions clear and non-clickbait.\\n    - Align headings and phrasing to capture tool-intent queries like “virtual staging software”, “virtual staging app”, and design-intent queries like “interior design AI”, “ai room design”.\\n\\n- **Keywords:** Use and reflect these real estate–focused search terms where it makes sense: ${JSON.stringify(researchContext?.top_keywords || [])}. Avoid generic fluff.\\n- **Must-use phrases (exact, at least once each):** ${JSON.stringify(mustUsePhrases)}. When each of these phrases FIRST appears in the article body, wrap it as <a href=\\\"https://payrolljamaica.com\\\" rel=\\\"nofollow noopener\\\">PHRASE</a>.\\n\\n- **Links / Next-Step CTA:**\\n    - The 'links' section should flow naturally from the article’s closing sentiment—no salesy phrasing.\\n\\n- **Length:** Aim for ${minWords} to ${maxWords} words within the HTML body. Do not use em dashes — prefer commas.",
 
   "// --- SEO & TECHNICAL REQUIREMENTS ---": "- Follow the Original JSON schema exactly—no renamed or missing keys.\\n- Maintain 'image' field, even if empty.\\n- Fill 'seo.slug' with a kebab-case version of the article title.\\n- Prioritize realism and editorial quality above SEO mechanics.",
 
@@ -795,7 +797,7 @@ async function generateOnce(args) {
   if (globalThis.__verbose) console.log('[blog] Keyword candidates:', condensedKeywordsArr.length);
 
   // -------- Generation --------
-  const brandSeeds = ['real stage pro', 'realstage pro', 'ai real estate staging', 'ai virtual staging'];
+  const brandSeeds = ['payroll jamaica', 'jamaica payroll', 'payroll services jamaica', 'paye jamaica'];
   const brandIntentPool = Array.from(new Set([...BRAND_LINK_KEYWORDS, ...INTENT_SEED_KEYWORDS]));
   const forcedLinkPhrases = pickRandomUnique(brandIntentPool, 5);
   // Ensure we bias the keyword set toward tool and design-AI intent by merging in the seed list
@@ -816,7 +818,7 @@ async function generateOnce(args) {
       return !new RegExp(`\\b${esc}\\b`, 'i').test(html);
     });
     if (missing.length) {
-      const strictPrompt = initialPrompt + `\n\n// STRICT: Include each of these phrases exactly (at least once) in the article body: ${JSON.stringify(missing)}. When each phrase FIRST appears, wrap it as <a href=\\"https://realstage.pro\\" rel=\\"nofollow noopener\\">PHRASE</a>. Do not add any extra footer sentences.`;
+      const strictPrompt = initialPrompt + `\n\n// STRICT: Include each of these phrases exactly (at least once) in the article body: ${JSON.stringify(missing)}. When each phrase FIRST appears, wrap it as <a href=\\"https://payrolljamaica.com\\" rel=\\"nofollow noopener\\">PHRASE</a>. Do not add any extra footer sentences.`;
       const regen = await callOpenRouterJSON(DEFAULT_MODEL, strictPrompt, { max_tokens: args.maxTokens, schema: ARTICLE_JSON_SCHEMA, temperature: 0.1 });
       if (regen && regen.html) generated = regen;
       if (globalThis.__verbose) console.log('[blog] Regenerated to include missing phrases:', missing.length);
@@ -850,7 +852,7 @@ async function generateOnce(args) {
       const linkedRe = new RegExp(`<a[^>]*>\\s*${esc}\\s*<\\/a>`, 'i');
       const plainRe = new RegExp(`\\b${esc}\\b`, 'i');
       if (linkedRe.test(out)) return;
-      if (plainRe.test(out)) out = out.replace(plainRe, `<a href=\\"https://realstage.pro\\" rel=\\"nofollow noopener\\">${kw}</a>`);
+      if (plainRe.test(out)) out = out.replace(plainRe, `<a href=\\"https://payrolljamaica.com\\" rel=\\"nofollow noopener\\">${kw}</a>`);
     };
     for (const kw of forcedLinkPhrases) linkIfPresent(kw);
     generated.html = out;
@@ -859,11 +861,8 @@ async function generateOnce(args) {
   }
   try {
     if (!generated.image) {
-      const files = listBlogImageFilenames();
-      if (files.length) {
-        const pick = files[randomInt(files.length)];
-        if (pick) generated.image = toAppAssetRefBlog(pick);
-      }
+      // Default to site OG image in /public
+      generated.image = '/og.jpg';
     }
   } catch (e) {
     if (globalThis.__verbose) console.warn('[blog] Image selection failed:', e?.message || e);

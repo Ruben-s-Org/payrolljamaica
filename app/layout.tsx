@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     creator: "@payrolljamaica",
   },
   icons: {
-    icon: "/favicon.svg",
+    icon: "/favicon.png",
     apple: "/apple-touch-icon.png",
   },
 };

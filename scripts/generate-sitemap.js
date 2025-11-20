@@ -19,7 +19,7 @@ const publicDir = path.join(projectRoot, 'public');
 const sitemapPath = path.join(publicDir, 'sitemap.xml');
 const contentDir = path.join(projectRoot, 'content');
 
-const SITE_URL = process.env.SITE_URL || 'https://realstage.pro';
+const SITE_URL = process.env.SITE_URL || 'https://payrolljamaica.com';
 const today = new Date();
 const lastmod = today.toISOString().slice(0, 10); // YYYY-MM-DD
 
@@ -76,8 +76,8 @@ function buildAiTxt(urls, homeText, keywords) {
   lines.push('');
   lines.push(`Site: ${SITE_URL}`);
   lines.push(`Sitemap: ${SITE_URL}/sitemap.xml`);
-  lines.push('Contact: contact@realstage.pro');
-  lines.push('Publisher: realstage.pro');
+  lines.push('Contact: contact@payrolljamaica.com');
+  lines.push('Publisher: payrolljamaica.com');
   lines.push('');
   lines.push('# Access policy');
   lines.push('Allow: /');
@@ -86,13 +86,13 @@ function buildAiTxt(urls, homeText, keywords) {
   lines.push('Crawl-Delay: 1');
   lines.push('');
   lines.push('# Usage policy');
-  lines.push('Training: Allowed with attribution and link back to https://realstage.pro');
-  lines.push('Attribution: Please attribute to "RealStage Pro (https://realstage.pro)" when our content is used or referenced.');
+  lines.push('Training: Allowed with attribution and link back to https://payrolljamaica.com');
+  lines.push('Attribution: Please attribute to "PayrollJamaica (https://payrolljamaica.com)" when our content is used or referenced.');
   lines.push('Redistribution: Allowed with attribution; do not misrepresent original context.');
   lines.push('');
   lines.push('# Hints');
   lines.push(`Pages: ${urls.length}`);
-  lines.push('Preferred-Content: /blog and /app');
+  lines.push('Preferred-Content: /blog');
   lines.push('Update-Frequency: daily');
   lines.push('');
   if (keywords) {
@@ -116,11 +116,11 @@ function buildLlmsTxt(urls, homeText, keywords) {
   lines.push('');
   lines.push(`Domain: ${SITE_URL}`);
   lines.push(`Sitemap: ${SITE_URL}/sitemap.xml`);
-  lines.push('Contact: contact@realstage.pro');
+  lines.push('Contact: contact@payrolljamaica.com');
   lines.push('');
   lines.push('# License & usage');
   lines.push('Use: You may use and index public pages for non-malicious purposes.');
-  lines.push('Training: Permitted with attribution and a link to https://realstage.pro.');
+  lines.push('Training: Permitted with attribution and a link to https://payrolljamaica.com.');
   lines.push('Attribution-Required: yes');
   lines.push('Commercial-Use: disallowed');
   lines.push('Rate-Limit: respectful');
