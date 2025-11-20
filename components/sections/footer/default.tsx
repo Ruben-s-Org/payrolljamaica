@@ -1,9 +1,9 @@
+import Image from "next/image";
 import { ReactNode } from "react";
 
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
-import PayrollJamaicaLogo from "../../logos/payroll-jamaica";
 import {
   Footer,
   FooterBottom,
@@ -33,14 +33,13 @@ interface FooterProps {
 }
 
 export default function FooterSection({
-  logo = <PayrollJamaicaLogo />,
-  name = "Payroll Jamaica",
+  logo = (<img src="/logo.png" alt="Payroll Jamaica" className="w-56 h-auto" />),
+  name = "",
   columns = [
     {
       title: "Product",
       links: [
         { text: "Features", href: "#features" },
-        { text: "Pricing", href: "#pricing" },
       ],
     },
     {
@@ -72,10 +71,7 @@ export default function FooterSection({
         <Footer>
           <FooterContent>
             <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
-              <div className="flex items-center gap-2">
-                {logo}
-                <h3 className="text-xl font-bold">{name}</h3>
-              </div>
+              <div className="flex items-center gap-2">{logo}</div>
             </FooterColumn>
             {columns.map((column, index) => (
               <FooterColumn key={index}>

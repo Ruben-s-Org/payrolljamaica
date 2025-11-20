@@ -1,3 +1,4 @@
+// using plain <img> for natural aspect ratio
 import { type VariantProps } from "class-variance-authority";
 import { Menu } from "lucide-react";
 import { ReactNode } from "react";
@@ -5,7 +6,6 @@ import { ReactNode } from "react";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
-import PayrollJamaicaLogo from "../../logos/payroll-jamaica";
 import { Button, buttonVariants } from "../../ui/button";
 import {
   Navbar as NavbarComponent,
@@ -41,17 +41,13 @@ interface NavbarProps {
 }
 
 export default function Navbar({
-  logo = <PayrollJamaicaLogo />,
+  logo = (<img src="/logo.png" alt="Payroll Jamaica" className="w-56 h-auto" />),
   name = "Payroll Jamaica",
   homeUrl = siteConfig.url,
   mobileLinks = [
-    { text: "About", href: "#about" },
-    { text: "Features", href: "#features" },
-    { text: "Pricing", href: "#pricing" },
     { text: "Contact", href: siteConfig.getStartedUrl },
   ],
   actions = [
-    { text: "Sign in", href: siteConfig.url + "/signin", isButton: false },
     {
       text: "Request Demo",
       href: siteConfig.getStartedUrl,
@@ -69,12 +65,8 @@ export default function Navbar({
       <div className="max-w-container relative mx-auto">
         <NavbarComponent>
           <NavbarLeft>
-            <a
-              href={homeUrl}
-              className="flex items-center gap-2 text-xl font-bold"
-            >
+            <a href={homeUrl} className="flex items-center gap-2">
               {logo}
-              {name}
             </a>
             {showNavigation && (customNavigation || <Navigation />)}
           </NavbarLeft>
@@ -86,19 +78,20 @@ export default function Navbar({
                   variant={action.variant || "default"}
                   asChild
                 >
-                  <a href={action.href}>
+                  <a href="#" data-open-fillout="true">
                     {action.icon}
-                    {action.text}
+                    {"Get Started"}
                     {action.iconRight}
                   </a>
                 </Button>
               ) : (
                 <a
                   key={index}
-                  href={action.href}
+                  href="#"
+                  data-open-fillout="true"
                   className="hidden text-sm md:block"
                 >
-                  {action.text}
+                  {"Contact us"}
                 </a>
               ),
             )}
@@ -124,10 +117,11 @@ export default function Navbar({
                   {mobileLinks.map((link, index) => (
                     <a
                       key={index}
-                      href={link.href}
+                      href="#"
+                      data-open-fillout="true"
                       className="text-muted-foreground hover:text-foreground"
                     >
-                      {link.text}
+                      {"Contact us"}
                     </a>
                   ))}
                 </nav>

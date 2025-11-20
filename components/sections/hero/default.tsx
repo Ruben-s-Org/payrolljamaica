@@ -31,9 +31,9 @@ interface HeroProps {
 }
 
 export default function Hero({
-  title = "Payroll and HR software made for Jamaican businesses",
+  title = "Payroll made for Jamaican businesses",
   description =
-    "Run payroll in minutes. Automatically calculate PAYE, NIS, NHT, Education Tax and more. Stay compliant with MOF requirements and generate statutory reports with one click.",
+    "Run payroll in minutes. Stay compliant with MOF requirements and generate statutory reports with one click.",
   mockup = (
     <Screenshot
       srcLight="/dashboard-light.png"
@@ -47,21 +47,21 @@ export default function Hero({
   badge = (
     <Badge variant="outline" className="animate-appear">
       <span className="text-muted-foreground">Secure • MOF compliant</span>
-      <a href={siteConfig.getStartedUrl} className="flex items-center gap-1">
-        Request demo
+      <a href="#" data-open-fillout="true" className="flex items-center gap-1">
+        Contact us
         <ArrowRightIcon className="size-3" />
       </a>
     </Badge>
   ),
   buttons = [
     {
-      href: siteConfig.getStartedUrl,
-      text: "Request Demo",
+      href: "#",
+      text: "Get Started",
       variant: "default",
     },
     {
-      href: siteConfig.url + "/signin",
-      text: "Sign in",
+      href: "#",
+      text: "Get Started",
       variant: "ghost",
     },
   ],
@@ -92,9 +92,9 @@ export default function Hero({
                   size="lg"
                   asChild
                 >
-                  <a href={button.href}>
+                  <a href={button.href} data-open-fillout="true">
                     {button.icon}
-                    {button.text}
+                    {"Get Started"}
                     {button.iconRight}
                   </a>
                 </Button>

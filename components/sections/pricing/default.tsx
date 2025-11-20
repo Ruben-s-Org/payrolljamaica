@@ -24,8 +24,8 @@ export default function Pricing({
       priceNote: "Free and open-source forever.",
       cta: {
         variant: "glow",
-        label: "Get started for free",
-        href: "/docs/getting-started/introduction",
+        label: "Get Started",
+        href: "#",
       },
       features: [
         "1 website template",
@@ -43,8 +43,8 @@ export default function Pricing({
       priceNote: "Lifetime access. Free updates. No recurring fees.",
       cta: {
         variant: "default",
-        label: "Get all-access",
-        href: siteConfig.pricing.pro,
+        label: "Get Started",
+        href: "#",
       },
       features: [
         `${siteConfig.stats.websiteTemplates} website templates`,
@@ -63,8 +63,8 @@ export default function Pricing({
       priceNote: "Lifetime access. Free updates. No recurring fees.",
       cta: {
         variant: "default",
-        label: "Get all-access for your team",
-        href: siteConfig.pricing.team,
+        label: "Get Started",
+        href: "#",
       },
       features: [
         "All the templates, components and sections available for your entire team",

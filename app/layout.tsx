@@ -1,9 +1,12 @@
 import "@/app/globals.css";
 
 import type { Metadata } from "next";
+// removed fillout script
 
 import { ThemeProvider } from "@/components/contexts/theme-provider";
 import { inter } from "@/lib/fonts";
+import FilloutProvider from "@/components/clients/fillout-provider";
+import FilloutListener from "@/components/clients/fillout-listener";
 
 import { siteConfig } from "../config/site";
 
@@ -65,7 +68,12 @@ export default function RootLayout({
   return (
     <html lang="en" style={{ colorScheme: "dark" }} className="dark">
       <body className={`${inter.className} bg-background antialiased`}>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <FilloutProvider>
+            {children}
+            <FilloutListener />
+          </FilloutProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
