@@ -62,7 +62,7 @@ export default function FooterSection({
     { text: "Privacy Policy", href: siteConfig.url + "/privacy" },
     { text: "Terms of Service", href: siteConfig.url + "/terms" },
   ],
-  showModeToggle = true,
+  showModeToggle = false,
   className,
 }: FooterProps) {
   return (

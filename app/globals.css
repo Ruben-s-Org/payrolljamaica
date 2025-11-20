@@ -215,3 +215,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Hide Next.js Dev Tools badge/toast in development */
+[data-nextjs-toast],
+.nextjs-toast,
+[data-next-badge-root],
+[data-nextjs-dev-tools-button],
+[data-next-badge] {
+  display: none !important;
+}
