@@ -61,16 +61,18 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="w-full px-4 pb-28 flex-1">
-        <div className="max-w-container mx-auto py-12">
+        <div className="max-w-5xl mx-auto py-14">
           <Link href="/blog" className="text-sm text-muted-foreground underline">
             ← Back to Blog
           </Link>
-          <h1 className="text-3xl font-bold mt-4 mb-2">{post.title}</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mt-6 mb-4">
+            {post.title}
+          </h1>
           {post.subtitle && (
-            <p className="text-muted-foreground mb-6">{post.subtitle}</p>
+            <p className="text-lg text-muted-foreground mb-10 max-w-3xl">{post.subtitle}</p>
           )}
           <article
-            className="prose dark:prose-invert max-w-none"
+            className="mx-auto max-w-3xl text-base leading-7 md:leading-8 whitespace-normal break-words [&>*]:mt-6 [&>h2]:mt-12 [&>h3]:mt-8"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
         </div>
