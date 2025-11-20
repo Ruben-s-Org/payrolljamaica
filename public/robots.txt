@@ -1,0 +1,7 @@
+# robots.txt for payrolljamaica.com
+# Allow all well-behaved crawlers and advertise sitemap location
+
+User-agent: *
+Allow: /
+
+Sitemap: https://payrolljamaica.com/sitemap.xml
