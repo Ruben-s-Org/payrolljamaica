@@ -8,7 +8,7 @@ import { getAllSlugs, getPostBySlug } from "@/lib/content";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 
 interface BlogPostPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams() {
@@ -16,10 +16,11 @@ export function generateStaticParams() {
   return slugs.map((slug) => ({ slug }));
 }
 
-export function generateMetadata(
+export async function generateMetadata(
   { params }: BlogPostPageProps
-): Metadata {
-  const post = getPostBySlug(params.slug);
+): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
   if (!post) return {};
 
   const title = post.seo.title || post.title;
@@ -51,8 +52,9 @@ export function generateMetadata(
   };
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-  const post = getPostBySlug(params.slug);
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
   if (!post) return notFound();
 
   const cta = post.links?.ctaBottom || post.links?.ctaInline;
