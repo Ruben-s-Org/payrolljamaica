@@ -193,14 +193,38 @@ export default function Home() {
             "@type": "PostalAddress",
             addressCountry: "JM",
           },
+          telephone: "+18761234567",
+          email: "info@payrolljamaica.com",
           contactPoint: {
             "@type": "ContactPoint",
             email: "info@payrolljamaica.com",
+            telephone: "+18761234567",
             contactType: "customer support",
             areaServed: "JM",
             availableLanguage: ["en"],
           },
-          sameAs: ["https://x.com/payrolljamaica"],
+          openingHoursSpecification: [
+            {
+              "@type": "OpeningHoursSpecification",
+              dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+              opens: "08:00",
+              closes: "17:00",
+            },
+          ],
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: 17.9970,
+            longitude: -76.7936,
+          },
+          hasMap: "https://maps.google.com/?q=Payroll+Jamaica,Kingston,Jamaica",
+          currenciesAccepted: "JMD",
+          paymentAccepted: "Credit Card, Bank Transfer",
+          sameAs: [
+            "https://x.com/payrolljamaica",
+            "https://linkedin.com/company/payrolljamaica",
+            "https://facebook.com/payrolljamaica",
+            "https://instagram.com/payrolljamaica",
+          ],
         }) }}
       />
       {/* JSON-LD: FAQPage */}
