@@ -194,6 +194,64 @@ export default function CalculatorPage() {
           ],
         }) }}
       />
+      {/* JSON-LD: FAQPage — targets featured snippets for PAYE/NIS/NHT calculator queries */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: [
+            {
+              "@type": "Question",
+              name: "How do I calculate PAYE in Jamaica for 2026?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "To calculate PAYE in Jamaica for 2026: (1) Determine annual gross salary. (2) Subtract the income tax threshold of JMD $1,902,360 (effective April 2026). (3) Apply 25% tax on the first JMD $4,497,640 above the threshold, then 30% on any excess. (4) Divide by 12 for the monthly PAYE amount. Use our free Jamaica payroll calculator to compute this instantly.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "What is the income tax threshold in Jamaica for 2026?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "The Jamaica income tax threshold for 2026 is JMD $1,902,360 per year (JMD $158,530 per month), effective April 2026. Income below this threshold is not subject to PAYE income tax.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "How much is NIS in Jamaica?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "NIS (National Insurance Scheme) in Jamaica is 3% of gross salary for employees and 3% for employers. The maximum insurable wage is JMD $5,000,000/year, so the maximum employee NIS is JMD $12,500/month.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "How much is NHT in Jamaica?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "NHT (National Housing Trust) is 2% of gross salary for employees and 3% for employers. There is no ceiling on NHT. Employees can reclaim contributions after 7 years if not used for housing.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "What is Education Tax in Jamaica?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Education Tax is 2.25% for employees and 3.5% for employers of gross salary, with no ceiling. It is remitted quarterly to Tax Administration Jamaica (TAJ).",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "What are all statutory deductions for payroll in Jamaica?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Jamaica payroll statutory deductions are: PAYE income tax (25–30% above threshold), NIS (3% employee + 3% employer, ceiling JMD $5M/year), NHT (2% employee + 3% employer, no ceiling), and Education Tax (2.25% employee + 3.5% employer, no ceiling). Use our free calculator to compute all deductions instantly.",
+              },
+            },
+          ],
+        }) }}
+      />
     </div>
   );
 }

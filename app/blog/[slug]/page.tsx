@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Navbar from "@/components/sections/navbar/default";
 import FooterSection from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
+import BlogRelatedResources from "@/components/ui/blog-related-resources";
 import { getAllSlugs, getPostBySlug } from "@/lib/content";
 import { safeJsonLd } from "@/lib/jsonld";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
@@ -135,6 +136,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             className="mx-auto max-w-3xl text-base leading-7 md:leading-8 whitespace-normal break-words [&>*]:mt-6 [&>h2]:mt-12 [&>h3]:mt-8"
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
+          <div className="mx-auto max-w-3xl">
+            <BlogRelatedResources keywords={post.seo.keywords || []} title={post.title} />
+          </div>
         </div>
       </main>
       <FooterSection />
