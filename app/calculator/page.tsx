@@ -92,7 +92,7 @@ export default function CalculatorPage() {
               <h2 className="text-foreground text-xl font-semibold mb-3">How is PAYE calculated in Jamaica?</h2>
               <p>
                 PAYE (Pay As You Earn) is Jamaica&apos;s income tax withheld from employee salaries each pay period.
-                For 2025, the annual income tax threshold is <strong className="text-foreground">JMD $1,500,096</strong>.
+                For 2025/2026, the annual income tax threshold is <strong className="text-foreground">JMD $1,902,360</strong> (effective April 2026).
                 Income above the threshold is taxed at <strong className="text-foreground">25%</strong> up to JMD $6,000,000,
                 and <strong className="text-foreground">30%</strong> on the remainder. Employers remit PAYE to
                 Tax Administration Jamaica (TAJ) on behalf of employees.
@@ -184,7 +184,7 @@ export default function CalculatorPage() {
           step: [
             { "@type": "HowToStep", name: "Determine gross salary", text: "Start with the employee's gross monthly or annual salary before any deductions." },
             { "@type": "HowToStep", name: "Calculate NIS contribution", text: "Multiply gross salary by 3% (employee NIS rate). Apply the JMD $5,000,000 annual ceiling." },
-            { "@type": "HowToStep", name: "Calculate taxable income", text: "Subtract the NIS employee contribution and the income tax threshold (JMD $1,500,096/year) from gross salary." },
+            { "@type": "HowToStep", name: "Calculate taxable income", text: "Subtract the NIS employee contribution and the income tax threshold (JMD $1,902,360/year as of April 2026) from gross salary." },
             { "@type": "HowToStep", name: "Calculate PAYE", text: "Apply 25% to taxable income up to JMD $4,499,904 above the threshold, then 30% on any excess." },
             { "@type": "HowToStep", name: "Calculate NHT and Education Tax", text: "Multiply gross salary by 2% for NHT and 2.25% for Education Tax. No ceilings apply." },
             { "@type": "HowToStep", name: "Sum all deductions", text: "Add PAYE + NIS + NHT + Education Tax to get total employee deductions. Subtract from gross to get take-home pay." },
