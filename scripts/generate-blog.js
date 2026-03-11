@@ -31,6 +31,24 @@ const blogsDir = path.join(projectRoot, 'content');
 // Flat blog structure only (no dedicated assets dir in this repo)
 const blogImagesDir = path.join(projectRoot, 'public');
 
+// ---------------------------------------------------------------------------
+// Security: strip dangerous HTML from AI-generated blog content before saving.
+// Blocks <script>, <iframe>, <object>, on* event handlers, javascript: URLs,
+// and data: URLs in src/href. Applied before writing any content file to disk.
+// ---------------------------------------------------------------------------
+const DANGEROUS_TAG_RE = /<\s*(script|iframe|object|embed|form|input|button|select|textarea|meta|link|base|noscript|applet|frameset|frame)[^>]*>[\s\S]*?<\s*\/\s*\1\s*>|<\s*(script|iframe|object|embed|form|input|button|select|textarea|meta|link|base|noscript|applet|frameset|frame)[^>]*\/?>/gi;
+const EVENT_HANDLER_ATTR_RE = /\s+on\w+\s*=\s*(['"])[^'"]*\1/gi;
+const JAVASCRIPT_URL_RE = /\bhref\s*=\s*(['"])\s*javascript:/gi;
+const DATA_URL_RE = /\b(src|href)\s*=\s*(['"])\s*data:/gi;
+
+function stripDangerousHtml(html) {
+  return String(html || '')
+    .replace(DANGEROUS_TAG_RE, '')
+    .replace(EVENT_HANDLER_ATTR_RE, '')
+    .replace(JAVASCRIPT_URL_RE, (m, q) => `href=${q}#`)
+    .replace(DATA_URL_RE, (m, attr, q) => `${attr}=${q}#`);
+}
+
 const OPENROUTER_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
 const DEFAULT_MODEL = process.env.OPENROUTER_MODEL || 'anthropic/claude-4.5-sonnet';
 const CONDENSE_MODEL = process.env.OPENROUTER_CONDENSE_MODEL || 'anthropic/claude-4.5-sonnet';
@@ -874,6 +892,8 @@ async function generateOnce(args) {
     const wc = wordCountFromHtml(generated?.html || '');
     console.log('[blog] Final slug:', slug, '| words ~', wc);
   }
+  // Security: strip dangerous tags/attributes from generated HTML before persisting
+  generated.html = stripDangerousHtml(generated.html || '');
   fs.writeFileSync(dest, JSON.stringify(generated, null, 2) + '\n', 'utf8');
   wrote = true;
   if (globalThis.__verbose) console.log('[blog] Wrote file:', dest);

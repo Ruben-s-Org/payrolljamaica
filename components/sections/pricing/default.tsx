@@ -1,6 +1,5 @@
-import { User, Users } from "lucide-react";
+import { Building2, Rocket, Users } from "lucide-react";
 
-import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
 import { PricingColumn, PricingColumnProps } from "../../ui/pricing-column";
@@ -14,60 +13,76 @@ interface PricingProps {
 }
 
 export default function Pricing({
-  title = "Build your dream landing page, today.",
-  description = "Get lifetime access to all the components. No recurring fees. Just simple, transparent pricing.",
+  title = "Simple, transparent pricing for every team",
+  description = "Choose the plan that fits your business. No hidden fees — just accurate payroll for Jamaica.",
   plans = [
     {
-      name: "Free",
-      description: "For everyone starting out on a website for their big idea",
-      price: 0,
-      priceNote: "Free and open-source forever.",
+      name: "Starter",
+      icon: <Rocket className="size-4" />,
+      description: "For small businesses with up to 10 employees",
+      price: 3500,
+      currency: "JMD $",
+      pricePeriod: "per month",
+      priceLabel: "Up to 10 employees",
+      priceNote:
+        "Everything you need to run payroll accurately and stay compliant.",
       cta: {
         variant: "glow",
         label: "Get Started",
         href: "#",
+        dataAttributes: { "data-open-fillout": "true" },
       },
       features: [
-        "1 website template",
-        "9 blocks and sections",
-        "4 custom animations",
+        "Automated PAYE, NIS, NHT calculations",
+        "Digital payslips",
+        "Monthly statutory reports",
+        "Email support",
       ],
       variant: "default",
-      className: "hidden lg:flex",
     },
     {
-      name: "Pro",
-      icon: <User className="size-4" />,
-      description: "For early-stage founders, solopreneurs and indie devs",
-      price: 99,
-      priceNote: "Lifetime access. Free updates. No recurring fees.",
+      name: "Business",
+      icon: <Users className="size-4" />,
+      description: "For growing teams with up to 50 employees",
+      price: 7500,
+      currency: "JMD $",
+      pricePeriod: "per month",
+      priceLabel: "Up to 50 employees",
+      priceNote:
+        "Most popular — everything in Starter plus team management tools.",
       cta: {
         variant: "default",
         label: "Get Started",
         href: "#",
+        dataAttributes: { "data-open-fillout": "true" },
       },
       features: [
-        `${siteConfig.stats.websiteTemplates} website templates`,
-        `${siteConfig.stats.appTemplates} app templates`,
-        `${siteConfig.stats.sections} blocks and sections`,
-        `${siteConfig.stats.illustrations} illustrations`,
-        `${siteConfig.stats.animations} custom animations`,
+        "Everything in Starter",
+        "Multi-user access (up to 5 admin seats)",
+        "Leave management",
+        "HR document storage",
+        "Priority support",
       ],
       variant: "glow-brand",
     },
     {
-      name: "Pro Team",
-      icon: <Users className="size-4" />,
-      description: "For teams and agencies working on cool products together",
-      price: 499,
-      priceNote: "Lifetime access. Free updates. No recurring fees.",
+      name: "Enterprise",
+      icon: <Building2 className="size-4" />,
+      description: "For large organisations with 50+ employees",
+      price: null,
+      priceLabel: "Contact us",
+      priceNote: "Custom pricing tailored to your organisation's needs.",
       cta: {
-        variant: "default",
-        label: "Get Started",
-        href: "#",
+        variant: "glow",
+        label: "Contact Sales",
+        href: "mailto:sales@payrolljamaica.com",
       },
       features: [
-        "All the templates, components and sections available for your entire team",
+        "Everything in Business",
+        "Dedicated account manager",
+        "Custom integrations",
+        "SLA guarantee",
+        "On-site training",
       ],
       variant: "glow",
     },
@@ -75,7 +90,7 @@ export default function Pricing({
   className = "",
 }: PricingProps) {
   return (
-    <Section className={cn(className)}>
+    <Section id="pricing" className={cn(className)}>
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-12">
         {(title || description) && (
           <div className="flex flex-col items-center gap-4 px-4 text-center sm:gap-8">
@@ -100,6 +115,9 @@ export default function Pricing({
                 icon={plan.icon}
                 description={plan.description}
                 price={plan.price}
+                currency={plan.currency}
+                pricePeriod={plan.pricePeriod}
+                priceLabel={plan.priceLabel}
                 priceNote={plan.priceNote}
                 cta={plan.cta}
                 features={plan.features}

@@ -13,8 +13,7 @@ export const siteConfig = {
     email: "mailto:info@payrolljamaica.com",
   },
   pricing: {
-    pro: "#",
-    team: "#",
+    sales: "mailto:sales@payrolljamaica.com",
   },
   stats: {
     figma: 0,
