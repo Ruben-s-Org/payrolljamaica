@@ -54,16 +54,18 @@ function sanitizeBlogHtml(html: string): string {
       "*": ["class", "id"],
     },
     allowedSchemes: ["https", "http", "mailto"],
-    // Force safe values on anchor tags
+    // Internal links pass PageRank freely; only nofollow external links
     transformTags: {
-      a: (tagName, attribs) => ({
-        tagName,
-        attribs: {
-          ...attribs,
-          rel: "nofollow noopener noreferrer",
-          target: "_blank",
-        },
-      }),
+      a: (tagName, attribs) => {
+        const href = attribs.href || "";
+        const isInternal = href.startsWith("/") || href.startsWith("https://payrolljamaica.com");
+        return {
+          tagName,
+          attribs: isInternal
+            ? { ...attribs, rel: "noopener" }
+            : { ...attribs, rel: "nofollow noopener noreferrer", target: "_blank" },
+        };
+      },
     },
   });
 }
