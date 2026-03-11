@@ -8,6 +8,7 @@ import { inter } from "@/lib/fonts";
 import FilloutProvider from "@/components/clients/fillout-provider";
 import FilloutListener from "@/components/clients/fillout-listener";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
+import { DeadlineBanner } from "@/components/ui/deadline-banner";
 
 import { siteConfig } from "../config/site";
 
@@ -91,6 +92,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-background antialiased`}>
         <ThemeProvider>
           <FilloutProvider>
+            <DeadlineBanner />
             {children}
             <FilloutListener />
             <WhatsAppButton />
