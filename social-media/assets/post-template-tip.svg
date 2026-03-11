@@ -1,0 +1,47 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#09090B"/>
+
+  <!-- Jamaica flag stripe at top -->
+  <rect x="0" y="0" width="360" height="8" fill="#000000"/>
+  <rect x="360" y="0" width="360" height="8" fill="#FFD700"/>
+  <rect x="720" y="0" width="360" height="8" fill="#009B3A"/>
+
+  <!-- "TIP OF THE WEEK" badge -->
+  <rect x="80" y="60" width="240" height="44" rx="22" fill="#166534"/>
+  <text x="200" y="89" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#22C55E">💡 TIP OF THE WEEK</text>
+
+  <!-- Main tip area -->
+  <rect x="80" y="140" width="920" height="680" rx="24" fill="#18181b"/>
+
+  <!-- Tip number -->
+  <text x="540" y="260" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="120" font-weight="900" fill="#22C55E" opacity="0.15">01</text>
+
+  <!-- Tip title placeholder -->
+  <text x="540" y="380" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="800" fill="white">Pay By the 14th.</text>
+  <text x="540" y="440" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="800" fill="white">Every Month.</text>
+
+  <!-- Divider -->
+  <rect x="380" y="475" width="320" height="3" fill="#22C55E"/>
+
+  <!-- Tip body -->
+  <text x="540" y="530" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#a1a1aa">All statutory payments in Jamaica</text>
+  <text x="540" y="565" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#a1a1aa">(PAYE, NHT, NIS) are due by the</text>
+  <text x="540" y="600" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white">14th of every month.</text>
+
+  <text x="540" y="660" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#71717a">Miss it? 50% penalty from TAJ.</text>
+  <text x="540" y="695" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#71717a">Don't miss it.</text>
+
+  <!-- CTA button -->
+  <rect x="340" y="750" width="400" height="56" rx="28" fill="#22C55E"/>
+  <text x="540" y="784" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#09090B">payrolljamaica.com/calculator</text>
+
+  <!-- Brand footer -->
+  <text x="540" y="980" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="white">Payroll<tspan fill="#22C55E" font-style="italic">Jamaica</tspan></text>
+  <text x="540" y="1010" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#52525b">🇯🇲 Built for Jamaica | @payrolljamaica</text>
+
+  <!-- Bottom jamaica flag -->
+  <rect x="0" y="1060" width="360" height="20" fill="#000000"/>
+  <rect x="360" y="1060" width="360" height="20" fill="#FFD700"/>
+  <rect x="720" y="1060" width="360" height="20" fill="#009B3A"/>
+</svg>

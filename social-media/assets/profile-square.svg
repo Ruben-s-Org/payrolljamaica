@@ -1,0 +1,26 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" rx="0" fill="#09090B"/>
+
+  <!-- Green accent corners -->
+  <rect x="0" y="0" width="8" height="400" fill="#22C55E"/>
+  <rect x="0" y="0" width="400" height="8" fill="#22C55E"/>
+
+  <!-- Logo mark centered -->
+  <g transform="translate(140, 120)">
+    <rect width="120" height="120" rx="16" fill="#18181b"/>
+    <path d="M52 64H16L30 50H44L78 14H100L52 64Z" fill="#D9D9D9"/>
+    <path d="M56 74V68L104 18V26L56 74Z" fill="#D9D9D9"/>
+    <path d="M56 90V84L104 34V42L56 90Z" fill="#D9D9D9"/>
+    <path d="M56 106V100L76 78V86L56 106Z" fill="#D9D9D9"/>
+  </g>
+
+  <!-- Company name -->
+  <text x="200" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="white">Payroll</text>
+  <text x="200" y="325" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#22C55E" font-style="italic">Jamaica</text>
+
+  <!-- Jamaica flag bar at bottom -->
+  <rect x="0" y="368" width="133" height="32" fill="#000000"/>
+  <rect x="133" y="368" width="134" height="32" fill="#FFD700"/>
+  <rect x="267" y="368" width="133" height="32" fill="#009B3A"/>
+</svg>

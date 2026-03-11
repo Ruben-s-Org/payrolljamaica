@@ -1,0 +1,54 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1500" height="500" fill="#09090B"/>
+
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#09090B;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f1a0f;stop-opacity:1"/>
+    </linearGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1" fill="#22C55E" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1500" height="500" fill="url(#grad)"/>
+  <rect width="1500" height="500" fill="url(#dots)"/>
+
+  <!-- Logo mark -->
+  <g transform="translate(150, 150)">
+    <rect width="120" height="120" rx="16" fill="#18181b"/>
+    <path d="M52 64H16L30 50H44L78 14H100L52 64Z" fill="#D9D9D9"/>
+    <path d="M56 74V68L104 18V26L56 74Z" fill="#D9D9D9"/>
+    <path d="M56 90V84L104 34V42L56 90Z" fill="#D9D9D9"/>
+    <path d="M56 106V100L76 78V86L56 106Z" fill="#D9D9D9"/>
+  </g>
+
+  <!-- Main headline -->
+  <text x="310" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="white">Payroll</text>
+  <text x="540" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="#22C55E" font-style="italic">Jamaica</text>
+
+  <!-- Tagline -->
+  <text x="310" y="265" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#71717a" font-weight="400">Jamaica's payroll software — PAYE, NHT, NIS automated</text>
+
+  <!-- Feature pills -->
+  <rect x="310" y="310" width="160" height="44" rx="22" fill="#166534" opacity="0.8"/>
+  <text x="390" y="338" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#22C55E" font-weight="600">PAYE ✅</text>
+
+  <rect x="482" y="310" width="160" height="44" rx="22" fill="#166534" opacity="0.8"/>
+  <text x="562" y="338" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#22C55E" font-weight="600">NHT ✅</text>
+
+  <rect x="654" y="310" width="160" height="44" rx="22" fill="#166534" opacity="0.8"/>
+  <text x="734" y="338" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#22C55E" font-weight="600">NIS ✅</text>
+
+  <rect x="826" y="310" width="220" height="44" rx="22" fill="#166534" opacity="0.8"/>
+  <text x="936" y="338" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#22C55E" font-weight="600">Payslips ✅</text>
+
+  <!-- URL -->
+  <text x="310" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#52525b">payrolljamaica.com</text>
+
+  <!-- Jamaica flag colors accent bar at bottom -->
+  <rect x="0" y="478" width="500" height="22" fill="#000000"/>
+  <rect x="500" y="478" width="500" height="22" fill="#FFD700"/>
+  <rect x="1000" y="478" width="500" height="22" fill="#009B3A"/>
+</svg>
