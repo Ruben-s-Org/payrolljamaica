@@ -23,6 +23,20 @@ export const metadata: Metadata = {
     "HR software Jamaica",
     "PAYE NIS NHT",
     "Statutory compliance Jamaica",
+    "PAYE calculator Jamaica",
+    "NIS calculator Jamaica",
+    "NHT contributions Jamaica",
+    "payroll software Jamaica",
+    "Jamaica payroll taxes",
+    "payslips Jamaica",
+    "small business payroll Jamaica",
+    "leave management Jamaica",
+    "employee management Jamaica",
+    "payroll automation Jamaica",
+    "education tax Jamaica",
+    "statutory deductions Jamaica",
+    "cloud payroll Jamaica",
+    "HRIS Jamaica",
   ],
   authors: [
     {
@@ -33,7 +47,7 @@ export const metadata: Metadata = {
   creator: "Payroll Jamaica",
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en_JM",
     url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
@@ -72,7 +86,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{ colorScheme: "dark" }} className="dark">
+    <html lang="en-JM" style={{ colorScheme: "dark" }} className="dark">
       <body className={`${inter.className} bg-background antialiased`}>
         <ThemeProvider>
           <FilloutProvider>

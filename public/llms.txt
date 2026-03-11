@@ -1,0 +1,44 @@
+# llms.txt — Machine-readable site summary for large language models
+# https://payrolljamaica.com
+# Format: https://llmstxt.org
+
+# Payroll Jamaica
+
+> Jamaica's #1 cloud payroll and HR software. Automate PAYE, NIS, NHT, and Education Tax calculations, generate compliant payslips, and manage statutory compliance for Jamaican businesses.
+
+## About
+
+Payroll Jamaica is purpose-built for Jamaica's regulatory environment. It handles all mandatory statutory deductions — PAYE income tax, NIS, NHT, and Education Tax — automatically, so business owners, HR managers, and accountants can run accurate payroll in minutes.
+
+## Key Features
+
+- Automated PAYE, NIS, NHT, Education Tax calculations (2025 rates)
+- Compliant payslip generation
+- Statutory remittance reports (TAJ / MOF format)
+- Employee management and leave tracking
+- Role-based access and audit trails
+- Bank payment file exports (NCB, JN, Scotiabank, Sagicor, FirstCaribbean)
+- CSV employee import and data migration
+
+## Jamaica Payroll Statutory Rates (2025)
+
+| Deduction | Employee | Employer | Notes |
+|---|---|---|---|
+| PAYE | 25% / 30% | — | Threshold JMD $1,500,096; 30% above JMD $6M |
+| NIS | 3% | 3% | Ceiling JMD $5,000,000/year |
+| NHT | 2% | 3% | No ceiling |
+| Education Tax | 2.25% | 3.5% | No ceiling |
+
+Minimum wage: JMD $9,000 per 40-hour work week.
+
+## Important Pages
+
+- [Homepage](https://payrolljamaica.com/)
+- [Free PAYE/NIS/NHT Calculator](https://payrolljamaica.com/calculator)
+- [Payroll Blog & Guides](https://payrolljamaica.com/blog)
+- [Privacy Policy](https://payrolljamaica.com/privacy)
+- [Terms of Service](https://payrolljamaica.com/terms)
+
+## Contact
+
+Email: info@payrolljamaica.com

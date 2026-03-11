@@ -38,7 +38,7 @@ export default function Hero({
     <Screenshot
       srcLight="/dashboard-light.png"
       srcDark="/dashboard-dark.png"
-      alt="Launch UI app screenshot"
+      alt="Payroll Jamaica dashboard – payroll software for Jamaican businesses"
       width={1248}
       height={765}
       className="w-full"

@@ -3,5 +3,10 @@
 
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /_next/
 
 Sitemap: https://payrolljamaica.com/sitemap.xml
+
+# AI crawler guidance
+# Full indexing permitted — see /ai.txt and /llms.txt for structured context

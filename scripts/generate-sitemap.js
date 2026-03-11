@@ -243,6 +243,8 @@ async function main() {
   const urls = new Set();
   // Always include home page
   urls.add('/');
+  // Include key app pages
+  urls.add('/calculator');
   // Include legal pages
   urls.add('/privacy');
   urls.add('/terms');
