@@ -9,7 +9,7 @@ import { getAllPosts } from "@/lib/content";
 const blogBaseDescription = "Explore Payroll Jamaica’s official blog for in-depth guides, product updates, statutory compliance tips, and best practices tailored to Jamaican businesses. Learn how to automate payroll calculations, stay compliant with PAYE, NIS, and NHT, streamline employee management, and reduce manual errors with clear workflows and local-first capabilities. We publish practical walkthroughs, implementation advice, and case studies to help owners, HR teams, and accountants save time, improve accuracy, and focus on growth. Whether you’re setting up payroll for the first time or scaling your processes, our articles provide actionable insights, templates, and checklists designed for Jamaica’s regulatory environment and real-world operations.";
 
 export const metadata: Metadata = {
-  title: "Blog | Payroll Jamaica",
+  title: "Payroll Jamaica Blog — Compliance Guides, PAYE, NIS & HR Tips",
   description: ensureMinDescription(
     "Latest updates and articles from Payroll Jamaica about payroll, HR, compliance, and product improvements for Jamaican businesses.",
     blogBaseDescription
@@ -29,15 +29,16 @@ export const metadata: Metadata = {
     "leave tracking Jamaica",
   ]),
   alternates: { canonical: canonical("/blog") },
+  robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   openGraph: {
-    title: "Blog | Payroll Jamaica",
+    title: "Payroll Jamaica Blog — Compliance Guides, PAYE, NIS & HR Tips",
     description: blogBaseDescription,
     url: canonical("/blog"),
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog | Payroll Jamaica",
+    title: "Payroll Jamaica Blog — Compliance Guides, PAYE, NIS & HR Tips",
     description: blogBaseDescription,
   },
 };

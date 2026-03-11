@@ -1,6 +1,23 @@
+import type { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import Navbar from "@/components/sections/navbar/default";
 import FooterSection from "@/components/sections/footer/default";
+import { canonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Payroll Jamaica",
+  description:
+    "Payroll Jamaica's Privacy Policy explains how we collect, use, and protect personal data for Jamaican businesses using our payroll and HR software. Compliant with the Jamaica Data Protection Act 2020. Learn about your rights, data retention, security measures, and how we handle employee payroll data including PAYE, NIS, and NHT information securely.",
+  alternates: { canonical: canonical("/privacy") },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Privacy Policy | Payroll Jamaica",
+    description:
+      "How Payroll Jamaica collects, uses, and protects your data. Compliant with the Jamaica Data Protection Act 2020.",
+    url: canonical("/privacy"),
+    type: "website",
+  },
+};
 
 export default function PrivacyPage() {
   return (

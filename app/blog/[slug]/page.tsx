@@ -38,6 +38,7 @@ export async function generateMetadata(
     description,
     keywords,
     alternates: { canonical: url },
+    robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
     openGraph: {
       title,
       description,
@@ -60,6 +61,45 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   if (!post) return notFound();
 
   const cta = post.links?.ctaBottom || post.links?.ctaInline;
+  const postUrl = canonical(`/blog/${post.seo.slug}`);
+  const publishDate = post.timestamp ? new Date(post.timestamp).toISOString() : new Date().toISOString();
+  const title = post.seo.title || post.title;
+  const description = post.seo.description || post.subtitle || "";
+
+  const blogPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: title,
+    description,
+    url: postUrl,
+    datePublished: publishDate,
+    dateModified: publishDate,
+    author: {
+      "@type": "Organization",
+      name: "Payroll Jamaica",
+      url: "https://payrolljamaica.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Payroll Jamaica",
+      url: "https://payrolljamaica.com",
+      logo: { "@type": "ImageObject", url: "https://payrolljamaica.com/logo.png" },
+    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": postUrl },
+    ...(post.image ? { image: post.image } : {}),
+    keywords: (post.seo.keywords || []).join(", "),
+    inLanguage: "en-JM",
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://payrolljamaica.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://payrolljamaica.com/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: postUrl },
+    ],
+  };
 
   const articleUrl = canonical(`/blog/${post.seo.slug}`);
   const articleTitle = post.seo.title || post.title;
@@ -69,6 +109,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Navbar />
       <main className="w-full px-4 pb-28 flex-1">
         <div className="max-w-5xl mx-auto py-14">

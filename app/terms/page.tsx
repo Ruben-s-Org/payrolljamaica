@@ -1,6 +1,23 @@
+import type { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import Navbar from "@/components/sections/navbar/default";
 import FooterSection from "@/components/sections/footer/default";
+import { canonical } from "@/lib/seo";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | Payroll Jamaica",
+  description:
+    "Payroll Jamaica's Terms of Service govern your use of our payroll and HR software for Jamaican businesses. Covering eligibility, data protection under the Jamaica Data Protection Act 2020, acceptable use, billing, service levels, and governing law under Jamaican jurisdiction. Read before using our PAYE, NIS, and NHT payroll automation services.",
+  alternates: { canonical: canonical("/terms") },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Terms of Service | Payroll Jamaica",
+    description:
+      "Terms governing use of Payroll Jamaica's payroll and HR software. Governed by Jamaican law.",
+    url: canonical("/terms"),
+    type: "website",
+  },
+};
 
 export default function TermsPage() {
   return (

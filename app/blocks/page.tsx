@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import CTA from "../../components/sections/cta/default";
 import FAQ from "../../components/sections/faq/default";
 import Footer from "../../components/sections/footer/default";
@@ -15,6 +16,10 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "..
 import Screenshot from "../../components/ui/screenshot";
 import Glow from "../../components/ui/glow";
 import { Mockup, MockupFrame } from "../../components/ui/mockup";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+};
 
 export default function BlocksPage() {
   return (
