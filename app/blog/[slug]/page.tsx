@@ -5,6 +5,7 @@ import Navbar from "@/components/sections/navbar/default";
 import FooterSection from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import BlogRelatedResources from "@/components/ui/blog-related-resources";
+import BlogPostCTA from "@/components/ui/blog-post-cta";
 import { getAllSlugs, getPostBySlug } from "@/lib/content";
 import { safeJsonLd } from "@/lib/jsonld";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
@@ -137,6 +138,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
           <div className="mx-auto max-w-3xl">
+            <BlogPostCTA
+              variant={
+                (post.seo.keywords || []).some((k: string) =>
+                  /calculat|paye|nis|nht|tax|deduction|salary/i.test(k)
+                )
+                  ? "calculator"
+                  : "signup"
+              }
+            />
             <BlogRelatedResources keywords={post.seo.keywords || []} title={post.title} />
           </div>
         </div>

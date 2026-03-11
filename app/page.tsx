@@ -2,6 +2,7 @@ import CTA from "../components/sections/cta/default";
 import FAQ from "../components/sections/faq/default";
 import Footer from "../components/sections/footer/default";
 import Hero from "../components/sections/hero/default";
+import TrustSignals from "../components/sections/trust/default";
 import Items from "../components/sections/items/default";
 import Navbar from "../components/sections/navbar/default";
 import Pricing from "../components/sections/pricing/default";
@@ -100,6 +101,7 @@ export default function Home() {
       <main className="flex-1">
         <LayoutLines />
         <Hero />
+        <TrustSignals />
         <Items />
         <Stats />
         <Pricing />

@@ -460,39 +460,11 @@ export default function PayrollCalculator() {
                 </div>
               )}
 
-              {/* Download PDF / Print button */}
-              <div className="flex justify-center print:hidden">
-                <Button
-                  variant="outline"
-                  size="lg"
-                  onClick={handlePrint}
-                  className="gap-2"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="18"
-                    height="18"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                    <polyline points="7 10 12 15 17 10" />
-                    <line x1="12" y1="15" x2="12" y2="3" />
-                  </svg>
-                  Download Payslip (PDF)
-                </Button>
-              </div>
-
               {/* Tax breakdown note */}
               <p className="text-muted-foreground text-center text-xs print:text-gray-500">
-                Based on 2025/2026 Jamaica tax rates. PAYE threshold: JMD{" "}
-                {(1_902_360).toLocaleString()}/yr. NIS ceiling: JMD{" "}
-                {(5_000_000).toLocaleString()}/yr. This is an estimate — consult a payroll
-                professional for exact figures.
+                Based on current Jamaica tax rates (updated for 2025–2028 phased thresholds).
+                NIS ceiling: JMD {(5_000_000).toLocaleString()}/yr.
+                This is an estimate — consult a payroll professional for exact figures.
               </p>
 
               {/* Print footer */}
@@ -501,18 +473,31 @@ export default function PayrollCalculator() {
                 <p>This is an estimate only. Consult a qualified payroll professional for official calculations.</p>
               </div>
 
-              {/* CTA */}
-              <div className="rounded-2xl border bg-gradient-to-br from-blue-50 to-indigo-50 p-6 text-center dark:from-blue-950/30 dark:to-indigo-950/30 print:hidden">
-                <h3 className="text-lg font-semibold">Stop calculating manually</h3>
-                <p className="text-muted-foreground mt-2 text-sm">
-                  PayrollJamaica automates all of this — PAYE, NIS, NHT, payslips and statutory
-                  reports — in minutes.
+              {/* Signup bridge CTA */}
+              <div className="rounded-2xl border-2 border-primary/30 bg-gradient-to-br from-blue-50 to-indigo-50 p-8 text-center dark:from-blue-950/30 dark:to-indigo-950/30 print:hidden">
+                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+                </div>
+                <h3 className="text-xl font-semibold">Save Your Calculation</h3>
+                <p className="text-muted-foreground mt-2 text-base max-w-md mx-auto">
+                  Create a free account to save, export, and revisit your payroll
+                  calculations. Plus, automate payslips and statutory reports for
+                  your entire team.
                 </p>
-                <Button size="lg" className="mt-4" asChild>
-                  <a href="#" data-open-fillout="true">
-                    Get Started Free — No Credit Card
-                  </a>
-                </Button>
+                <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
+                  <Button size="lg" asChild>
+                    <a href="#" data-open-fillout="true">
+                      Create Free Account
+                    </a>
+                  </Button>
+                  <Button size="lg" variant="outline" onClick={handlePrint} className="gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download PDF
+                  </Button>
+                </div>
+                <p className="text-muted-foreground mt-3 text-xs">
+                  No credit card required. Set up in under 2 minutes.
+                </p>
               </div>
             </div>
           )}
