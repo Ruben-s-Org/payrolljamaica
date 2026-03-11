@@ -53,7 +53,7 @@ function sanitizeBlogHtml(html: string): string {
       td: ["colspan", "rowspan"],
       "*": ["class", "id"],
     },
-    allowedSchemes: ["https", "http", "mailto"],
+    allowedSchemes: ["https", "mailto"],
     // Internal links pass PageRank freely; only nofollow external links
     transformTags: {
       a: (tagName, attribs) => {
