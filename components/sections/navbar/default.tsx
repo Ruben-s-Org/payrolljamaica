@@ -45,9 +45,11 @@ export default function Navbar({
   name = "Payroll Jamaica",
   homeUrl = siteConfig.url,
   mobileLinks = [
+    { text: "Calculator", href: "/calculator" },
     { text: "Contact", href: siteConfig.getStartedUrl },
   ],
   actions = [
+    { text: "Calculator", href: "/calculator", isButton: false },
     { text: "Contact us", href: "#", isButton: false },
     { text: "Get Started", href: "#", isButton: true, variant: "default" },
   ],
@@ -80,6 +82,14 @@ export default function Navbar({
                     {action.iconRight}
                   </a>
                 </Button>
+              ) : action.href && action.href !== "#" ? (
+                <a
+                  key={index}
+                  href={action.href}
+                  className="hidden text-sm md:block"
+                >
+                  {action.text}
+                </a>
               ) : (
                 <a
                   key={index}

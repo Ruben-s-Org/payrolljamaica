@@ -40,6 +40,8 @@ export default function FooterSection({
       title: "Product",
       links: [
         { text: "Features", href: "/" },
+        { text: "Payroll Calculator", href: "/calculator" },
+        { text: "Pricing", href: "/#pricing" },
       ],
     },
     {
