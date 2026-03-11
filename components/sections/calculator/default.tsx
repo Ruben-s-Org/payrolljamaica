@@ -89,6 +89,7 @@ export default function PayrollCalculator() {
       employerNis: monthlyCalc.employer.nisEmployer * 12,
       employerNht: monthlyCalc.employer.nhtEmployer * 12,
       employerEdTax: monthlyCalc.employer.educationTaxEmployer * 12,
+      employerHeart: monthlyCalc.employer.heartLevy * 12,
       employerTotal: monthlyCalc.employer.totalEmployerCost * 12,
     };
   }
@@ -110,8 +111,8 @@ export default function PayrollCalculator() {
               Jamaica Payroll Calculator
             </h1>
             <p className="text-muted-foreground mt-4 text-lg">
-              Calculate PAYE, NIS, NHT and Education Tax instantly — free, no signup required.
-              Updated for 2025 rates.
+              Calculate PAYE, NIS, NHT, Education Tax and HEART levy instantly — free, no signup required.
+              Updated for 2025/2026 rates.
             </p>
           </div>
 
@@ -280,6 +281,11 @@ export default function PayrollCalculator() {
                         deduction
                       />
                       <DeductionRow
+                        label="HEART/NSTA Levy (3%)"
+                        value={result.employer.heartLevy}
+                        deduction
+                      />
+                      <DeductionRow
                         label="Total Cost to Employer"
                         value={result.employer.totalEmployerCost}
                         bold
@@ -344,6 +350,11 @@ export default function PayrollCalculator() {
                           <DeductionRow
                             label="Annual Employer Ed. Tax"
                             value={ytd.employerEdTax}
+                            deduction
+                          />
+                          <DeductionRow
+                            label="Annual HEART/NSTA Levy"
+                            value={ytd.employerHeart}
                             deduction
                           />
                           <DeductionRow
@@ -478,8 +489,8 @@ export default function PayrollCalculator() {
 
               {/* Tax breakdown note */}
               <p className="text-muted-foreground text-center text-xs print:text-gray-500">
-                Based on 2025 Jamaica tax rates. PAYE threshold: JMD{" "}
-                {(1_500_096).toLocaleString()}/yr. NIS ceiling: JMD{" "}
+                Based on 2025/2026 Jamaica tax rates. PAYE threshold: JMD{" "}
+                {(1_902_360).toLocaleString()}/yr. NIS ceiling: JMD{" "}
                 {(5_000_000).toLocaleString()}/yr. This is an estimate — consult a payroll
                 professional for exact figures.
               </p>

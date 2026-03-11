@@ -23,6 +23,7 @@ export interface EmployerCosts {
   nisEmployer: number;
   nhtEmployer: number;
   educationTaxEmployer: number;
+  heartLevy: number;
   totalEmployerCost: number;
 }
 
@@ -51,8 +52,18 @@ const NHT_EMPLOYER_RATE = 0.03;
 const ED_TAX_EMPLOYEE_RATE = 0.0225;
 const ED_TAX_EMPLOYER_RATE = 0.035;
 
-/** Annual income tax threshold (statutory income) */
-const PAYE_ANNUAL_THRESHOLD = 1_500_096;
+/** HEART/NSTA Trust — employer-only levy */
+const HEART_EMPLOYER_RATE = 0.03;
+
+/**
+ * Annual income tax threshold (statutory income).
+ * Updated per 2025/26 Budget: phased increase to JMD 2,003,496 by 2027/28.
+ * - Jan–Mar 2025: JMD 1,700,088
+ * - Apr 2025–Mar 2026: JMD 1,799,376
+ * - Apr 2026–Mar 2027: JMD 1,902,360 (current)
+ * - Apr 2027–Mar 2028: JMD 2,003,496
+ */
+const PAYE_ANNUAL_THRESHOLD = 1_902_360;
 const PAYE_MONTHLY_THRESHOLD = PAYE_ANNUAL_THRESHOLD / 12;
 
 /** First PAYE band ceiling (annual) */
@@ -95,6 +106,9 @@ export function calculateMonthly(grossMonthly: number): {
   const educationTax = grossMonthly * ED_TAX_EMPLOYEE_RATE;
   const educationTaxEmployer = grossMonthly * ED_TAX_EMPLOYER_RATE;
 
+  // HEART/NSTA Trust — employer only, no cap
+  const heartLevy = grossMonthly * HEART_EMPLOYER_RATE;
+
   // PAYE — computed on taxable income after NIS deduction
   const statutoryIncome = grossMonthly - nis;
   let paye = 0;
@@ -115,7 +129,7 @@ export function calculateMonthly(grossMonthly: number): {
   const netPay = grossMonthly - totalDeductions;
 
   const totalEmployerCost =
-    grossMonthly + nisEmployer + nhtEmployer + educationTaxEmployer;
+    grossMonthly + nisEmployer + nhtEmployer + educationTaxEmployer + heartLevy;
 
   return {
     employee: {
@@ -130,6 +144,7 @@ export function calculateMonthly(grossMonthly: number): {
       nisEmployer: round(nisEmployer),
       nhtEmployer: round(nhtEmployer),
       educationTaxEmployer: round(educationTaxEmployer),
+      heartLevy: round(heartLevy),
       totalEmployerCost: round(totalEmployerCost),
     },
   };
