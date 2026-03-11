@@ -210,6 +210,85 @@ export default function ResourcesPage() {
           </div>
         </section>
 
+        {/* Lead Magnet: Free Compliance Checklist */}
+        <section className="w-full px-4 py-16 bg-muted/20 border-y border-border">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex flex-col md:flex-row md:items-center gap-8">
+              <div className="flex-1">
+                <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-2">
+                  Free Download
+                </p>
+                <h2 className="text-2xl sm:text-3xl font-bold mb-3">
+                  Jamaica Payroll Compliance Checklist 2026
+                </h2>
+                <p className="text-muted-foreground leading-relaxed mb-6 max-w-xl">
+                  Everything your business needs to stay compliant with TAJ, NHT, NIS &amp; PAYE this year.
+                  Used by Jamaican business owners to avoid penalties and missed deadlines.
+                  Enter your email and get it free — instant access.
+                </p>
+                <ul className="text-sm text-muted-foreground space-y-1.5 mb-6">
+                  <li className="flex items-start gap-2">
+                    <span className="text-foreground font-bold shrink-0">✓</span>
+                    2026 statutory rates reference card (PAYE, NIS, NHT, Education Tax)
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-foreground font-bold shrink-0">✓</span>
+                    Monthly remittance deadline calendar — never miss the 14th again
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-foreground font-bold shrink-0">✓</span>
+                    March 31 S02 Annual Return filing checklist
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-foreground font-bold shrink-0">✓</span>
+                    New employee onboarding documents checklist
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-foreground font-bold shrink-0">✓</span>
+                    7-year record-keeping guide for TAJ audits
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  data-open-fillout="true"
+                  className="inline-block bg-foreground text-background font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity"
+                >
+                  Get the free checklist →
+                </a>
+              </div>
+              <div className="md:w-64 bg-background border border-border rounded-2xl p-6 shadow-sm">
+                <div className="text-center mb-4">
+                  <span className="text-5xl">📋</span>
+                </div>
+                <p className="text-center font-bold text-foreground text-sm leading-tight">
+                  2026 Jamaica Payroll<br />Compliance Checklist
+                </p>
+                <p className="text-center text-xs text-muted-foreground mt-2">
+                  Free · Instant download · Updated for 2026 Budget
+                </p>
+                <div className="mt-4 pt-4 border-t border-border text-xs text-muted-foreground space-y-1">
+                  <div className="flex justify-between">
+                    <span>PAYE threshold 2026</span>
+                    <span className="font-semibold text-foreground">JMD $1,902,360</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>NIS rate</span>
+                    <span className="font-semibold text-foreground">3% + 3%</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>NHT rate</span>
+                    <span className="font-semibold text-foreground">2% + 3%</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Remittance deadline</span>
+                    <span className="font-semibold text-foreground">14th each month</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Featured Tool: Calculator */}
         <section className="w-full px-4 py-16">
           <div className="max-w-5xl mx-auto">
