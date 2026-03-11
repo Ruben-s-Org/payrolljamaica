@@ -672,7 +672,14 @@ def main():
 if __name__=='__main__': main()
 `.trim();
   fs.writeFileSync(pyPath, pyCode, 'utf8');
-  const py = spawnSync(process.env.PYTHON || 'python3', [pyPath, topic, keyword], { encoding:'utf8', env: process.env, timeout: 300000 });
+  // Only pass minimal env vars to child process — never pass full process.env (secrets leak risk)
+  const safeEnv = {
+    PATH: process.env.PATH,
+    HOME: process.env.HOME,
+    LANG: process.env.LANG || 'en_US.UTF-8',
+    TMPDIR: process.env.TMPDIR || '/tmp',
+  };
+  const py = spawnSync(process.env.PYTHON || 'python3', [pyPath, topic, keyword], { encoding:'utf8', env: safeEnv, timeout: 300000 });
   if (py.error) throw py.error;
   if (py.status !== 0) throw new Error('Python research failed: ' + (py.stderr || py.stdout));
   const stdout = (py.stdout || '').trim();
@@ -900,7 +907,9 @@ async function generateOnce(args) {
   if (globalThis.__verbose) console.log('[blog] Wrote file:', dest);
 
   try {
-    const gen = spawnSync(process.execPath, [path.join(projectRoot, 'scripts', 'generate-sitemap.js')], { stdio: 'pipe', env: process.env });
+    // Pass minimal env — sitemap script only needs Node runtime paths, not API secrets
+    const sitemapEnv = { PATH: process.env.PATH, HOME: process.env.HOME, NODE_ENV: process.env.NODE_ENV || 'production' };
+    const gen = spawnSync(process.execPath, [path.join(projectRoot, 'scripts', 'generate-sitemap.js')], { stdio: 'pipe', env: sitemapEnv });
     if (gen.error) throw gen.error;
     if (typeof gen.status === 'number' && gen.status !== 0) {
       throw new Error(`generate-sitemap exited with code ${gen.status}`);

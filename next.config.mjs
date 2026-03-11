@@ -46,6 +46,7 @@ const nextConfig = {
               "object-src 'none'",
               "base-uri 'self'",
               "form-action 'self' https://server.fillout.com",
+              "report-uri /api/csp-report",
             ].join("; "),
           },
         ],
