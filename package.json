@@ -12,6 +12,8 @@
     "gen:sitemap": "node scripts/generate-sitemap.js --verbose"
   },
   "dependencies": {
+    "@types/sanitize-html": "^2.13.0",
+    "sanitize-html": "^2.13.1",
     "@fillout/react": "^3.0.0",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-avatar": "^1.1.0",
