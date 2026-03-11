@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Jamaica payroll resources, guides, and compliance tools for Jamaican employers and HR professionals. Find authoritative guides on PAYE, NIS, NHT, and Education Tax, use the free payroll calculator, and explore industry-specific payroll resources for hospitality, retail, construction, and healthcare businesses across Jamaica.";
@@ -480,7 +481,7 @@ export default function ResourcesPage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
     </div>
   );

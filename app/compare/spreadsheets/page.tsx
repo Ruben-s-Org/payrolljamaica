@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Jamaican businesses that rely on Excel spreadsheets for payroll face errors in PAYE calculations, manual NIS lookups, hours spent on payslips, and serious audit risk. Payroll Jamaica automates every statutory deduction — PAYE, NIS, NHT, and Education Tax — so you can switch from spreadsheets to compliant, automated payroll in days. See why hundreds of Jamaican employers have already made the switch.";
@@ -491,7 +492,7 @@ export default function CompareSpreadsheetsPage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
     </div>
   );

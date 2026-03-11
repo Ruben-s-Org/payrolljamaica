@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll Jamaica is built for Jamaican construction companies managing project-based workers, daily wage labourers, and contract staff across multiple sites. Automate PAYE, NIS, NHT, and Education Tax for construction workers. Handle site-level payroll, subcontractor compliance, daily wage calculations, and statutory remittance. Trusted by construction companies, civil engineering firms, and contractors operating across Jamaica.";
@@ -384,11 +385,11 @@ export default function ConstructionPage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(serviceSchema) }}
       />
     </div>
   );

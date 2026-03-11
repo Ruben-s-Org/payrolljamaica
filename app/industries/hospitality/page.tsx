@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll Jamaica is built for Jamaica's hospitality industry — hotels, resorts, restaurants, and tourism businesses. Automate service charge distribution, tip and gratuity calculations, shift overtime compliance, seasonal staff payroll, PAYE, NIS, and NHT for tipped workers. Our software handles the unique payroll challenges facing Jamaican hotel and hospitality employers, from union deductions to part-time staff scheduling. Trusted by properties across Kingston, Montego Bay, Negril, and Ocho Rios.";
@@ -397,11 +398,11 @@ export default function HospitalityPage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(serviceSchema) }}
       />
     </div>
   );

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 import Navbar from "@/components/sections/navbar/default";
 import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
@@ -150,7 +151,7 @@ export default function CalculatorPage() {
       {/* JSON-LD: WebApplication */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
           "@context": "https://schema.org",
           "@type": "WebApplication",
           name: "Jamaica Payroll Calculator 2026",
@@ -166,7 +167,7 @@ export default function CalculatorPage() {
       {/* JSON-LD: BreadcrumbList */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
@@ -178,7 +179,7 @@ export default function CalculatorPage() {
       {/* JSON-LD: HowTo */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
           "@context": "https://schema.org",
           "@type": "HowTo",
           name: "How to Calculate PAYE in Jamaica (2026)",

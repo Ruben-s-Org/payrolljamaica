@@ -10,6 +10,7 @@ import { LayoutLines } from "../components/ui/layout-lines";
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const homeBaseDescription = "Payroll Jamaica provides reliable, secure HR and payroll software built specifically for Jamaican businesses. Automate payroll calculations, PAYE, NIS, NHT, and other statutory deductions with confidence, generate compliant payslips, and stay up to date with local tax rules. Our platform streamlines employee management, leave tracking, and statutory reporting so you can save time, reduce errors, and focus on growing your business. Whether you are a small team or a scaling company, Payroll Jamaica gives you simple setup, guided workflows, and clear reporting designed for Jamaica’s regulatory environment. With local-first features, accurate contributions, and clear documentation, you get peace of mind every pay cycle. Explore integrations, role-based access, and audit-friendly reports that help you stay compliant and efficient.";
 
@@ -109,7 +110,7 @@ export default function Home() {
       {/* JSON-LD: Organization */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
           "@context": "https://schema.org",
           "@type": "Organization",
           name: siteConfig.name,
@@ -132,7 +133,7 @@ export default function Home() {
       {/* JSON-LD: SoftwareApplication */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
           name: siteConfig.name,
@@ -159,7 +160,7 @@ export default function Home() {
       {/* JSON-LD: WebSite */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: siteConfig.name,
@@ -175,7 +176,7 @@ export default function Home() {
       {/* JSON-LD: LocalBusiness */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           name: siteConfig.name,
@@ -205,7 +206,7 @@ export default function Home() {
       {/* JSON-LD: FAQPage */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
           "@context": "https://schema.org",
           "@type": "FAQPage",
           mainEntity: [

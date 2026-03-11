@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll Jamaica is built for Jamaica's retail businesses — supermarkets, pharmacies, clothing stores, hardware shops, and multi-branch retail chains. Manage part-time and full-time staff payroll, commission calculations, peak-period overtime, and statutory compliance with PAYE, NIS, and NHT. Consolidate payroll across multiple store locations into a single platform. Trusted by retail employers across Kingston, Spanish Town, Portmore, and Montego Bay.";
@@ -391,11 +392,11 @@ export default function RetailPage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(serviceSchema) }}
       />
     </div>
   );

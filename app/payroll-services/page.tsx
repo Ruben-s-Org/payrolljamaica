@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription = "Payroll Jamaica offers comprehensive payroll services for Jamaican businesses of all sizes. Whether you are a sole trader, small business, or growing enterprise, our managed payroll service handles PAYE, NIS, NHT, Education Tax, payslip generation, and statutory filing — so you can focus on running your business.";
 
@@ -177,7 +178,7 @@ export default function PayrollServicesPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "Service",
             name: "Payroll Services Jamaica",
@@ -192,7 +193,7 @@ export default function PayrollServicesPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [

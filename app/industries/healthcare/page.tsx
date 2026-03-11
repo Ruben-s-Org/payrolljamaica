@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll Jamaica is built for Jamaica's healthcare sector — hospitals, clinics, pharmacies, medical practices, and nursing homes. Automate shift differential pay for nurses and hospital staff, overtime management for 24/7 operations, on-call pay and allowances, PAYE for healthcare professionals, and multi-department payroll management. Trusted by healthcare employers across Kingston, Spanish Town, Montego Bay, and across the island.";
@@ -387,11 +388,11 @@ export default function HealthcarePage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(serviceSchema) }}
       />
     </div>
   );
