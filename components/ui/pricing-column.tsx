@@ -30,12 +30,16 @@ export interface PricingColumnProps
   name: string;
   icon?: ReactNode;
   description: string;
-  price: number;
+  price: number | null;
   priceNote: string;
+  currency?: string;
+  pricePeriod?: string;
+  priceLabel?: string;
   cta: {
     variant: "glow" | "default";
     label: string;
     href: string;
+    dataAttributes?: Record<string, string>;
   };
   features: string[];
 }
@@ -46,6 +50,9 @@ export function PricingColumn({
   description,
   price,
   priceNote,
+  currency = "$",
+  pricePeriod,
+  priceLabel,
   cta,
   features,
   variant,
@@ -78,23 +85,37 @@ export function PricingColumn({
           </p>
         </div>
         <div className="flex items-center gap-3 lg:flex-col lg:items-start xl:flex-row xl:items-center">
-          <div className="flex items-baseline gap-1">
-            <span className="text-muted-foreground text-2xl font-bold">$</span>
-            <span className="text-6xl font-bold">{price}</span>
-          </div>
-          <div className="flex min-h-[40px] flex-col">
-            {price > 0 && (
-              <>
-                <span className="text-sm">one-time payment</span>
-                <span className="text-muted-foreground text-sm">
-                  plus local taxes
+          {price !== null ? (
+            <>
+              <div className="flex items-baseline gap-1">
+                <span className="text-muted-foreground text-2xl font-bold">
+                  {currency}
                 </span>
-              </>
-            )}
-          </div>
+                <span className="text-6xl font-bold">
+                  {price.toLocaleString()}
+                </span>
+              </div>
+              <div className="flex min-h-[40px] flex-col">
+                {pricePeriod && <span className="text-sm">{pricePeriod}</span>}
+                {priceLabel && (
+                  <span className="text-muted-foreground text-sm">
+                    {priceLabel}
+                  </span>
+                )}
+              </div>
+            </>
+          ) : (
+            <div className="flex min-h-[72px] items-center">
+              <span className="text-4xl font-bold">
+                {priceLabel || "Contact us"}
+              </span>
+            </div>
+          )}
         </div>
         <Button variant={cta.variant} size="lg" asChild>
-          <Link href={cta.href}>{cta.label}</Link>
+          <Link href={cta.href} {...cta.dataAttributes}>
+            {cta.label}
+          </Link>
         </Button>
         <p className="text-muted-foreground min-h-[40px] max-w-[220px] text-sm">
           {priceNote}

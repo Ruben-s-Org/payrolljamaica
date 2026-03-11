@@ -4,6 +4,7 @@ import Footer from "../components/sections/footer/default";
 import Hero from "../components/sections/hero/default";
 import Items from "../components/sections/items/default";
 import Navbar from "../components/sections/navbar/default";
+import Pricing from "../components/sections/pricing/default";
 import Stats from "../components/sections/stats/default";
 import { LayoutLines } from "../components/ui/layout-lines";
 import type { Metadata } from "next";
@@ -101,6 +102,7 @@ export default function Home() {
         <Hero />
         <Items />
         <Stats />
+        <Pricing />
         <FAQ />
         <CTA />
       </main>
@@ -136,9 +138,11 @@ export default function Home() {
           countriesSupported: "JM",
           url: siteConfig.url,
           offers: {
-            "@type": "Offer",
-            price: "0",
-            priceCurrency: "USD",
+            "@type": "AggregateOffer",
+            lowPrice: "3500",
+            highPrice: "7500",
+            priceCurrency: "JMD",
+            offerCount: 3,
           },
         })}
       </Script>
