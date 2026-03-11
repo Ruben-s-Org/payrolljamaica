@@ -56,8 +56,17 @@ export default function FooterSection({
         { text: "Contact Form", href: "#", openFillout: true },
       ],
     },
+    {
+      title: "Follow Us",
+      links: [
+        { text: "LinkedIn", href: siteConfig.links.linkedin },
+        { text: "Facebook", href: siteConfig.links.facebook },
+        { text: "Instagram", href: siteConfig.links.instagram },
+        { text: "X / Twitter", href: siteConfig.links.twitter },
+      ],
+    },
   ],
-  copyright = "© 2025 Payroll Jamaica. All rights reserved",
+  copyright = "© 2026 Payroll Jamaica. All rights reserved",
   policies = [
     { text: "Privacy Policy", href: siteConfig.url + "/privacy" },
     { text: "Terms of Service", href: siteConfig.url + "/terms" },

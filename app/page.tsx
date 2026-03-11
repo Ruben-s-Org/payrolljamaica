@@ -113,7 +113,7 @@ export default function Home() {
           name: siteConfig.name,
           url: siteConfig.url,
           logo: canonical(siteConfig.ogImage || "/og.jpg"),
-          sameAs: [siteConfig.links.twitter, siteConfig.links.github].filter(Boolean),
+          sameAs: [siteConfig.links.twitter, siteConfig.links.linkedin, siteConfig.links.facebook, siteConfig.links.instagram].filter(Boolean),
           contactPoint: [
             {
               "@type": "ContactPoint",
@@ -150,6 +150,113 @@ export default function Home() {
           name: siteConfig.name,
           url: siteConfig.url,
           inLanguage: "en-JM",
+          potentialAction: {
+            "@type": "SearchAction",
+            target: `${siteConfig.url}/blog?q={search_term_string}`,
+            "query-input": "required name=search_term_string",
+          },
+        })}
+      </Script>
+      {/* JSON-LD: LocalBusiness */}
+      <Script id="ld-json-local-business" type="application/ld+json" strategy="afterInteractive">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: siteConfig.name,
+          url: siteConfig.url,
+          image: canonical(siteConfig.ogImage || "/og.jpg"),
+          description: "Jamaica's leading payroll and HR software for Jamaican businesses. Automate PAYE, NIS, NHT, Education Tax, and statutory compliance.",
+          priceRange: "$$",
+          areaServed: {
+            "@type": "Country",
+            name: "Jamaica",
+            sameAs: "https://www.wikidata.org/wiki/Q766",
+          },
+          address: {
+            "@type": "PostalAddress",
+            addressCountry: "JM",
+          },
+          contactPoint: {
+            "@type": "ContactPoint",
+            email: "info@payrolljamaica.com",
+            contactType: "customer support",
+            areaServed: "JM",
+            availableLanguage: ["en"],
+          },
+          sameAs: ["https://x.com/payrolljamaica"],
+        })}
+      </Script>
+      {/* JSON-LD: FAQPage */}
+      <Script id="ld-json-faq" type="application/ld+json" strategy="afterInteractive">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: [
+            {
+              "@type": "Question",
+              name: "What is Payroll Jamaica?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Payroll Jamaica is modern payroll software tailored for Jamaican businesses. It is purpose‑built for local tax rules, reporting, and banking formats.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Which statutory calculations are supported?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "We support PAYE, NIS, NHT, and Education Tax out of the box, including thresholds and current rates. Deductions and allowances are configurable as salary components.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "What reports and remittances can I generate?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Generate payslips, payroll summaries, and statutory remittance files required by MOF/TAJ. Exports are ready for submission and can be archived for audits.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Which banks are supported?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "We export payment files compatible with major local banks, including NCB, JN, Scotiabank, Sagicor Bank, and FirstCaribbean.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "How long does it take to run payroll?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "After initial setup, you can run payroll in minutes using bulk actions, recurring components, and automated calculations.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Is my data secure?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Yes. We use TLS encryption in transit, encrypted storage at rest, role‑based access controls, audit trails, and automated backups.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Does it handle overtime, allowances, and deductions?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Yes. Create salary components and rules for overtime, allowances, deductions, loans, and more. Configure per employee or per salary structure.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Can I import from Excel or migrate existing data?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Yes. Use CSV templates to import employees, salary structures, and historical payroll. Our team can help you map columns and validate before going live.",
+              },
+            },
+          ],
         })}
       </Script>
     </div>

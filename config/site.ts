@@ -6,8 +6,10 @@ export const siteConfig = {
   description:
     "Reliable, secure HR and payroll software built specifically for Jamaican businesses. Automate payroll, PAYE, NIS, NHT, and statutory compliance with ease.",
   links: {
-    twitter: "https://x.com",
-    github: "https://github.com",
+    twitter: "https://x.com/payrolljamaica",
+    linkedin: "https://linkedin.com/company/payrolljamaica",
+    facebook: "https://facebook.com/payrolljamaica",
+    instagram: "https://instagram.com/payrolljamaica",
     email: "mailto:info@payrolljamaica.com",
   },
   pricing: {
