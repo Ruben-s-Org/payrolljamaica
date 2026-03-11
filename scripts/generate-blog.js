@@ -22,6 +22,7 @@ import os from 'node:os';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { randomInt } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
+import sanitizeHtml from 'sanitize-html';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -33,20 +34,21 @@ const blogImagesDir = path.join(projectRoot, 'public');
 
 // ---------------------------------------------------------------------------
 // Security: strip dangerous HTML from AI-generated blog content before saving.
-// Blocks <script>, <iframe>, <object>, on* event handlers, javascript: URLs,
-// and data: URLs in src/href. Applied before writing any content file to disk.
+// Uses sanitize-html library (same config as lib/content.ts) — regex is not
+// sufficient to safely strip XSS from untrusted/AI-generated HTML.
 // ---------------------------------------------------------------------------
-const DANGEROUS_TAG_RE = /<\s*(script|iframe|object|embed|form|input|button|select|textarea|meta|link|base|noscript|applet|frameset|frame)[^>]*>[\s\S]*?<\s*\/\s*\1\s*>|<\s*(script|iframe|object|embed|form|input|button|select|textarea|meta|link|base|noscript|applet|frameset|frame)[^>]*\/?>/gi;
-const EVENT_HANDLER_ATTR_RE = /\s+on\w+\s*=\s*(['"])[^'"]*\1/gi;
-const JAVASCRIPT_URL_RE = /\bhref\s*=\s*(['"])\s*javascript:/gi;
-const DATA_URL_RE = /\b(src|href)\s*=\s*(['"])\s*data:/gi;
-
 function stripDangerousHtml(html) {
-  return String(html || '')
-    .replace(DANGEROUS_TAG_RE, '')
-    .replace(EVENT_HANDLER_ATTR_RE, '')
-    .replace(JAVASCRIPT_URL_RE, (m, q) => `href=${q}#`)
-    .replace(DATA_URL_RE, (m, attr, q) => `${attr}=${q}#`);
+  return sanitizeHtml(String(html || ''), {
+    allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'h1', 'h2', 'table', 'thead', 'tbody', 'tr', 'th', 'td']),
+    allowedAttributes: {
+      ...sanitizeHtml.defaults.allowedAttributes,
+      'img': ['src', 'alt', 'width', 'height'],
+      'a': ['href', 'name', 'target', 'rel'],
+      '*': ['class'],
+    },
+    allowedSchemes: ['https', 'http', 'mailto'],
+    disallowedTagsMode: 'discard',
+  });
 }
 
 const OPENROUTER_ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions';
@@ -54,10 +56,9 @@ const DEFAULT_MODEL = process.env.OPENROUTER_MODEL || 'anthropic/claude-4.5-sonn
 const CONDENSE_MODEL = process.env.OPENROUTER_CONDENSE_MODEL || 'anthropic/claude-4.5-sonnet';
 function normalizePolicy(val) {
   const v = String(val || '').toLowerCase();
-  if (process.env.STRICT_PRIVACY) return 'zero';
   if (v === 'opt_in') return 'opt-in';
   if (v === 'zero') return 'zero';
-  return v || 'opt-in';
+  return v || 'zero'; // Default to zero-retention (no training on payroll content)
 }
 const DATA_POLICY = normalizePolicy(process.env.OPENROUTER_DATA_POLICY);
 

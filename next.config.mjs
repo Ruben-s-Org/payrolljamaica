@@ -30,11 +30,15 @@ const nextConfig = {
             value: "camera=(), microphone=(), geolocation=()",
           },
           {
+            key: "X-Permitted-Cross-Domain-Policies",
+            value: "none",
+          },
+          {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' https://server.fillout.com",
-              "style-src 'self' 'unsafe-inline'",
+              "script-src 'self' https://server.fillout.com",
+              "style-src 'self'",
               "img-src 'self' data: https:",
               "font-src 'self'",
               "frame-src https://server.fillout.com",

@@ -27,7 +27,6 @@ export default function FilloutProvider({ children }: { children: React.ReactNod
         onClose={close}
         width={"900px"}
         height={"80vh"}
-        inheritParameters
       />
     </FilloutContext.Provider>
   );
