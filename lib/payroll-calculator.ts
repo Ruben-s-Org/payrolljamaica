@@ -38,7 +38,7 @@ export interface PayrollResult {
   netPerPeriod: number;
 }
 
-// ── 2025 constants ───────────────────────────────────────────────────────────
+// ── 2025-2028 constants ──────────────────────────────────────────────────────
 
 const NIS_EMPLOYEE_RATE = 0.03;
 const NIS_EMPLOYER_RATE = 0.03;
@@ -56,15 +56,28 @@ const ED_TAX_EMPLOYER_RATE = 0.035;
 const HEART_EMPLOYER_RATE = 0.03;
 
 /**
- * Annual income tax threshold (statutory income).
- * Updated per 2025/26 Budget: phased increase to JMD 2,003,496 by 2027/28.
+ * PAYE annual income tax thresholds (statutory income).
+ * Phased increase per 2025/26 Budget:
  * - Jan–Mar 2025: JMD 1,700,088
  * - Apr 2025–Mar 2026: JMD 1,799,376
- * - Apr 2026–Mar 2027: JMD 1,902,360 (current)
+ * - Apr 2026–Mar 2027: JMD 1,902,360
  * - Apr 2027–Mar 2028: JMD 2,003,496
  */
-const PAYE_ANNUAL_THRESHOLD = 1_902_360;
-const PAYE_MONTHLY_THRESHOLD = PAYE_ANNUAL_THRESHOLD / 12;
+const PAYE_THRESHOLDS: { from: Date; annual: number }[] = [
+  { from: new Date(2027, 3, 1), annual: 2_003_496 }, // Apr 2027
+  { from: new Date(2026, 3, 1), annual: 1_902_360 }, // Apr 2026
+  { from: new Date(2025, 3, 1), annual: 1_799_376 }, // Apr 2025
+  { from: new Date(2025, 0, 1), annual: 1_700_088 }, // Jan 2025
+];
+const PAYE_DEFAULT_THRESHOLD = 1_799_376;
+
+function getPayeAnnualThreshold(payDate?: Date): number {
+  const d = payDate ?? new Date();
+  for (const t of PAYE_THRESHOLDS) {
+    if (d >= t.from) return t.annual;
+  }
+  return PAYE_DEFAULT_THRESHOLD;
+}
 
 /** First PAYE band ceiling (annual) */
 const PAYE_BAND_1_ANNUAL_CEILING = 6_000_000;
@@ -89,7 +102,10 @@ function periodsPerMonth(frequency: PayFrequency): number {
 
 // ── Core monthly calculation ──────────────────────────────────────────────────
 
-export function calculateMonthly(grossMonthly: number): {
+export function calculateMonthly(
+  grossMonthly: number,
+  payDate?: Date
+): {
   employee: DeductionBreakdown;
   employer: EmployerCosts;
 } {
@@ -98,29 +114,32 @@ export function calculateMonthly(grossMonthly: number): {
   const nis = nisBase * NIS_EMPLOYEE_RATE;
   const nisEmployer = nisBase * NIS_EMPLOYER_RATE;
 
-  // NHT — no cap
+  // Statutory income = gross minus employee NIS
+  const statutoryIncome = grossMonthly - nis;
+
+  // NHT — no cap, applied to gross emoluments
   const nht = grossMonthly * NHT_EMPLOYEE_RATE;
   const nhtEmployer = grossMonthly * NHT_EMPLOYER_RATE;
 
-  // Education Tax — no cap
-  const educationTax = grossMonthly * ED_TAX_EMPLOYEE_RATE;
-  const educationTaxEmployer = grossMonthly * ED_TAX_EMPLOYER_RATE;
+  // Education Tax — applied to statutory income (gross - NIS), no cap
+  const educationTax = statutoryIncome * ED_TAX_EMPLOYEE_RATE;
+  const educationTaxEmployer = statutoryIncome * ED_TAX_EMPLOYER_RATE;
 
   // HEART/NSTA Trust — employer only, no cap
   const heartLevy = grossMonthly * HEART_EMPLOYER_RATE;
 
-  // PAYE — computed on taxable income after NIS deduction
-  const statutoryIncome = grossMonthly - nis;
+  // PAYE — computed on taxable income after NIS deduction and threshold
+  const payeMonthlyThreshold = getPayeAnnualThreshold(payDate) / 12;
   let paye = 0;
-  if (statutoryIncome > PAYE_MONTHLY_THRESHOLD) {
-    const taxableIncome = statutoryIncome - PAYE_MONTHLY_THRESHOLD;
+  if (statutoryIncome > payeMonthlyThreshold) {
+    const taxableIncome = statutoryIncome - payeMonthlyThreshold;
     const band1Taxable = Math.min(
       taxableIncome,
-      PAYE_BAND_1_MONTHLY_CEILING - PAYE_MONTHLY_THRESHOLD
+      PAYE_BAND_1_MONTHLY_CEILING - payeMonthlyThreshold
     );
     const band2Taxable = Math.max(
       0,
-      taxableIncome - (PAYE_BAND_1_MONTHLY_CEILING - PAYE_MONTHLY_THRESHOLD)
+      taxableIncome - (PAYE_BAND_1_MONTHLY_CEILING - payeMonthlyThreshold)
     );
     paye = band1Taxable * PAYE_RATE_BAND_1 + band2Taxable * PAYE_RATE_BAND_2;
   }
@@ -150,9 +169,9 @@ export function calculateMonthly(grossMonthly: number): {
   };
 }
 
-export function calculate(input: PayrollInput): PayrollResult {
-  const { grossMonthly, frequency } = input;
-  const { employee, employer } = calculateMonthly(grossMonthly);
+export function calculate(input: PayrollInput & { payDate?: Date }): PayrollResult {
+  const { grossMonthly, frequency, payDate } = input;
+  const { employee, employer } = calculateMonthly(grossMonthly, payDate);
 
   const periods = periodsPerMonth(frequency);
   const grossPerPeriod = round(grossMonthly / periods);
