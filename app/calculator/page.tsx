@@ -11,9 +11,9 @@ const baseDescription =
 
 export const metadata: Metadata = {
   title:
-    "Jamaica Payroll Calculator 2025 — Free PAYE, NIS, NHT & Education Tax Calculator | Payroll Jamaica",
+    "Jamaica Payroll Calculator 2026 — Free PAYE, NIS, NHT & Education Tax Calculator | Payroll Jamaica",
   description: ensureMinDescription(
-    "Free Jamaica payroll calculator for 2025. Instantly compute PAYE income tax, NIS (3%), NHT (2%) and Education Tax (2.25%) deductions from any gross monthly salary. See your net take-home pay and employer cost breakdown — no signup needed.",
+    "Free Jamaica payroll calculator for 2026. Instantly compute PAYE income tax, NIS (3%), NHT (2%) and Education Tax (2.25%) deductions from any gross monthly salary. See your net take-home pay and employer cost breakdown — no signup needed.",
     baseDescription
   ),
   applicationName: siteConfig.name,
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
     "NIS calculator Jamaica",
     "NHT calculator Jamaica",
     "Jamaica income tax calculator",
-    "Jamaica salary calculator 2025",
-    "PAYE calculation Jamaica 2025",
+    "Jamaica salary calculator 2026",
+    "PAYE calculation Jamaica 2026",
     "Education Tax Jamaica",
     "net pay calculator Jamaica",
     "take-home pay Jamaica",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Jamaica Payroll Calculator 2025 — Free PAYE, NIS & NHT Calculator",
+    title: "Jamaica Payroll Calculator 2026 — Free PAYE, NIS & NHT Calculator",
     description: baseDescription,
     url: canonical("/calculator"),
     type: "website",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Free Jamaica Payroll Calculator 2025 — PAYE, NIS, NHT",
+    title: "Free Jamaica Payroll Calculator 2026 — PAYE, NIS, NHT",
     description: baseDescription,
     images: [siteConfig.ogImage],
     site: "@payrolljamaica",
@@ -153,9 +153,9 @@ export default function CalculatorPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebApplication",
-          name: "Jamaica Payroll Calculator 2025",
+          name: "Jamaica Payroll Calculator 2026",
           url: canonical("/calculator"),
-          description: "Free Jamaica payroll calculator. Calculate PAYE, NIS, NHT, and Education Tax using 2025 statutory rates.",
+          description: "Free Jamaica payroll calculator. Calculate PAYE, NIS, NHT, and Education Tax using 2026 statutory rates.",
           applicationCategory: "FinanceApplication",
           operatingSystem: "Web",
           offers: { "@type": "Offer", price: "0", priceCurrency: "JMD" },
@@ -181,8 +181,8 @@ export default function CalculatorPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "HowTo",
-          name: "How to Calculate PAYE in Jamaica (2025)",
-          description: "Step-by-step guide to calculating PAYE income tax, NIS, NHT, and Education Tax in Jamaica using 2025 statutory rates.",
+          name: "How to Calculate PAYE in Jamaica (2026)",
+          description: "Step-by-step guide to calculating PAYE income tax, NIS, NHT, and Education Tax in Jamaica using 2026 statutory rates.",
           step: [
             { "@type": "HowToStep", name: "Determine gross salary", text: "Start with the employee's gross monthly or annual salary before any deductions." },
             { "@type": "HowToStep", name: "Calculate NIS contribution", text: "Multiply gross salary by 3% (employee NIS rate). Apply the JMD $5,000,000 annual ceiling." },

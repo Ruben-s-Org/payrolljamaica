@@ -1,0 +1,69 @@
+{
+  "title": "How to Set Up Payroll for Your First Employee in Jamaica (2026 Step-by-Step Guide)",
+  "slug": "how-to-set-up-payroll-for-first-employee-jamaica",
+  "description": "A complete guide for Jamaican employers hiring their first employee. Covers TAJ employer registration, NIS and NHT setup, PAYE calculations, payslip requirements, and monthly remittance deadlines.",
+  "keywords": [
+    "payroll setup Jamaica first employee",
+    "hire first employee Jamaica",
+    "employer registration Jamaica",
+    "TAJ employer registration Jamaica",
+    "NIS employer registration Jamaica",
+    "NHT employer registration Jamaica",
+    "PAYE first employee Jamaica",
+    "payroll setup Jamaica",
+    "how to do payroll Jamaica",
+    "Jamaican payroll beginner guide",
+    "small business payroll Jamaica",
+    "payroll Jamaica 2026"
+  ],
+  "publishedAt": "2026-03-11",
+  "readingTime": "12 min",
+  "category": "payroll-guides",
+  "tags": ["payroll setup", "first employee", "Jamaica", "TAJ", "NIS", "NHT", "PAYE", "small business"],
+  "sections": [
+    {
+      "heading": "Introduction: You hired someone — now what?",
+      "content": "Hiring your first employee in Jamaica is a milestone for any business. But with that milestone comes a legal obligation: you must register as an employer, set up payroll deductions, and remit statutory contributions to the relevant government agencies every month. This guide walks you through every step — from registering with Tax Administration Jamaica (TAJ) to running your first payroll correctly."
+    },
+    {
+      "heading": "Step 1 — Register as an employer with TAJ",
+      "content": "Before you can legally pay an employee and deduct PAYE, you must register as an employer with Tax Administration Jamaica (TAJ). You will need: your company's Tax Registration Number (TRN) — or your personal TRN if you are a sole trader, the employee's name and TRN, and the employee's start date and agreed salary. Registration is done at any TAJ office or via the myTax online portal (mytax.taj.gov.jm). TAJ will issue you an employer identification number which you will use on all monthly remittance schedules. Deadline: you must register before paying the employee for the first time."
+    },
+    {
+      "heading": "Step 2 — Register with NIS as an employer",
+      "content": "Every employer in Jamaica must register with the National Insurance Scheme (NIS) through the Ministry of Labour. NIS provides social security benefits — illness, maternity, and retirement — to Jamaican workers. As an employer, you contribute 3% of each employee's gross salary (up to the JMD $5,000,000 annual ceiling), and you deduct a matching 3% from the employee's pay. To register: visit any NIS office with your company TRN, Certificate of Registration (for companies), or national ID (sole traders). You will receive an NIS employer registration number. Report new employees to NIS within 7 days of their start date."
+    },
+    {
+      "heading": "Step 3 — Register with NHT as an employer",
+      "content": "The National Housing Trust (NHT) requires all employers to register and make contributions on behalf of employees. Employees contribute 2% of gross salary; employers contribute 3% of gross salary. There is no ceiling on NHT contributions. Registration is done at any NHT office. Employees can reclaim their NHT contributions after 7 years if unused for housing benefits — this is an employee entitlement that Jamaican workers value highly."
+    },
+    {
+      "heading": "Step 4 — Understand the statutory deductions you must calculate",
+      "content": "As a Jamaican employer, you must calculate and deduct four statutory contributions from your employee's gross salary every pay period:\n\n1. **PAYE (Pay As You Earn)** — Income tax withheld from earnings above the annual threshold (JMD $1,500,096/year for 2025, rising to JMD $1,902,360 from April 2026). The tax rate is 25% on income between the threshold and JMD $6,000,000, and 30% above that.\n\n2. **NIS (National Insurance Scheme)** — 3% employee contribution on gross salary up to JMD $5,000,000/year ceiling. Maximum monthly deduction: JMD $12,500.\n\n3. **NHT (National Housing Trust)** — 2% employee contribution on gross salary. No ceiling.\n\n4. **Education Tax** — 2.25% employee contribution on gross salary. No ceiling.\n\nYou also pay the employer's share: NIS 3%, NHT 3%, Education Tax 3.5% — these come out of your business's pocket, not the employee's salary."
+    },
+    {
+      "heading": "Step 5 — Calculate PAYE correctly",
+      "content": "PAYE is the most complex deduction because of the tax threshold and two-rate structure. Here is how to calculate PAYE for a monthly payroll:\n\n1. Take the employee's gross monthly salary\n2. Deduct the employee NIS contribution (gross × 3%, max JMD $12,500/month)\n3. Calculate annual taxable income: (gross monthly salary − NIS) × 12, minus the annual threshold (JMD $1,500,096 for the current tax year; JMD $1,902,360 from April 2026)\n4. If taxable income is zero or negative: no PAYE due\n5. If taxable income is positive: apply 25% up to JMD $4,499,904 above the threshold, then 30% on any excess\n6. Divide annual PAYE by 12 for the monthly deduction\n\nThis is why payroll software is valuable — the calculation changes every time the government announces threshold adjustments, and manual errors are common."
+    },
+    {
+      "heading": "Step 6 — Generate compliant payslips",
+      "content": "Every employee in Jamaica must receive a payslip showing: gross earnings, all statutory deductions itemised (PAYE, NIS, NHT, Education Tax), net take-home pay, and the pay period covered. There is no prescribed format, but the Jamaica Labour Relations and Industrial Disputes Act requires that employees be informed of their deductions. Best practice is a professional payslip showing each deduction line and the employer's contribution totals. Payroll Jamaica generates compliant payslips automatically after each pay run."
+    },
+    {
+      "heading": "Step 7 — Remit statutory deductions by the 14th of each month",
+      "content": "All statutory deductions (PAYE, NIS, NHT, Education Tax) must be remitted to the respective agencies by the **14th of the following month**. Late remittance triggers penalties and interest charges from TAJ, NIS, and NHT. For example: January payroll deductions must be remitted by February 14. The remittance schedule you submit to TAJ must show each employee's name, TRN, gross salary, and each deduction amount. Payroll Jamaica produces this schedule automatically in TAJ's accepted format."
+    },
+    {
+      "heading": "Step 8 — File annual returns (SO1 and P24)",
+      "content": "At the end of each tax year (March 31 in Jamaica), employers must file:\n- **SO1 (Annual Statutory Deductions Return)** with TAJ — a summary of all PAYE deducted from each employee during the year\n- **P24 (Annual Tax Deduction Certificate)** — provided to each employee showing their total earnings and PAYE deducted during the year\n\nThese must be filed by March 31. Missing this deadline is one of the most common compliance failures for small Jamaican employers."
+    },
+    {
+      "heading": "Using payroll software vs. doing it manually",
+      "content": "You can do all of the above manually in Excel or a notebook. Many Jamaican small business owners do. But manual payroll carries significant risks: PAYE threshold changes are easy to miss, NIS ceiling calculations are error-prone, and TAJ remittance schedules require exact formats. Payroll software like Payroll Jamaica automates every calculation, automatically updates rates when the Ministry of Finance announces changes, and generates all required documents (payslips, remittance schedules, SO1, P24) at the click of a button. For most small businesses, the cost of the software (from J$2,500/month) is recouped in the first payroll cycle from time saved."
+    },
+    {
+      "heading": "Summary: Payroll checklist for your first Jamaica employee",
+      "content": "□ Register with TAJ as an employer (before first pay date)\n□ Register with NIS as an employer\n□ Register with NHT as an employer\n□ Collect employee TRN, NIS number, and NHT number\n□ Set up payroll calculations: PAYE, NIS (3%), NHT (2%), Education Tax (2.25%)\n□ Run first payroll and generate payslips\n□ Remit PAYE, NIS, NHT, Education Tax by the 14th of the following month\n□ Provide P24 to employee by March 31\n□ File SO1 with TAJ by March 31"
+    }
+  ]
+}

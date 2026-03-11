@@ -46,6 +46,16 @@ export default function FooterSection({
       ],
     },
     {
+      title: "Solutions",
+      links: [
+        { text: "Payroll Software Jamaica", href: "/payroll-software-jamaica" },
+        { text: "Small Business Payroll", href: "/small-business-payroll-jamaica" },
+        { text: "Payroll Outsourcing", href: "/payroll-outsourcing-jamaica" },
+        { text: "HR Software Jamaica", href: "/hr-software-jamaica" },
+        { text: "Payroll Company Jamaica", href: "/payroll-company-jamaica" },
+      ],
+    },
+    {
       title: "Industries",
       links: [
         { text: "Hospitality", href: "/industries/hospitality" },
@@ -55,10 +65,11 @@ export default function FooterSection({
       ],
     },
     {
-      title: "Blog",
+      title: "Resources",
       links: [
-        { text: "Latest", href: "/blog" },
-        { text: "Articles", href: "/blog" },
+        { text: "Blog", href: "/blog" },
+        { text: "Payroll Setup Guide", href: "/blog/how-to-set-up-payroll-for-first-employee-jamaica" },
+        { text: "Compare vs Spreadsheets", href: "/compare/spreadsheets" },
       ],
     },
     {
