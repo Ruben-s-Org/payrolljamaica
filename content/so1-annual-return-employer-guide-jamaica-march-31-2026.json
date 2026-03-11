@@ -1,0 +1,82 @@
+{
+  "title": "SO1 Annual Return Jamaica — Complete Employer Guide for March 31, 2026",
+  "slug": "so1-annual-return-employer-guide-jamaica-march-31-2026",
+  "description": "Complete guide for Jamaican employers filing the S01 and S02 annual returns before the March 31, 2026 deadline. Covers what SO1 is, who must file, the exact process, penalties for late filing, and how to complete the return correctly.",
+  "keywords": [
+    "SO1 Jamaica",
+    "SO1 annual return Jamaica",
+    "S01 employer return Jamaica",
+    "S02 employer annual return Jamaica",
+    "annual return Jamaica payroll",
+    "March 31 Jamaica payroll deadline",
+    "TAJ annual return employer",
+    "employer annual return TAJ Jamaica",
+    "payroll annual return Jamaica 2026",
+    "tax year end Jamaica employer",
+    "Jamaica payroll March deadline",
+    "SO1 SO2 Jamaica",
+    "annual return payroll Jamaica employer",
+    "TAJ filing March 31 Jamaica",
+    "Jamaica employer tax return 2026"
+  ],
+  "publishedAt": "2026-03-11",
+  "readingTime": "10 min",
+  "category": "compliance",
+  "tags": ["SO1", "annual return", "Jamaica", "TAJ", "March 31", "payroll compliance", "employer obligations", "2026"],
+  "urgencyBanner": "⚠️ The March 31, 2026 deadline is 20 days away. Every Jamaican employer must file S01 and S02 or face penalties.",
+  "sections": [
+    {
+      "heading": "What is the SO1 annual return in Jamaica?",
+      "content": "The S01 is Jamaica's Employer Annual Return — a statutory declaration that every registered employer must submit to Tax Administration Jamaica (TAJ) by March 31 each year. It summarises the total emoluments paid to each employee during the tax year (April 1 to March 31) and all statutory deductions made: PAYE, NIS, NHT, and Education Tax. The S02 is the accompanying employer-level summary that aggregates the individual employee figures. Together, S01 and S02 allow TAJ to reconcile your monthly PAYE remittances against the full-year total — and identify any underpayment that may attract an assessment."
+    },
+    {
+      "heading": "Who must file the SO1 annual return?",
+      "content": "Every employer in Jamaica who has paid emoluments to one or more employees during the tax year ending March 31, 2026, must file. This includes: companies, sole traders, partnerships, and non-profit organisations. It also includes employers who pay casual workers, part-time employees, and seasonal staff — not just full-time permanent employees. If you employed even one person during the 2025/2026 tax year, you are legally required to submit an S01 return for that employee. There are no minimum earnings or minimum hours thresholds — all employment relationships create an S01 filing obligation."
+    },
+    {
+      "heading": "The March 31 deadline — what happens if you miss it?",
+      "content": "The S01/S02 annual return must be submitted to TAJ by March 31, 2026 — the last day of Jamaica's tax year. Missing this deadline exposes employers to: a fixed penalty of JMD $5,000 per return not filed, additional interest on any underpaid PAYE tax at 50% per annum calculated daily, and audit risk — late filers are more likely to be selected for TAJ compliance reviews. TAJ has increased enforcement of annual return filings in recent years. With payroll software like Payroll Jamaica, the S01 can be generated in minutes from existing payroll data, eliminating the most common reason for missing the deadline: the time required to compile employee data manually."
+    },
+    {
+      "heading": "What information goes on the SO1 form?",
+      "content": "The S01 must be completed for every employee who received emoluments during the tax year. For each employee you need: full name, TRN (Tax Registration Number), NIS number, total gross emoluments paid for the year (April 1, 2025 to March 31, 2026), total PAYE deducted, total NIS employee contributions deducted, total NHT employee contributions deducted, total Education Tax deducted, total HEART contributions (where applicable), any non-cash benefits provided (company car, housing allowance, health insurance), any pension contributions, and the employee's leave period if applicable. All figures must reconcile to your 12 monthly PAYE remittance schedules (the P6 or monthly employer schedules). If there is a discrepancy, TAJ will issue an assessment for the difference."
+    },
+    {
+      "heading": "The SO2 form — the employer summary",
+      "content": "The S02 is the employer-level aggregate of all your S01 employee data. It shows: total number of employees, total gross emoluments for all staff combined, total PAYE collected, total NIS (employee and employer combined), total NHT (employee and employer combined), total Education Tax (employee and employer), total HEART contributions, and any adjustments or prior-year corrections. The S02 must match the sum of all individual S01 entries. Any mismatch will trigger a TAJ query."
+    },
+    {
+      "heading": "Step-by-step guide to filing SO1/SO2 in Jamaica",
+      "content": "Step 1 — Gather your payroll data. Pull all 12 months of pay run records from April 1, 2025 to March 31, 2026. If you use Payroll Jamaica, this is one export. If you use spreadsheets, compile each employee's monthly earnings and deductions into a single summary. Step 2 — Reconcile against monthly remittances. Your annual PAYE total must equal the sum of your 12 monthly P6 remittances. If there are gaps — months you forgot to remit, or months with calculation errors — correct them now before filing. Voluntary corrections attract lower penalties than TAJ-discovered discrepancies. Step 3 — Prepare individual S01 forms. Complete one S01 per employee. Include all emoluments — salary, bonuses, overtime, service charges, and non-cash benefits. Step 4 — Prepare the S02 employer summary. Total all employee figures. Double-check that the S02 totals match your S01 entries. Step 5 — Submit to TAJ. Annual returns can be submitted at any TAJ office or via the myTax online portal. For employers with 50+ employees, electronic submission is strongly recommended. Step 6 — Keep copies. Retain copies of all S01 and S02 forms for at least 7 years. TAJ can audit any year within the 6-year statutory limitation period."
+    },
+    {
+      "heading": "Common mistakes Jamaican employers make on SO1 returns",
+      "content": "Omitting casual and seasonal workers: All workers paid during the year must be included — not just permanent staff. Forgetting service charge income: Tip and service charge distributions to employees are taxable emoluments and must appear on the S01. Mismatching with monthly remittances: The most common cause of TAJ assessments is an annual total that does not match the sum of monthly P6 payments. Incorrect TRN numbers: S01 forms with wrong TRNs are rejected and resubmission counts as a late filing. Missing non-cash benefits: Company cars, housing allowances, and subsidised meals are emoluments and must be declared. Under-declaring PAYE: If your monthly PAYE calculations used the wrong threshold or rate, the annual reconciliation will expose the gap."
+    },
+    {
+      "heading": "How Payroll Jamaica automates the SO1/SO2 process",
+      "content": "For employers using Payroll Jamaica, the annual return process is automatic. All 12 months of payroll data are stored in the system and reconcile automatically to your monthly submissions. At year-end, you run the Annual Return Export — the system generates: a complete S01 for each employee with all statutory figures pre-populated, the S02 employer aggregate summary, a reconciliation report showing monthly vs annual totals, and a PDF package ready for TAJ submission or audit. The process that takes a payroll team days with spreadsheets takes under 30 minutes with Payroll Jamaica."
+    },
+    {
+      "heading": "Key dates for Jamaica's 2025/2026 tax year",
+      "content": "The Jamaica tax year runs April 1 to March 31. Key dates for employers: April 1, 2025 — start of current tax year. 14th of each month — monthly PAYE/NIS/NHT/Education Tax remittance deadline. March 31, 2026 — end of current tax year AND deadline for S01/S02 annual return submission. First April 2026 — start of new tax year. Note: if March 31 falls on a weekend, the deadline typically extends to the next business day. In 2026, March 31 is a Tuesday — no extension applies."
+    },
+    {
+      "heading": "Quick reference: Jamaica statutory rates for 2025/2026",
+      "content": "PAYE: 25% on income above JMD $1,500,096 per year (J$125,008 per month), 30% on income above JMD $6,000,000. NIS: 3% employee + 3% employer (ceiling: JMD $5,000,000 annual salary). NHT: 2% employee + 3% employer (no ceiling). Education Tax: 2.25% employee + 3.5% employer. HEART/NSTA Trust: 3% employer only (for employers with 10+ employees). All rates are applied to gross emoluments before any deductions."
+    },
+    {
+      "heading": "Need help filing? Get S01 done before March 31",
+      "content": "With 20 days to the deadline, there is still time to get compliant. Payroll Jamaica generates S01 and S02 automatically from your existing payroll data. Start your free trial today and have your annual return ready to submit within the same week."
+    }
+  ],
+  "relatedArticles": [
+    "march-31-nht-annual-return-deadline-jamaica-2026",
+    "how-to-set-up-payroll-for-first-employee-jamaica",
+    "so1-employer-annual-return-jamaica-guide-2026"
+  ],
+  "cta": {
+    "text": "Generate your S01 automatically — start free trial",
+    "href": "#"
+  }
+}

@@ -58,6 +58,8 @@ export default function FooterSection({
     {
       title: "Industries",
       links: [
+        { text: "Hotel Payroll Jamaica", href: "/payroll-jamaica-hotels" },
+        { text: "Restaurant Payroll Jamaica", href: "/payroll-jamaica-restaurants" },
         { text: "Hospitality", href: "/industries/hospitality" },
         { text: "Retail", href: "/industries/retail" },
         { text: "Construction", href: "/industries/construction" },
