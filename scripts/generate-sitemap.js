@@ -218,6 +218,18 @@ function getOfferingsRoutes() {
   return Array.from(routes);
 }
 
+// Priority map for pages with non-default priorities
+const PAGE_PRIORITIES = {
+  '/': '1.0',
+  '/features': '0.8',
+  '/payroll-services': '0.8',
+};
+
+function getPagePriority(u) {
+  if (PAGE_PRIORITIES[u]) return PAGE_PRIORITIES[u];
+  return '0.7';
+}
+
 function buildXml(urls) {
   const header = '<?xml version="1.0" encoding="UTF-8"?>\n';
   const open = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
@@ -225,7 +237,7 @@ function buildXml(urls) {
   const items = urls.map((u) => {
     const isHome = u === '/';
     const changefreq = isHome ? 'weekly' : 'monthly';
-    const priority = isHome ? '1.0' : '0.7';
+    const priority = getPagePriority(u);
     return (
       '  <url>\n' +
       `    <loc>${SITE_URL}${u}</loc>\n` +
@@ -245,6 +257,16 @@ async function main() {
   urls.add('/');
   // Include key app pages
   urls.add('/calculator');
+  urls.add('/features');
+  urls.add('/payroll-services');
+  // Industry pages
+  urls.add('/industries/hospitality');
+  urls.add('/industries/retail');
+  urls.add('/industries/construction');
+  urls.add('/industries/healthcare');
+  // Resource and comparison pages
+  urls.add('/resources');
+  urls.add('/compare/spreadsheets');
   // Include legal pages
   urls.add('/privacy');
   urls.add('/terms');

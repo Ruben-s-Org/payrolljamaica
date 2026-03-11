@@ -39,9 +39,19 @@ export default function FooterSection({
     {
       title: "Product",
       links: [
-        { text: "Features", href: "/" },
+        { text: "Features", href: "/features" },
+        { text: "Payroll Services", href: "/payroll-services" },
         { text: "Payroll Calculator", href: "/calculator" },
         { text: "Pricing", href: "/#pricing" },
+      ],
+    },
+    {
+      title: "Industries",
+      links: [
+        { text: "Hospitality", href: "/industries/hospitality" },
+        { text: "Retail", href: "/industries/retail" },
+        { text: "Construction", href: "/industries/construction" },
+        { text: "Healthcare", href: "/industries/healthcare" },
       ],
     },
     {

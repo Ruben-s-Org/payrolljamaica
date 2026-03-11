@@ -177,6 +177,44 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         })}
       </Script>
       {/* JSON-LD: BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
+              { "@type": "ListItem", position: 2, name: "Blog", item: `${siteConfig.url}/blog` },
+              { "@type": "ListItem", position: 3, name: post.title, item: `${siteConfig.url}/blog/${post.seo.slug}` },
+            ],
+          }),
+        }}
+      />
+      {/* JSON-LD: Article */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: post.seo.title,
+            description: post.seo.description || "",
+            url: `${siteConfig.url}/blog/${post.seo.slug}`,
+            publisher: {
+              "@type": "Organization",
+              name: siteConfig.name,
+              url: siteConfig.url,
+              logo: {
+                "@type": "ImageObject",
+                url: `${siteConfig.url}/og.jpg`,
+              },
+            },
+            inLanguage: "en-JM",
+          }),
+        }}
+      />
+      {/* JSON-LD: BreadcrumbList (legacy Script tag) */}
       <Script id="ld-json-breadcrumb" type="application/ld+json" strategy="afterInteractive">
         {JSON.stringify({
           "@context": "https://schema.org",

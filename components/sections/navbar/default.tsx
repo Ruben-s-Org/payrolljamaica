@@ -45,10 +45,14 @@ export default function Navbar({
   name = "Payroll Jamaica",
   homeUrl = siteConfig.url,
   mobileLinks = [
+    { text: "Features", href: "/features" },
+    { text: "Industries", href: "/industries/hospitality" },
     { text: "Calculator", href: "/calculator" },
     { text: "Contact", href: siteConfig.getStartedUrl },
   ],
   actions = [
+    { text: "Features", href: "/features", isButton: false },
+    { text: "Industries", href: "/industries/hospitality", isButton: false },
     { text: "Calculator", href: "/calculator", isButton: false },
     { text: "Contact us", href: "#", isButton: false },
     { text: "Get Started", href: "#", isButton: true, variant: "default" },
@@ -120,16 +124,26 @@ export default function Navbar({
                   >
                     <span>{name}</span>
                   </a>
-                  {mobileLinks.map((link, index) => (
-                    <a
-                      key={index}
-                      href="#"
-                      data-open-fillout="true"
-                      className="text-muted-foreground hover:text-foreground"
-                    >
-                      {"Contact us"}
-                    </a>
-                  ))}
+                  {mobileLinks.map((link, index) =>
+                    link.href === "#" ? (
+                      <a
+                        key={index}
+                        href="#"
+                        data-open-fillout="true"
+                        className="text-muted-foreground hover:text-foreground"
+                      >
+                        {link.text}
+                      </a>
+                    ) : (
+                      <a
+                        key={index}
+                        href={link.href}
+                        className="text-muted-foreground hover:text-foreground"
+                      >
+                        {link.text}
+                      </a>
+                    )
+                  )}
                 </nav>
               </SheetContent>
             </Sheet>

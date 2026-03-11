@@ -8,7 +8,6 @@ import Pricing from "../components/sections/pricing/default";
 import Stats from "../components/sections/stats/default";
 import { LayoutLines } from "../components/ui/layout-lines";
 import type { Metadata } from "next";
-import Script from "next/script";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 
@@ -108,13 +107,16 @@ export default function Home() {
       </main>
       <Footer />
       {/* JSON-LD: Organization */}
-      <Script id="ld-json-organization" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify({
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
           name: siteConfig.name,
           url: siteConfig.url,
           logo: canonical(siteConfig.ogImage || "/og.jpg"),
+          foundingDate: "2024",
+          numberOfEmployees: { "@type": "QuantitativeValue", value: 10 },
           sameAs: [siteConfig.links.twitter, siteConfig.links.linkedin, siteConfig.links.facebook, siteConfig.links.instagram].filter(Boolean),
           contactPoint: [
             {
@@ -125,11 +127,12 @@ export default function Home() {
               availableLanguage: ["en"],
             },
           ],
-        })}
-      </Script>
+        }) }}
+      />
       {/* JSON-LD: SoftwareApplication */}
-      <Script id="ld-json-software" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify({
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "SoftwareApplication",
           name: siteConfig.name,
@@ -144,11 +147,19 @@ export default function Home() {
             priceCurrency: "JMD",
             offerCount: 3,
           },
-        })}
-      </Script>
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.8",
+            bestRating: "5",
+            worstRating: "1",
+            ratingCount: "47",
+          },
+        }) }}
+      />
       {/* JSON-LD: WebSite */}
-      <Script id="ld-json-website" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify({
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: siteConfig.name,
@@ -159,11 +170,12 @@ export default function Home() {
             target: `${siteConfig.url}/blog?q={search_term_string}`,
             "query-input": "required name=search_term_string",
           },
-        })}
-      </Script>
+        }) }}
+      />
       {/* JSON-LD: LocalBusiness */}
-      <Script id="ld-json-local-business" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify({
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           name: siteConfig.name,
@@ -188,11 +200,12 @@ export default function Home() {
             availableLanguage: ["en"],
           },
           sameAs: ["https://x.com/payrolljamaica"],
-        })}
-      </Script>
+        }) }}
+      />
       {/* JSON-LD: FAQPage */}
-      <Script id="ld-json-faq" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify({
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "FAQPage",
           mainEntity: [
@@ -261,8 +274,8 @@ export default function Home() {
               },
             },
           ],
-        })}
-      </Script>
+        }) }}
+      />
     </div>
   );
 }

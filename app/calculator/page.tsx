@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Navbar from "@/components/sections/navbar/default";
@@ -149,8 +148,9 @@ export default function CalculatorPage() {
         text="Stop calculating deductions manually. Let Payroll Jamaica handle PAYE, NIS, NHT, and Education Tax automatically."
       />
       {/* JSON-LD: WebApplication */}
-      <Script id="ld-json-webapp" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify({
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebApplication",
           name: "Jamaica Payroll Calculator 2025",
@@ -161,22 +161,24 @@ export default function CalculatorPage() {
           offers: { "@type": "Offer", price: "0", priceCurrency: "JMD" },
           inLanguage: "en-JM",
           publisher: { "@type": "Organization", name: siteConfig.name, url: siteConfig.url },
-        })}
-      </Script>
+        }) }}
+      />
       {/* JSON-LD: BreadcrumbList */}
-      <Script id="ld-json-breadcrumb" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify({
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
             { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
             { "@type": "ListItem", position: 2, name: "Payroll Calculator", item: canonical("/calculator") },
           ],
-        })}
-      </Script>
+        }) }}
+      />
       {/* JSON-LD: HowTo */}
-      <Script id="ld-json-howto" type="application/ld+json" strategy="afterInteractive">
-        {JSON.stringify({
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "HowTo",
           name: "How to Calculate PAYE in Jamaica (2025)",
@@ -189,8 +191,8 @@ export default function CalculatorPage() {
             { "@type": "HowToStep", name: "Calculate NHT and Education Tax", text: "Multiply gross salary by 2% for NHT and 2.25% for Education Tax. No ceilings apply." },
             { "@type": "HowToStep", name: "Sum all deductions", text: "Add PAYE + NIS + NHT + Education Tax to get total employee deductions. Subtract from gross to get take-home pay." },
           ],
-        })}
-      </Script>
+        }) }}
+      />
     </div>
   );
 }
