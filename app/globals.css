@@ -224,3 +224,43 @@
 [data-next-badge] {
   display: none !important;
 }
+
+/* Print styles for payslip PDF export */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .print\:block {
+    display: block !important;
+  }
+
+  /* Reset dark mode for print */
+  .dark {
+    --background: white;
+    --foreground: black;
+    --card: white;
+    --card-foreground: black;
+    --border: #e5e7eb;
+    --muted: #f3f4f6;
+    --muted-foreground: #6b7280;
+  }
+
+  /* Clean page layout */
+  @page {
+    margin: 1.5cm;
+    size: A4;
+  }
+
+  /* Ensure tables don't break across pages */
+  .divide-y > div {
+    break-inside: avoid;
+  }
+}
