@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Payroll Jamaica",
   url: "https://payrolljamaica.com",
-  getStartedUrl: "#",
+  getStartedUrl: "/calculator",
   ogImage: "/og.jpg",
   description:
     "Reliable, secure HR and payroll software built specifically for Jamaican businesses. Automate payroll, PAYE, NIS, NHT, and statutory compliance with ease.",

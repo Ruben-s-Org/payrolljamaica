@@ -55,12 +55,12 @@ export default function Hero({
   ),
   buttons = [
     {
-      href: "#",
-      text: "Get Started",
+      href: "/calculator",
+      text: "Try Free Calculator",
       variant: "default",
     },
     {
-      href: "#",
+      href: "#contact",
       text: "Contact us",
       variant: "ghost",
     },
@@ -87,7 +87,7 @@ export default function Hero({
                   size="lg"
                   asChild
                 >
-                  <a href={button.href} data-open-fillout="true">
+                  <a href={button.href}>
                     {button.icon}
                     {button.text}
                     {button.iconRight}

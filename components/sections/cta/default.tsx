@@ -26,12 +26,12 @@ export default function CTA({
   title = "Ready to simplify payroll?",
   buttons = [
     {
-      href: "#",
-      text: "Get Started",
+      href: "/calculator",
+      text: "Try Free Calculator",
       variant: "default",
     },
     {
-      href: "#",
+      href: "#contact",
       text: "Contact us",
       variant: "ghost",
     },
@@ -53,7 +53,7 @@ export default function CTA({
                 size="lg"
                 asChild
               >
-                <a href={button.href} data-open-fillout="true">
+                <a href={button.href}>
                   {button.icon}
                   {button.text}
                   {button.iconRight}

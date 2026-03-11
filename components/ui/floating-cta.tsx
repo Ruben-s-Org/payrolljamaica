@@ -30,11 +30,10 @@ export default function FloatingCTA({ headline, text }: FloatingCTAProps) {
             </div>
             <div className="flex shrink-0 gap-3">
               <a
-                href={siteConfig.getStartedUrl}
-                data-open-fillout="true"
+                href="/calculator"
                 className="inline-flex h-9 items-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow hover:opacity-90"
               >
-                Get Started
+                Try Free Calculator
               </a>
             </div>
           </div>

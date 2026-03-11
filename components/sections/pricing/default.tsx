@@ -28,9 +28,8 @@ export default function Pricing({
         "Everything you need to run payroll accurately and stay compliant.",
       cta: {
         variant: "glow",
-        label: "Get Started",
-        href: "#",
-        dataAttributes: { "data-open-fillout": "true" },
+        label: "Try Free Calculator",
+        href: "/calculator",
       },
       features: [
         "Automated PAYE, NIS, NHT calculations",
@@ -52,9 +51,8 @@ export default function Pricing({
         "Most popular — everything in Starter plus team management tools.",
       cta: {
         variant: "default",
-        label: "Get Started",
-        href: "#",
-        dataAttributes: { "data-open-fillout": "true" },
+        label: "Try Free Calculator",
+        href: "/calculator",
       },
       features: [
         "Everything in Starter",

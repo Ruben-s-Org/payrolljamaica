@@ -54,8 +54,8 @@ export default function Navbar({
     { text: "Features", href: "/features", isButton: false },
     { text: "Industries", href: "/industries/hospitality", isButton: false },
     { text: "Calculator", href: "/calculator", isButton: false },
-    { text: "Contact us", href: "#", isButton: false },
-    { text: "Get Started", href: "#", isButton: true, variant: "default" },
+    { text: "Contact us", href: "#contact", isButton: false },
+    { text: "Try Calculator", href: "/calculator", isButton: true, variant: "default" },
   ],
   showNavigation = false,
   customNavigation,
@@ -80,7 +80,7 @@ export default function Navbar({
                   variant={action.variant || "default"}
                   asChild
                 >
-                  <a href="#" data-open-fillout="true">
+                  <a href={action.href}>
                     {action.icon}
                     {action.text}
                     {action.iconRight}
