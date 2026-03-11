@@ -1,25 +1,36 @@
 {
-  "title": "How to Set Up Payroll for Your First Employee in Jamaica (2026 Step-by-Step Guide)",
-  "slug": "how-to-set-up-payroll-for-first-employee-jamaica",
-  "description": "A complete guide for Jamaican employers hiring their first employee. Covers TAJ employer registration, NIS and NHT setup, PAYE calculations, payslip requirements, and monthly remittance deadlines.",
-  "keywords": [
-    "payroll setup Jamaica first employee",
-    "hire first employee Jamaica",
-    "employer registration Jamaica",
-    "TAJ employer registration Jamaica",
-    "NIS employer registration Jamaica",
-    "NHT employer registration Jamaica",
-    "PAYE first employee Jamaica",
-    "payroll setup Jamaica",
-    "how to do payroll Jamaica",
-    "Jamaican payroll beginner guide",
-    "small business payroll Jamaica",
-    "payroll Jamaica 2026"
-  ],
+  "seo": {
+    "slug": "how-to-set-up-payroll-for-first-employee-jamaica",
+    "title": "How to Set Up Payroll for Your First Employee in Jamaica (2026 Step-by-Step Guide)",
+    "description": "A complete guide for Jamaican employers hiring their first employee. Covers TAJ employer registration, NIS and NHT setup, PAYE calculations, payslip requirements, and monthly remittance deadlines.",
+    "keywords": [
+      "payroll setup Jamaica first employee",
+      "hire first employee Jamaica",
+      "employer registration Jamaica",
+      "TAJ employer registration Jamaica",
+      "NIS employer registration Jamaica",
+      "NHT employer registration Jamaica",
+      "PAYE first employee Jamaica",
+      "payroll setup Jamaica",
+      "how to do payroll Jamaica",
+      "Jamaican payroll beginner guide",
+      "small business payroll Jamaica",
+      "payroll Jamaica 2026"
+    ]
+  },
   "publishedAt": "2026-03-11",
   "readingTime": "12 min",
   "category": "payroll-guides",
-  "tags": ["payroll setup", "first employee", "Jamaica", "TAJ", "NIS", "NHT", "PAYE", "small business"],
+  "tags": [
+    "payroll setup",
+    "first employee",
+    "Jamaica",
+    "TAJ",
+    "NIS",
+    "NHT",
+    "PAYE",
+    "small business"
+  ],
   "sections": [
     {
       "heading": "Introduction: You hired someone — now what?",

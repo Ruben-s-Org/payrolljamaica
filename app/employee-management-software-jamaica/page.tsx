@@ -572,7 +572,7 @@ export default function EmployeeManagementSoftwareJamaica() {
       <Footer />
       <FloatingCTA
         headline="Manage Your Jamaica Workforce From One Dashboard"
-        subheadline="HR records, payroll, and compliance — built for Jamaican businesses."
+        text="HR records, payroll, and compliance — built for Jamaican businesses."
       />
     </>
   );

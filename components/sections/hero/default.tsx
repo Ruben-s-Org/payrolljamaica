@@ -31,9 +31,9 @@ interface HeroProps {
 }
 
 export default function Hero({
-  title = "Payroll made for Jamaican businesses",
+  title = "Calculate Your Payroll Free — Built for Jamaica",
   description =
-    "Run payroll in minutes. Stay secure and compliant with MOF requirements and generate statutory reports with one click.",
+    "Automate PAYE, NIS, NHT, and Education Tax in minutes. Compliant with MOF requirements. Generate payslips and statutory reports with one click.",
   mockup = (
     <Screenshot
       srcLight="/dashboard-light.png"
@@ -55,14 +55,14 @@ export default function Hero({
   ),
   buttons = [
     {
-      href: "/calculator",
-      text: "Try Free Calculator",
-      variant: "default",
+      href: "#",
+      text: "Start Free",
+      variant: "default" as const,
     },
     {
-      href: "#contact",
-      text: "Contact us",
-      variant: "ghost",
+      href: "/calculator",
+      text: "Calculate Your Payroll",
+      variant: "ghost" as const,
     },
   ],
   className,
@@ -87,7 +87,7 @@ export default function Hero({
                   size="lg"
                   asChild
                 >
-                  <a href={button.href}>
+                  <a href={button.href} {...(button.href === "#" ? { "data-open-fillout": "true" } : {})}>
                     {button.icon}
                     {button.text}
                     {button.iconRight}
