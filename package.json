@@ -12,8 +12,6 @@
     "gen:sitemap": "node scripts/generate-sitemap.js --verbose"
   },
   "dependencies": {
-    "@types/sanitize-html": "^2.13.0",
-    "sanitize-html": "^2.13.1",
     "@fillout/react": "^3.0.0",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-avatar": "^1.1.0",
@@ -22,6 +20,7 @@
     "@radix-ui/react-icons": "^1.3.2",
     "@radix-ui/react-navigation-menu": "^1.2.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "@types/sanitize-html": "^2.13.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.441.0",
@@ -29,6 +28,7 @@
     "next-themes": "^0.4.4",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "sanitize-html": "^2.17.1",
     "tailwind-merge": "^2.5.3",
     "tw-animate-css": "^1.0.7"
   },
