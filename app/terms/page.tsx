@@ -27,7 +27,7 @@ export default function TermsPage() {
         <Section className="py-16">
           <div className="max-w-container mx-auto px-4 prose prose-invert">
             <h1>Terms of Service</h1>
-            <p><strong>Last updated:</strong> {new Date().toLocaleDateString()}</p>
+            <p><strong>Last updated:</strong> March 11, 2026</p>
 
             <p>
               These Terms of Service (the "Terms") govern your access to and use of the Payroll Jamaica website,

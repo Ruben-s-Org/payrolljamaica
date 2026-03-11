@@ -27,7 +27,7 @@ export default function PrivacyPage() {
         <Section className="py-16">
           <div className="max-w-container mx-auto px-4 prose prose-invert">
             <h1>Privacy Policy</h1>
-            <p><strong>Last updated:</strong> {new Date().toLocaleDateString()}</p>
+            <p><strong>Last updated:</strong> March 11, 2026</p>
 
             <p>
               This Privacy Policy explains how Payroll Jamaica ("Payroll Jamaica", "we", "our", or "us") collects,
