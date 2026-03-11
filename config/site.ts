@@ -10,6 +10,7 @@ export const siteConfig = {
     linkedin: "https://linkedin.com/company/payrolljamaica",
     facebook: "https://facebook.com/payrolljamaica",
     instagram: "https://instagram.com/payrolljamaica",
+    whatsapp: "https://wa.me/18761234567?text=Hi%2C%20I%27m%20interested%20in%20PayrollJamaica%20for%20my%20business",
     email: "mailto:info@payrolljamaica.com",
   },
   pricing: {

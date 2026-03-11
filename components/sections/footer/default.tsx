@@ -65,6 +65,7 @@ export default function FooterSection({
         { text: "Facebook", href: siteConfig.links.facebook },
         { text: "Instagram", href: siteConfig.links.instagram },
         { text: "X / Twitter", href: siteConfig.links.twitter },
+        { text: "WhatsApp Us", href: siteConfig.links.whatsapp },
       ],
     },
   ],

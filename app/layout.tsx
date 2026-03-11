@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/contexts/theme-provider";
 import { inter } from "@/lib/fonts";
 import FilloutProvider from "@/components/clients/fillout-provider";
 import FilloutListener from "@/components/clients/fillout-listener";
+import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 
 import { siteConfig } from "../config/site";
 
@@ -92,6 +93,7 @@ export default function RootLayout({
           <FilloutProvider>
             {children}
             <FilloutListener />
+            <WhatsAppButton />
           </FilloutProvider>
         </ThemeProvider>
       </body>
