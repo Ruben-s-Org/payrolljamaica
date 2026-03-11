@@ -69,6 +69,7 @@ export default function FooterSection({
       links: [
         { text: "Blog", href: "/blog" },
         { text: "Payroll Setup Guide", href: "/blog/how-to-set-up-payroll-for-first-employee-jamaica" },
+        { text: "Best Payroll Software Jamaica", href: "/compare/payroll-software-jamaica" },
         { text: "Compare vs Spreadsheets", href: "/compare/spreadsheets" },
       ],
     },
