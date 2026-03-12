@@ -6,15 +6,16 @@ function Navbar({ className, ...props }: React.ComponentProps<"nav">) {
   return (
     <nav
       data-slot="navbar"
+      aria-label="Main"
       className={cn("flex items-center justify-between py-4", className)}
       {...props}
     />
   );
 }
 
-function NavbarLeft({ className, ...props }: React.ComponentProps<"nav">) {
+function NavbarLeft({ className, ...props }: React.ComponentProps<"div">) {
   return (
-    <nav
+    <div
       data-slot="navbar-left"
       className={cn("flex items-center justify-start gap-4", className)}
       {...props}
@@ -22,9 +23,9 @@ function NavbarLeft({ className, ...props }: React.ComponentProps<"nav">) {
   );
 }
 
-function NavbarRight({ className, ...props }: React.ComponentProps<"nav">) {
+function NavbarRight({ className, ...props }: React.ComponentProps<"div">) {
   return (
-    <nav
+    <div
       data-slot="navbar-right"
       className={cn("flex items-center justify-end gap-4", className)}
       {...props}
@@ -32,9 +33,9 @@ function NavbarRight({ className, ...props }: React.ComponentProps<"nav">) {
   );
 }
 
-function NavbarCenter({ className, ...props }: React.ComponentProps<"nav">) {
+function NavbarCenter({ className, ...props }: React.ComponentProps<"div">) {
   return (
-    <nav
+    <div
       data-slot="navbar-center"
       className={cn("flex items-center justify-center gap-4", className)}
       {...props}

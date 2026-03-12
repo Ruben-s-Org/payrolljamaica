@@ -14,7 +14,7 @@ export default function NotFound() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground">
       <Navbar />
-      <main className="flex-1 flex items-center justify-center px-4">
+      <main id="main-content" className="flex-1 flex items-center justify-center px-4">
         <div className="text-center max-w-xl">
           <p className="text-primary text-sm font-semibold uppercase tracking-wider mb-4">
             404 — Page not found

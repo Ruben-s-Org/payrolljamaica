@@ -239,9 +239,9 @@ const baseDescription =
 
 export const metadata: Metadata = {
   title:
-    "Jamaica Payroll FAQ \u2014 PAYE, NIS, NHT, Education Tax & Compliance | PayrollJamaica",
+    "Jamaica Payroll FAQ — PAYE, NIS, NHT & Compliance",
   description: ensureMinDescription(
-    "Jamaica payroll FAQ with answers to common questions about PAYE income tax, NIS contributions, NHT, Education Tax, HEART/NSTA levy, SO1 filing, P24 certificates, payroll deadlines, and statutory compliance. Updated for 2026 tax year with current rates and thresholds.",
+    "Jamaica payroll FAQ: answers about PAYE, NIS, NHT, Education Tax, SO1 filing, P24 certificates, and compliance. Updated for 2026 rates.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -264,7 +264,7 @@ export const metadata: Metadata = {
   alternates: { canonical: canonical("/faq") },
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Jamaica Payroll FAQ \u2014 PAYE, NIS, NHT & Compliance Answers",
+    title: "Jamaica Payroll FAQ — PAYE, NIS, NHT & Compliance",
     description: baseDescription,
     url: canonical("/faq"),
     type: "website",
@@ -272,7 +272,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jamaica Payroll FAQ \u2014 PAYE, NIS, NHT & Compliance Answers",
+    title: "Jamaica Payroll FAQ — PAYE, NIS, NHT & Compliance",
     description: baseDescription,
   },
 };
@@ -320,7 +320,7 @@ export default function FAQPage() {
         dangerouslySetInnerHTML={{ __html: safeJsonLd(faqPageSchema) }}
       />
       <Navbar />
-      <main className="flex-1 w-full px-4 pb-28">
+      <main id="main-content" className="flex-1 w-full px-4 pb-28">
         <div className="max-w-3xl mx-auto py-14">
           {/* Breadcrumb */}
           <nav aria-label="Breadcrumb">

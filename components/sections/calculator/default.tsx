@@ -172,14 +172,14 @@ export default function PayrollCalculator() {
 
               {/* Pay frequency */}
               <div className="sm:col-span-2">
-                <label className="mb-2 block text-sm font-medium">Pay Frequency</label>
-                <div className="flex gap-3">
+                <label className="mb-2 block text-sm font-medium" id="frequency-label">Pay Frequency</label>
+                <div className="flex gap-3" role="group" aria-labelledby="frequency-label">
                   {(["monthly", "fortnightly", "weekly"] as PayFrequency[]).map((f) => (
                     <button
                       key={f}
                       type="button"
                       onClick={() => setFrequency(f)}
-                      className={`flex-1 rounded-lg border px-4 py-2 text-sm font-medium transition-colors ${
+                      className={`flex-1 rounded-lg border px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ${
                         frequency === f
                           ? "bg-primary text-primary-foreground border-primary"
                           : "border-border hover:bg-muted"
@@ -251,13 +251,15 @@ export default function PayrollCalculator() {
               </div>
 
               {/* Tab navigation — hidden when printing */}
-              <div className="flex gap-1 rounded-xl bg-muted/50 p-1 print:hidden">
+              <div className="flex gap-1 rounded-xl bg-muted/50 p-1 print:hidden" role="tablist" aria-label="Result views">
                 {tabs.map((tab) => (
                   <button
                     key={tab.id}
                     type="button"
+                    role="tab"
+                    aria-selected={activeTab === tab.id}
                     onClick={() => setActiveTab(tab.id)}
-                    className={`flex-1 rounded-lg px-3 py-2 text-xs sm:text-sm font-medium transition-colors ${
+                    className={`flex-1 rounded-lg px-3 py-2 text-xs sm:text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ${
                       activeTab === tab.id
                         ? "bg-background text-foreground shadow-sm"
                         : "text-muted-foreground hover:text-foreground"
@@ -568,6 +570,7 @@ export default function PayrollCalculator() {
                         <input
                           type="email"
                           placeholder="you@company.com"
+                          aria-label="Email address"
                           value={emailInput}
                           onChange={(e) => setEmailInput(e.target.value)}
                           onKeyDown={(e) => {

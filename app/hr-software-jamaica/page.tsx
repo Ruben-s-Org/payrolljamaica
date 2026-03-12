@@ -11,9 +11,9 @@ const baseDescription =
   "Payroll Jamaica provides HR software built for Jamaica — combining payroll automation, leave management, employee records, and statutory compliance in one platform. Manage your team, process payroll, and stay compliant with PAYE, NIS, NHT, and Education Tax requirements — all from one Jamaica-first HR system.";
 
 export const metadata: Metadata = {
-  title: "HR Software Jamaica — Human Resources Software for Jamaican Businesses | Payroll Jamaica",
+  title: "HR Software Jamaica — Human Resources for Jamaica",
   description: ensureMinDescription(
-    "Jamaica HR software that combines payroll automation, leave management, employee records, and PAYE/NIS/NHT compliance. Built for Jamaican businesses — not adapted from a foreign HR system.",
+    "Jamaica HR software combining payroll, leave management, employee records, and PAYE/NIS/NHT compliance. Built for Jamaican businesses.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "HR Software Jamaica — Payroll & HR for Jamaican Businesses | Payroll Jamaica",
+    title: "HR Software Jamaica — Payroll & HR for Jamaica",
     description: baseDescription,
     url: canonical("/hr-software-jamaica"),
     type: "website",
@@ -67,7 +67,7 @@ export default function HRSoftwareJamaicaPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
       <Navbar />
-      <main className="flex-1 w-full">
+      <main id="main-content" className="flex-1 w-full">
         {/* Hero */}
         <section className="w-full px-4 pt-24 pb-16 text-center">
           <div className="max-w-3xl mx-auto space-y-6">

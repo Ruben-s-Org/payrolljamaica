@@ -109,7 +109,7 @@ export default function FooterSection({
   className,
 }: FooterProps) {
   return (
-    <footer className={cn("bg-background w-full px-4", className)}>
+    <footer className={cn("bg-background w-full px-4", className)} role="contentinfo">
       <div className="max-w-container mx-auto">
         <Footer>
           <FooterContent>

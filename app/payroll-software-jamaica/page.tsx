@@ -11,9 +11,9 @@ const baseDescription =
   "Looking for payroll software in Jamaica? Payroll Jamaica is the leading payroll software built specifically for Jamaican businesses. Automate PAYE, NIS, NHT, and Education Tax calculations, generate compliant payslips, and manage your entire payroll in minutes — not hours. Trusted by Jamaican businesses from Kingston to Montego Bay.";
 
 export const metadata: Metadata = {
-  title: "Payroll Software Jamaica — Best HR & Payroll Software for Jamaican Businesses | Payroll Jamaica",
+  title: "Payroll Software Jamaica — #1 HR & Payroll Software",
   description: ensureMinDescription(
-    "The #1 payroll software for Jamaica. Automate PAYE, NIS, NHT, and Education Tax. Generate compliant payslips and statutory reports. Built specifically for Jamaica's tax rules — not a generic tool adapted for Jamaica.",
+    "The #1 payroll software for Jamaica. Automate PAYE, NIS, NHT & Education Tax. Generate compliant payslips and statutory reports — built for Jamaica.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Software Jamaica — Automate PAYE, NIS, NHT | Payroll Jamaica",
+    title: "Payroll Software Jamaica — Automate PAYE, NIS, NHT",
     description: baseDescription,
     url: canonical("/payroll-software-jamaica"),
     type: "website",
@@ -67,7 +67,7 @@ export default function PayrollSoftwareJamaicaPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
       <Navbar />
-      <main className="flex-1 w-full">
+      <main id="main-content" className="flex-1 w-full">
         {/* Hero */}
         <section className="w-full px-4 pt-24 pb-16 text-center">
           <div className="max-w-3xl mx-auto space-y-6">

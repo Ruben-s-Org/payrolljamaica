@@ -6,6 +6,7 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
 import { safeJsonLd } from "@/lib/jsonld";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll Jamaica serves Mandeville and Manchester Parish businesses with full PAYE, NIS, NHT, and Education Tax automation. Mandeville is Jamaica's third-largest commercial center — home to bauxite/alumina industries, retail, healthcare, and tourism. Payroll Jamaica is built for the Manchester parish business community.";
@@ -149,7 +150,7 @@ export default function PayrollMandevilleJamaicaPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
       <Navbar />
-      <main className="flex-1 w-full">
+      <main id="main-content" className="flex-1 w-full">
         {/* Hero */}
         <section className="w-full px-4 pt-24 pb-16 text-center">
           <div className="max-w-3xl mx-auto space-y-6">
@@ -278,6 +279,9 @@ export default function PayrollMandevilleJamaicaPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-mandeville-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">

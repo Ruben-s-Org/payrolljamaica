@@ -11,9 +11,9 @@ const baseDescription =
   "Complete glossary of Jamaica payroll terms — PAYE, NIS, NHT, Education Tax, HEART/NSTA, SO1, P24, TRN, and more. Understand every statutory deduction and payroll concept used in Jamaica.";
 
 export const metadata: Metadata = {
-  title: "Jamaica Payroll Glossary — Key Terms & Definitions | PayrollJamaica",
+  title: "Jamaica Payroll Glossary — Key Terms & Definitions",
   description: ensureMinDescription(
-    "Jamaica payroll glossary with clear definitions of PAYE, NIS, NHT, Education Tax, HEART/NSTA, SO1, P24, TRN, emoluments, statutory deductions, and every payroll term used in Jamaica.",
+    "Jamaica payroll glossary: clear definitions of PAYE, NIS, NHT, Education Tax, HEART/NSTA, SO1, P24, TRN, and every statutory deduction.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -242,7 +242,7 @@ export default function GlossaryPage() {
         dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
       <Navbar />
-      <main className="flex-1 w-full px-4 pb-28">
+      <main id="main-content" className="flex-1 w-full px-4 pb-28">
         <div className="max-w-3xl mx-auto py-14">
           <nav aria-label="Breadcrumb">
             <ol className="flex items-center gap-1 text-sm text-muted-foreground mb-6">

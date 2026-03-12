@@ -75,7 +75,7 @@ export default function NisCalculatorJamaicaPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
       <Navbar />
-      <main className="flex-1 w-full">
+      <main id="main-content" className="flex-1 w-full">
         {/* Hero */}
         <section className="w-full px-4 pt-20 pb-8 text-center">
           <div className="max-w-3xl mx-auto space-y-4">

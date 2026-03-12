@@ -140,7 +140,7 @@ export default function RestaurantPayrollJamaicaPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
       <Navbar />
-      <main className="flex-1 w-full">
+      <main id="main-content" className="flex-1 w-full">
         {/* Hero */}
         <section className="w-full px-4 pt-24 pb-16 text-center">
           <div className="max-w-3xl mx-auto space-y-6">

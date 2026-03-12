@@ -45,7 +45,7 @@ export default function NewEmployeeOnboardingChecklist() {
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
       <Navbar />
-      <main className="min-h-screen bg-background text-foreground">
+      <main id="main-content" className="min-h-screen bg-background text-foreground">
         {/* Hero */}
         <section className="w-full px-4 py-12 border-b border-border">
           <div className="max-w-3xl mx-auto">

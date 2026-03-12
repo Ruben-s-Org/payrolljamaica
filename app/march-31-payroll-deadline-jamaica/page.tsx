@@ -11,9 +11,9 @@ const baseDescription =
   "Jamaica employers have until March 31, 2026 to complete the S01 Annual Return, NHT Annual Return, P6 forms for employees, and year-end payroll reconciliation. Use this checklist to stay compliant and avoid TAJ penalties.";
 
 export const metadata: Metadata = {
-  title: "March 31 Jamaica Payroll Deadline 2026 — File Now or Face TAJ Penalties",
+  title: "March 31 Jamaica Payroll Deadline 2026 — File Now",
   description: ensureMinDescription(
-    "URGENT: March 31, 2026 is the deadline for Jamaica employers to file the S01 Annual Return, NHT Annual Return, and issue P6 forms. Avoid TAJ penalties of 40% interest — use our compliance checklist to file on time.",
+    "March 31, 2026 deadline for Jamaica employers to file S01, NHT Annual Return, and P6 forms. Avoid TAJ penalties — use our compliance checklist.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "March 31 Jamaica Payroll Deadline 2026 — File Now or Face TAJ Penalties",
+    title: "March 31 Jamaica Payroll Deadline 2026 — File Now",
     description: baseDescription,
     url: canonical("/march-31-payroll-deadline-jamaica"),
     type: "website",
@@ -120,7 +120,7 @@ export default function March31DeadlinePage() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
       <Navbar />
-      <main className="flex-1 w-full">
+      <main id="main-content" className="flex-1 w-full">
 
         {/* Hero */}
         <section className="w-full px-4 pt-24 pb-16 text-center">

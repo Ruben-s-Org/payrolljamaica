@@ -12,7 +12,7 @@ import { safeJsonLd } from "@/lib/jsonld";
 const blogBaseDescription = "Explore Payroll Jamaica's official blog for in-depth guides, product updates, statutory compliance tips, and best practices tailored to Jamaican businesses. Learn how to automate payroll calculations, stay compliant with PAYE, NIS, and NHT, streamline employee management, and reduce manual errors with clear workflows and local-first capabilities. We publish practical walkthroughs, implementation advice, and case studies to help owners, HR teams, and accountants save time, improve accuracy, and focus on growth. Whether you're setting up payroll for the first time or scaling your processes, our articles provide actionable insights, templates, and checklists designed for Jamaica's regulatory environment and real-world operations.";
 
 export const metadata: Metadata = {
-  title: "Payroll Jamaica Blog — Compliance Guides, PAYE, NIS & HR Tips",
+  title: "Payroll Jamaica Blog — PAYE, NIS & Compliance Tips",
   description: ensureMinDescription(
     "Latest updates and articles from Payroll Jamaica about payroll, HR, compliance, and product improvements for Jamaican businesses.",
     blogBaseDescription
@@ -34,14 +34,14 @@ export const metadata: Metadata = {
   alternates: { canonical: canonical("/blog") },
   robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   openGraph: {
-    title: "Payroll Jamaica Blog — Compliance Guides, PAYE, NIS & HR Tips",
+    title: "Payroll Jamaica Blog — PAYE, NIS & Compliance Tips",
     description: blogBaseDescription,
     url: canonical("/blog"),
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Payroll Jamaica Blog — Compliance Guides, PAYE, NIS & HR Tips",
+    title: "Payroll Jamaica Blog — PAYE, NIS & Compliance Tips",
     description: blogBaseDescription,
   },
 };
@@ -95,7 +95,7 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="w-full px-4 pb-28 flex-1">
+      <main id="main-content" className="w-full px-4 pb-28 flex-1">
         <div className="max-w-container mx-auto py-12">
           {/* Header */}
           <h1 className="text-3xl font-bold mb-2">Blog</h1>

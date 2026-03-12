@@ -97,7 +97,7 @@ export default function SavannaLaMarPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }} />
       <Navbar />
       <FloatingCTA />
-      <main className="min-h-screen">
+      <main id="main-content" className="min-h-screen">
         {/* Hero */}
         <section className="bg-gradient-to-br from-green-900 via-green-800 to-yellow-700 text-white py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">

@@ -12,9 +12,9 @@ const baseDescription =
 
 export const metadata: Metadata = {
   title:
-    "Jamaica Payroll Calculator 2026 — Free PAYE, NIS, NHT & Education Tax Calculator | Payroll Jamaica",
+    "Jamaica Payroll Calculator 2026 — Free PAYE & NIS",
   description: ensureMinDescription(
-    "Free Jamaica payroll calculator for 2026. Instantly compute PAYE income tax, NIS (3%), NHT (2%) and Education Tax (2.25%) deductions from any gross monthly salary. See your net take-home pay and employer cost breakdown — no signup needed.",
+    "Free Jamaica payroll calculator for 2026. Instantly compute PAYE, NIS, NHT & Education Tax from any salary. See net pay and employer cost — no signup needed.",
     baseDescription
   ),
   applicationName: siteConfig.name,
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Jamaica Payroll Calculator 2026 — Free PAYE, NIS & NHT Calculator",
+    title: "Jamaica Payroll Calculator 2026 — Free PAYE & NIS",
     description: baseDescription,
     url: canonical("/calculator"),
     type: "website",

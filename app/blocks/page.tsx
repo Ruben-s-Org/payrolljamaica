@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function BlocksPage() {
   return (
-    <main className="bg-background text-foreground min-h-screen w-full">
+    <main id="main-content" className="bg-background text-foreground min-h-screen w-full">
       <LayoutLines />
       <Navbar />
 

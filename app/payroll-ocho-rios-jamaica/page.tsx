@@ -6,6 +6,7 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
 import Link from "next/link";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll services in Ocho Rios, Jamaica — Payroll Jamaica is the #1 payroll software for St. Ann tourism businesses. Automate PAYE, NIS, NHT, and Education Tax for your Ocho Rios hotel, attraction, or restaurant. Handle gratuity sharing, seasonal staff, and tip income correctly — built for Jamaica's tourism capital.";
@@ -149,7 +150,7 @@ export default function PayrollOchoRiosPage() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
       <Navbar />
-      <main className="flex-1 w-full">
+      <main id="main-content" className="flex-1 w-full">
         {/* Hero */}
         <section className="w-full px-4 pt-24 pb-16 text-center">
           <div className="max-w-3xl mx-auto space-y-6">
@@ -281,6 +282,9 @@ export default function PayrollOchoRiosPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-ocho-rios-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">

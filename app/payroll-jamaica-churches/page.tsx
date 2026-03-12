@@ -200,7 +200,7 @@ export default function ChurchPayrollJamaicaPage() {
     <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd }} />
       <Navbar />
-      <main className="flex-1 w-full">
+      <main id="main-content" className="flex-1 w-full">
         {/* Hero */}
         <section className="w-full px-4 pt-24 pb-16 text-center">
           <div className="max-w-3xl mx-auto space-y-6">

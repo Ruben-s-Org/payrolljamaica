@@ -101,7 +101,7 @@ export default function ContactPage() {
         dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
       <Navbar />
-      <main className="flex-1 w-full px-4 pb-28">
+      <main id="main-content" className="flex-1 w-full px-4 pb-28">
         <div className="max-w-4xl mx-auto py-14">
           <nav aria-label="Breadcrumb">
             <ol className="flex items-center gap-1 text-sm text-muted-foreground mb-6">
