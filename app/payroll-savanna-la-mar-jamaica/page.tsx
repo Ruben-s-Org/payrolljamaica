@@ -6,12 +6,13 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
 import { safeJsonLd } from "@/lib/jsonld";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll services in Savanna-la-Mar, Jamaica — Payroll Jamaica is the #1 payroll software for Westmoreland businesses. Automate PAYE, NIS, NHT, and Education Tax compliance for Sav-la-Mar and Westmoreland parish employers.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Savanna-la-Mar Jamaica — Westmoreland Payroll Software | Payroll Jamaica",
+  title: "Payroll Savanna-la-Mar Jamaica — Westmoreland",
   description: ensureMinDescription(
     "Savanna-la-Mar and Westmoreland's best payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Sav-la-Mar business. Trusted by Westmoreland businesses across tourism, agriculture, and services.",
     baseDescription
@@ -183,6 +184,9 @@ export default function SavannaLaMarPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-savanna-la-mar-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">

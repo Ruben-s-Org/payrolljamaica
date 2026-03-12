@@ -6,12 +6,13 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
 import Link from "next/link";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll services in May Pen, Clarendon, Jamaica — Payroll Jamaica is the #1 payroll software serving Clarendon businesses. Automate PAYE, NIS, NHT, and Education Tax for your May Pen employees. From Clarendon Park to Lionel Town and Four Paths, we handle payroll for Clarendon's sugar industry, farms, SMEs, and commercial businesses.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services May Pen Jamaica — Payroll Software for Clarendon Businesses | Payroll Jamaica",
+  title: "Payroll May Pen Jamaica — Clarendon Payroll",
   description: ensureMinDescription(
     "May Pen's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Clarendon business. Trusted by sugar industry, farms, SMEs, and commercial businesses across May Pen, Lionel Town, and Four Paths.",
     baseDescription
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services May Pen Jamaica — #1 Payroll Software for Clarendon | Payroll Jamaica",
+    title: "Payroll May Pen Jamaica — Clarendon Payroll",
     description: baseDescription,
     url: canonical("/payroll-may-pen-jamaica"),
     type: "website",
@@ -280,6 +281,9 @@ export default function PayrollMayPenPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-may-pen-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">

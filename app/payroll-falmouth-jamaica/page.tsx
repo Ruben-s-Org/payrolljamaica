@@ -6,12 +6,13 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
 import Link from "next/link";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll services in Falmouth, Trelawny, Jamaica — Payroll Jamaica is the #1 payroll software serving Trelawny businesses. Automate PAYE, NIS, NHT, and Education Tax for your Falmouth employees. From the Falmouth Cruise Ship Pier to Duncans, Clark's Town, and the North Coast tourism corridor, we handle payroll for Trelawny's cruise tourism, banana industry, agriculture, and commercial businesses.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Falmouth Jamaica — Payroll Software for Trelawny Businesses | Payroll Jamaica",
+  title: "Payroll Falmouth Jamaica — Trelawny Payroll Software",
   description: ensureMinDescription(
     "Falmouth's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Trelawny business. Trusted by cruise tourism operators, banana exporters, hotels, restaurants, and SMEs across Falmouth, Duncans, Clark's Town, and the North Coast.",
     baseDescription
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Falmouth Jamaica — #1 Payroll Software for Trelawny | Payroll Jamaica",
+    title: "Payroll Falmouth Jamaica — Trelawny Payroll Software",
     description: baseDescription,
     url: canonical("/payroll-falmouth-jamaica"),
     type: "website",
@@ -353,6 +354,9 @@ export default function PayrollFalmouthPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-falmouth-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">

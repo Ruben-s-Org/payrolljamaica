@@ -6,12 +6,13 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
 import Link from "next/link";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll services in Morant Bay, St. Thomas, Jamaica — Payroll Jamaica is the #1 payroll software serving St. Thomas parish businesses. Automate PAYE, NIS, NHT, and Education Tax for your Morant Bay employees. From Port Morant to Yallahs and Bath, we handle payroll for St. Thomas's agricultural, fishing, tourism, and commercial businesses — fully online, no Kingston trip required.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Morant Bay Jamaica — Payroll Software for St. Thomas Businesses | Payroll Jamaica",
+  title: "Payroll Morant Bay Jamaica — St. Thomas Payroll",
   description: ensureMinDescription(
     "Morant Bay's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your St. Thomas parish business. Trusted by banana farms, fishing cooperatives, tourism operators, and SMEs across Morant Bay, Port Morant, Bath, and Yallahs.",
     baseDescription
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Morant Bay Jamaica — #1 Payroll Software for St. Thomas | Payroll Jamaica",
+    title: "Payroll Morant Bay Jamaica — St. Thomas Payroll",
     description: baseDescription,
     url: canonical("/payroll-morant-bay-jamaica"),
     type: "website",
@@ -303,6 +304,9 @@ export default function PayrollMorantBayPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-morant-bay-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">

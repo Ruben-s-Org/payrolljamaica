@@ -6,12 +6,13 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
 import Link from "next/link";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll services in Negril, Jamaica — Payroll Jamaica is the #1 payroll software for Negril's tourism and hospitality industry. Automate PAYE, NIS, NHT, and Education Tax for your Negril hotel, resort, or business. From Seven Mile Beach to West End, we handle payroll for Westmoreland and Hanover's tourism economy.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Negril Jamaica — Payroll Software for Hotels & Tourism | Payroll Jamaica",
+  title: "Payroll Negril Jamaica — Hotel & Tourism Payroll",
   description: ensureMinDescription(
     "Negril's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Negril hotel, resort, restaurant, or tourism business. Trusted by Westmoreland and Hanover businesses along Seven Mile Beach.",
     baseDescription
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Negril Jamaica — #1 Hotel & Tourism Payroll | Payroll Jamaica",
+    title: "Payroll Negril Jamaica — Hotel & Tourism Payroll",
     description: baseDescription,
     url: canonical("/payroll-negril-jamaica"),
     type: "website",
@@ -280,6 +281,9 @@ export default function PayrollNegrilPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-negril-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">

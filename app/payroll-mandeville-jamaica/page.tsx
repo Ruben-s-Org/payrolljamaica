@@ -12,7 +12,7 @@ const baseDescription =
   "Payroll Jamaica serves Mandeville and Manchester Parish businesses with full PAYE, NIS, NHT, and Education Tax automation. Mandeville is Jamaica's third-largest commercial center — home to bauxite/alumina industries, retail, healthcare, and tourism. Payroll Jamaica is built for the Manchester parish business community.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Mandeville Jamaica — Payroll Software for Manchester Parish | Payroll Jamaica",
+  title: "Payroll Mandeville Jamaica — Manchester Parish",
   description: ensureMinDescription(
     "Payroll software for Mandeville and Manchester Parish businesses. Automate PAYE, NIS, NHT, Education Tax. Serving Mandeville's bauxite, retail, healthcare, and tourism employers.",
     baseDescription
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Mandeville Jamaica — Manchester Parish | Payroll Jamaica",
+    title: "Payroll Mandeville Jamaica — Manchester Parish",
     description: baseDescription,
     url: canonical("/payroll-mandeville-jamaica"),
     type: "website",

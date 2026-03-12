@@ -6,12 +6,13 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
 import Link from "next/link";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll services in Port Antonio, Portland Jamaica — Payroll Jamaica is the #1 payroll software for Portland's boutique tourism, agriculture, and business community. Automate PAYE, NIS, NHT, and Education Tax for your Port Antonio business. From the Blue Lagoon to Frenchman's Cove, we serve Portland's unique business landscape.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Port Antonio Jamaica — Payroll Software for Portland Businesses | Payroll Jamaica",
+  title: "Payroll Port Antonio Jamaica — Portland Payroll",
   description: ensureMinDescription(
     "Port Antonio's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Portland business. Trusted by boutique hotels, tour operators, banana exporters, and SMEs across Port Antonio and Portland parish.",
     baseDescription
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Port Antonio Jamaica — Portland's #1 Payroll Software | Payroll Jamaica",
+    title: "Payroll Port Antonio Jamaica — Portland Payroll",
     description: baseDescription,
     url: canonical("/payroll-port-antonio-jamaica"),
     type: "website",
@@ -280,6 +281,9 @@ export default function PayrollPortAntonioPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-port-antonio-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">
