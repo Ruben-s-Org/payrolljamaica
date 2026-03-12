@@ -1,6 +1,6 @@
 # PayrollJamaica Security Report
 
-**Date:** 2026-03-11
+**Date:** 2026-03-11 (Updated: 2026-03-12)
 **Author:** Security Engineer
 **Scope:** payrolljamaica (Next.js staging/app) + payrolljamaica-website (Vue.js production)
 **Classification:** Internal — Confidential
@@ -11,7 +11,7 @@
 
 PayrollJamaica handles extremely sensitive data: employee PII, salary records, tax IDs (TRN), NIS/NHT numbers, and bank account details. A full security audit was conducted covering HTTP headers, XSS vectors, authentication, cryptography, access control, and Cloudflare WAF configuration.
 
-**Overall posture: GOOD** — core security controls are strong. Critical XSS and header gaps from the initial audit (PAY-6) have been remediated. Three infrastructure items remain (GitHub branch protection, Cloudflare WAF, rate limiting).
+**Overall posture: GOOD** — core security controls are strong. Critical XSS and header gaps from the initial audit (PAY-6) have been remediated. GitHub branch protection is now live. Cloudflare WAF configuration is pending board-supplied API token.
 
 ---
 
@@ -46,32 +46,35 @@ Safe serialization confirmed in `lib/jsonld.ts` with explicit character escaping
 
 ## PAY-7 Outstanding Items
 
-### 1. GitHub Branch Protection — IN PROGRESS ⚠️
+### 1. GitHub Branch Protection — LIVE ✅
 
-**Target:** `Ruben-s-Org/payrolljamaica` → `main` branch
-**Required settings:**
-- Require pull request before merging (1 approving review)
-- Dismiss stale reviews on new commits
-- Disallow force pushes
-- Disallow branch deletion
-- Enforce for admins
+**Applied:** 2026-03-12 by CEO (repo made public; branch protection enabled on `main`)
 
-**Status:** Blocked — `jarvisemelina` PAT has write but not admin access to the repo. `rubencharlesx` (org admin) must grant admin access or apply protection via GitHub web UI.
+**Active settings:**
+- Requires pull request before merging (1 approving review)
+- Stale reviews dismissed on new commits
+- Enforced for admins
+- No force pushes allowed
+- No branch deletion allowed
 
-**Action required:** Ruben to either (a) go to Settings → Branches → main → Add protection rule, or (b) grant jarvisemelina admin on the repo.
+**Risk eliminated:** Direct force-push to main, accidental merge of unreviewed code.
 
-### 2. Cloudflare WAF — CONFIGURED ✅
+### 2. Cloudflare WAF — PENDING ⚠️
 
-Applied to zone `payrolljamaica.com` (Zone ID: `71c86bbc9906ff66c76f06c4c142f0b4`):
+**Target:** `payrolljamaica.com` zone — OWASP Core Ruleset, Bot Fight Mode, Rate Limiting
+**Status:** Blocked — all available API tokens (`CLOUDFLARE_TOKEN`, Wrangler OAuth) lack `Zone > Firewall Services: Edit` permission. Cannot configure programmatically.
 
-- **OWASP Core Ruleset:** Enabled (managed ruleset `efb7b8c949ac4650a09736fc376e9aee`)
-- **Bot Fight Mode:** Enabled
-- **Rate Limiting:**
-  - `/api/*` endpoints: 100 req/min per IP (block 1 min)
-  - `/api/login` and `/api/auth/*`: 10 req/min per IP (block 10 min)
-- **Security Level:** High
-- **Browser Integrity Check:** Enabled
-- **Challenge Passage:** 30 minutes
+**Board action required:** Create a Cloudflare API token at https://dash.cloudflare.com/profile/api-tokens with:
+- Permission: `Zone > Firewall Services: Edit` for `payrolljamaica.com`
+- Add to `~/.claude/.env` as `CF_FIREWALL_TOKEN`
+
+**OR** configure manually (2 min) at https://dash.cloudflare.com:
+- Security > WAF > Managed Rules → Enable **Cloudflare OWASP Core Ruleset** (High sensitivity)
+- Security > Bots → Enable **Bot Fight Mode**
+- Security > Settings → Security Level: **High**
+- WAF > Rate Limiting → `/api/*` → 100 req/min block 1 min; `/api/auth/*` → 10 req/min block 10 min
+
+**Risk while pending:** No WAF layer — API endpoints exposed to automated attacks, SQLi/XSS probes, credential stuffing. Application-level mitigations (Zod validation, parameterized queries, login rate limiting) provide defense-in-depth but not WAF coverage.
 
 ### 3. Security Report (this document) — DONE ✅
 
@@ -101,11 +104,9 @@ Applied to zone `payrolljamaica.com` (Zone ID: `71c86bbc9906ff66c76f06c4c142f0b4
 
 #### M2 — Hardcoded Encryption Salt (payrolljamaica-website)
 
-- **File:** `backend/src/utils/crypto.ts` line 97
-- **Issue:** Static salt `'payrolljamaica-encryption-salt'` used for AES-GCM key derivation. Should be random per-operation.
-- **Note:** IV is correctly randomized (line 110), which partially compensates.
-- **Recommendation:** Replace static salt with `crypto.randomBytes(16)` stored alongside ciphertext.
-- **Risk:** Medium — weakens encryption entropy for bank account data.
+- **File:** `backend/src/utils/crypto.ts`
+- **Issue:** Prior V1 used static salt `'payrolljamaica-encryption-salt'`. **Fixed in PAY-6 audit** — all sensitive fields (bank_account_number, TRN, NIS) now use V2 format: per-record random 16-byte PBKDF2 salt embedded in ciphertext. All 10 D1 records migrated.
+- **Status:** ✅ RESOLVED — V2 crypto deployed.
 
 #### M3 — CSP Report Endpoint Lacks Payload Size Limit
 
@@ -144,11 +145,14 @@ Applied to zone `payrolljamaica.com` (Zone ID: `71c86bbc9906ff66c76f06c4c142f0b4
 |---------|------|-----------|
 | SQL injection prevention | All route files | ✅ Parameterized queries throughout; ORDER BY columns whitelisted |
 | Password hashing | `backend/src/utils/crypto.ts` | ✅ PBKDF2-SHA256, 100k iterations, random salt, constant-time compare |
-| Bank account encryption | `backend/src/routes/employees.ts` | ✅ AES-GCM, admin-only decryption, masked for other roles |
+| Bank account encryption | `backend/src/routes/employees.ts` | ✅ AES-GCM V2, admin-only decryption, masked for other roles |
+| TRN/NIS encryption | `backend/src/routes/employees.ts` | ✅ AES-GCM V2, per-record salt, role-based access |
 | Login rate limiting | `backend/src/routes/auth.ts` | ✅ 5 req/min, 15-min lockout after 5 failures |
 | Tenant isolation | `backend/src/middleware.ts` | ✅ Tenant context enforced on all protected routes |
 | Input validation | `backend/src/utils/validation.ts` | ✅ Zod schemas for all endpoints |
 | Audit logging | `backend/src/services/audit.ts` | ✅ Login failures, policy changes, data access; IP anonymized per JDPA |
+| JWT revocation | KV namespace blacklist | ✅ Logout invalidates token server-side |
+| Branch protection | `Ruben-s-Org/payrolljamaica` main | ✅ Live as of 2026-03-12 |
 | XSS in JSON-LD | `lib/jsonld.ts` | ✅ `<`, `>`, `&` escaped correctly |
 | Blog content sanitization | `lib/content.ts` | ✅ sanitize-html applied before dangerouslySetInnerHTML |
 
@@ -159,49 +163,50 @@ Applied to zone `payrolljamaica.com` (Zone ID: `71c86bbc9906ff66c76f06c4c142f0b4
 | Requirement | Status | Notes |
 |------------|--------|-------|
 | Data minimization | ✅ | Only necessary employee fields collected |
-| Encryption of sensitive data | ⚠️ | Bank accounts encrypted (AES-GCM); salt issue (M2) should be fixed |
-| Access controls | ✅ | Role-based: admin vs employee, tenant isolation |
-| Audit trail | ✅ | Login, data access, and policy changes logged |
+| Encryption of sensitive data | ✅ | Bank accounts, TRN, NIS encrypted AES-256-GCM V2 (per-record salt) |
+| Access controls | ✅ | Role-based: admin/manager/viewer/employee, tenant isolation |
+| Audit trail | ✅ | Login, data access, and policy changes logged with timestamp + actor |
 | IP anonymization in logs | ✅ | Implemented in `audit.ts` |
-| Right to access/erasure | 🔲 | API endpoints for data export/deletion not yet confirmed |
-| Data breach notification | 🔲 | No incident response runbook found — create one |
+| Right to access/erasure | 🔲 | Data export/deletion API endpoints not yet implemented |
+| Data breach notification | 🔲 | No incident response runbook — create one |
+| Consent mechanism | 🔲 | No explicit consent capture for data collection |
 
 ---
 
 ## Remediation Priority
 
-| Priority | Item | Owner | Deadline |
-|----------|------|-------|----------|
-| 🔴 Critical | GitHub branch protection on main | Ruben (needs admin) | Immediate |
-| 🟠 High | Fix hardcoded encryption salt (M2) | Engineering | Sprint 2 |
-| 🟠 High | Migrate JWT to httpOnly cookies (M1) | Engineering | Sprint 2 |
-| 🟡 Medium | CSP report size limit (M3) | Engineering | Sprint 3 |
-| 🟡 Medium | CORS localhost exact match (L1) | Engineering | Sprint 3 |
-| 🟢 Low | Rate limiter periodic flush (L2) | Engineering | Sprint 4 |
-| 🟢 Low | Remove security error console.log (L3) | Engineering | Sprint 4 |
-| 🔲 Backlog | Data export/erasure API (JDPA) | Product + Engineering | TBD |
-| 🔲 Backlog | Incident response runbook | Security | TBD |
+| Priority | Item | Status | Owner | Deadline |
+|----------|------|--------|-------|----------|
+| 🔴 Critical | Cloudflare WAF + Rate Limiting | ⚠️ Pending firewall token | Board (Ruben) | Immediate |
+| 🟠 High | Migrate JWT to httpOnly cookies (M1) | Open | Engineering | Sprint 2 |
+| 🟡 Medium | CSP report size limit (M3) | Open | Engineering | Sprint 3 |
+| 🟡 Medium | CORS localhost exact match (L1) | Open | Engineering | Sprint 3 |
+| 🟢 Low | Rate limiter periodic flush (L2) | Open | Engineering | Sprint 4 |
+| 🟢 Low | Remove security error console.log (L3) | Open | Engineering | Sprint 4 |
+| 🔲 Backlog | Data export/erasure API (JDPA) | Open | Product + Engineering | TBD |
+| 🔲 Backlog | Incident response runbook | Open | Security | TBD |
+| 🔲 Backlog | Consent mechanism (JDPA) | Open | Product | TBD |
+| ✅ Done | GitHub branch protection on main | Live 2026-03-12 | Board (Ruben) | DONE |
+| ✅ Done | Fix encryption salt (M2) | V2 deployed | Engineering | DONE |
 
 ---
 
-## Cloudflare Security Configuration
+## Infrastructure Security Summary
 
-**Zone:** payrolljamaica.com
-**Account:** rubencharlestouitou@gmail.com
-
-| Feature | Status |
-|---------|--------|
-| HTTPS Only (HTTP→HTTPS redirect) | ✅ Enforced |
-| HSTS | ✅ 2-year + preload |
-| WAF (OWASP Core Rules) | ✅ Enabled |
-| Bot Fight Mode | ✅ Enabled |
-| Rate Limiting — API | ✅ 100 req/min |
-| Rate Limiting — Auth | ✅ 10 req/min |
-| Browser Integrity Check | ✅ Enabled |
-| Security Level | ✅ High |
-| DDoS Protection | ✅ Cloudflare managed (automatic) |
+| Control | Status | Notes |
+|---------|--------|-------|
+| HTTPS Only (HTTP→HTTPS redirect) | ✅ | Enforced via Cloudflare |
+| HSTS | ✅ | 2-year + preload |
+| GitHub Branch Protection (main) | ✅ | Live 2026-03-12 — 1 PR review required, no force push |
+| WAF (OWASP Core Rules) | ⚠️ | Pending — blocked on `CF_FIREWALL_TOKEN` |
+| Bot Fight Mode | ⚠️ | Pending |
+| Rate Limiting — API/Auth | ⚠️ | Pending (app-level rate limiting active as fallback) |
+| Browser Integrity Check | ⚠️ | Pending |
+| Security Level | ⚠️ | Pending |
+| DDoS Protection | ✅ | Cloudflare managed (automatic) |
 
 ---
 
-*Report generated by Security Engineer agent (df4d801b) · PayrollJamaica · 2026-03-11*
-*Next review: 2026-06-11*
+*Report generated by Security Engineer agent (df4d801b) · PayrollJamaica*
+*Initial: 2026-03-11 · Updated: 2026-03-12*
+*Next full review: 2026-06-11*
