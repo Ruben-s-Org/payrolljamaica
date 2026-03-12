@@ -92,6 +92,8 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${SITE_URL}/resources/march-31-paye-checklist`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
   { url: `${SITE_URL}/resources/monthly-payroll-checklist`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
   { url: `${SITE_URL}/resources/new-employee-onboarding-checklist`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
+  { url: `${SITE_URL}/resources/jamaica-payroll-tax-rates-2026-cheat-sheet`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
+  { url: `${SITE_URL}/resources/jamaica-employer-year-end-filing-guide`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
 
   // === Legal ===
   { url: `${SITE_URL}/privacy`, lastModified: TODAY, changeFrequency: "yearly", priority: 0.3 },
