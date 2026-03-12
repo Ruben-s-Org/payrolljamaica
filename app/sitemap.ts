@@ -12,9 +12,9 @@ const TODAY = new Date().toISOString();
 const STATIC_ROUTES: MetadataRoute.Sitemap = [
   // === Core pages ===
   { url: `${SITE_URL}/`, lastModified: TODAY, changeFrequency: "weekly", priority: 1.0 },
+  { url: `${SITE_URL}/calculator`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.9 },
   { url: `${SITE_URL}/blog`, lastModified: TODAY, changeFrequency: "weekly", priority: 0.9 },
-  { url: `${SITE_URL}/calculator`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.95 },
-  { url: `${SITE_URL}/pricing`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
+  { url: `${SITE_URL}/pricing`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
   { url: `${SITE_URL}/features`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
   { url: `${SITE_URL}/resources`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
   { url: `${SITE_URL}/partners`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
@@ -22,44 +22,54 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${SITE_URL}/industries`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
 
   // === Main commercial landing pages ===
-  { url: `${SITE_URL}/payroll-software-jamaica`, lastModified: TODAY, changeFrequency: "weekly", priority: 0.95 },
-  { url: `${SITE_URL}/payroll-company-jamaica`, lastModified: TODAY, changeFrequency: "weekly", priority: 0.9 },
+  { url: `${SITE_URL}/payroll-software-jamaica`, lastModified: TODAY, changeFrequency: "weekly", priority: 0.9 },
+  { url: `${SITE_URL}/hr-software-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
+  { url: `${SITE_URL}/march-31-payroll-deadline-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.9 },
+  { url: `${SITE_URL}/payroll-company-jamaica`, lastModified: TODAY, changeFrequency: "weekly", priority: 0.85 },
   { url: `${SITE_URL}/payroll-services`, lastModified: TODAY, changeFrequency: "weekly", priority: 0.85 },
   { url: `${SITE_URL}/payroll-outsourcing-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
   { url: `${SITE_URL}/payroll-processing-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
   { url: `${SITE_URL}/small-business-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
-  { url: `${SITE_URL}/hr-software-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
   { url: `${SITE_URL}/employee-management-software-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
   { url: `${SITE_URL}/payroll-year-end-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
-  { url: `${SITE_URL}/march-31-payroll-deadline-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
 
   // === Calculator landing pages (high search volume) ===
-  { url: `${SITE_URL}/paye-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.9 },
+  { url: `${SITE_URL}/paye-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
   { url: `${SITE_URL}/nis-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
   { url: `${SITE_URL}/nht-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
   { url: `${SITE_URL}/education-tax-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
 
-  // === Industry verticals ===
-  { url: `${SITE_URL}/construction-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/education-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/finance-insurance-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/government-ngo-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/healthcare-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/manufacturing-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/retail-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/transportation-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/payroll-jamaica-hotels`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/payroll-jamaica-restaurants`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/payroll-jamaica-security`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
-  { url: `${SITE_URL}/payroll-jamaica-churches`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.65 },
+  // === Comparison pages ===
+  { url: `${SITE_URL}/compare/payroll-software-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
+  { url: `${SITE_URL}/compare/spreadsheets`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
 
-  // === Geographic pages ===
-  { url: `${SITE_URL}/payroll-kingston-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
-  { url: `${SITE_URL}/payroll-montego-bay-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
-  { url: `${SITE_URL}/payroll-portmore-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.65 },
-  { url: `${SITE_URL}/payroll-mandeville-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.65 },
-  { url: `${SITE_URL}/payroll-ocho-rios-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.65 },
-  { url: `${SITE_URL}/payroll-spanish-town-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.65 },
+  // === Industry verticals (landing pages) ===
+  { url: `${SITE_URL}/construction-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/education-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/finance-insurance-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/government-ngo-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/healthcare-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/manufacturing-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/retail-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/transportation-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/payroll-jamaica-hotels`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/payroll-jamaica-restaurants`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/payroll-jamaica-security`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/payroll-jamaica-churches`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+
+  // === Industry sub-pages ===
+  { url: `${SITE_URL}/industries/construction`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/industries/healthcare`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/industries/hospitality`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/industries/retail`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+
+  // === Geographic / parish / city pages ===
+  { url: `${SITE_URL}/payroll-kingston-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/payroll-montego-bay-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/payroll-portmore-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/payroll-mandeville-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/payroll-ocho-rios-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
+  { url: `${SITE_URL}/payroll-spanish-town-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
   { url: `${SITE_URL}/payroll-may-pen-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
   { url: `${SITE_URL}/payroll-falmouth-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
   { url: `${SITE_URL}/payroll-negril-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
