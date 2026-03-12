@@ -9,6 +9,7 @@ import Pricing from "../components/sections/pricing/default";
 import Stats from "../components/sections/stats/default";
 import Testimonials from "../components/sections/testimonials/default";
 import HowItWorks from "../components/sections/how-it-works/default";
+import DeadlineUrgency from "../components/sections/deadline-urgency/default";
 import { LayoutLines } from "../components/ui/layout-lines";
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
@@ -107,6 +108,7 @@ export default function Home() {
         <Items />
         <HowItWorks />
         <Stats />
+        <DeadlineUrgency />
         <Testimonials />
         <Pricing />
         <FAQ />
