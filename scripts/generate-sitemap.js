@@ -242,6 +242,15 @@ const PAGE_PRIORITIES = {
   '/compare': '0.7',
   '/partners': '0.7',
   '/resources': '0.7',
+  '/about': '0.7',
+  '/contact': '0.7',
+  '/glossary': '0.7',
+  '/minimum-wage-jamaica': '0.85',
+  '/new-business-payroll-checklist-jamaica': '0.85',
+  '/resources/jamaica-employer-tax-rates-2026': '0.7',
+  '/resources/march-31-paye-checklist': '0.7',
+  '/resources/monthly-payroll-checklist': '0.7',
+  '/resources/new-employee-onboarding-checklist': '0.7',
 };
 
 function getPagePriority(u) {
@@ -296,6 +305,8 @@ async function main() {
   urls.add('/compare/spreadsheets');
   urls.add('/compare/adp');
   urls.add('/compare/gusto');
+  urls.add('/compare/quickbooks');
+  urls.add('/compare/sage');
   // Core pages
   urls.add('/about');
   urls.add('/contact');
@@ -324,6 +335,8 @@ async function main() {
   urls.add('/nis-calculator-jamaica');
   urls.add('/nht-calculator-jamaica');
   urls.add('/education-tax-calculator-jamaica');
+  urls.add('/minimum-wage-jamaica');
+  urls.add('/new-business-payroll-checklist-jamaica');
   // Location pages (priority 0.6)
   urls.add('/payroll-kingston-jamaica');
   urls.add('/payroll-savanna-la-mar-jamaica');
