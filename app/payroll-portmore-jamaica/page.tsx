@@ -6,6 +6,7 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
 import { safeJsonLd } from "@/lib/jsonld";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll Jamaica serves Portmore and St. Catherine Parish businesses with full PAYE, NIS, NHT, and Education Tax automation. Portmore is one of Jamaica's largest population centers — a business hub for retail, logistics, construction, and service industries. Payroll Jamaica is built for Portmore SMEs.";
@@ -278,6 +279,9 @@ export default function PayrollPortmoreJamaicaPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-portmore-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">

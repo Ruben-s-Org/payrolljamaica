@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 import Link from "next/link";
 
 const baseDescription =
@@ -281,6 +282,9 @@ export default function PayrollSpanishTownPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-spanish-town-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">

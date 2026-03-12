@@ -6,6 +6,7 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
 import { safeJsonLd } from "@/lib/jsonld";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll services in Montego Bay Jamaica — Payroll Jamaica is the payroll software built for Montego Bay businesses. Automate PAYE, NIS, NHT, and Education Tax for your MoBay employees. From the hotel strip in Rose Hall to business parks in Freeport, we handle payroll for Montego Bay's tourism, retail, and professional services sectors.";
@@ -278,6 +279,9 @@ export default function PayrollMontegoBayPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-montego-bay-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">

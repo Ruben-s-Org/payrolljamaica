@@ -6,6 +6,7 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
 import { safeJsonLd } from "@/lib/jsonld";
+import RelatedCityPages from "@/components/ui/related-city-pages";
 
 const baseDescription =
   "Payroll services in Kingston Jamaica — Payroll Jamaica is the #1 payroll software serving Kingston businesses. Automate PAYE, NIS, NHT, and Education Tax for your Kingston employees. From New Kingston to Downtown and Half Way Tree, we handle payroll for Kingston's SMEs, professionals, and corporates.";
@@ -281,6 +282,9 @@ export default function PayrollKingstonPage() {
             </div>
           </div>
         </section>
+
+        {/* Related city pages */}
+        <RelatedCityPages currentHref="/payroll-kingston-jamaica" />
 
         {/* Internal links */}
         <section className="w-full px-4 py-12 bg-muted/30">
