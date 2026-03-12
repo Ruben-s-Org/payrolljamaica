@@ -6,6 +6,7 @@ import FooterSection from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import BlogRelatedResources from "@/components/ui/blog-related-resources";
 import BlogPostCTA from "@/components/ui/blog-post-cta";
+import BlogEmailCapture from "@/components/ui/blog-email-capture";
 import { getAllSlugs, getPostBySlug } from "@/lib/content";
 import { safeJsonLd } from "@/lib/jsonld";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
@@ -138,6 +139,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
           <div className="mx-auto max-w-3xl">
+            <BlogEmailCapture />
             <BlogPostCTA
               variant={
                 (post.seo.keywords || []).some((k: string) =>

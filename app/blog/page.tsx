@@ -5,6 +5,7 @@ import Navbar from "@/components/sections/navbar/default";
 import FooterSection from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import BlogFilter from "@/components/ui/blog-filter";
+import BlogEmailCapture from "@/components/ui/blog-email-capture";
 import { getAllPosts } from "@/lib/content";
 import { safeJsonLd } from "@/lib/jsonld";
 
@@ -139,6 +140,11 @@ export default function BlogPage() {
               </div>
             </section>
           )}
+
+          {/* Email Capture */}
+          <div className="max-w-2xl mx-auto">
+            <BlogEmailCapture />
+          </div>
 
           {/* Divider */}
           <hr className="mb-8 border-border" />
