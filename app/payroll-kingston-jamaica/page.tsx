@@ -311,7 +311,7 @@ export default function PayrollKingstonPage() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
+            __html: safeJsonLd({
               "@context": "https://schema.org",
               "@graph": [
                 {

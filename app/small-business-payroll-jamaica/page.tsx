@@ -308,7 +308,7 @@ export default function SmallBusinessPayrollJamaicaPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
             name: "Payroll Jamaica — Small Business Payroll",
@@ -337,7 +337,7 @@ export default function SmallBusinessPayrollJamaicaPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
@@ -373,7 +373,7 @@ export default function SmallBusinessPayrollJamaicaPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [

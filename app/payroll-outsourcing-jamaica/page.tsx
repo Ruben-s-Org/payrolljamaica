@@ -291,7 +291,7 @@ export default function PayrollOutsourcingJamaicaPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "Service",
             name: "Payroll Outsourcing Jamaica",
@@ -308,7 +308,7 @@ export default function PayrollOutsourcingJamaicaPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: [
@@ -344,7 +344,7 @@ export default function PayrollOutsourcingJamaicaPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [

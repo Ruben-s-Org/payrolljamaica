@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 import Link from "next/link";
 
 const baseDescription =
@@ -352,7 +353,7 @@ export default function RestaurantPayrollJamaicaPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
             name: "Payroll Jamaica",
@@ -378,7 +379,7 @@ export default function RestaurantPayrollJamaicaPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             itemListElement: [
@@ -391,7 +392,7 @@ export default function RestaurantPayrollJamaicaPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: faqs.map((faq) => ({
