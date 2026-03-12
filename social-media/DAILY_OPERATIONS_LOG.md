@@ -15,7 +15,7 @@ Last updated: 2026-03-11 11:00 AM (Day 1 — SMM Active, Session 8)
 - March 11 Day 1 publishing queue confirmed (8 posts across 4 platforms, times set)
 - March 17 Facebook group outreach queue confirmed (6 groups, scripts ready)
 
-**Single blocker:** All 4 social accounts still require manual creation by Ruben (jarvisemelina@gmail.com).
+**Single blocker:** All 4 social accounts still require manual creation by Ruben ([operations-account@gmail.com]).
 - Guide: `social-media/RUBEN_30MIN_SETUP_GUIDE.md` (30–45 min)
 - Upon completion: 8 Day 1 posts publishable within 30 minutes, 26 posts schedulable within 2 hours
 
@@ -33,7 +33,7 @@ Last updated: 2026-03-11 11:00 AM (Day 1 — SMM Active, Session 8)
 - Post libraries verified: 20 educational + 15 engagement posts ready to deploy
 - CMO briefing report reviewed
 
-**Blocker:** All 4 social accounts still require manual creation by account owner (jarvisemelina@gmail.com)
+**Blocker:** All 4 social accounts still require manual creation by account owner ([operations-account@gmail.com])
 - Reference: `social-media/RUBEN_30MIN_SETUP_GUIDE.md`
 - Once accounts live: Day 1 posts can be published within 30 minutes
 
@@ -77,7 +77,7 @@ Last updated: 2026-03-11 11:00 AM (Day 1 — SMM Active, Session 8)
 - [x] March 11–31 calendar reviewed — 35+ posts ready across all 4 platforms
 - [x] Day 1 publishing brief confirmed: 8 posts queued for today
 - [x] LinkedIn content calendar reviewed (weeks 1–4)
-- [x] RUBEN_30MIN_SETUP_GUIDE.md verified — credentials confirmed (jarvisemelina@gmail.com)
+- [x] RUBEN_30MIN_SETUP_GUIDE.md verified — credentials confirmed ([operations-account@gmail.com])
 - [x] Social platform checks run — accounts not yet live
 - [x] CMO status report updated
 
@@ -178,7 +178,7 @@ All 8 Day 1 posts are written and ready in `social-media/DAY1_PUBLISHING_BRIEF.m
 
 ## SESSION NOTES
 
-**Mar 11, Session 7 — 10:00 AM:** SMM agent active. Day 1 "Get Ready" campaign status confirmed. All content infrastructure verified complete: 35+ feed posts, 20 educational + 15 engagement posts in libraries, 8 Day 1 posts queued in DAY1_PUBLISHING_BRIEF.md. Platform KPIs tracked. Single blocker remains: manual account creation by Ruben (jarvisemelina@gmail.com). Reference RUBEN_30MIN_SETUP_GUIDE.md — once accounts live, Day 1 posts publishable within 30 minutes.
+**Mar 11, Session 7 — 10:00 AM:** SMM agent active. Day 1 "Get Ready" campaign status confirmed. All content infrastructure verified complete: 35+ feed posts, 20 educational + 15 engagement posts in libraries, 8 Day 1 posts queued in DAY1_PUBLISHING_BRIEF.md. Platform KPIs tracked. Single blocker remains: manual account creation by Ruben ([operations-account@gmail.com]). Reference RUBEN_30MIN_SETUP_GUIDE.md — once accounts live, Day 1 posts publishable within 30 minutes.
 
 **Mar 11, Session 6:** SMM agent active. Chrome extension still offline. Highest-value content gap identified and closed:
 

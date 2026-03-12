@@ -710,6 +710,8 @@ function uniqueSlugPath(baseSlug) {
   const blogsRoot = blogsDir; // projectRoot/content
   fs.mkdirSync(blogsRoot, { recursive: true });
   let slug = baseSlug && String(baseSlug).trim() ? baseSlug.trim() : 'untitled';
+  // Security: prevent path traversal — keep only the basename, no directory components
+  slug = path.basename(slug);
   let attempt = 1;
   let dest = path.join(blogsRoot, `${slug}.json`);
   while (fs.existsSync(dest)) {
@@ -893,7 +895,9 @@ async function generateOnce(args) {
   } catch (e) {
     if (globalThis.__verbose) console.warn('[blog] Image selection failed:', e?.message || e);
   }
-  const baseSlug = generated?.seo?.slug || topic.toLowerCase().replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,80);
+  // Security: strip path separators from AI-returned slug before it enters uniqueSlugPath
+  let rawSlug = generated?.seo?.slug || topic.toLowerCase().replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,80);
+  const baseSlug = String(rawSlug).replace(/[/\\]/g, '-');
   const { slug, dest } = uniqueSlugPath(baseSlug);
   if (slug !== baseSlug && generated.seo) generated.seo.slug = slug;
   if (globalThis.__verbose) {

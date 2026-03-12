@@ -34,7 +34,7 @@ const nextConfig = {
             value: [
               "default-src 'self'",
               "script-src 'self' https://server.fillout.com",
-              "style-src 'self'",
+              "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https:",
               "font-src 'self'",
               "frame-src https://server.fillout.com",

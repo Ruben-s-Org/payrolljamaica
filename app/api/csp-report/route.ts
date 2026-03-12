@@ -84,5 +84,5 @@ export async function POST(request: NextRequest) {
     report,
   }));
 
-  return NextResponse.json({ received: true }, { status: 204 });
+  return NextResponse.json({ received: true }, { status: 200 });
 }

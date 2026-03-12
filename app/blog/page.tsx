@@ -5,6 +5,7 @@ import Navbar from "@/components/sections/navbar/default";
 import FooterSection from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { getAllPosts } from "@/lib/content";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const blogBaseDescription = "Explore Payroll Jamaica’s official blog for in-depth guides, product updates, statutory compliance tips, and best practices tailored to Jamaican businesses. Learn how to automate payroll calculations, stay compliant with PAYE, NIS, and NHT, streamline employee management, and reduce manual errors with clear workflows and local-first capabilities. We publish practical walkthroughs, implementation advice, and case studies to help owners, HR teams, and accountants save time, improve accuracy, and focus on growth. Whether you’re setting up payroll for the first time or scaling your processes, our articles provide actionable insights, templates, and checklists designed for Jamaica’s regulatory environment and real-world operations.";
 
@@ -97,7 +98,7 @@ export default function BlogPage() {
       <FloatingCTA />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(blogJsonLd) }}
       />
     </div>
   );

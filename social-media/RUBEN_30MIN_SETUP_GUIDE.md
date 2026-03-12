@@ -6,7 +6,7 @@
 ## Before You Start — What You Need
 
 - Phone with a SIM (for verification codes)
-- Gmail: jarvisemelina@gmail.com
+- Gmail: [operations-account@gmail.com]
 - Profile photo: download from `/public/favicon.png` in repo
 - Banner image: download from `/social-media/assets/linkedin-banner.svg`
 - This doc open on your phone while you work on desktop
@@ -105,7 +105,7 @@ New Jamaica tax year starts April 1 — follow us so you don't miss the complian
 
 **Go to:** https://www.instagram.com/accounts/emailsignup/
 
-**Sign up with:** jarvisemelina@gmail.com
+**Sign up with:** [operations-account@gmail.com]
 
 **Fill in:**
 - Name: `Payroll Jamaica`
@@ -145,7 +145,7 @@ Image: green/gold gradient with "New Tax Year April 1 🇯🇲" text
 
 **Go to:** https://twitter.com/i/flow/signup
 
-**Sign up with:** jarvisemelina@gmail.com
+**Sign up with:** [operations-account@gmail.com]
 
 **Fill in:**
 - Name: `Payroll Jamaica`
