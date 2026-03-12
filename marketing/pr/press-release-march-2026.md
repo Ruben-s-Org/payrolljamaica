@@ -1,121 +1,74 @@
-# Press Release: PayrollJamaica Launches to Help Jamaican Businesses Navigate March 31 Tax Deadline
+# PRESS RELEASE
 
 **FOR IMMEDIATE RELEASE**
-**March 11, 2026**
 
 ---
 
-## PayrollJamaica Launches Local Payroll Software Platform Ahead of Critical March 31 Filing Deadline
+## PayrollJamaica Launches Free Online Payroll Calculator as March 31 Tax Deadline Approaches
 
-*Jamaica-first payroll software automates PAYE, NHT, NIS, and Education Tax compliance for local businesses at a fraction of the cost of traditional solutions*
+### New Tool Helps Jamaica Small Businesses Calculate PAYE, NIS, NHT, and Education Tax Automatically — No Signup Required
 
-**Kingston, Jamaica** — As Jamaica's 2025/26 tax year approaches its March 31 close, local software company PayrollJamaica has launched a dedicated payroll and HR platform designed specifically for Jamaican businesses. The platform automates the full range of statutory payroll obligations — PAYE withholding, NHT contributions, NIS deductions, and Education Tax — removing the compliance burden that currently costs Jamaican business owners thousands of dollars in professional fees, penalties, and administrative hours each year.
+**KINGSTON, JAMAICA — March 11, 2026** — With Jamaica's tax year-end deadline of March 31 just three weeks away, PayrollJamaica.com has launched a free online payroll calculator designed specifically for Jamaican small and medium-sized businesses. The tool automatically calculates all statutory payroll deductions — including PAYE (Pay As You Earn income tax), NIS (National Insurance Scheme), NHT (National Housing Trust), and Education Tax — at no cost and with no account registration required.
 
-### Addressing a Critical Gap in the Jamaican Market
+The launch comes at a critical time. March 31 marks the end of Jamaica's fiscal year, triggering mandatory annual return filings for NIS, NHT, and PAYE with the Tax Administration Jamaica (TAJ). Many small business owners, who often manage payroll without dedicated HR or accounting staff, face this deadline with uncertainty about whether their deductions have been calculated correctly throughout the year.
 
-With Jamaica's Tax Administration Jamaica (TAJ) reporting that payroll compliance errors remain among the most common triggers for employer assessments, PayrollJamaica was built to close the gap between what generic, foreign-built payroll tools offer and what Jamaican employers actually need.
-
-"Jamaican business owners have been underserved," said the PayrollJamaica team. "Generic payroll software from the US or UK doesn't know what an NHT contribution is. It doesn't know the Education Tax rate. It doesn't know the specific filing deadlines that the TAJ enforces. We built a platform that understands Jamaica — because we're from here."
-
-### Key Platform Features
-
-- **Automatic PAYE calculation** based on current TAJ income tax thresholds and rates (updated automatically when legislation changes)
-- **NHT contribution tracking** — 2% employee / 3% employer, tied to individual NHT numbers
-- **NIS deduction management** with automatic insurable wage cap monitoring
-- **Education Tax automation** — 3.5% employer / 2.25% employee computed per pay run
-- **Statutory return generation** — S01, NHT monthly returns, and annual P24 declarations
-- **Professional payslips** with full statutory breakdown per employee
-- **Employee self-service portal** for payslip access and payroll history
-- **Integration with QuickBooks and Xero** for seamless accounting sync
-- **Free Jamaica payroll calculator** available at payrolljamaica.com/calculator — no account required
-
-### Timing: March 31 Deadline Approaching
-
-The platform launch comes at a critical moment for Jamaican employers. March 31 marks:
-
-- Deadline for S01 Annual Employer Return to the TAJ
-- Deadline for NHT Annual Return submission
-- Close of Jamaica's 2025/26 government fiscal year
-- Annual NIS reconciliation period
-
-Businesses that have not filed correctly throughout the year face penalties of up to 20% per annum on outstanding NHT contributions, plus interest on unpaid PAYE. PayrollJamaica offers a free compliance health check at payrolljamaica.com to help employers assess their filing status before the deadline.
-
-### Available Now — Free Trial
-
-PayrollJamaica is available immediately at **payrolljamaica.com**. A 30-day free trial is available with no credit card required. Pricing starts at J$2,500 per employee per month, with no hidden fees for statutory filings or year-end reports.
+"Every year we speak with small business owners across Jamaica — from Portmore to Montego Bay — who are genuinely unsure whether they've been deducting the right amounts from their employees' wages," said a spokesperson for PayrollJamaica. "A miscalculation doesn't just create a compliance headache — it can mean penalties, back payments, and real financial stress for a business that's already running lean. We built this tool so that anyone can check their numbers in under a minute, for free."
 
 ---
 
-### Media Contact
+### The Problem: Payroll Compliance Is Harder Than It Looks
 
-**PayrollJamaica**
-Email: media@payrolljamaica.com
-Website: payrolljamaica.com
-Phone: +1 (876) 000-0000
+Jamaica's payroll compliance landscape is complex by design. Employers are required to withhold and remit four distinct statutory deductions on behalf of their employees, each governed by different thresholds, rates, and income ceilings:
+
+- **PAYE** — Progressive income tax, with the annual income tax threshold currently set by TAJ
+- **NIS** — National Insurance Scheme contributions, capped at a weekly ceiling
+- **NHT** — National Housing Trust contributions at 2% employer / 2% employee
+- **Education Tax** — Applied at different rates for employers and employees
+
+For a business owner managing five, ten, or twenty employees while also running day-to-day operations, keeping up with rate changes and calculating deductions correctly on every pay cycle is a genuine burden. Errors are common — and costly.
+
+The March 31 year-end deadline amplifies the pressure. Annual returns submitted to TAJ must reconcile every deduction made across the full fiscal year. If the monthly or weekly calculations were wrong, the annual return exposes the discrepancy.
+
+---
+
+### The Solution: Instant, Accurate Calculations — Free
+
+The PayrollJamaica calculator at **PayrollJamaica.com** requires no login, no subscription, and no technical knowledge. A business owner or bookkeeper enters an employee's gross salary, and the tool instantly returns:
+
+- The correct PAYE deduction
+- NIS contribution (employer and employee portions)
+- NHT contribution (employer and employee portions)
+- Education Tax (employer and employee portions)
+- Net take-home pay
+
+All calculations are updated to reflect current Jamaica statutory rates.
+
+"We deliberately made it free and no-signup because we know that the businesses who need this most are the ones who don't have time to create another account or wait for a trial period to expire," the spokesperson added. "You go to the site, you put in the salary, you get the answer. That's it."
+
+---
+
+### Ahead of the March 31 Deadline
+
+PayrollJamaica is encouraging Jamaica businesses to use the calculator now — before March 31 — to verify that their year-to-date deductions are accurate. The site also offers a library of over 200 payroll compliance guides covering Jamaica-specific topics, including how to file annual NIS returns, how to handle back pay for compliance purposes, and what to do if deductions were underpaid.
+
+The platform is accessible at **www.PayrollJamaica.com**.
 
 ---
 
 ### About PayrollJamaica
 
-PayrollJamaica is a Jamaica-based software company providing payroll automation and HR tools built specifically for the Jamaican regulatory environment. The platform handles PAYE, NHT, NIS, and Education Tax compliance for businesses from 1 to 500+ employees, with local support and transparent, per-employee pricing. Learn more at payrolljamaica.com.
+PayrollJamaica.com is Jamaica's dedicated payroll compliance resource, offering free tools, guides, and calculators built specifically for Jamaican businesses and the statutory requirements set by the Tax Administration Jamaica (TAJ), the National Insurance Scheme (NIS), the National Housing Trust (NHT), and the Ministry of Education. PayrollJamaica's mission is to make payroll compliance accessible and error-free for every Jamaican employer — from sole traders to growing SMEs.
 
 ---
 
-*This press release is intended for publication by Jamaican media outlets including the Jamaica Gleaner, Jamaica Observer, Loop Jamaica, CVM TV, and TVJ Business Desk.*
+### Media Contact
+
+**Press Inquiries:**
+press@payrolljamaica.com
+www.payrolljamaica.com
+
+*PayrollJamaica is available for interviews, expert commentary on Jamaica payroll compliance, and data on common payroll errors made by Jamaica small businesses. Please contact press@payrolljamaica.com to arrange.*
 
 ---
 
-## Target Media List — Jamaica
-
-### Print & Digital
-| Outlet | Contact | Beat |
-|---|---|---|
-| Jamaica Gleaner | business@jamaica-gleaner.com | Business/Finance Editor |
-| Jamaica Observer | newsdesk@jamaicaobserver.com | Business Desk |
-| Loop Jamaica | news@loopjamaica.com | Business/Tech |
-| RJR News | news@rjrnewsnetwork.com | Business |
-| Nationwide News | editorial@nationwideradiojm.com | Business |
-
-### TV
-| Outlet | Contact | Beat |
-|---|---|---|
-| TVJ | news@televisionjamaica.com | Business Desk |
-| CVM TV | news@cvmtv.com | Business/Finance |
-| PBCJ | programming@pbcj.com | Public Affairs |
-
-### Business Associations
-| Organization | Reason to Contact |
-|---|---|
-| Jamaica Chamber of Commerce | Member announcement |
-| Private Sector Organisation of Jamaica (PSOJ) | Member resource |
-| Jamaica Manufacturers and Exporters Association (JMEA) | Member resource |
-| Small Business Association of Jamaica (SBAJ) | SME-focused announcement |
-| Jamaica Employers' Federation (JEF) | Employer tool |
-
----
-
-## Follow-Up Email Template — Media Outreach
-
-**Subject:** Jamaica-built payroll software launches ahead of March 31 tax deadline — story pitch
-
-**Body:**
-
-Hi [Editor Name],
-
-I'm reaching out from PayrollJamaica, a local software company that's just launched a payroll automation platform built specifically for Jamaican businesses.
-
-The timing is relevant for your readers: March 31 is 20 days away, and thousands of Jamaican employers still need to file their S01 annual returns, NHT annual returns, and ensure their PAYE has been remitted correctly throughout the year. The TAJ penalties for getting this wrong can run into hundreds of thousands of dollars.
-
-**Potential story angles:**
-1. "Local startup tackles Jamaica's payroll compliance problem" — business feature
-2. "March 31 deadline: what every Jamaican employer must do before the clock runs out" — deadline-driven story (we can provide expert comment)
-3. "Why Jamaican businesses are paying too much for payroll — and what to do about it" — consumer/business advocacy angle
-
-I'd be happy to arrange an interview with our team, provide data on Jamaica payroll compliance rates, or write an expert column on the March 31 deadline.
-
-Are you interested in covering this story?
-
-Best regards,
-PayrollJamaica Team
-media@payrolljamaica.com
-payrolljamaica.com
+*— END OF PRESS RELEASE —*
