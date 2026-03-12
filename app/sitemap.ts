@@ -35,6 +35,7 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${SITE_URL}/small-business-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
   { url: `${SITE_URL}/employee-management-software-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.75 },
   { url: `${SITE_URL}/payroll-year-end-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
+  { url: `${SITE_URL}/new-business-payroll-checklist-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
 
   // === Calculator landing pages (high search volume) ===
   { url: `${SITE_URL}/paye-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
