@@ -97,6 +97,12 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${SITE_URL}/resources/jamaica-payroll-tax-rates-2026-cheat-sheet`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
   { url: `${SITE_URL}/resources/jamaica-employer-year-end-filing-guide`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
 
+  // === Trust & Social proof ===
+  { url: `${SITE_URL}/testimonials`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
+
+  // === Integrations ===
+  { url: `${SITE_URL}/integrations`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
+
   // === Legal ===
   { url: `${SITE_URL}/privacy`, lastModified: TODAY, changeFrequency: "yearly", priority: 0.3 },
   { url: `${SITE_URL}/terms`, lastModified: TODAY, changeFrequency: "yearly", priority: 0.3 },
