@@ -335,6 +335,24 @@ export default function ResourcesPage() {
                   tag: "Monthly Use",
                   tagColor: "text-purple-700 bg-purple-50 dark:text-purple-300 dark:bg-purple-950/30",
                 },
+                {
+                  icon: "📄",
+                  title: "Jamaica Payroll Tax Rates 2026 — Cheat Sheet",
+                  description:
+                    "Every payroll rate on one page: PAYE bands, NIS, NHT, Education Tax, and HEART/NSTA levy. Print or download the free PDF.",
+                  href: "/resources/jamaica-payroll-tax-rates-2026-cheat-sheet",
+                  tag: "Free PDF",
+                  tagColor: "text-blue-700 bg-blue-50 dark:text-blue-300 dark:bg-blue-950/30",
+                },
+                {
+                  icon: "🚨",
+                  title: "March 31 Year-End Filing Guide",
+                  description:
+                    "Complete year-end filing checklist: SO1, P24, NIS reconciliation, NHT returns. Everything employers must file before March 31.",
+                  href: "/resources/jamaica-employer-year-end-filing-guide",
+                  tag: "Deadline: March 31",
+                  tagColor: "text-red-700 bg-red-50 dark:text-red-300 dark:bg-red-950/30",
+                },
               ].map((resource) => (
                 <a
                   key={resource.href}
