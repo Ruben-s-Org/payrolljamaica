@@ -8,7 +8,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import PayrollCalculator from "@/components/sections/calculator/default";
 
 const baseDescription =
-  "Use our free Jamaica payroll calculator to instantly compute PAYE income tax, NIS, NHT and Education Tax deductions for any gross monthly salary. Updated for 2025 rates set by the Ministry of Finance. Calculate your net take-home pay and see the full employer cost breakdown — no signup required. Supports monthly, fortnightly and weekly pay frequencies.";
+  "Use our free Jamaica payroll calculator to instantly compute PAYE income tax, NIS, NHT and Education Tax deductions for any gross monthly salary. Updated for 2026 rates set by the Ministry of Finance. Calculate your net take-home pay and see the full employer cost breakdown — no signup required. Supports monthly, fortnightly and weekly pay frequencies.";
 
 export const metadata: Metadata = {
   title:
@@ -102,7 +102,7 @@ export default function CalculatorPage() {
               <h2 className="text-foreground text-xl font-semibold mb-3">What is NIS and how much is deducted?</h2>
               <p>
                 NIS (National Insurance Scheme) provides social security benefits to Jamaican workers.
-                In 2025, both employees and employers contribute <strong className="text-foreground">3%</strong> of gross
+                In 2026, both employees and employers contribute <strong className="text-foreground">3%</strong> of gross
                 salary, subject to a ceiling of <strong className="text-foreground">JMD $5,000,000 per year</strong>.
                 The maximum employee NIS contribution is JMD $150,000 annually (JMD $12,500/month).
               </p>
