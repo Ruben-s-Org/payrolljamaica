@@ -7,6 +7,7 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
 import { CheckIcon, XIcon, MinusIcon } from "lucide-react";
+import RelatedPages from "@/components/ui/related-pages";
 
 const baseDescription =
   "PayrollJamaica vs Sage Payroll for Jamaican businesses. Compare features, statutory compliance (PAYE, NIS, NHT, Education Tax), pricing, local support, and Jamaica-specific reports. See why Jamaican employers choose PayrollJamaica over Sage for compliant, automated payroll.";
@@ -272,15 +273,16 @@ export default function CompareSagePage() {
               >
                 Free Payroll Calculator
               </Link>
-              <a
-                href="#"
-                data-open-fillout="true"
+              <Link
+                href="/payroll-software-jamaica"
                 className="inline-flex h-11 items-center gap-2 rounded-lg border px-6 text-sm font-medium hover:bg-muted transition-colors"
               >
-                Request a Demo
-              </a>
+                Explore Payroll Software
+              </Link>
             </div>
           </section>
+
+          <RelatedPages exclude="/compare/sage" />
         </div>
       </main>
       <Footer />

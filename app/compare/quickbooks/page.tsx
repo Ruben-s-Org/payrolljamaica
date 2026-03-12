@@ -250,13 +250,12 @@ export default function CompareQuickBooksPage() {
               >
                 Free Payroll Calculator
               </Link>
-              <a
-                href="#"
-                data-open-fillout="true"
+              <Link
+                href="/payroll-software-jamaica"
                 className="inline-flex h-11 items-center gap-2 rounded-lg border px-6 text-sm font-medium hover:bg-muted transition-colors"
               >
-                Request a Demo
-              </a>
+                Explore Payroll Software
+              </Link>
             </div>
           </section>
 

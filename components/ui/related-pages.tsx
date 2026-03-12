@@ -13,6 +13,9 @@ const defaultPages: RelatedPage[] = [
   { title: "New Business Checklist", href: "/new-business-payroll-checklist-jamaica", description: "First-time employer setup guide" },
   { title: "Payroll Glossary", href: "/glossary", description: "25+ Jamaica payroll terms defined" },
   { title: "Compare vs QuickBooks", href: "/compare/quickbooks", description: "See why Jamaica businesses choose us" },
+  { title: "Compare vs ADP", href: "/compare/adp", description: "ADP vs purpose-built Jamaica payroll" },
+  { title: "Compare vs Gusto", href: "/compare/gusto", description: "Why Gusto doesn't work for Jamaica" },
+  { title: "Compare vs Sage", href: "/compare/sage", description: "Sage vs Jamaica-specific payroll" },
 ];
 
 interface RelatedPagesProps {

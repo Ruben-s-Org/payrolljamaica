@@ -532,8 +532,10 @@ export default function ComparePage() {
                 If you are currently using spreadsheets, read our guide on{" "}
                 <a href="/compare/spreadsheets" className="text-foreground underline hover:no-underline">switching from spreadsheets to payroll software</a>.
                 You can also see our detailed comparisons with{" "}
-                <a href="/compare/quickbooks" className="text-foreground underline hover:no-underline">QuickBooks</a> and{" "}
-                <a href="/compare/sage" className="text-foreground underline hover:no-underline">Sage</a>.
+                <a href="/compare/quickbooks" className="text-foreground underline hover:no-underline">QuickBooks</a>,{" "}
+                <a href="/compare/sage" className="text-foreground underline hover:no-underline">Sage</a>,{" "}
+                <a href="/compare/adp" className="text-foreground underline hover:no-underline">ADP</a>, and{" "}
+                <a href="/compare/gusto" className="text-foreground underline hover:no-underline">Gusto</a>.
               </p>
               <a
                 href="/calculator"
