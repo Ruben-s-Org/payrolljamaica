@@ -224,6 +224,30 @@ export default function PayrollCalculator() {
                 <p className="text-muted-foreground mt-1 text-sm print:text-gray-600">
                   Gross: {formatJMD(result.grossPerPeriod)} / {PERIOD_LABELS[result.frequency]}
                 </p>
+                <p className="text-muted-foreground mt-3 text-xs print:hidden">
+                  With PayrollJamaica, this calculation takes 2 clicks instead of 20 minutes.
+                </p>
+              </div>
+
+              {/* Quick action CTAs */}
+              <div className="flex flex-col sm:flex-row gap-3 print:hidden">
+                <a
+                  href="#"
+                  data-open-fillout="true"
+                  className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl border-2 border-primary bg-primary text-primary-foreground px-4 py-3 text-sm font-semibold shadow-sm hover:opacity-90 transition-opacity"
+                  onClick={() => trackEvent("Save Results CTA", { type: "email" })}
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                  Email These Results
+                </a>
+                <button
+                  type="button"
+                  onClick={() => { handlePrint(); trackEvent("Save Results CTA", { type: "pdf" }); }}
+                  className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl border-2 border-border bg-background text-foreground px-4 py-3 text-sm font-semibold shadow-sm hover:bg-muted transition-colors"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                  Save as PDF
+                </button>
               </div>
 
               {/* Tab navigation — hidden when printing */}
@@ -575,6 +599,51 @@ export default function PayrollCalculator() {
                     </div>
                   </>
                 )}
+              </div>
+
+              {/* Why automate? section */}
+              <div className="rounded-2xl border border-border bg-card p-6 sm:p-8 print:hidden">
+                <h3 className="text-lg font-semibold text-foreground">Why automate your payroll?</h3>
+                <div className="mt-4 grid gap-4 sm:grid-cols-3">
+                  <div className="flex gap-3">
+                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary/10">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <div>
+                      <p className="text-sm font-medium text-foreground">Save 4+ hours/month</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">Automatic PAYE, NIS, NHT and Education Tax calculations every pay run.</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-3">
+                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary/10">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <div>
+                      <p className="text-sm font-medium text-foreground">Zero compliance risk</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">Always up to date with TAJ rates. No more manual errors or late filings.</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-3">
+                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary/10">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    </div>
+                    <div>
+                      <p className="text-sm font-medium text-foreground">Ready-made payslips</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">Generate compliant payslips and statutory remittance reports in one click.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 text-center">
+                  <a
+                    href="#"
+                    data-open-fillout="true"
+                    className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline"
+                    onClick={() => trackEvent("Why Automate CTA")}
+                  >
+                    Get started with PayrollJamaica
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  </a>
+                </div>
               </div>
             </div>
           )}
