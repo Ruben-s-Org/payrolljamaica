@@ -45,6 +45,7 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   // === Comparison pages ===
   { url: `${SITE_URL}/compare/payroll-software-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
   { url: `${SITE_URL}/compare/spreadsheets`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
+  { url: `${SITE_URL}/compare/quickbooks`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
 
   // === Industry verticals (landing pages) ===
   { url: `${SITE_URL}/construction-payroll-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
