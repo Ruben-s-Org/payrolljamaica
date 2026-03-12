@@ -531,6 +531,9 @@ export default function ComparePage() {
               <p className="mt-3">
                 If you are currently using spreadsheets, read our guide on{" "}
                 <a href="/compare/spreadsheets" className="text-foreground underline hover:no-underline">switching from spreadsheets to payroll software</a>.
+                You can also see our detailed comparisons with{" "}
+                <a href="/compare/quickbooks" className="text-foreground underline hover:no-underline">QuickBooks</a> and{" "}
+                <a href="/compare/sage" className="text-foreground underline hover:no-underline">Sage</a>.
               </p>
               <a
                 href="/calculator"
