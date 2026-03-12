@@ -232,6 +232,10 @@ const PAGE_PRIORITIES = {
   '/payroll-year-end-jamaica': '0.8',
   '/compare': '0.8',
   '/industries': '0.8',
+  '/pricing': '0.8',
+  '/partners': '0.8',
+  '/payroll-software-jamaica': '0.9',
+  '/blog': '0.8',
 };
 
 function getPagePriority(u) {
@@ -268,6 +272,9 @@ async function main() {
   urls.add('/calculator');
   urls.add('/features');
   urls.add('/payroll-services');
+  urls.add('/pricing');
+  urls.add('/partners');
+  urls.add('/blog');
   // Industry pages
   urls.add('/industries/hospitality');
   urls.add('/industries/retail');
@@ -287,10 +294,13 @@ async function main() {
   urls.add('/small-business-payroll-jamaica');
   urls.add('/payroll-processing-jamaica');
   urls.add('/payroll-year-end-jamaica');
+  urls.add('/payroll-software-jamaica');
   urls.add('/compare');
+  urls.add('/compare/payroll-software-jamaica');
   urls.add('/industries');
   // Location pages (priority 0.7)
   urls.add('/payroll-kingston-jamaica');
+  urls.add('/payroll-savanna-la-mar-jamaica');
   urls.add('/payroll-montego-bay-jamaica');
   urls.add('/payroll-mandeville-jamaica');
   urls.add('/payroll-portmore-jamaica');

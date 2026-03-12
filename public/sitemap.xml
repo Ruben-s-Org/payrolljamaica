@@ -10,7 +10,7 @@
     <loc>https://payrolljamaica.com/blog</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://payrolljamaica.com/blog/2025-guide-processing-statutory-leave-pay-jamaica-rules-sample-calculations</loc>
@@ -1789,12 +1789,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://payrolljamaica.com/blog/jamaica-new-employer-registration-guide-2026</loc>
-    <lastmod>2026-03-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://payrolljamaica.com/blog/nis-contributions-jamaica-2025-calculation-guide-common-compliance-mistakes</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -1849,24 +1843,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://payrolljamaica.com/blog/payroll-software-jamaica-cost-guide-2026</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://payrolljamaica.com/blog/payroll-software-vs-excel-jamaica-2026</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://payrolljamaica.com/blog/new-employee-payroll-setup-jamaica-2026</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://payrolljamaica.com/blog/switching-payroll-providers-jamaica-migration-guide-compliance-checklist</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -1883,6 +1859,12 @@
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://payrolljamaica.com/compare/payroll-software-jamaica</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://payrolljamaica.com/compare/spreadsheets</loc>
@@ -1975,6 +1957,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://payrolljamaica.com/partners</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://payrolljamaica.com/payroll-company-jamaica</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -2065,22 +2053,16 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://payrolljamaica.com/payroll-services</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://payrolljamaica.com/payroll-spanish-town-jamaica</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://payrolljamaica.com/payroll-savanna-la-mar-jamaica</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://payrolljamaica.com/payroll-services</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://payrolljamaica.com/payroll-software-jamaica</loc>
@@ -2089,7 +2071,19 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://payrolljamaica.com/payroll-spanish-town-jamaica</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://payrolljamaica.com/payroll-year-end-jamaica</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://payrolljamaica.com/pricing</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
