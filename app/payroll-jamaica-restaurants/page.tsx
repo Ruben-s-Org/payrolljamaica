@@ -283,12 +283,12 @@ export default function RestaurantPayrollJamaicaPage() {
             <p className="text-muted-foreground mb-6">
               Jamaica's tax year ends March 31. Every employer — including restaurants — must file S01 and S02 returns with TAJ. Payroll Jamaica generates both from your payroll data automatically.
             </p>
-            <a
-              href="/calculator"
-              className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
+            <Link
+              href={siteConfig.links.app}
+              className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3 text-base font-medium hover:bg-primary/90 transition-colors"
             >
               Start free — be compliant by March 31
-            </a>
+            </Link>
           </div>
         </section>
 

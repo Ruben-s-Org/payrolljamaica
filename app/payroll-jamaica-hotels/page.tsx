@@ -249,15 +249,15 @@ export default function HotelPayrollJamaicaPage() {
               Every Jamaican hotel must file S01 (employee) and S02 (employer) annual returns with TAJ by March 31. Payroll Jamaica generates both automatically from your payroll data.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a
-                href="/calculator"
-                className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
+              <Link
+                href={siteConfig.links.app}
+                className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3 text-base font-medium hover:bg-primary/90 transition-colors"
               >
                 Start free — file on time
-              </a>
+              </Link>
               <Link
-                href="/blog/march-31-nht-annual-return-deadline-jamaica-2026"
-                className="inline-flex items-center justify-center rounded-md border border-border px-8 py-3 font-semibold hover:bg-muted transition-colors"
+                href="/march-31-payroll-deadline-jamaica"
+                className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-base font-medium hover:bg-muted transition-colors"
               >
                 Read: March 31 deadline guide
               </Link>

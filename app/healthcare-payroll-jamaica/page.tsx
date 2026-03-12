@@ -81,16 +81,15 @@ export default function HealthcarePayrollJamaicaPage() {
               From nurse shift premiums at Cornwall Regional to doctor sessional pay at private clinics — handle every healthcare payroll complexity automatically, with full NHF compliance and TAJ reporting built in.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a
-                href="/calculator"
-                data-open-fillout="true"
-                className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
+              <Link
+                href={siteConfig.links.app}
+                className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3 text-base font-medium hover:bg-primary/90 transition-colors"
               >
                 Start free trial
-              </a>
+              </Link>
               <Link
                 href="/calculator"
-                className="inline-flex items-center justify-center rounded-md border border-border px-8 py-3 font-semibold hover:bg-muted transition-colors"
+                className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-base font-medium hover:bg-muted transition-colors"
               >
                 Try the payroll calculator
               </Link>
@@ -203,8 +202,8 @@ export default function HealthcarePayrollJamaicaPage() {
               {[
                 { label: "Payroll Calculator", href: "/calculator" },
                 { label: "Payroll Software", href: "/payroll-software-jamaica" },
-                { label: "All Features", href: "/features" },
-                { label: "Industries", href: "/industries" },
+                { label: "Pricing Plans", href: "/pricing" },
+                { label: "Construction Payroll", href: "/construction-payroll-jamaica" },
               ].map((link, i) => (
                 <Link
                   key={i}
@@ -265,13 +264,20 @@ export default function HealthcarePayrollJamaicaPage() {
             <p className="text-muted-foreground">
               Join Jamaica&apos;s healthcare facilities running accurate, compliant payroll without manual calculations.
             </p>
-            <a
-              href="/calculator"
-              data-open-fillout="true"
-              className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
-            >
-              Get started free
-            </a>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Link
+                href={siteConfig.links.app}
+                className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3 text-base font-medium hover:bg-primary/90 transition-colors"
+              >
+                Get started free
+              </Link>
+              <Link
+                href="/pricing"
+                className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-base font-medium hover:bg-muted transition-colors"
+              >
+                See pricing plans
+              </Link>
+            </div>
           </div>
         </section>
       </main>
