@@ -11,9 +11,9 @@ const baseDescription =
   "Jamaica employers have until March 31, 2026 to complete the S01 Annual Return, NHT Annual Return, P6 forms for employees, and year-end payroll reconciliation. Use this checklist to stay compliant and avoid TAJ penalties.";
 
 export const metadata: Metadata = {
-  title: "Jamaica Payroll Compliance Deadline March 31 2026 — Checklist & Guide",
+  title: "March 31 Jamaica Payroll Deadline 2026 — File Now or Face TAJ Penalties",
   description: ensureMinDescription(
-    "March 31, 2026 is the deadline for Jamaica employers to file the S01 Annual Return, NHT Annual Return, and issue P6 forms. Use our compliance checklist to avoid TAJ penalties and stay on track.",
+    "URGENT: March 31, 2026 is the deadline for Jamaica employers to file the S01 Annual Return, NHT Annual Return, and issue P6 forms. Avoid TAJ penalties of 40% interest — use our compliance checklist to file on time.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Jamaica Payroll Compliance Deadline March 31 2026 — Checklist & Guide",
+    title: "March 31 Jamaica Payroll Deadline 2026 — File Now or Face TAJ Penalties",
     description: baseDescription,
     url: canonical("/march-31-payroll-deadline-jamaica"),
     type: "website",

@@ -364,6 +364,22 @@ export default function PayrollSoftwareJamaicaPage() {
                   text: "Yes. Payroll Jamaica is fully cloud-based — access it from any device. No software installation required. Employees access payslips through a self-service portal.",
                 },
               },
+              {
+                "@type": "Question",
+                name: "How much does payroll software cost in Jamaica?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Payroll Jamaica is priced for Jamaican business realities — from small businesses with a handful of staff to larger enterprises. Pricing is based on employee count, not features, so you get full access to all Jamaica payroll functionality at every tier.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What statutory deductions does Payroll Jamaica handle?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Payroll Jamaica automatically calculates and manages all Jamaican statutory deductions: PAYE (income tax using the J$1,500,096 annual threshold), NIS (National Insurance Scheme), NHT (National Housing Trust), and Education Tax. Employer and employee portions are split correctly, and rates are updated when the Ministry of Finance announces changes.",
+                },
+              },
             ],
           }),
         }}
