@@ -8,6 +8,7 @@ import BlogRelatedResources from "@/components/ui/blog-related-resources";
 import BlogPostCTA from "@/components/ui/blog-post-cta";
 import BlogEmailCapture from "@/components/ui/blog-email-capture";
 import BlogScrollTracker from "@/components/clients/blog-scroll-tracker";
+import BlogShareButtons from "@/components/ui/blog-share-buttons";
 import { getAllSlugs, getPostBySlug } from "@/lib/content";
 import { safeJsonLd } from "@/lib/jsonld";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
@@ -134,8 +135,30 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             {post.title}
           </h1>
           {post.subtitle && (
-            <p className="text-lg text-muted-foreground mb-10 max-w-3xl">{post.subtitle}</p>
+            <p className="text-lg text-muted-foreground mb-4 max-w-3xl">{post.subtitle}</p>
           )}
+          {post.timestamp && (
+            <div className="flex items-center gap-3 text-sm text-muted-foreground mb-2">
+              <time dateTime={new Date(post.timestamp).toISOString()}>
+                Published{" "}
+                {new Date(post.timestamp).toLocaleDateString("en-JM", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </time>
+              <span aria-hidden="true">|</span>
+              <span>
+                Updated{" "}
+                {new Date(post.timestamp).toLocaleDateString("en-JM", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </span>
+            </div>
+          )}
+          <BlogShareButtons url={postUrl} title={title} />
           <article
             className="mx-auto max-w-3xl text-base leading-7 md:leading-8 whitespace-normal break-words [&>*]:mt-6 [&>h2]:mt-12 [&>h3]:mt-8"
             dangerouslySetInnerHTML={{ __html: post.html }}
