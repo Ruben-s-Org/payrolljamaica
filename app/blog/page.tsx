@@ -89,6 +89,7 @@ export default function BlogPage() {
     slug: p.seo.slug,
     title: p.title,
     subtitle: p.subtitle,
+    timestamp: p.timestamp,
   }));
 
   return (

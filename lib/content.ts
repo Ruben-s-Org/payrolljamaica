@@ -81,7 +81,12 @@ export function getAllSlugs(): string[] {
 export function getAllPosts(): PostDoc[] {
   return getAllSlugs()
     .map((slug) => getPostBySlug(slug))
-    .filter((p): p is PostDoc => Boolean(p));
+    .filter((p): p is PostDoc => Boolean(p))
+    .sort((a, b) => {
+      const ta = a.timestamp ? new Date(a.timestamp).getTime() : 0;
+      const tb = b.timestamp ? new Date(b.timestamp).getTime() : 0;
+      return tb - ta; // newest first
+    });
 }
 
 export function getPostBySlug(slug: string): PostDoc | null {

@@ -7,7 +7,10 @@ interface BlogPost {
   slug: string;
   title: string;
   subtitle?: string;
+  timestamp?: string;
 }
+
+const PAGE_SIZE = 30;
 
 const CATEGORIES = [
   { label: "All", key: "all" },
@@ -96,9 +99,24 @@ function categorizePost(title: string | undefined): CategoryKey[] {
   return cats;
 }
 
+function formatDate(timestamp: string | undefined): string | null {
+  if (!timestamp) return null;
+  try {
+    const d = new Date(timestamp);
+    return d.toLocaleDateString("en-JM", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    });
+  } catch {
+    return null;
+  }
+}
+
 export default function BlogFilter({ posts }: { posts: BlogPost[] }) {
   const [active, setActive] = useState<CategoryKey>("all");
   const [search, setSearch] = useState("");
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   const filtered = useMemo(() => {
     let result = posts;
@@ -122,6 +140,9 @@ export default function BlogFilter({ posts }: { posts: BlogPost[] }) {
     return result;
   }, [posts, active, search]);
 
+  // Reset visible count when filters change
+  const filteredKey = `${active}-${search}`;
+
   const categoryCounts = useMemo(() => {
     const counts: Record<string, number> = { all: posts.length };
     for (const cat of CATEGORIES) {
@@ -133,6 +154,9 @@ export default function BlogFilter({ posts }: { posts: BlogPost[] }) {
     return counts;
   }, [posts]);
 
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
+
   return (
     <div>
       {/* Search */}
@@ -141,7 +165,10 @@ export default function BlogFilter({ posts }: { posts: BlogPost[] }) {
           type="text"
           placeholder="Search articles..."
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => {
+            setSearch(e.target.value);
+            setVisibleCount(PAGE_SIZE);
+          }}
           className="w-full max-w-md px-4 py-2.5 rounded-lg border border-border bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring text-sm"
         />
       </div>
@@ -151,7 +178,10 @@ export default function BlogFilter({ posts }: { posts: BlogPost[] }) {
         {CATEGORIES.map((cat) => (
           <button
             key={cat.key}
-            onClick={() => setActive(cat.key)}
+            onClick={() => {
+              setActive(cat.key);
+              setVisibleCount(PAGE_SIZE);
+            }}
             className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
               active === cat.key
                 ? "bg-primary text-primary-foreground"
@@ -168,7 +198,7 @@ export default function BlogFilter({ posts }: { posts: BlogPost[] }) {
 
       {/* Results count */}
       <p className="text-sm text-muted-foreground mb-4">
-        Showing {filtered.length} of {posts.length} articles
+        Showing {visible.length} of {filtered.length} articles
         {search.trim() && (
           <>
             {" "}
@@ -179,18 +209,28 @@ export default function BlogFilter({ posts }: { posts: BlogPost[] }) {
 
       {/* Post grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filtered.map((post) => (
-          <Link
-            key={post.slug}
-            className="no-underline border rounded-lg p-5 hover:shadow transition"
-            href={`/blog/${post.slug}`}
-          >
-            <h2 className="text-lg font-semibold mb-1">{post.title}</h2>
-            {post.subtitle && (
-              <p className="text-sm text-muted-foreground">{post.subtitle}</p>
-            )}
-          </Link>
-        ))}
+        {visible.map((post) => {
+          const dateStr = formatDate(post.timestamp);
+          return (
+            <Link
+              key={post.slug}
+              className="no-underline border rounded-lg p-5 hover:shadow transition"
+              href={`/blog/${post.slug}`}
+            >
+              {dateStr && (
+                <time className="block text-xs text-muted-foreground mb-1.5">
+                  {dateStr}
+                </time>
+              )}
+              <h2 className="text-lg font-semibold mb-1">{post.title}</h2>
+              {post.subtitle && (
+                <p className="text-sm text-muted-foreground line-clamp-2">
+                  {post.subtitle}
+                </p>
+              )}
+            </Link>
+          );
+        })}
         {filtered.length === 0 && (
           <div className="text-muted-foreground col-span-full py-8 text-center">
             No articles match your search. Try different keywords or clear your
@@ -198,6 +238,21 @@ export default function BlogFilter({ posts }: { posts: BlogPost[] }) {
           </div>
         )}
       </div>
+
+      {/* Load More */}
+      {hasMore && (
+        <div className="mt-8 text-center">
+          <button
+            onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-lg border border-border bg-background text-sm font-medium hover:bg-muted transition-colors"
+          >
+            Load more articles
+            <span className="text-muted-foreground">
+              ({filtered.length - visibleCount} remaining)
+            </span>
+          </button>
+        </div>
+      )}
     </div>
   );
 }
