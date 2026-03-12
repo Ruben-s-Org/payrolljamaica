@@ -194,8 +194,7 @@ export default function RetailPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#"
-                data-open-fillout="true"
+                href="/calculator"
                 className="inline-block bg-foreground text-background font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity"
               >
                 Get started free
@@ -353,8 +352,7 @@ export default function RetailPage() {
                 retailers who prefer to outsource payroll processing entirely.
               </p>
               <a
-                href="#"
-                data-open-fillout="true"
+                href="/calculator"
                 className="inline-block mt-4 text-foreground font-semibold underline hover:no-underline"
               >
                 Get started with Payroll Jamaica →

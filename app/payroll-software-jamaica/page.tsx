@@ -276,8 +276,7 @@ export default function PayrollSoftwareJamaicaPage() {
               Join Jamaican businesses running accurate, compliant payroll with Payroll Jamaica.
             </p>
             <a
-              href="#"
-              data-open-fillout="true"
+              href="/calculator"
               className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
             >
               Get started free
