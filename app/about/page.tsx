@@ -23,6 +23,8 @@ export const metadata: Metadata = {
     "who is PayrollJamaica",
     "Jamaica HR software company",
     "payroll provider Jamaica",
+    "Jamaica payroll compliance",
+    "TAJ payroll software",
   ]),
   alternates: { canonical: canonical("/about") },
   robots: { index: true, follow: true },
@@ -39,7 +41,12 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
-    { "@type": "ListItem", position: 2, name: "About", item: `${siteConfig.url}/about` },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "About",
+      item: `${siteConfig.url}/about`,
+    },
   ],
 };
 
@@ -52,6 +59,12 @@ const organizationSchema = {
   foundingDate: "2024",
   description: baseDescription,
   areaServed: { "@type": "Country", name: "Jamaica" },
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "JM",
+    addressLocality: "Kingston",
+    addressRegion: "Kingston Parish",
+  },
   sameAs: [
     siteConfig.links.twitter,
     siteConfig.links.linkedin,
@@ -71,9 +84,67 @@ const organizationSchema = {
     "NIS contributions Jamaica",
     "NHT contributions Jamaica",
     "Education Tax Jamaica",
+    "HEART/NSTA levy Jamaica",
     "Statutory compliance Jamaica",
+    "Tax Administration Jamaica reporting",
+    "Jamaica bank payment files",
   ],
 };
+
+const softwareSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  name: "PayrollJamaica",
+  applicationCategory: "BusinessApplication",
+  operatingSystem: "Web",
+  description: baseDescription,
+  url: siteConfig.url,
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "JMD",
+    description: "Free 14-day trial",
+  },
+  featureList: [
+    "PAYE automatic calculation",
+    "NIS contribution processing",
+    "NHT contribution processing",
+    "Education Tax calculation",
+    "HEART/NSTA levy processing",
+    "TAJ-ready statutory reports (SO1, P24)",
+    "Bank payment file generation (NCB, JN, Scotiabank)",
+    "Employee self-service payslips",
+    "Leave and benefits management",
+    "Multi-location support",
+  ],
+};
+
+const keyFeatures = [
+  {
+    title: "Automated Statutory Calculations",
+    desc: "PAYE with the correct J$1,500,096 annual threshold, NIS (3%/3%), NHT (2%/3%), Education Tax (2.25%/3.5%), and HEART/NSTA (3%) — calculated every pay run without manual spreadsheets.",
+  },
+  {
+    title: "TAJ-Ready Reports",
+    desc: "SO1, P24, NIS returns, and NHT remittance files formatted exactly as Tax Administration Jamaica expects. Print, sign, and submit.",
+  },
+  {
+    title: "Bank Payment Files",
+    desc: "Generate ACH and salary upload files compatible with NCB, JN Bank, Scotiabank, Sagicor Bank, and FirstCaribbean — no reformatting needed.",
+  },
+  {
+    title: "Professional Payslips",
+    desc: "Generate payslips in one click. Employees access theirs via self-service — reducing admin work and HR queries.",
+  },
+  {
+    title: "Leave & Benefits Management",
+    desc: "Track vacation, sick leave, and benefits with configurable policies that match Jamaica's labour laws.",
+  },
+  {
+    title: "Multi-Location Support",
+    desc: "Manage branches, departments, and cost centres across Kingston, Montego Bay, and island-wide from a single dashboard.",
+  },
+];
 
 export default function AboutPage() {
   return (
@@ -86,12 +157,20 @@ export default function AboutPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(organizationSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(softwareSchema) }}
+      />
       <Navbar />
       <main className="flex-1 w-full px-4 pb-28">
         <div className="max-w-3xl mx-auto py-14">
           <nav aria-label="Breadcrumb">
             <ol className="flex items-center gap-1 text-sm text-muted-foreground mb-6">
-              <li><Link href="/" className="underline hover:text-foreground">Home</Link></li>
+              <li>
+                <Link href="/" className="underline hover:text-foreground">
+                  Home
+                </Link>
+              </li>
               <li aria-hidden="true">/</li>
               <li aria-current="page">About</li>
             </ol>
@@ -103,59 +182,143 @@ export default function AboutPage() {
 
           <div className="prose prose-lg dark:prose-invert max-w-none space-y-6">
             <p className="text-lg text-muted-foreground">
-              PayrollJamaica is modern payroll and HR software built specifically
-              for Jamaican businesses. We handle the complexities of local tax
-              law — PAYE, NIS, NHT, Education Tax, HEART/NSTA — so you can focus
-              on running your business.
+              PayrollJamaica is modern payroll and HR software built
+              specifically for Jamaican businesses. We handle the complexities
+              of local tax law — PAYE, NIS, NHT, Education Tax, HEART/NSTA — so
+              you can focus on running your business.
             </p>
 
+            {/* Why We Built PayrollJamaica */}
+            <h2 className="text-2xl font-semibold mt-10 mb-4">
+              Why We Built PayrollJamaica
+            </h2>
+            <p className="text-muted-foreground">
+              For years, Jamaican businesses had two payroll options: expensive
+              international software that didn&apos;t understand PAYE
+              thresholds, NIS ceilings, or NHT rates — or error-prone Excel
+              spreadsheets passed around the office on USB drives. Neither
+              option worked.
+            </p>
+            <p className="text-muted-foreground">
+              We built PayrollJamaica because Jamaica deserves payroll software
+              that speaks its language. Software that knows the difference
+              between a monthly and fortnightly pay period under TAJ rules.
+              Software that generates SO1 forms, not W-2s. Software that
+              creates bank files for NCB and JN — not Chase and Wells Fargo.
+            </p>
+            <p className="text-muted-foreground">
+              Every feature, every calculation, every report was designed
+              with one question in mind:{" "}
+              <strong>
+                does this work for a Jamaican business owner on payday?
+              </strong>
+            </p>
+
+            {/* Our Mission */}
             <h2 className="text-2xl font-semibold mt-10 mb-4">Our Mission</h2>
             <p className="text-muted-foreground">
               Every Jamaican employer — from a five-person shop in May Pen to a
-              500-employee operation in Kingston — deserves payroll software that
-              understands local rules, generates compliant reports, and just
-              works. We built PayrollJamaica to make that a reality.
+              500-employee operation in New Kingston — deserves payroll software
+              that understands local rules, generates compliant reports, and
+              just works. We built PayrollJamaica to make that a reality.
             </p>
 
+            {/* Jamaica Market Expertise */}
+            <div className="rounded-2xl border bg-muted/50 p-6 sm:p-8 mt-8">
+              <h3 className="text-lg font-semibold mb-4">
+                Jamaica Payroll Expertise
+              </h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-primary">
+                    2025/26
+                  </div>
+                  <div className="text-muted-foreground mt-1">
+                    Tax Year Updated
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-primary">6</div>
+                  <div className="text-muted-foreground mt-1">
+                    Statutory Deductions
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-muted-foreground mt-1">
+                    Banks Supported
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-primary">14</div>
+                  <div className="text-muted-foreground mt-1">
+                    Parishes Served
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-primary">4+</div>
+                  <div className="text-muted-foreground mt-1">
+                    TAJ Report Types
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-primary">100%</div>
+                  <div className="text-muted-foreground mt-1">
+                    Jamaica Focused
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* What We Do - Key Features */}
             <h2 className="text-2xl font-semibold mt-10 mb-4">What We Do</h2>
+            <div className="grid gap-4 sm:grid-cols-2 not-prose">
+              {keyFeatures.map((feature) => (
+                <div
+                  key={feature.title}
+                  className="rounded-xl border bg-card p-5"
+                >
+                  <h3 className="text-sm font-semibold mb-2">
+                    {feature.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {feature.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            {/* Built for Jamaica */}
+            <h2 className="text-2xl font-semibold mt-10 mb-4">
+              Built for Jamaica — Not Adapted From Somewhere Else
+            </h2>
+            <p className="text-muted-foreground">
+              Unlike generic international payroll tools that bolt on Jamaica as
+              an afterthought, PayrollJamaica is designed from the ground up for
+              Jamaica&apos;s regulatory environment. We stay current with every
+              tax rate change, threshold update, and compliance requirement from
+              the Ministry of Finance and TAJ so you don&apos;t have to.
+            </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
               <li>
-                <strong>Automated statutory calculations</strong> — PAYE with the
-                correct J$1,500,096 annual threshold, NIS (3%/3%), NHT (2%/3%),
-                Education Tax (2.25%/3.5%), and HEART/NSTA (3%).
+                PAYE threshold updated the day the GOJ budget passes — not
+                months later
               </li>
               <li>
-                <strong>Professional payslips</strong> — generated in one click,
-                accessible to employees via self-service.
+                NIS ceiling changes reflected immediately in calculations
               </li>
               <li>
-                <strong>Statutory reports</strong> — SO1, P24, NIS returns, and
-                NHT remittance files formatted for TAJ submission.
+                Reports formatted for TAJ — not adapted from IRS templates
               </li>
               <li>
-                <strong>Bank-ready payment files</strong> — compatible with NCB,
-                JN, Scotiabank, Sagicor Bank, and FirstCaribbean.
+                JMD currency throughout — no USD conversion confusion
               </li>
               <li>
-                <strong>Leave and benefits management</strong> — track vacation,
-                sick leave, and benefits with configurable policies.
-              </li>
-              <li>
-                <strong>Multi-location support</strong> — manage branches,
-                departments, and cost centres from a single dashboard.
+                Local Jamaican support team — not an overseas call centre
               </li>
             </ul>
 
-            <h2 className="text-2xl font-semibold mt-10 mb-4">
-              Built for Jamaica
-            </h2>
-            <p className="text-muted-foreground">
-              Unlike generic international payroll tools, PayrollJamaica is
-              designed from the ground up for Jamaica&apos;s regulatory
-              environment. We stay current with tax rate changes, threshold
-              updates, and compliance requirements so you don&apos;t have to.
-            </p>
-
+            {/* Industries We Serve */}
             <h2 className="text-2xl font-semibold mt-10 mb-4">
               Industries We Serve
             </h2>
@@ -164,13 +327,25 @@ export default function AboutPage() {
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mt-4">
               {[
-                { name: "Hotels & Hospitality", href: "/payroll-jamaica-hotels" },
-                { name: "Construction", href: "/construction-payroll-jamaica" },
+                {
+                  name: "Hotels & Hospitality",
+                  href: "/payroll-jamaica-hotels",
+                },
+                {
+                  name: "Construction",
+                  href: "/construction-payroll-jamaica",
+                },
                 { name: "Retail", href: "/retail-payroll-jamaica" },
                 { name: "Healthcare", href: "/healthcare-payroll-jamaica" },
-                { name: "Manufacturing", href: "/manufacturing-payroll-jamaica" },
+                {
+                  name: "Manufacturing",
+                  href: "/manufacturing-payroll-jamaica",
+                },
                 { name: "Education", href: "/education-payroll-jamaica" },
-                { name: "Government & NGO", href: "/government-ngo-payroll-jamaica" },
+                {
+                  name: "Government & NGO",
+                  href: "/government-ngo-payroll-jamaica",
+                },
                 { name: "Restaurants", href: "/payroll-jamaica-restaurants" },
                 { name: "Churches", href: "/payroll-jamaica-churches" },
               ].map((industry) => (
@@ -184,9 +359,54 @@ export default function AboutPage() {
               ))}
             </div>
 
+            {/* Contact / Get in Touch */}
             <h2 className="text-2xl font-semibold mt-10 mb-4">
-              Get Started
+              Get in Touch
             </h2>
+            <div className="rounded-2xl border bg-card p-6 not-prose">
+              <div className="grid gap-4 sm:grid-cols-2">
+                <div>
+                  <h3 className="text-sm font-semibold mb-2">General Inquiries</h3>
+                  <a
+                    href="mailto:info@payrolljamaica.com"
+                    className="text-sm text-primary underline"
+                  >
+                    info@payrolljamaica.com
+                  </a>
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold mb-2">Sales</h3>
+                  <a
+                    href="mailto:sales@payrolljamaica.com"
+                    className="text-sm text-primary underline"
+                  >
+                    sales@payrolljamaica.com
+                  </a>
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold mb-2">WhatsApp</h3>
+                  <a
+                    href={siteConfig.links.whatsapp}
+                    className="text-sm text-primary underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Message us on WhatsApp
+                  </a>
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold mb-2">Social</h3>
+                  <div className="flex gap-3">
+                    <a href={siteConfig.links.linkedin} className="text-sm text-primary underline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href={siteConfig.links.instagram} className="text-sm text-primary underline" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href={siteConfig.links.facebook} className="text-sm text-primary underline" target="_blank" rel="noopener noreferrer">Facebook</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Get Started */}
+            <h2 className="text-2xl font-semibold mt-10 mb-4">Get Started</h2>
             <p className="text-muted-foreground">
               Try our{" "}
               <Link href="/calculator" className="text-primary underline">
