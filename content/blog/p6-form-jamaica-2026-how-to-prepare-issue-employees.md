@@ -102,7 +102,7 @@ Before issuing P6 forms, verify that the totals on your year-to-date payroll mat
 **Common discrepancies to check:**
 - Did any month's PAYE remittance differ from what was deducted? (Common when a payment was late or estimated)
 - Did any employee receive a bonus that affected their PAYE threshold?
-- Did any employee exceed the NIS contribution ceiling (J$1,500,000 annual gross)?
+- Did any employee exceed the NIS contribution ceiling (J$5,000,000 annual gross)?
 
 Discrepancies between what you deducted and what you remitted will cause your SO1 return to be rejected — and will make your P6 forms inaccurate.
 

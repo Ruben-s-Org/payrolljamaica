@@ -51,7 +51,7 @@ With your threshold in place, configure each statutory deduction:
 
 These rates apply to all employees regardless of their PAYE status. A worker earning below the income threshold still has NIS, NHT, and Education Tax deducted from their pay. Many employers get this wrong.
 
-Also note the **NIS ceiling** of approximately J$1.5M annually. Once an employee's insurable earnings reach this ceiling within the tax year, NIS contributions stop. Make sure your system tracks this automatically.
+Also note the **NIS ceiling** of approximately J$5M annually. Once an employee's insurable earnings reach this ceiling within the tax year, NIS contributions stop. Make sure your system tracks this automatically.
 
 ---
 

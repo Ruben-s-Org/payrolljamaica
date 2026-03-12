@@ -70,9 +70,9 @@ Also check: did any employee leave during the year? Their contributions still ne
 
 ### Step 5: Check NIS Against the Ceiling
 
-NIS contributions (3% employee + 3% employer) are capped once an employee's annual earnings hit approximately **J$1.5 million**. At that point, NIS contributions stop for that employee for the rest of the year.
+NIS contributions (3% employee + 3% employer) are capped once an employee's annual earnings hit approximately **J$5 million**. At that point, NIS contributions stop for that employee for the rest of the year.
 
-If any employee earned over J$1.5M, check that contributions stopped at the ceiling — continuing to deduct past the ceiling is an error that employees are entitled to have corrected.
+If any employee earned over J$5M, check that contributions stopped at the ceiling — continuing to deduct past the ceiling is an error that employees are entitled to have corrected.
 
 ### Step 6: Confirm Education Tax and HEART
 

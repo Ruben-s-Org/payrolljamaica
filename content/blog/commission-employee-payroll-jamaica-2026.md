@@ -85,9 +85,9 @@ Unlike PAYE — which uses the annualisation method — **NIS and NHT are applie
 | | Employee | Employer |
 |---|---|---|
 | Rate | 3% of gross | 3% of gross |
-| Annual earnings cap | ~$1,500,000 | ~$1,500,000 |
+| Annual earnings cap | ~$5,000,000 | ~$5,000,000 |
 
-NIS contributions are capped: once an employee's cumulative insurable earnings for the year reach approximately $1,500,000, NIS stops being deducted (both employee and employer sides). For high-earning commission employees who hit this ceiling early in the year, NIS stops mid-year.
+NIS contributions are capped: once an employee's cumulative insurable earnings for the year reach approximately $5,000,000, NIS stops being deducted (both employee and employer sides). For high-earning commission employees who hit this ceiling early in the year, NIS stops mid-year.
 
 **Example:** Sarah's commission income means she reaches the NIS cap in August. From September to December, no NIS is deducted from her pay or paid by you as the employer.
 
@@ -225,7 +225,7 @@ No spreadsheet formulas, no manual annualisation, no risk of forgetting the NIS 
 
 - [ ] Confirm all commission earners are on payroll as employees (not misclassified as contractors)
 - [ ] Use the annual equivalent method for PAYE — do not apply a flat rate
-- [ ] Apply NIS at 3% with the annual cap (~$1,500,000)
+- [ ] Apply NIS at 3% with the annual cap (~$5,000,000)
 - [ ] Apply NHT at 2% employee / 3% employer with no cap
 - [ ] Apply Education Tax at 2.25% employee / 3.5% employer with no cap
 - [ ] Run true-up calculations in December to catch any PAYE mismatches

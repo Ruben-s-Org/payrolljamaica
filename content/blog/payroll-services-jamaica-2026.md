@@ -25,7 +25,7 @@ When a Jamaican business talks about payroll services, they're typically referri
 Computing gross pay, applying all deductions (statutory and voluntary), and arriving at net pay for each employee. In Jamaica, this means correctly applying:
 - **PAYE (Pay As You Earn):** Income tax withheld at source. For 2026, the annual tax-free threshold is J$1,500,096. Income above that is taxed at 25% up to J$6,000,000, then 30%.
 - **NHT (National Housing Trust):** 2% of gross wages from the employee, plus 3% employer contribution.
-- **NIS (National Insurance Scheme):** 3% employee / 3% employer on insurable wages up to J$1,500,000 per annum.
+- **NIS (National Insurance Scheme):** 3% employee / 3% employer on insurable wages up to J$5,000,000 per annum.
 - **Education Tax:** 2.25% employee / 3.5% employer on gross income.
 
 ### Payslip Generation

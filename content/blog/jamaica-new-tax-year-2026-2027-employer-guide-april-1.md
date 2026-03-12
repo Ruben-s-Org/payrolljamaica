@@ -44,7 +44,7 @@ Use this before you run your first April payroll:
 - [ ] Reset or verify cumulative year-to-date figures are at zero
 - [ ] Confirm PAYE threshold is set to J$125,008/month
 - [ ] Verify NIS, NHT, Education Tax, and HEART rates are correctly entered
-- [ ] Check that your NIS ceiling (~J$1.5M annually) is properly configured
+- [ ] Check that your NIS ceiling (~J$5M annually) is properly configured
 - [ ] Update any salary changes effective April 1
 - [ ] Confirm your pay frequency (weekly, fortnightly, monthly) aligns with your S01 filing
 - [ ] Set a calendar reminder for May 14, 2026 — your first S01 due date

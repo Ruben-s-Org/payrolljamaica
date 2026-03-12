@@ -28,7 +28,7 @@ Every employer in Jamaica is required to withhold income tax from employee salar
 Employees contribute 2% of gross wages to the NHT. Employers contribute an additional 3%. A payroll company calculates both sides of this correctly, ensuring contributions are tied to the right employee NHT numbers and remitted on time — late payments attract a penalty of 20% per annum.
 
 **NIS (National Insurance Scheme)**
-NIS contributions are currently capped at a maximum insurable wage of J$1,500,000 per year (J$125,000/month). The employee rate is 3% and the employer rate is 3%. These must be reported and remitted monthly. A good payroll company tracks the cap per employee, so you never over-contribute.
+NIS contributions are currently capped at a maximum insurable wage of J$5,000,000 per year (J$416,667/month). The employee rate is 3% and the employer rate is 3%. These must be reported and remitted monthly. A good payroll company tracks the cap per employee, so you never over-contribute.
 
 **Education Tax**
 Often overlooked by business owners, Education Tax is levied on employers at 3.5% of payroll and on employees at 2.25% of gross income (as of 2026 rates). This is a separate line item that must be remitted monthly to the TAJ alongside PAYE and NHT.

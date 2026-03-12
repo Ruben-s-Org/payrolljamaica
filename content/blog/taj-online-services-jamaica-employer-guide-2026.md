@@ -120,7 +120,7 @@ This is the most important filing of the year. If there are discrepancies betwee
 - **TRN mismatch:** Employee TRNs that don't match TAJ records cause rejection. Verify all TRNs before filing.
 - **Rounding errors:** Use exact figures, not rounded ones. Monthly remittances use exact amounts — your annual total must match the sum of monthly remittances.
 - **Missing employees:** Every employee who received wages during the year must appear on the SO1 — including terminated employees.
-- **NIS ceiling errors:** Employees who earned above J$1,500,000 during the year had NIS contributions capped. Make sure contributions stop at the ceiling in your records.
+- **NIS ceiling errors:** Employees who earned above J$5,000,000 during the year had NIS contributions capped. Make sure contributions stop at the ceiling in your records.
 
 ---
 

@@ -91,7 +91,7 @@ A foreign national on a Jamaican payroll contributes to NIS at the same rates as
 | | Employee | Employer |
 |---|---|---|
 | Rate | 3% of gross | 3% of gross |
-| Annual cap | ~$1,500,000 | ~$1,500,000 |
+| Annual cap | ~$5,000,000 | ~$5,000,000 |
 
 ### Potential Exemptions
 

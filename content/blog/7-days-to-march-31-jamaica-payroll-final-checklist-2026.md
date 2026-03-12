@@ -51,7 +51,7 @@ Pull all 11 months of payroll records (April 2025 → February 2026). Check:
 - Were the correct rates used throughout the year?
 
 **PAYE threshold for 2025/26:** J$1,500,096 annually / J$125,008 monthly
-**NIS:** 3% employee + 3% employer (ceiling: J$1.5M per employee)
+**NIS:** 3% employee + 3% employer (ceiling: J$5M per employee)
 **NHT:** 2% employee + 3% employer
 **Education Tax:** 2.25% employee + 3.5% employer
 

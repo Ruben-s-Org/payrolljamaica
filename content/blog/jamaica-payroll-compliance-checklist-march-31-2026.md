@@ -62,12 +62,12 @@ For each active employee (and any employees who left during the year):
 - [ ] Total gross wages paid: April 2025 – March 2026
 - [ ] Total PAYE withheld
 - [ ] Total NHT contributions (employee + employer, per NHT number)
-- [ ] Total NIS contributions (verify the annual cap of J$1,500,000 was applied correctly)
+- [ ] Total NIS contributions (verify the annual cap of J$5,000,000 was applied correctly)
 - [ ] Total Education Tax (employee + employer)
 - [ ] Confirm NHT numbers are recorded correctly for all employees
 
 **Common reconciliation errors:**
-- NIS deductions continued past the J$1,500,000 cap for high earners
+- NIS deductions continued past the J$5,000,000 cap for high earners
 - NHT contributions remitted without NHT numbers (contributions not credited to employees)
 - Education Tax omitted entirely for some or all months
 - New employees added mid-year without PAYE being calculated cumulatively from their start date
@@ -164,7 +164,7 @@ Use these to verify your year-end calculations are using the right rates:
 | PAYE rate (above J$6M) | 30% |
 | NHT employee rate | 2% (no cap) |
 | NHT employer rate | 3% (no cap) |
-| NIS maximum insurable wage | J$1,500,000/year |
+| NIS maximum insurable wage | J$5,000,000/year |
 | NIS employee rate | 3% |
 | NIS employer rate | 3% |
 | Education Tax (employee) | 2.25% |

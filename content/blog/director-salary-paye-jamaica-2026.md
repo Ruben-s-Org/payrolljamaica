@@ -93,7 +93,7 @@ NIS contributions for directors follow the same rules as for regular employees â
 | | Employee (Director) | Employer (Company) |
 |---|---|---|
 | Rate | 3% of gross emoluments | 3% of gross emoluments |
-| Annual cap | ~$1,500,000 insurable earnings | ~$1,500,000 insurable earnings |
+| Annual cap | ~$5,000,000 insurable earnings | ~$5,000,000 insurable earnings |
 
 The company withholds 3% from the director's salary and pays an additional 3% as the employer contribution. Both are remitted to the National Insurance Fund.
 
@@ -103,7 +103,7 @@ A director who owns 100% of a company and has no other directors or shareholders
 
 ### NIS Cap in Practice
 
-Once the director's cumulative insurable earnings for the year reach the NIS ceiling (approximately $1,500,000), NIS contributions stop for that tax year for both the director and the company. High-salaried directors often hit this cap in the first few months of the tax year.
+Once the director's cumulative insurable earnings for the year reach the NIS ceiling (approximately $5,000,000), NIS contributions stop for that tax year for both the director and the company. High-salaried directors often hit this cap in the first few months of the tax year.
 
 ---
 
