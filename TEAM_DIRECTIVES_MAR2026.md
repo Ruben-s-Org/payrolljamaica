@@ -9,6 +9,24 @@
 
 ---
 
+## 🚨 ESCALATION — UNRESOLVED BLOCKERS (Ruben action required NOW)
+
+These have been pending since March 11. Every day of delay costs us during peak season:
+
+| Blocker | Guide | Days Overdue |
+|---------|-------|-------------|
+| Social media accounts (LinkedIn/FB/IG/X) | `social-media/RUBEN_30MIN_SETUP_GUIDE.md` | Day 1 |
+| Press pitches — Loop Jamaica, JBDC | `marketing/pr/SEND_TODAY_MARCH_11.md` | Day 1 |
+| Google Business Profile | `seo/GBP_ACTION_PACK_FOR_RUBEN.md` | Day 1 |
+| Google Search Console verification | DNS TXT record required | Day 1 |
+| Accounting firm emails (5 firms) | `marketing/accounting-firm-outreach/SEND_THIS_WEEK_PRIORITY_EMAILS.md` | Day 1 |
+
+**Total time: ~2 hours. All materials ready. Just needs sending.**
+
+The fiscal year ends March 31. We have 20 days. Every unposted day is a missed urgency window.
+
+---
+
 ## SEO SPECIALIST — WEEK 2 PRIORITIES (Mar 13–17)
 
 ### OVERDUE (Complete ASAP — originally due Mar 14-17)
@@ -46,7 +64,7 @@
 5. **Featured snippet optimization — 3 target queries**
    - **"PAYE threshold Jamaica 2026"** → answer: J$1,500,096/year. Find top blog post, ensure exact-match answer appears in H2 + paragraph at top. Format as concise 2-sentence answer.
    - **"How to calculate NIS Jamaica"** → answer: 3% of gross pay. Same treatment.
-   - **"SO1 return deadline Jamaica"** → answer: March 31 annually. Optimize SO1 guide post.
+   - **"SO1 return deadline Jamaica"** → answer: March 31 annually. Optimize SO1 guide post (new post: `content/blog/so1-annual-return-jamaica-2026-complete-guide.md`).
 
 6. **Fix speculative content** (Due Mar 14)
    - Review and correct: `content/2025-jamaica-payroll-tax-updates-complete-guide-new-rates-thresholds.json`
@@ -56,6 +74,11 @@
 7. **Page speed audit** (Due Mar 17)
    - Run Lighthouse on: homepage, /calculator, top 3 blog posts
    - Report scores to CMO — flag anything below 85 mobile
+
+8. **New blog posts published this week (commit to repo):**
+   - `content/blog/so1-annual-return-jamaica-2026-complete-guide.md` ← NEW, ready
+   - `content/blog/nht-annual-return-deadline-employers-guide-jamaica-2026.md` ← NEW, ready
+   - `content/blog/jamaica-payroll-year-end-reconciliation-guide-2026.md` ← NEW, ready
 
 ---
 
@@ -97,14 +120,15 @@ Respond to ALL comments, DMs, and group replies within 4 business hours.
 These are your personal action items — they cannot be delegated:
 
 | Priority | Action | Time Required | Guide |
-|---|---|---|---|
+|----------|--------|---------------|-------|
 | 🔴 #1 | Create social media accounts | 30–45 min | `social-media/RUBEN_30MIN_SETUP_GUIDE.md` |
 | 🔴 #2 | Send Loop Jamaica / JBDC / Chamber press emails | 15 min | `marketing/pr/SEND_TODAY_MARCH_11.md` |
 | 🔴 #3 | Send RJR News pitch | 5 min | `marketing/pr/SEND_TODAY_MARCH_11.md` |
 | 🟡 #4 | Set up Google Business Profile | 20 min | `seo/GBP_ACTION_PACK_FOR_RUBEN.md` |
-| 🟡 #5 | Verify domain in Google Search Console | 15 min | `seo/TEAM_DIRECTIVES` |
+| 🟡 #5 | Verify domain in Google Search Console | 15 min | DNS TXT record |
 | 🟡 #6 | Post on YOUR personal LinkedIn (Ruben) | 5 min | `social-media/MARCH_12_EXECUTION_BRIEF.md` |
 | 🟢 #7 | Send 4 accounting firm emails (Kingston) | 20 min | `marketing/accounting-firm-outreach/SEND_THIS_WEEK_PRIORITY_EMAILS.md` |
+| 🟢 #8 | Send ICAJ association pitch | 10 min | `marketing/accounting-firm-outreach/ICAJ_ASSOCIATION_PITCH.md` |
 
 **Ruben's personal LinkedIn post is important:** Personal posts get 5x more reach than company pages. The March 13 post copy is ready to paste in `social-media/MARCH_13_14_CONTENT.md`.
 
@@ -114,7 +138,7 @@ These are your personal action items — they cannot be delegated:
 
 | Metric | Target | Current | Status |
 |--------|--------|---------|--------|
-| Blog posts live | 235+ | 332 | ✅ Exceeded |
+| Blog posts live | 235+ | 336 | ✅ Exceeded (+101) |
 | LinkedIn followers | 100 | 0 | 🔴 Accounts pending |
 | Facebook page likes | 50 | 0 | 🔴 Accounts pending |
 | Instagram followers | 50 | 0 | 🔴 Accounts pending |
@@ -123,7 +147,7 @@ These are your personal action items — they cannot be delegated:
 | Press pitches sent | 4 | 0 | 🔴 Not sent |
 | Keyword tracking | Active | Not started | 🔴 Not started |
 | Accounting firm emails | 5+ | 0 | 🔴 Not sent |
-| Posts published (total) | 35+ | 0 | 🔴 Blocked |
+| Posts published (total) | 35+ | 0 | 🔴 Blocked by accounts |
 | Facebook Group Q&As | 5+ | 0 | 🔴 Blocked |
 
 ---
@@ -149,6 +173,17 @@ Content for this week is staged in `social-media/CONTENT_CALENDAR_MAR11_24_2026.
 - See: `marketing/accounting-firm-outreach/MONTEGO_BAY_OUTREACH_CAMPAIGN.md`
 - Strategy: Lead with tourism/hospitality payroll complexity — MoBay's dominant sector
 - Target: 5 MoBay partners by March 31
+
+---
+
+## APRIL PIVOT — PREP WORK (Due by March 24)
+
+With March 31 approaching, start preparing the April campaign now:
+
+- Content calendar for April 1–30 (new tax year theme) — being drafted
+- 3 new blog posts targeting April 1 keywords — being drafted
+- April 1 email newsletter: "Your new tax year starts today" — draft needed
+- S01 May 14 deadline content: "Your first S01 of 2026/2027 is due May 14"
 
 ---
 
