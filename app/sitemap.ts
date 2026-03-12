@@ -84,6 +84,12 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${SITE_URL}/payroll-port-antonio-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
   { url: `${SITE_URL}/payroll-morant-bay-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
 
+  // === Free downloadable resources ===
+  { url: `${SITE_URL}/resources/jamaica-employer-tax-rates-2026`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
+  { url: `${SITE_URL}/resources/march-31-paye-checklist`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
+  { url: `${SITE_URL}/resources/monthly-payroll-checklist`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
+  { url: `${SITE_URL}/resources/new-employee-onboarding-checklist`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
+
   // === Legal ===
   { url: `${SITE_URL}/privacy`, lastModified: TODAY, changeFrequency: "yearly", priority: 0.3 },
   { url: `${SITE_URL}/terms`, lastModified: TODAY, changeFrequency: "yearly", priority: 0.3 },

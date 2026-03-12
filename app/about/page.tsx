@@ -43,12 +43,48 @@ const breadcrumbSchema = {
   ],
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: siteConfig.name,
+  url: siteConfig.url,
+  logo: `${siteConfig.url}/og.jpg`,
+  foundingDate: "2024",
+  description: baseDescription,
+  areaServed: { "@type": "Country", name: "Jamaica" },
+  sameAs: [
+    siteConfig.links.twitter,
+    siteConfig.links.linkedin,
+    siteConfig.links.facebook,
+    siteConfig.links.instagram,
+  ].filter(Boolean),
+  contactPoint: {
+    "@type": "ContactPoint",
+    email: "info@payrolljamaica.com",
+    contactType: "customer support",
+    areaServed: "JM",
+    availableLanguage: ["en"],
+  },
+  knowsAbout: [
+    "Payroll processing Jamaica",
+    "PAYE income tax Jamaica",
+    "NIS contributions Jamaica",
+    "NHT contributions Jamaica",
+    "Education Tax Jamaica",
+    "Statutory compliance Jamaica",
+  ],
+};
+
 export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(organizationSchema) }}
       />
       <Navbar />
       <main className="flex-1 w-full px-4 pb-28">

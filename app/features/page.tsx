@@ -255,6 +255,65 @@ export default function FeaturesPage() {
           }),
         }}
       />
+      {/* JSON-LD: FAQPage for SEO content questions */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: safeJsonLd({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What makes Payroll Jamaica different from generic payroll software?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Most payroll software is built for the UK, US, or Canada and requires manual configuration of Jamaican tax rules. Payroll Jamaica is built exclusively for Jamaica — PAYE thresholds, NIS ceilings, NHT rates, and Education Tax are all pre-configured and updated automatically. No spreadsheet workarounds required.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does Payroll Jamaica support all pay frequencies?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. You can run monthly, fortnightly, or weekly payroll. If you have different employee groups on different schedules, that is fully supported. The statutory calculations automatically prorate based on the pay frequency selected.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How do statutory rate updates work?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "When the Ministry of Finance announces changes to PAYE thresholds, NIS contribution ceilings, or other statutory rates, Payroll Jamaica updates the system. You are notified and your next payroll run uses the new rates automatically. No manual updates or formula changes needed.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
+      {/* JSON-LD: SoftwareApplication */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: safeJsonLd({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            name: siteConfig.name,
+            applicationCategory: "BusinessApplication",
+            operatingSystem: "Web",
+            url: `${siteConfig.url}/features`,
+            description: baseDescription,
+            offers: {
+              "@type": "AggregateOffer",
+              lowPrice: "3500",
+              highPrice: "7500",
+              priceCurrency: "JMD",
+              offerCount: 3,
+            },
+            featureList: features.map((f) => f.title).join(", "),
+          }),
+        }}
+      />
     </div>
   );
 }

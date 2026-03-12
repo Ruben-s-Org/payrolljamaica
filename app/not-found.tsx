@@ -1,6 +1,14 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import Navbar from "@/components/sections/navbar/default";
 import Footer from "@/components/sections/footer/default";
+
+export const metadata: Metadata = {
+  title: "Page Not Found — Payroll Jamaica",
+  description:
+    "The page you are looking for does not exist. Try our free Jamaica payroll calculator or browse our blog for PAYE, NIS, NHT, and payroll compliance guides.",
+  robots: { index: false, follow: true },
+};
 
 export default function NotFound() {
   return (

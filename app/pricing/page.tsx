@@ -190,13 +190,13 @@ export default function PricingPage() {
                 Try Free Calculator
               </a>
               <a
-                href="/calculator/paye"
+                href="/paye-calculator-jamaica"
                 className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-sm font-semibold hover:bg-muted transition-colors"
               >
                 PAYE Calculator
               </a>
               <a
-                href="/calculator/nis"
+                href="/nis-calculator-jamaica"
                 className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-sm font-semibold hover:bg-muted transition-colors"
               >
                 NIS Calculator
