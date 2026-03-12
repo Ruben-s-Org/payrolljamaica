@@ -117,7 +117,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
       <Navbar />
-      <main className="w-full px-4 pb-28 flex-1">
+      <main id="main-content" className="w-full px-4 pb-28 flex-1">
         <div className="max-w-5xl mx-auto py-14">
           <nav aria-label="Breadcrumb">
             <ol className="flex items-center gap-1 text-sm text-muted-foreground mb-6">
