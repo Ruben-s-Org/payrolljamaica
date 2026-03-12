@@ -263,7 +263,7 @@ export default function ManufacturingPayrollPage() {
                   "Correct PAYE on variable and piece-rate earnings",
                   "NIS contributions calculated on all eligible pay",
                   "NHT contributions tracked per employee",
-                  "Education Tax applied at 2.25% employer, 2.25% employee",
+                  "Education Tax applied at 2.25% employee, 3.5% employer",
                   "Monthly statutory reports ready for TAJ, NIS, NHT",
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-2">

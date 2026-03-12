@@ -269,7 +269,7 @@ export default function ResourcesPage() {
                 <div className="mt-4 pt-4 border-t border-border text-xs text-muted-foreground space-y-1">
                   <div className="flex justify-between">
                     <span>PAYE threshold 2026</span>
-                    <span className="font-semibold text-foreground">JMD $1,902,360</span>
+                    <span className="font-semibold text-foreground">JMD $1,500,096</span>
                   </div>
                   <div className="flex justify-between">
                     <span>NIS rate</span>

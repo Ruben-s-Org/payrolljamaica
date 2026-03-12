@@ -76,9 +76,9 @@ Body (3–20s): Screen recording of calculator OR animated text:
   "Salary: J$100,000
    NHT (employer 3%): J$3,000
    NIS (employer 3%): J$3,000
-   Education Tax (employer 3.75%): J$3,750
+   Education Tax (employer 3.5%): J$3,500
    ——
-   REAL cost to you: J$109,750"
+   REAL cost to you: J$109,500"
   "That's nearly 10% more than the salary. Are you budgeting for this?"
 CTA (20–30s): "Free calculator at PayrollJamaica.com — link in bio."
 

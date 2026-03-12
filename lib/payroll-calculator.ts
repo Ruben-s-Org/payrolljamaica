@@ -56,20 +56,13 @@ const ED_TAX_EMPLOYER_RATE = 0.035;
 const HEART_EMPLOYER_RATE = 0.03;
 
 /**
- * PAYE annual income tax thresholds (statutory income).
- * Phased increase per 2025/26 Budget:
- * - Jan–Mar 2025: JMD 1,700,088
- * - Apr 2025–Mar 2026: JMD 1,799,376
- * - Apr 2026–Mar 2027: JMD 1,902,360
- * - Apr 2027–Mar 2028: JMD 2,003,496
+ * PAYE annual income tax threshold (statutory income).
+ * Current threshold: JMD 1,500,096/year (JMD 125,008/month)
  */
 const PAYE_THRESHOLDS: { from: Date; annual: number }[] = [
-  { from: new Date(2027, 3, 1), annual: 2_003_496 }, // Apr 2027
-  { from: new Date(2026, 3, 1), annual: 1_902_360 }, // Apr 2026
-  { from: new Date(2025, 3, 1), annual: 1_799_376 }, // Apr 2025
-  { from: new Date(2025, 0, 1), annual: 1_700_088 }, // Jan 2025
+  { from: new Date(2025, 0, 1), annual: 1_500_096 }, // Jan 2025
 ];
-const PAYE_DEFAULT_THRESHOLD = 1_799_376;
+const PAYE_DEFAULT_THRESHOLD = 1_500_096;
 
 function getPayeAnnualThreshold(payDate?: Date): number {
   const d = payDate ?? new Date();

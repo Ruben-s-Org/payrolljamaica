@@ -60,7 +60,7 @@ One of the most common questions we hear from Jamaican business owners:
 
 > *"I'm paying my employee JMD $100,000 a month. What does that actually cost me?"*
 
-The real answer: **JMD $108,500/month** (8.5% more than gross salary).
+The real answer: **JMD $109,500/month** (9.5% more than gross salary).
 
 Here's why — as an employer, you don't just pay the employee. You also pay:
 
@@ -109,9 +109,9 @@ The most expensive payroll mistake I see from Jamaican businesses:
 
 **Using the wrong PAYE threshold.**
 
-Jamaica's income tax threshold changes almost every year. For 2025/2026, the threshold increased to **JMD $1,902,360 per year** (JMD $158,530/month), effective April 2026.
+Jamaica's income tax threshold changes almost every year. For 2025/2026, the threshold increased to **JMD $1,500,096 per year** (JMD $125,008/month), effective April 2026.
 
-That means any employee earning under JMD $158,530/month owes **zero** PAYE.
+That means any employee earning under JMD $125,008/month owes **zero** PAYE.
 
 ---
 
@@ -127,7 +127,7 @@ Both situations are expensive and stressful to unwind.
 **How to check if your PAYE is correct:**
 
 Run a quick audit:
-1. List all employees earning under JMD $158,530/month gross
+1. List all employees earning under JMD $125,008/month gross
 2. If you've been deducting PAYE from any of them since April 2026, you need to reverse those deductions
 3. If you're not sure, use our free calculator to run the numbers: [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator)
 

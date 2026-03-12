@@ -209,7 +209,7 @@ export default function NisCalculatorJamaicaPage() {
               <p>NIS is deducted alongside three other statutory contributions:</p>
               <ul className="mt-2 space-y-2 list-disc list-inside">
                 <li>
-                  <strong className="text-foreground">PAYE</strong> — Income tax (25–30% on income above the JMD $1,902,360 threshold)
+                  <strong className="text-foreground">PAYE</strong> — Income tax (25–30% on income above the JMD $1,500,096 threshold)
                 </li>
                 <li>
                   <strong className="text-foreground">NHT</strong> — National Housing Trust (2% employee + 3% employer, no ceiling)

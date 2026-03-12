@@ -14,7 +14,7 @@ It automates PAYE, NIS, NHT, Education Tax, and HEART/NSTA calculations for Jama
 - CSV import for employee data and historical payroll
 
 # Jamaica statutory rates (2025/2026)
-- Income tax threshold: JMD $1,902,360/year (effective April 2026)
+- Income tax threshold: JMD $1,500,096/year (JMD $125,008/month)
 - PAYE: 25% on income above threshold up to JMD $6M; 30% above JMD $6M
 - NIS employee: 3%; NIS employer: 3%; ceiling: JMD $5,000,000/year
 - NHT employee: 2%; NHT employer: 3%; no ceiling

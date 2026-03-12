@@ -14,7 +14,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "PAYE Calculator Jamaica 2026 — Free Pay As You Earn Tax Calculator | Payroll Jamaica",
   description: ensureMinDescription(
-    "Free PAYE calculator for Jamaica 2026. Compute Pay As You Earn income tax from any gross salary using the current JMD $1,902,360 annual threshold and 25%/30% tax rates. See your full tax breakdown instantly.",
+    "Free PAYE calculator for Jamaica 2026. Compute Pay As You Earn income tax from any gross salary using the current JMD $1,500,096 annual threshold and 25%/30% tax rates. See your full tax breakdown instantly.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -81,7 +81,7 @@ export default function PayeCalculatorJamaicaPage() {
           <div className="max-w-3xl mx-auto space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-border text-xs text-muted-foreground">
               <span className="w-2 h-2 rounded-full bg-green-500 inline-block" />
-              Updated for 2026 — JMD $1,902,360 threshold (effective April 2026)
+              Updated for 2026 — JMD $1,500,096 threshold (effective April 2026)
             </div>
             <h1 className="text-4xl sm:text-5xl font-semibold leading-tight text-balance">
               PAYE Calculator Jamaica 2026
@@ -129,12 +129,12 @@ export default function PayeCalculatorJamaicaPage() {
                   </thead>
                   <tbody className="divide-y divide-border">
                     <tr>
-                      <td className="py-2 pr-4">Up to JMD $1,902,360/year</td>
+                      <td className="py-2 pr-4">Up to JMD $1,500,096/year</td>
                       <td className="py-2 pr-4 text-foreground font-medium">0%</td>
                       <td className="py-2">Below income tax threshold — no PAYE due</td>
                     </tr>
                     <tr>
-                      <td className="py-2 pr-4">JMD $1,902,361 – $6,000,000/year</td>
+                      <td className="py-2 pr-4">JMD $1,500,097 – $6,000,000/year</td>
                       <td className="py-2 pr-4 text-foreground font-medium">25%</td>
                       <td className="py-2">Standard rate on income above threshold</td>
                     </tr>
@@ -148,7 +148,7 @@ export default function PayeCalculatorJamaicaPage() {
               </div>
               <p className="mt-3">
                 The income tax threshold of{" "}
-                <strong className="text-foreground">JMD $1,902,360 per year (JMD $158,530/month)</strong>{" "}
+                <strong className="text-foreground">JMD $1,500,096 per year (JMD $125,008/month)</strong>{" "}
                 applies from April 2026. Salaries below this threshold attract zero PAYE.
               </p>
             </section>
@@ -166,11 +166,11 @@ export default function PayeCalculatorJamaicaPage() {
                 </li>
                 <li>
                   <strong className="text-foreground">Subtract the income tax threshold.</strong>{" "}
-                  Deduct JMD $1,902,360 from the NIS-adjusted income to get taxable income.
+                  Deduct JMD $1,500,096 from the NIS-adjusted income to get taxable income.
                 </li>
                 <li>
                   <strong className="text-foreground">Apply the PAYE rates.</strong>{" "}
-                  25% on taxable income up to JMD $4,097,640; 30% on any balance above that.
+                  25% on taxable income up to JMD $4,499,904; 30% on any balance above that.
                 </li>
                 <li>
                   <strong className="text-foreground">Divide by pay periods.</strong>{" "}
@@ -344,9 +344,9 @@ export default function PayeCalculatorJamaicaPage() {
             step: [
               { "@type": "HowToStep", name: "Determine annual gross salary", text: "Start with the employee's annual gross salary. Multiply monthly by 12, fortnightly by 26, or weekly by 52." },
               { "@type": "HowToStep", name: "Subtract NIS employee contribution", text: "Deduct 3% NIS contribution from gross salary (maximum JMD $150,000/year at the JMD $5,000,000 wage ceiling)." },
-              { "@type": "HowToStep", name: "Apply the income tax threshold", text: "Subtract the 2026 income tax threshold of JMD $1,902,360 from the NIS-adjusted income to get taxable income." },
-              { "@type": "HowToStep", name: "Calculate PAYE at 25%", text: "Multiply taxable income (up to JMD $4,097,640 above the threshold) by 25% to get PAYE at the standard rate." },
-              { "@type": "HowToStep", name: "Apply 30% rate on high earnings", text: "If taxable income exceeds JMD $4,097,640 above the threshold, multiply the excess by 30%." },
+              { "@type": "HowToStep", name: "Apply the income tax threshold", text: "Subtract the 2026 income tax threshold of JMD $1,500,096 from the NIS-adjusted income to get taxable income." },
+              { "@type": "HowToStep", name: "Calculate PAYE at 25%", text: "Multiply taxable income (up to JMD $4,499,904 above the threshold) by 25% to get PAYE at the standard rate." },
+              { "@type": "HowToStep", name: "Apply 30% rate on high earnings", text: "If taxable income exceeds JMD $4,499,904 above the threshold, multiply the excess by 30%." },
               { "@type": "HowToStep", name: "Convert to pay period amount", text: "Divide annual PAYE by 12 (monthly), 26 (fortnightly), or 52 (weekly) to get the per-period deduction." },
             ],
           }),
@@ -366,7 +366,7 @@ export default function PayeCalculatorJamaicaPage() {
                 name: "What is the PAYE threshold in Jamaica for 2026?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The PAYE income tax threshold in Jamaica for 2026 is JMD $1,902,360 per year (JMD $158,530 per month), effective from April 1, 2026. Employees earning below this threshold pay zero PAYE.",
+                  text: "The PAYE income tax threshold in Jamaica for 2026 is JMD $1,500,096 per year (JMD $125,008 per month), effective from April 1, 2026. Employees earning below this threshold pay zero PAYE.",
                 },
               },
               {
@@ -374,7 +374,7 @@ export default function PayeCalculatorJamaicaPage() {
                 name: "How do you calculate PAYE in Jamaica?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "To calculate PAYE in Jamaica: (1) Take gross annual salary. (2) Subtract NIS employee contribution (3%, ceiling JMD $5M/year). (3) Subtract the income tax threshold (JMD $1,902,360 for 2026). (4) Apply 25% on taxable income up to JMD $4,097,640 above threshold, then 30% on any excess. (5) Divide by pay periods. Use our free PAYE calculator Jamaica tool above for instant results.",
+                  text: "To calculate PAYE in Jamaica: (1) Take gross annual salary. (2) Subtract NIS employee contribution (3%, ceiling JMD $5M/year). (3) Subtract the income tax threshold (JMD $1,500,096 for 2026). (4) Apply 25% on taxable income up to JMD $4,499,904 above threshold, then 30% on any excess. (5) Divide by pay periods. Use our free PAYE calculator Jamaica tool above for instant results.",
                 },
               },
               {
@@ -382,7 +382,7 @@ export default function PayeCalculatorJamaicaPage() {
                 name: "What is the PAYE rate in Jamaica 2026?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Jamaica's PAYE rates for 2026 are: 0% on income up to JMD $1,902,360/year (the income tax threshold), 25% on income from JMD $1,902,361 to JMD $6,000,000/year, and 30% on income above JMD $6,000,000/year.",
+                  text: "Jamaica's PAYE rates for 2026 are: 0% on income up to JMD $1,500,096/year (the income tax threshold), 25% on income from JMD $1,500,097 to JMD $6,000,000/year, and 30% on income above JMD $6,000,000/year.",
                 },
               },
               {
@@ -406,7 +406,7 @@ export default function PayeCalculatorJamaicaPage() {
                 name: "Does PAYE apply to all Jamaican employees?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "PAYE applies to all employed workers in Jamaica. However, employees earning below the annual income tax threshold (JMD $1,902,360 for 2026) have zero PAYE liability. Self-employed individuals pay income tax quarterly via Estimated Tax Payments instead of PAYE.",
+                  text: "PAYE applies to all employed workers in Jamaica. However, employees earning below the annual income tax threshold (JMD $1,500,096 for 2026) have zero PAYE liability. Self-employed individuals pay income tax quarterly via Estimated Tax Payments instead of PAYE.",
                 },
               },
             ],

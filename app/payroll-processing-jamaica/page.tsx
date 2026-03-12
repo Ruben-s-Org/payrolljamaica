@@ -72,7 +72,7 @@ const processSteps = [
   {
     step: "2",
     title: "Payroll Jamaica calculates everything",
-    desc: "PAYE at the correct 2025/2026 rates. NIS at 3%. NHT at 2%. Education Tax at 2.25% employer + 2.25% employee. Every statutory deduction — correct, every time.",
+    desc: "PAYE at the correct 2025/2026 rates. NIS at 3%. NHT at 2%. Education Tax at 2.25% employee + 3.5% employer. Every statutory deduction — correct, every time.",
   },
   {
     step: "3",

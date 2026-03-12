@@ -207,7 +207,7 @@ export default function NhtCalculatorJamaicaPage() {
                 NHT is one of four statutory deductions on every Jamaican payroll:
               </p>
               <ul className="mt-2 space-y-2 list-disc list-inside">
-                <li><strong className="text-foreground">PAYE</strong> — Income tax (25–30% above the JMD $1,902,360 threshold)</li>
+                <li><strong className="text-foreground">PAYE</strong> — Income tax (25–30% above the JMD $1,500,096 threshold)</li>
                 <li><strong className="text-foreground">NIS</strong> — National Insurance Scheme (3% employee + 3% employer, ceiling JMD $5M/year)</li>
                 <li><strong className="text-foreground">NHT</strong> — National Housing Trust (2% employee + 3% employer, no ceiling)</li>
                 <li><strong className="text-foreground">Education Tax</strong> — 2.25% employee + 3.5% employer, no ceiling</li>

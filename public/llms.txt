@@ -24,7 +24,7 @@ Payroll Jamaica is purpose-built for Jamaica's regulatory environment. It handle
 
 | Deduction | Employee | Employer | Notes |
 |---|---|---|---|
-| PAYE | 25% / 30% | — | Threshold JMD $1,902,360 (Apr 2026); 30% above JMD $6M |
+| PAYE | 25% / 30% | — | Threshold JMD $1,500,096/year; 30% above JMD $6M |
 | NIS | 3% | 3% | Ceiling JMD $5,000,000/year |
 | NHT | 2% | 3% | No ceiling |
 | Education Tax | 2.25% | 3.5% | No ceiling |

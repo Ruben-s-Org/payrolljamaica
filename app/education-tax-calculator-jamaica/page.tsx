@@ -202,7 +202,7 @@ export default function EducationTaxCalculatorJamaicaPage() {
                   <Link href="/paye-calculator-jamaica" className="text-foreground underline hover:no-underline">
                     <strong>PAYE</strong>
                   </Link>{" "}
-                  — Income tax (25–30% above JMD $1,902,360 threshold)
+                  — Income tax (25–30% above JMD $1,500,096 threshold)
                 </li>
                 <li>
                   <Link href="/nis-calculator-jamaica" className="text-foreground underline hover:no-underline">

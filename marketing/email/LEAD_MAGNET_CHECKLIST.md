@@ -25,7 +25,7 @@
 | **Education Tax** | 2.25% | 3.5% | None |
 | **HEART** | — | 3% | Employers with >$173k/mo payroll |
 
-**Income Tax Threshold (2026):** JMD $1,902,360/year (JMD $158,530/month) — effective April 2026
+**Income Tax Threshold (2026):** JMD $1,500,096/year (JMD $125,008/month) — effective April 2026
 
 ---
 
@@ -39,7 +39,7 @@
 - [ ] Confirm current NIS ceiling has not been reached for any employee (max JMD $416,667/month)
 
 ### Calculate Deductions
-- [ ] Calculate PAYE using current threshold (JMD $158,530/month for 2026)
+- [ ] Calculate PAYE using current threshold (JMD $125,008/month for 2026)
 - [ ] Calculate NIS at 3% employee / 3% employer (ceiling: JMD $416,667 gross/month)
 - [ ] Calculate NHT at 2% employee / 3% employer (no ceiling)
 - [ ] Calculate Education Tax at 2.25% employee / 3.5% employer (no ceiling)
