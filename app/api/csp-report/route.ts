@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export const runtime = "edge";
+
 // Rate limiting: track IPs reporting violations (in-memory, resets on restart)
 const reportCounts = new Map<string, { count: number; resetAt: number }>();
 const RATE_LIMIT = 20; // max reports per IP per minute
