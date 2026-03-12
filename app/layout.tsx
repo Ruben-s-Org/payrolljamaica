@@ -1,7 +1,7 @@
 import "@/app/globals.css";
 
 import type { Metadata, Viewport } from "next";
-// removed fillout script
+import Script from "next/script";
 
 import { ThemeProvider } from "@/components/contexts/theme-provider";
 import { inter } from "@/lib/fonts";
@@ -89,6 +89,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-JM" style={{ colorScheme: "dark" }} className="dark">
+      <head>
+        <Script
+          defer
+          data-domain="payrolljamaica.com"
+          src="https://plausible.io/js/script.file-downloads.outbound-links.js"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className={`${inter.className} bg-background antialiased`}>
         <ThemeProvider>
           <FilloutProvider>

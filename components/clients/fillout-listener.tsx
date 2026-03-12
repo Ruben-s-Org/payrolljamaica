@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useFillout } from "@/components/clients/fillout-provider";
+import { trackEvent } from "@/lib/plausible";
 
 export default function FilloutListener() {
   const { open } = useFillout();
@@ -17,6 +18,9 @@ export default function FilloutListener() {
       (e as any).stopImmediatePropagation?.();
       (e as any).stopPropagation?.();
       open();
+      trackEvent("Signup Form Opened", {
+        source: el.textContent?.trim().slice(0, 50) || "unknown",
+      });
     };
 
     document.addEventListener("click", handler, true);
