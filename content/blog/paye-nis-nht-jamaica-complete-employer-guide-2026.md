@@ -123,21 +123,20 @@ The National Insurance Scheme provides benefits including retirement pension, em
 
 | Party | Rate | Maximum Insurable Wage |
 |---|---|---|
-| Employee | 3% | J$125,000/month (J$1,500,000/year) |
+| Employee | 3% | J$416,667/month (J$5,000,000/year) |
 | Employer | 3% | Same cap |
 
 ### Understanding the NIS Wage Cap
 
-NIS contributions are calculated on wages up to J$125,000/month. Once an employee's cumulative gross wages for the tax year reach J$1,500,000, NIS contributions stop for the remainder of the year and resume April 1.
+NIS contributions are calculated on wages up to J$416,667/month. Once an employee's cumulative gross wages for the tax year reach J$5,000,000, NIS contributions stop for the remainder of the year and resume April 1.
 
 **Example:**
 - Employee earns J$180,000/month
-- NIS is calculated on J$125,000, not J$180,000
-- Monthly employee NIS: J$125,000 × 3% = **J$3,750**
-- Monthly employer NIS: J$125,000 × 3% = **J$3,750**
-- The J$55,000 above the cap is not subject to NIS
+- NIS is calculated on J$180,000 (below the J$416,667/month cap)
+- Monthly employee NIS: J$180,000 × 3% = **J$5,400**
+- Monthly employer NIS: J$180,000 × 3% = **J$5,400**
 
-**Annual cap hit timing:** At J$180,000/month, this employee reaches the J$1,500,000 annual NIS cap in month 8.3 of the tax year (around mid-November). From that point, no NIS is deducted or contributed for the remainder of the year.
+**Annual cap hit timing:** At J$180,000/month, this employee's cumulative insurable earnings reach J$2,160,000/year — well below the J$5,000,000 annual NIS cap. NIS is deducted every month for the full year. Higher-earning employees (above J$416,667/month) would hit the cap mid-year.
 
 ### Common NIS Mistakes
 
@@ -204,11 +203,11 @@ A common mistake is treating an employee's salary as the total cost of employmen
 |---|---|
 | Gross salary | J$150,000 |
 | NHT (employer 3%) | J$4,500 |
-| NIS (employer 3%, on J$125,000 cap) | J$3,750 |
+| NIS (employer 3%) | J$4,500 |
 | Education Tax (employer 3.5%) | J$5,250 |
-| **Total monthly employment cost** | **J$163,500** |
+| **Total monthly employment cost** | **J$164,250** |
 
-The employer is paying **J$13,500/month** in statutory contributions on top of the J$150,000 salary. On an annualised basis, that's J$162,000 in employer contributions. Budget for this from day one.
+The employer is paying **J$14,250/month** in statutory contributions on top of the J$150,000 salary. On an annualised basis, that's J$171,000 in employer contributions. Budget for this from day one.
 
 ---
 
@@ -218,7 +217,7 @@ The employer is paying **J$13,500/month** in statutory contributions on top of t
 |---|---|---|---|
 | Purpose | Income tax | Housing savings | Social insurance |
 | Employee only or both? | Employee only | Both | Both |
-| Income cap? | No cap (rates change by bracket) | No cap | J$1,500,000/year |
+| Income cap? | No cap (rates change by bracket) | No cap | J$5,000,000/year |
 | Who receives payment? | TAJ | NHT | NIS |
 | Employee gets benefit? | No (it's a tax) | Yes (housing deposits) | Yes (pensions, maternity, injury) |
 | Late payment penalty | TAJ interest + penalties | 20% per annum | Penalties apply |

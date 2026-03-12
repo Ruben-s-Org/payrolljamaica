@@ -92,7 +92,7 @@ That's not a small error. Over 6 employees, 24 months: ~J$500,000 in avoidable o
 
 Jamaica's payroll rules are genuinely complex:
 • Threshold changes
-• NIS ceiling (J$1.5M annually — once hit, NIS stops)
+• NIS ceiling (J$5M annually — once hit, NIS stops)
 • Correct calculation order: gross → NIS deduction → income remaining → PAYE threshold → 25%
 
 International tools don't know these rules. Spreadsheets don't update automatically. This is why we built PayrollJamaica.

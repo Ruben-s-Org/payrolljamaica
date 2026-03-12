@@ -157,7 +157,7 @@ If you're managing payroll for multiple clients, you're entering the busiest two
 A few things worth flagging now:
 
 → PAYE threshold this year: J$1,500,096 annually (not last year's number)
-→ NIS ceiling: J$1.5M — some high-earning employees may have hit it mid-year
+→ NIS ceiling: J$5M — some high-earning employees may have hit it mid-year
 → NHT: contributions required every pay period, no exceptions
 → Education Tax: 2.25% employee / 3.5% employer — often missed on bonus runs
 
@@ -177,7 +177,7 @@ For Jamaica accountants managing payroll for clients 👋
 With 11 days to March 31, here's the quick compliance checklist:
 
 ☑️ PAYE threshold: J$1,500,096/year (updated 2025/26)
-☑️ NIS ceiling: J$1.5M — check if any employees exceeded this
+☑️ NIS ceiling: J$5M — check if any employees exceeded this
 ☑️ S01 annual return prepared for each client?
 ☑️ NHT annual return data compiled?
 ☑️ Education Tax at correct 2.25% / 3.5% rates?
@@ -197,7 +197,7 @@ Let's make this the last March you do this with spreadsheets. 🗂️
 
 Quick rate check for 2025/26:
 - PAYE threshold: J$1,500,096/yr
-- NIS: 3% employee / 3% employer (ceiling J$1.5M)
+- NIS: 3% employee / 3% employer (ceiling J$5M)
 - NHT: 2% employee / 3% employer
 - Education Tax: 2.25% employee / 3.5% employer
 

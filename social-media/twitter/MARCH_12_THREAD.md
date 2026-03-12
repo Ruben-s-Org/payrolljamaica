@@ -69,11 +69,11 @@ Miss any of these = penalty notices.
 ```
 5/ NIS CEILING (the one most people forget):
 
-NIS contributions stop once an employee's gross pay hits J$1,500,000/year.
+NIS contributions stop once an employee's gross pay hits J$5,000,000/year.
 
 After the ceiling → no more NIS deductions for that employee that tax year.
 
-If you're deducting NIS on earnings above J$1.5M — you're over-deducting. That's TAJ's problem to fix.
+If you're deducting NIS on earnings above J$5M — you're over-deducting. That's TAJ's problem to fix.
 ```
 
 **Tweet 7:**
