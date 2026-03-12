@@ -20,9 +20,9 @@ const homeBaseDescription = "Payroll Jamaica provides reliable, secure HR and pa
 
 export const metadata: Metadata = {
   title:
-    "Payroll Jamaica – Best HR & Payroll Software in Jamaica | Automate PAYE, NIS, NHT, Payslips & Compliance",
+    "Payroll Jamaica — #1 Payroll & HR Software for Jamaica",
   description: ensureMinDescription(
-    "Powerful, local-first HR and payroll software for Jamaican businesses. Automate PAYE, NIS and NHT calculations, generate compliant payslips, manage leave and employees, and submit accurate statutory filings. Built for Jamaica’s rules with clear reporting, role-based access and audit-ready exports—so every pay cycle is fast, accurate and compliant.",
+    "Automate PAYE, NIS, NHT & Education Tax for your Jamaica business. Free calculator, compliant payslips & SO1 filing. Try free.",
     homeBaseDescription
   ),
   applicationName: siteConfig.name,
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   referrer: "origin-when-cross-origin",
   openGraph: {
     title:
-      "Payroll Jamaica – Best HR & Payroll Software in Jamaica | Automate PAYE, NIS, NHT, Payslips & Compliance",
+      "Payroll Jamaica — #1 Payroll & HR Software for Jamaica",
     description: homeBaseDescription,
     url: canonical("/"),
     type: "website",

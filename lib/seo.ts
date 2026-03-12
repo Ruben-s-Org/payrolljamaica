@@ -1,16 +1,13 @@
 import { siteConfig } from "@/config/site";
 
 export function ensureMinDescription(desc: string | undefined, fallback: string): string {
-  const base = (desc?.trim() || "").replace(/\s+/g, " ");
-  if (base.split(" ").length >= 150) return base;
-  // Pad with fallback copy until roughly >=150 words
-  const needed = 150 - base.split(" ").length;
-  const fillerWords = (fallback || "").replace(/\s+/g, " ").split(" ");
-  const pad = [] as string[];
-  for (let i = 0; i < needed; i++) {
-    pad.push(fillerWords[i % fillerWords.length] || "Payroll");
-  }
-  return (base + " " + pad.join(" ")).trim();
+  const base = (desc?.trim() || fallback?.trim() || "").replace(/\s+/g, " ");
+  // Google truncates meta descriptions at ~160 characters — keep it concise
+  if (base.length <= 160) return base;
+  // Truncate at last complete sentence or word boundary within 160 chars
+  const truncated = base.slice(0, 160);
+  const lastSpace = truncated.lastIndexOf(" ");
+  return lastSpace > 100 ? truncated.slice(0, lastSpace) : truncated;
 }
 
 export function ensureMinKeywords(keywords: string[] | undefined, extras: string[] = []): string[] {
