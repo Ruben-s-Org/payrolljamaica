@@ -134,11 +134,11 @@ These are your personal action items — they cannot be delegated:
 
 ---
 
-## CMO KPIs — MARCH 2026 (Updated Mar 11)
+## CMO KPIs — MARCH 2026 (Updated Mar 12 Evening)
 
 | Metric | Target | Current | Status |
 |--------|--------|---------|--------|
-| Blog posts live | 235+ | 336 | ✅ Exceeded (+101) |
+| Blog posts live | 235+ | 422+ (74 MD + 348 JSON) | ✅ Exceeded (+187) |
 | LinkedIn followers | 100 | 0 | 🔴 Accounts pending |
 | Facebook page likes | 50 | 0 | 🔴 Accounts pending |
 | Instagram followers | 50 | 0 | 🔴 Accounts pending |
@@ -187,4 +187,4 @@ With March 31 approaching, start preparing the April campaign now:
 
 ---
 
-*CMO: PayrollJamaica | Updated: March 11, 2026 | Next update: March 17*
+*CMO: PayrollJamaica | Updated: March 12, 2026 (Evening) | Next update: March 17*
