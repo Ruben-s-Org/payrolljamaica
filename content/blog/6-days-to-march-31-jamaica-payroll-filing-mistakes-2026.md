@@ -132,3 +132,6 @@ The fix is preparation. With six days remaining, you have time to:
 Six days is genuinely enough time to do all of this correctly. The employers who face April penalty notices are largely the ones who ran out of time by starting on March 29, or who filed on time but missed one of these six errors.
 
 Start at [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) to get your figures verified today. Then open eTAJ and file.
+
+> **Looking for payroll software built for Jamaica?** See how [PayrollJamaica](/payroll-software-jamaica) handles PAYE, NIS, NHT, and Education Tax automatically — with rates updated for 2025/2026.
+

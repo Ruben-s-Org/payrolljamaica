@@ -143,3 +143,6 @@ The same J$500,000 payment — made two days apart — results in a J$170,000 di
 The deadline is not a formality. Every day matters, and the last two days matter most.
 
 Get your figures right today with [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator), make whatever payment you can, and file whatever you can before midnight March 31.
+
+> **Looking for payroll software built for Jamaica?** See how [PayrollJamaica](/payroll-software-jamaica) handles PAYE, NIS, NHT, and Education Tax automatically — with rates updated for 2025/2026.
+

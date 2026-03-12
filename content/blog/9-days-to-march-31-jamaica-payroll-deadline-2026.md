@@ -154,3 +154,6 @@ If your payroll records are not in a state where you can complete the SO1 accura
 Nine days is enough time to do this correctly. The eTAJ portal is working. Your payroll data exists somewhere. The work is mechanical — step by step, employee by employee. You can have this filed by Tuesday.
 
 Start now at [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) to verify your figures before you log into eTAJ.
+
+> **Looking for payroll software built for Jamaica?** See how [PayrollJamaica](/payroll-software-jamaica) handles PAYE, NIS, NHT, and Education Tax automatically — with rates updated for 2025/2026.
+

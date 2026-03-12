@@ -165,3 +165,6 @@ The penalties described in this post are not rare outcomes for Jamaican business
 Eight days from now, those penalties become automatic. Eight days is enough time to file, pay what you can, and avoid the worst of them.
 
 The calculator is free. The penalty is not. Use [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) today to get your numbers before March 31.
+
+> **Looking for payroll software built for Jamaica?** See how [PayrollJamaica](/payroll-software-jamaica) handles PAYE, NIS, NHT, and Education Tax automatically — with rates updated for 2025/2026.
+

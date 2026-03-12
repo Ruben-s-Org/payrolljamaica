@@ -146,3 +146,6 @@ You have enough time. Employers have filed complete, accurate SO1 returns in thr
 Open your payroll data. Open [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) to verify your deduction figures. Then open etax.gov.jm and start filing.
 
 March 31 is tomorrow. Today is the day. Submit now.
+
+> **Looking for payroll software built for Jamaica?** See how [PayrollJamaica](/payroll-software-jamaica) handles PAYE, NIS, NHT, and Education Tax automatically — with rates updated for 2025/2026.
+

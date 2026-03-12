@@ -162,6 +162,14 @@ Print this and work through it:
 
 Questions about your Jamaica payroll compliance? [Talk to the PayrollJamaica team](/contact). We've helped hundreds of Jamaican businesses get compliant, and we can help you too.
 
+
+---
+
+## Check Your Numbers Before You File
+
+Not sure your PAYE, NIS, or NHT calculations are correct? Run them through our [free Jamaica payroll calculator](/calculator) — enter any gross salary and get the exact statutory deductions in seconds. It uses the current 2025/2026 rates and thresholds, so you can verify your figures before submitting to TAJ.
+
+> **Looking for payroll software built for Jamaica?** See how [PayrollJamaica](/payroll-software-jamaica) handles PAYE, NIS, NHT, and Education Tax automatically — with rates updated for 2025/2026.
 ---
 
 *PayrollJamaica is Jamaica's payroll software built for Jamaican employers. Our platform handles PAYE, NIS, NHT, and Education Tax automatically — so you're always ready for March 31.*

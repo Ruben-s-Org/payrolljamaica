@@ -144,3 +144,6 @@ There will be some employers reading this who cannot complete their payroll regi
 This is achievable. The work is mechanical and the data exists — it just needs to be assembled and entered. Employers who follow this sequence in the next four days will have all three returns filed, all three confirmation receipts saved, and no penalties in April.
 
 Start now with [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) to verify your PAYE and deduction figures — and then open eTAJ.
+
+> **Looking for payroll software built for Jamaica?** See how [PayrollJamaica](/payroll-software-jamaica) handles PAYE, NIS, NHT, and Education Tax automatically — with rates updated for 2025/2026.
+

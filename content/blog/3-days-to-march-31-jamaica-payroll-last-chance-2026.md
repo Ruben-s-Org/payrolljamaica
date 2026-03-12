@@ -164,3 +164,6 @@ Log into the NHT employer portal today. Confirm your status. If the return is no
 Then verify your payroll figures are right. The [PayrollJamaica calculator](https://payrolljamaica.com/calculator) calculates your exact NHT, PAYE, NIS, Education Tax, and HEART deductions — use it to confirm your contribution figures before you enter them on the NHT return.
 
 Three days. Three returns. All of them due. Start at [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) and then open every portal you need.
+
+> **Looking for payroll software built for Jamaica?** See how [PayrollJamaica](/payroll-software-jamaica) handles PAYE, NIS, NHT, and Education Tax automatically — with rates updated for 2025/2026.
+
