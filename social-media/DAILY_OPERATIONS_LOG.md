@@ -314,10 +314,9 @@ All 8 Day 1 posts are written and ready in `social-media/DAY1_PUBLISHING_BRIEF.m
 
 | Date | Action | Owner | Status |
 |------|--------|-------|--------|
-| Mar 11 AM | Create all 4 social accounts (~30–45 min) | Ruben | 🔴 PENDING — see RUBEN_30MIN_SETUP_GUIDE.md |
-| Mar 11 (after accounts) | Publish 8 Day 1 posts | SMM | 🔴 Queued — see DAY1_PUBLISHING_BRIEF.md |
-| Mar 11 (after publishing) | Schedule Mar 12–24 posts (26 posts) | SMM | 🔴 Queued |
-| Mar 12 | LinkedIn PAYE rates infographic post | SMM | ✅ Copy ready |
+| Mar 11 AM | Create all 4 social accounts (~30–45 min) | Ruben | 🔴 OVERDUE (Day 2) — see RUBEN_30MIN_SETUP_GUIDE.md |
+| ASAP | Publish Mar 11 launch posts (pin on each platform) | SMM | 🔴 Queued — DAY1_PUBLISHING_BRIEF.md |
+| ASAP | Publish Mar 12 NHT posts + schedule Mar 13–24 | SMM | 🔴 Queued |
 | Mar 14 | LinkedIn "How long does payroll take?" engagement | SMM | ✅ Copy ready |
 | Mar 17 | Facebook group outreach — 5 Q&As | SMM | Scheduled |
 | Mar 31 | Full performance report to CMO | SMM | Scheduled |
@@ -363,10 +362,11 @@ Content infrastructure status: **COMPLETE for March 11–31 AND all of April acr
 **Mar 11, 09:00–09:45 AM:** SMM agent active. Full content audit completed. All 35+ posts confirmed, calendar verified. Single blocker: account creation (manual). Browser automation unavailable (Chrome extension not connected). Escalating to CMO: Ruben should create accounts via `RUBEN_30MIN_SETUP_GUIDE.md` — all copy is ready to paste immediately after.
 
 ---
+
 ## Session 15 — March 12, 2026 (Morning Brief)
 
-**Date:** March 12, 2026  
-**SMM:** Active  
+**Date:** March 12, 2026
+**SMM:** Active
 **Days to March 31:** 19
 
 ### Status Check
@@ -376,27 +376,27 @@ Content infrastructure status: **COMPLETE for March 11–31 AND all of April acr
 - Campaign week: Week 1 "Get Ready" (Mar 11–15)
 
 ### Today's Priorities
-1. ⏳ BLOCKER: Social account creation (30 min, manual — see RUBEN_30MIN_SETUP_GUIDE.md)
-2. 📧 Send PR pitches to media outlets (Loop Jamaica, JBDC, Jamaica Chamber, RJR News)
-3. 📝 Post in 5 Jamaica Facebook business groups (personal account)
-4. 💼 Post on Ruben's personal LinkedIn (PAYE compliance checklist post)
-5. 📱 Once accounts created → publish 8 Day 1+2 posts immediately
+1. BLOCKER: Social account creation (30 min, manual — see RUBEN_30MIN_SETUP_GUIDE.md)
+2. Send PR pitches to media outlets (Loop Jamaica, JBDC, Jamaica Chamber, RJR News)
+3. Post in 5 Jamaica Facebook business groups (personal account)
+4. Post on Ruben's personal LinkedIn (PAYE compliance checklist post)
+5. Once accounts created → publish 8 Day 1+2 posts immediately
 
 ### March 12 Scheduled Content (queued, pending account creation)
 - LinkedIn: PAYE Rates 2025/2026 — employer compliance breakdown
 - Facebook: Week 1 "Get Ready" campaign opener
-- Instagram: Story #2 — PAYE threshold poll  
+- Instagram: Story #2 — PAYE threshold poll
 - X/Twitter: Thread — 5 payroll mistakes Jamaican businesses make
 
 ### Notes
 All 70+ posts remain in queue. Every day without accounts is a lost post. Priority: get accounts created TODAY.
 
 ---
----
+
 ## Session 16 — March 12, 2026 (Afternoon)
 
-**Date:** March 12, 2026  
-**SMM:** Active  
+**Date:** March 12, 2026
+**SMM:** Active
 **Days to March 31:** 19
 
 ### Status Check
@@ -421,12 +421,35 @@ Identified and closed a critical gap: we had personal LinkedIn content for Mar 1
 ### Ruben Action Items (This Afternoon)
 | Priority | Action | Time | File |
 |----------|--------|------|------|
-| 🔴 1 | Post today's personal LinkedIn (Mar 12 post) | 2 min | `RUBEN_LINKEDIN_PERSONAL_POST_MAR12.md` |
-| 🔴 2 | Create social media accounts (4 platforms) | 45 min | `RUBEN_30MIN_SETUP_GUIDE.md` |
-| 🟡 3 | Send 5 press/partnership emails | 20 min | `marketing/pr/SEND_TODAY_MARCH_11.md` |
-| 🟡 4 | WhatsApp calculator link to 20 contacts | 10 min | `WHATSAPP_SETUP_5MIN.md` |
+| 1 | Post today's personal LinkedIn (Mar 12 post) | 2 min | `RUBEN_LINKEDIN_PERSONAL_POST_MAR12.md` |
+| 2 | Create social media accounts (4 platforms) | 45 min | `RUBEN_30MIN_SETUP_GUIDE.md` |
+| 3 | Send 5 press/partnership emails | 20 min | `marketing/pr/SEND_TODAY_MARCH_11.md` |
+| 4 | WhatsApp calculator link to 20 contacts | 10 min | `WHATSAPP_SETUP_5MIN.md` |
 
 ### Tomorrow's Plan (Mar 13)
 - Ruben posts personal LinkedIn: `RUBEN_PERSONAL_POSTS_MAR13_17.md` — March 13 post
 - If accounts created: publish catch-up bundle (15+ posts in 2 hours)
 - Facebook group outreach begins (5 groups, see `facebook/group-outreach-scripts-march17.md`)
+
+---
+
+## Session 17 — March 12, 2026 (Evening Check-In)
+
+**Date:** March 12, 2026
+**SMM:** Active
+**Days to March 31:** 19
+
+### Status Check
+- Accounts: 0/5 created — Day 2, blocker persists
+- Today's theme: NHT — The Most Misunderstood Deduction (19 days to fiscal year-end)
+- All Mar 12 posts confirmed staged: LinkedIn, Facebook, X/Twitter (NHT penalties: 20% on late contributions, allowances base errors, part-time classification)
+- Content pipeline: 75+ assets ready, no gaps through March 31 + full April
+
+### Context Note
+Reviewed full ops log. Sessions 13-16 (prior agents today) covered PR pitches, partner program posts, personal LinkedIn content for Mar 13-17. No further content gaps identified. Infrastructure is comprehensive.
+
+### Catch-Up Sequence (once accounts go live)
+1. Post all Mar 11 launch PINs (evergreen — pin immediately on each platform)
+2. Back-fill Mar 12 NHT content (same session — new accounts are algorithm-neutral on rapid posting)
+3. Schedule Mar 13–24 from the master calendar
+4. Mar 17: Facebook group Q&A outreach (scripts ready in `facebook/group-outreach-scripts-march17.md`)
