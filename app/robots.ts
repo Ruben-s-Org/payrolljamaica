@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/", "/blocks"],
+        disallow: ["/api/", "/_next/", "/blocks/"],
       },
     ],
     sitemap: "https://payrolljamaica.com/sitemap.xml",
