@@ -131,7 +131,7 @@ NIS has a ceiling. PAYE has a threshold. NHT does not.
 
 What this means:
 
-• NIS: Employee contribution stops once annual earnings hit J$1,500,096
+• NIS: Employee contribution stops once annual earnings hit J$5,000,000
   → After that point, no more NIS deduction for the year
   → Many employers miss this and keep deducting — that's an error
 
