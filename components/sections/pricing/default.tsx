@@ -25,7 +25,7 @@ export default function Pricing({
       pricePeriod: "per month",
       priceLabel: "Up to 10 employees",
       priceNote:
-        "Everything you need to run payroll accurately and stay compliant.",
+        "80% cheaper than outsourcing. Everything you need to run payroll and stay compliant.",
       cta: {
         variant: "glow",
         label: "Try Free Calculator",
@@ -42,16 +42,17 @@ export default function Pricing({
     {
       name: "Business",
       icon: <Users className="size-4" />,
+      badge: "Most Popular",
       description: "For growing teams with up to 50 employees",
       price: 7500,
       currency: "JMD $",
       pricePeriod: "per month",
       priceLabel: "Up to 50 employees",
       priceNote:
-        "Most popular — everything in Starter plus team management tools.",
+        "Best value — save 50% vs outsourcing. Includes team management tools.",
       cta: {
         variant: "default",
-        label: "Try Free Calculator",
+        label: "Get Started",
         href: "/calculator",
       },
       features: [
@@ -111,6 +112,7 @@ export default function Pricing({
                 key={plan.name}
                 name={plan.name}
                 icon={plan.icon}
+                badge={plan.badge}
                 description={plan.description}
                 price={plan.price}
                 currency={plan.currency}

@@ -11,9 +11,9 @@ const baseDescription =
   "PayrollJamaica pricing starts at JMD $3,500/month for up to 10 employees. Simple, transparent pricing with no hidden fees. Automate PAYE, NIS, NHT, and Education Tax for your Jamaican business.";
 
 export const metadata: Metadata = {
-  title: "Pricing — Payroll Software Jamaica | Payroll Jamaica",
+  title: "Pricing — Payroll Software Jamaica Pricing | Payroll Jamaica",
   description: ensureMinDescription(
-    "See PayrollJamaica pricing plans. Starter from JMD $3,500/month (up to 10 employees), Business JMD $7,500/month (up to 50 employees), and Enterprise custom pricing. All plans include automated PAYE, NIS, NHT, Education Tax calculations, digital payslips, and statutory reports.",
+    "PayrollJamaica pricing: Starter JMD $3,500/month (up to 10 employees), Business JMD $7,500/month (up to 50 employees), Enterprise custom. Affordable payroll software Jamaica pricing with no hidden fees. All plans include automated PAYE, NIS, NHT, Education Tax calculations, digital payslips, and statutory reports.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -153,12 +153,54 @@ export default function PricingPage() {
                   q: "What payment methods do you accept?",
                   a: "We accept bank transfers, credit/debit cards, and direct debit. Enterprise clients can arrange custom billing terms.",
                 },
+                {
+                  q: "How does PayrollJamaica pricing compare to other payroll software in Jamaica?",
+                  a: "PayrollJamaica is purpose-built for Jamaica, so you pay only for what you need. International payroll tools charge US$30-$100/month and still require manual configuration for PAYE, NIS, NHT, and Education Tax. Our Starter plan at JMD $3,500/month includes all Jamaican statutory calculations out of the box — no add-ons or hidden fees.",
+                },
+                {
+                  q: "Can I use PayrollJamaica for a single employee?",
+                  a: "Yes. The Starter plan covers up to 10 employees at a flat rate. Whether you have 1 employee or 10, the price is the same JMD $3,500/month.",
+                },
+                {
+                  q: "Is there a contract or minimum commitment?",
+                  a: "No. All plans are month-to-month with no long-term contract. You can cancel any time with no penalties or cancellation fees.",
+                },
               ].map((item) => (
                 <div key={item.q} className="space-y-2">
                   <h3 className="font-semibold text-lg text-foreground">{item.q}</h3>
                   <p className="text-muted-foreground leading-relaxed">{item.a}</p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Try free calculator CTA */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-3xl mx-auto text-center space-y-6 py-12 rounded-2xl bg-muted/50 border border-border">
+            <h2 className="text-2xl sm:text-3xl font-semibold">Not ready to commit? Try our free calculator</h2>
+            <p className="text-muted-foreground max-w-xl mx-auto text-lg">
+              See exactly how PAYE, NIS, NHT, and Education Tax are calculated for your employees — no sign-up required.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="/calculator"
+                className="inline-flex items-center justify-center rounded-lg bg-brand px-8 py-3 text-sm font-semibold text-brand-foreground shadow-md hover:opacity-90 transition-opacity"
+              >
+                Try Free Calculator
+              </a>
+              <a
+                href="/calculator/paye"
+                className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-sm font-semibold hover:bg-muted transition-colors"
+              >
+                PAYE Calculator
+              </a>
+              <a
+                href="/calculator/nis"
+                className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-sm font-semibold hover:bg-muted transition-colors"
+              >
+                NIS Calculator
+              </a>
             </div>
           </div>
         </section>
@@ -206,6 +248,127 @@ export default function PricingPage() {
               name: siteConfig.name,
               url: siteConfig.url,
             },
+            mainEntity: {
+              "@type": "ItemList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  item: {
+                    "@type": "Offer",
+                    name: "PayrollJamaica Starter Plan",
+                    description: "Payroll software for small businesses with up to 10 employees. Includes automated PAYE, NIS, NHT, Education Tax calculations, digital payslips, and monthly statutory reports.",
+                    price: "3500",
+                    priceCurrency: "JMD",
+                    priceValidUntil: "2026-12-31",
+                    url: `${siteConfig.url}/pricing`,
+                    seller: { "@type": "Organization", name: siteConfig.name },
+                    itemOffered: {
+                      "@type": "SoftwareApplication",
+                      name: "PayrollJamaica Starter",
+                      applicationCategory: "BusinessApplication",
+                      operatingSystem: "Web",
+                    },
+                  },
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  item: {
+                    "@type": "Offer",
+                    name: "PayrollJamaica Business Plan",
+                    description: "Payroll software for growing teams with up to 50 employees. Includes everything in Starter plus multi-user access, leave management, HR document storage, and priority support.",
+                    price: "7500",
+                    priceCurrency: "JMD",
+                    priceValidUntil: "2026-12-31",
+                    url: `${siteConfig.url}/pricing`,
+                    seller: { "@type": "Organization", name: siteConfig.name },
+                    itemOffered: {
+                      "@type": "SoftwareApplication",
+                      name: "PayrollJamaica Business",
+                      applicationCategory: "BusinessApplication",
+                      operatingSystem: "Web",
+                    },
+                  },
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  item: {
+                    "@type": "Offer",
+                    name: "PayrollJamaica Enterprise Plan",
+                    description: "Custom payroll software for large organisations with 50+ employees. Includes dedicated account manager, custom integrations, SLA guarantee, and on-site training.",
+                    url: `${siteConfig.url}/pricing`,
+                    seller: { "@type": "Organization", name: siteConfig.name },
+                    itemOffered: {
+                      "@type": "SoftwareApplication",
+                      name: "PayrollJamaica Enterprise",
+                      applicationCategory: "BusinessApplication",
+                      operatingSystem: "Web",
+                    },
+                  },
+                },
+              ],
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: safeJsonLd({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Is there a free trial?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. Try our free payroll calculator at payrolljamaica.com/calculator to see how PAYE, NIS, NHT, and Education Tax are calculated for your employees. When you are ready for the full platform, sign up for any plan.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can I change plans later?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. Upgrade or downgrade any time. When you upgrade, the new rate takes effect on your next billing cycle. No penalties for switching.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Are there any setup fees?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No. All plans include free setup and onboarding. We help you import your employee data and get running quickly.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you charge per employee?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No. Each plan covers a fixed number of employees at a flat monthly rate. No per-employee add-on fees.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How does PayrollJamaica pricing compare to other payroll software in Jamaica?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "PayrollJamaica is purpose-built for Jamaica, so you pay only for what you need. International payroll tools charge US$30-$100/month and still require manual configuration for PAYE, NIS, NHT, and Education Tax. Our Starter plan at JMD $3,500/month includes all Jamaican statutory calculations out of the box.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is there a contract or minimum commitment?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No. All plans are month-to-month with no long-term contract. You can cancel any time with no penalties or cancellation fees.",
+                },
+              },
+            ],
           }),
         }}
       />
