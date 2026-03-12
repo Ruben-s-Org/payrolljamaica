@@ -42,7 +42,7 @@ If this information is in different spreadsheets or files, consolidate it now. Y
 
 The current annual tax-free threshold is **J$1,500,096** (J$125,008/month).
 
-**Check:** Was this applied correctly from April 1, 2025? If you were using a different threshold number — particularly J$1,600,000 or the old J$1,825,000 — your PAYE calculations are wrong.
+**Check:** Was this applied correctly from April 1, 2025? If you were using a different threshold number — particularly an outdated figure from a previous fiscal year — your PAYE calculations are wrong.
 
 If the threshold was incorrect, you may have:
 - **Over-deducted PAYE** (employees are owed a refund via their personal tax return)

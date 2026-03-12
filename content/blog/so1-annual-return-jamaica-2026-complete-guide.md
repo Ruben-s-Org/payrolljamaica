@@ -93,7 +93,7 @@ If you've been calculating PAYE on the wrong threshold — a common error from p
 ## Common SO1 Mistakes to Avoid
 
 **1. Wrong PAYE threshold**
-Many employers are still using J$1,600,000 or J$1,825,000. The current threshold is J$1,500,096. If your PAYE calculations used a different number, your return will have errors.
+Many employers are still using an outdated figure. The current threshold is J$1,500,096. If your PAYE calculations used a different number, your return will have errors.
 
 **2. Missing employees**
 Every employee who received a salary or wages during the fiscal year must appear on the return — including employees who left during the year.
