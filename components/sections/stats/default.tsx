@@ -13,7 +13,27 @@ interface StatsProps {
 }
 
 export default function Stats({
-  items = false,
+  items = [
+    {
+      value: "99.9",
+      suffix: "%",
+      description: "Statutory calculation accuracy",
+    },
+    {
+      value: "5",
+      suffix: "min",
+      description: "Average time to run payroll",
+    },
+    {
+      value: "6",
+      suffix: "+",
+      description: "Jamaica bank formats supported",
+    },
+    {
+      value: "24/7",
+      description: "Access to your payroll data",
+    },
+  ],
   className,
 }: StatsProps) {
   // Do not render the section if items are disabled or empty
