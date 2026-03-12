@@ -215,6 +215,8 @@ The savings — J$1,300,000–J$1,800,000 per year — can fund a marketing camp
 
 **[Start your free trial at PayrollJamaica](https://payrolljamaica.com)**
 
+**[Try our free Jamaica payroll calculator →](/calculator)** — calculate PAYE, NIS, NHT, and Education Tax instantly and see exactly what your employees' deductions should be.
+
 ---
 
 *Related reading:*

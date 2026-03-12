@@ -134,6 +134,12 @@ If you're going to do this, start this week.
 
 ---
 
+## Show Clients What PayrollJamaica Can Do
+
+One of the most effective ways to demonstrate the platform to clients is to let them see statutory deductions calculated in real time. Share our **[free Jamaica payroll calculator →](/calculator)** — it calculates PAYE, NIS, NHT, and Education Tax instantly, and shows clients exactly why purpose-built software matters.
+
+---
+
 ## How to Join
 
 Visit [payrolljamaica.com/partners](https://payrolljamaica.com/partners) to apply for the programme.
@@ -141,3 +147,5 @@ Visit [payrolljamaica.com/partners](https://payrolljamaica.com/partners) to appl
 Or email us directly: **partnerships@payrolljamaica.com**
 
 We'll set up your partner account, send you the referral link and materials, and you'll be ready to refer within 24 hours.
+
+*Want to learn more about how PayrollJamaica compares to other options? See our [Jamaica Payroll Software Guide 2026](/blog/jamaica-payroll-software-guide-2026).*

@@ -127,8 +127,16 @@ PayrollJamaica provides Jamaica-first payroll services with transparent pricing 
 
 ---
 
+## Check Your Statutory Deductions
+
+Before choosing a payroll service, make sure you understand exactly how much PAYE, NHT, NIS, and Education Tax should be deducted from each employee. **[Try our free Jamaica payroll calculator →](/calculator)** — calculate PAYE, NIS, NHT, and Education Tax instantly.
+
+---
+
 ## Get Started With PayrollJamaica
 
 Run your first payroll in under 15 minutes. Free 30-day trial — no credit card, no commitment.
 
 **[Start your free trial at payrolljamaica.com](https://payrolljamaica.com)** — and get your next payroll done right, on time, and without the compliance stress.
+
+*Need help managing employee records alongside payroll? See our guide to [HR Software in Jamaica 2026](/blog/hr-software-jamaica-2026).*

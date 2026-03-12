@@ -135,8 +135,16 @@ If any of those boxes aren't checked, keep looking.
 
 ---
 
+## See Jamaica Payroll Deductions in Action
+
+Want to check whether your current payroll company is calculating statutory deductions correctly? **[Try our free Jamaica payroll calculator →](/calculator)** — calculate PAYE, NIS, NHT, and Education Tax instantly and compare the results against what you're being charged.
+
+---
+
 ## Try PayrollJamaica Free for 30 Days
 
 PayrollJamaica offers a full-featured free trial — no credit card required, no commitment. Run your first payroll in under 15 minutes, see all statutory deductions calculated correctly, and experience the automated filing workflow before you pay a cent.
 
 **[Start your free trial at PayrollJamaica.com](https://payrolljamaica.com/signup)** — and stop worrying about whether your PAYE filings are right.
+
+*Comparing payroll options? Read our [Payroll Software Jamaica Cost Guide 2026](/blog/payroll-software-jamaica-cost-pricing-guide-2026) for detailed pricing breakdowns.*

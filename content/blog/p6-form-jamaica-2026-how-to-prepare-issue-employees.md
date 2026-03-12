@@ -117,6 +117,8 @@ For each employee, sum up:
 
 These totals go on the P6.
 
+Need to verify your PAYE and statutory deduction figures? **[Try our free Jamaica payroll calculator →](/calculator)** — calculate PAYE, NIS, NHT, and Education Tax instantly to cross-check your P6 totals.
+
 ### Step 4: Generate or complete the P6 form
 
 TAJ provides a standard P6 template. You can:
@@ -212,4 +214,4 @@ Provide your payslip records for each month. The monthly payslips should reconci
 
 ---
 
-*PayrollJamaica is a payroll platform built specifically for Jamaican businesses. It automates PAYE, NIS, NHT, and Education Tax calculations and generates SO1 returns and P6 certificates automatically. [Try it free at PayrollJamaica.com](https://payrolljamaica.com).*
+*PayrollJamaica is a payroll platform built specifically for Jamaican businesses. It automates PAYE, NIS, NHT, and Education Tax calculations and generates SO1 returns and P6 certificates automatically. [Try it free at PayrollJamaica.com](https://payrolljamaica.com). See our full [Jamaica Payroll Software Guide 2026](/blog/jamaica-payroll-software-guide-2026) for a detailed comparison of available options.*
