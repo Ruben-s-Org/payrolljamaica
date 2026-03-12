@@ -1,121 +1,155 @@
 # TEAM DIRECTIVES — PayrollJamaica Marketing
-**Updated by CMO — March 11, 2026**
-
-## CRITICAL DATA CORRECTION ⚠️
-**PAYE threshold is J$1,500,096/year (J$125,008/month)** — NOT J$1,825,000.
-All content, graphics, and posts MUST use J$1,500,096.
-Blog post `content/2025-jamaica-payroll-tax-updates-complete-guide-new-rates-thresholds.json` contains speculative future threshold figures and should be flagged for review/removal.
+**Updated by CMO — March 11, 2026 (for week of March 13–17)**
 
 ---
 
-## SEO SPECIALIST — PRIORITIES
-
-### Week 1 (Due March 14-17)
-1. **Internal linking audit** (Due Mar 14)
-   - Map 200+ blog posts, ensure each links to /calculator and at least 2-3 related posts
-   - Priority pages: /calculator, /features, all industry pages, all city pages
-
-2. **Google Search Console setup** (Due Mar 15)
-   - Verify payrolljamaica.com domain
-   - Submit sitemap.xml (run `npm run gen:sitemap` first)
-   - Set geographic targeting to Jamaica
-
-3. **Google Business Profile** (Due Mar 17)
-   - Create profile under "PayrollJamaica"
-   - Category: Payroll Service / Software Company
-   - Address: Kingston, Jamaica
-   - Service area: All of Jamaica
-   - Add all product features in description
-
-4. **Keyword tracking setup** (Due Mar 14)
-   - Track 10 priority keywords in a spreadsheet:
-     - "payroll Jamaica"
-     - "payroll software Jamaica"
-     - "PAYE calculator Jamaica"
-     - "how to calculate payroll Jamaica"
-     - "NIS NHT Jamaica payroll"
-     - "Jamaica payroll software"
-     - "TAJ payroll Jamaica"
-     - "payroll company Jamaica"
-     - "small business payroll Jamaica"
-     - "PAYE threshold Jamaica 2026"
-
-5. **Featured snippet optimization** (Due Mar 24)
-   - Target: "PAYE threshold Jamaica 2026" → answer: J$1,500,096/year, J$125,008/month
-   - Target: "how to calculate NIS Jamaica" → answer: 3% employee + 3% employer of gross pay
-   - Target: "NHT rate Jamaica 2026" → answer: 2% employee + 3% employer of gross pay
-   - For each: ensure exact-match answer appears in H2 + paragraph in the relevant blog post
-
-### Week 2 (Due March 17-24)
-6. **Fix speculative content** — Review and update `content/2025-jamaica-payroll-tax-updates-complete-guide-new-rates-thresholds.json` to reflect actual confirmed rates (J$1,500,096 threshold)
-7. **Sitemap audit** — Verify all 230+ blog posts and landing pages are indexed
-8. **Page speed check** — Run Lighthouse on homepage, /calculator, and top 5 blog posts
+## CRITICAL DATA ⚠️
+**PAYE threshold: J$1,500,096/year (J$125,008/month)** — use this in ALL content.
+**NIS:** 3% employee + 3% employer | **NHT:** 2% employee + 3% employer | **Ed Tax:** 2.25% + 3.5%
 
 ---
 
-## SOCIAL MEDIA MANAGER — PRIORITIES
+## SEO SPECIALIST — WEEK 2 PRIORITIES (Mar 13–17)
 
-### IMMEDIATE (Today, March 11)
-1. **Account Creation BLOCKED** ⛔
-   - Accounts must be created by Ruben manually
-   - Handle: `payrolljamaica` on LinkedIn, Facebook, Instagram, X/Twitter
-   - Email: `info@payrolljamaica.com`
-   - Profile photo: `/public/favicon.png`
-   - Cover image: `/public/og.jpg`
-   - Guide: `social-media/RUBEN_30MIN_SETUP_GUIDE.md`
-   - **This is the #1 blocker — everything else is ready**
+### OVERDUE (Complete ASAP — originally due Mar 14-17)
+1. **Google Search Console setup** ← CRITICAL
+   - Go to search.google.com/search-console
+   - Add property: payrolljamaica.com
+   - Verify via DNS TXT record (add to Cloudflare DNS)
+   - Submit sitemap: payrolljamaica.com/sitemap.xml
+   - Set geographic targeting: Jamaica
+   - **This is blocking our ability to measure organic rankings**
 
-2. **Day 1 content is ready** — `social-media/DAY1_PUBLISHING_BRIEF.md`
-   - 8 posts across all platforms, full copy ready to paste
-   - Publish as soon as accounts are live
+2. **Google Business Profile** ← CRITICAL
+   - Go to business.google.com
+   - Create profile: "PayrollJamaica"
+   - Category: Payroll Service
+   - Location: Kingston, Jamaica
+   - All copy/content ready in: `seo/GBP_ACTION_PACK_FOR_RUBEN.md`
+   - **This alone can drive local search visibility within 1-2 weeks**
 
-### Week 1 (March 11-17)
-3. **March 11-24 social calendar** — `social-media/CONTENT_CALENDAR_MAR11_24_2026.md`
-   - 29 posts: 6 LinkedIn + 15 Facebook + 8 Instagram
-   - All captions and visual direction included
-   - Key: PAYE threshold in posts uses J$1,500,096 ✓
+3. **Keyword tracking spreadsheet** (Due Mar 14)
+   - Set up Google Sheet with 10 priority keywords from `seo/JAMAICA_KEYWORD_AUDIT_2026.md`
+   - Record baseline position for each (use incognito Google search, Jamaica VPN if available)
+   - Update weekly
 
-4. **Facebook Group outreach** (Due Mar 17)
-   - Join 6 groups: Jamaica Business Owners, Entrepreneurs Jamaica, Small Business Jamaica, HR Jamaica Network, Jamaica Accountants Network, Kingston Business Community
-   - Scripts ready in `social-media/facebook/group-outreach-scripts-march17.md`
-   - Answer 3-5 payroll questions per group per week — NO direct promotion
+### NEW TASKS (Due Mar 17–21)
 
-5. **4-hour engagement SLA** — respond to all comments/DMs within 4 hours during business hours
+4. **Internal linking sprint — high priority pages**
+   - Priority pages needing more internal links IN:
+     - `/calculator` — target: every relevant blog post should link here
+     - `/payroll-software-jamaica` — our top commercial keyword page
+     - `/hr-software-jamaica` — secondary commercial keyword
+   - Check 20 highest-traffic blog posts — verify each links to /calculator
+   - Add "Try our free Jamaica payroll calculator" CTA link in any post that lacks it
 
-### End of Month (Due March 31)
-6. **Performance report** covering:
-   - Follower counts by platform
-   - Top 3 posts by engagement
-   - Calculator referrals from social
-   - Facebook group Q&As completed
-   - Recommendations for April
+5. **Featured snippet optimization — 3 target queries**
+   - **"PAYE threshold Jamaica 2026"** → answer: J$1,500,096/year. Find top blog post, ensure exact-match answer appears in H2 + paragraph at top. Format as concise 2-sentence answer.
+   - **"How to calculate NIS Jamaica"** → answer: 3% of gross pay. Same treatment.
+   - **"SO1 return deadline Jamaica"** → answer: March 31 annually. Optimize SO1 guide post.
 
----
+6. **Fix speculative content** (Due Mar 14)
+   - Review and correct: `content/2025-jamaica-payroll-tax-updates-complete-guide-new-rates-thresholds.json`
+   - Ensure it uses J$1,500,096 threshold (NOT J$1,825,000)
+   - Flag any other posts with incorrect threshold figures
 
-## CMO KPIs — MARCH 2026
-
-| Metric | Target | Owner |
-|--------|--------|-------|
-| LinkedIn followers | 100 | Social |
-| Facebook page likes | 50 | Social |
-| Instagram followers | 50 | Social |
-| Posts published (total) | 35+ | Social |
-| Blog posts live | 235+ | SEO |
-| Google Search Console active | Yes | SEO |
-| GBP created | Yes | SEO |
-| Keyword tracking active | Yes | SEO |
-| Comment SLA ≤4h | 100% | Social |
-| Facebook group Q&As | 5+ | Social |
+7. **Page speed audit** (Due Mar 17)
+   - Run Lighthouse on: homepage, /calculator, top 3 blog posts
+   - Report scores to CMO — flag anything below 85 mobile
 
 ---
 
-## MARCH CAMPAIGN THEME: "Year-End Urgency"
-Jamaica fiscal year ends March 31. Every post should emphasize:
-- TAJ deadlines and penalties
-- Year-end payroll reconciliation
-- Starting Q1 2026/2027 right
+## SOCIAL MEDIA MANAGER — WEEK 2 PRIORITIES (Mar 13–17)
 
-Urgency escalates week by week (see calendar for tone guide).
+### BLOCKER STATUS
+- All 4 social accounts (LinkedIn, Facebook, Instagram, X/Twitter) still need manual creation
+- **Guide:** `social-media/RUBEN_30MIN_SETUP_GUIDE.md`
+- **Every day without social accounts = lost fiscal year-end urgency window**
+
+### ONCE ACCOUNTS ARE LIVE — EXECUTE IN THIS ORDER
+
+**Day 1 after account creation:**
+1. Post all 8 Day 1 posts from `social-media/DAY1_PUBLISHING_BRIEF.md` (spread over the day)
+2. Pin launch posts on LinkedIn and Facebook
+3. Set up all profile info (bio, website, profile photo, cover image)
+4. LinkedIn: Set up company page, enable "invite connections" feature
+5. Instagram: Set up 5 Highlight categories (PAYE, NHT, Deadlines, Tips, About Us)
+
+**Day 2–3:**
+6. Schedule March 13–17 posts from `social-media/CONTENT_CALENDAR_MAR11_24_2026.md`
+7. Join Facebook groups: Jamaica Business Owners Network, Entrepreneurs Jamaica, Small Business Jamaica, HR Jamaica Network, Jamaica Accountants Network, Kingston Business Community
+8. Begin answering payroll questions in groups (see scripts: `social-media/facebook/group-outreach-scripts-march17.md`)
+
+### MARCH 13 POSTS (ready to publish)
+- **LinkedIn (personal, Ruben's account):** 18-days countdown post — `social-media/MARCH_13_14_CONTENT.md`
+- **Facebook Groups:** March 31 warning + calculator CTA — `social-media/MARCH_13_14_CONTENT.md`
+
+### MARCH 14 POSTS
+- **LinkedIn:** Deduction order education post — `social-media/MARCH_13_14_CONTENT.md`
+
+### ONGOING — 4-hour SLA
+Respond to ALL comments, DMs, and group replies within 4 business hours.
 
 ---
-*CMO: PayrollJamaica | Updated: March 11, 2026*
+
+## RUBEN (FOUNDER) — ACTION REQUIRED THIS WEEK
+
+These are your personal action items — they cannot be delegated:
+
+| Priority | Action | Time Required | Guide |
+|---|---|---|---|
+| 🔴 #1 | Create social media accounts | 30–45 min | `social-media/RUBEN_30MIN_SETUP_GUIDE.md` |
+| 🔴 #2 | Send Loop Jamaica / JBDC / Chamber press emails | 15 min | `marketing/pr/SEND_TODAY_MARCH_11.md` |
+| 🔴 #3 | Send RJR News pitch | 5 min | `marketing/pr/SEND_TODAY_MARCH_11.md` |
+| 🟡 #4 | Set up Google Business Profile | 20 min | `seo/GBP_ACTION_PACK_FOR_RUBEN.md` |
+| 🟡 #5 | Verify domain in Google Search Console | 15 min | `seo/TEAM_DIRECTIVES` |
+| 🟡 #6 | Post on YOUR personal LinkedIn (Ruben) | 5 min | `social-media/MARCH_12_EXECUTION_BRIEF.md` |
+| 🟢 #7 | Send 4 accounting firm emails (Kingston) | 20 min | `marketing/accounting-firm-outreach/SEND_THIS_WEEK_PRIORITY_EMAILS.md` |
+
+**Ruben's personal LinkedIn post is important:** Personal posts get 5x more reach than company pages. The March 13 post copy is ready to paste in `social-media/MARCH_13_14_CONTENT.md`.
+
+---
+
+## CMO KPIs — MARCH 2026 (Updated Mar 11)
+
+| Metric | Target | Current | Status |
+|--------|--------|---------|--------|
+| Blog posts live | 235+ | 332 | ✅ Exceeded |
+| LinkedIn followers | 100 | 0 | 🔴 Accounts pending |
+| Facebook page likes | 50 | 0 | 🔴 Accounts pending |
+| Instagram followers | 50 | 0 | 🔴 Accounts pending |
+| Google Search Console | Active | Not set up | 🔴 Overdue |
+| Google Business Profile | Created | Not created | 🔴 Overdue |
+| Press pitches sent | 4 | 0 | 🔴 Not sent |
+| Keyword tracking | Active | Not started | 🔴 Not started |
+| Accounting firm emails | 5+ | 0 | 🔴 Not sent |
+| Posts published (total) | 35+ | 0 | 🔴 Blocked |
+| Facebook Group Q&As | 5+ | 0 | 🔴 Blocked |
+
+---
+
+## MARCH CAMPAIGN — WEEK 2 THEME: "Check Your Numbers"
+*March 16–20 | 15–11 days to March 31*
+
+Message: Move from awareness to urgency. "Do you know if your numbers are right?"
+- Push calculator usage: "Check your PAYE for free before it's too late"
+- NHT compliance education (NHT penalties are brutal)
+- Feature the year-end reconciliation angle
+- Patois level: Medium (mix of professional and local flavor)
+
+Content for this week is staged in `social-media/CONTENT_CALENDAR_MAR11_24_2026.md` — Weeks 2–3 section.
+
+---
+
+## NEW CAMPAIGN TRACK: MONTEGO BAY OUTREACH
+
+**New initiative (CMO directed, March 11):**
+- Dedicated MoBay accounting firm outreach campaign created
+- 15 target firms identified with email contacts
+- See: `marketing/accounting-firm-outreach/MONTEGO_BAY_OUTREACH_CAMPAIGN.md`
+- Strategy: Lead with tourism/hospitality payroll complexity — MoBay's dominant sector
+- Target: 5 MoBay partners by March 31
+
+---
+
+*CMO: PayrollJamaica | Updated: March 11, 2026 | Next update: March 17*
