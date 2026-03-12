@@ -77,10 +77,12 @@ export default function FooterSection({
       ],
     },
     {
-      title: "Support",
+      title: "Company",
       links: [
+        { text: "About", href: "/about" },
+        { text: "Contact", href: "/contact" },
         { text: "Email", href: siteConfig.links.email },
-        { text: "Contact Form", href: "#", openFillout: true },
+        { text: "Request Demo", href: "#", openFillout: true },
       ],
     },
     {

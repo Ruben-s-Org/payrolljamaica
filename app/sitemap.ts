@@ -16,6 +16,8 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${SITE_URL}/blog`, lastModified: TODAY, changeFrequency: "weekly", priority: 0.9 },
   { url: `${SITE_URL}/pricing`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
   { url: `${SITE_URL}/features`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
+  { url: `${SITE_URL}/about`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
+  { url: `${SITE_URL}/contact`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
   { url: `${SITE_URL}/resources`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
   { url: `${SITE_URL}/partners`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
   { url: `${SITE_URL}/compare`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
