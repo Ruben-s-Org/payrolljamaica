@@ -11,9 +11,9 @@ const baseDescription =
   "Payroll for Jamaica's transportation and logistics industry — Payroll Jamaica automates PAYE, NIS, NHT, and Education Tax for transport companies, trucking firms, route taxi operators, shipping companies, and logistics providers. Handle driver pay, trip-based commissions, and fleet management payroll across Jamaica.";
 
 export const metadata: Metadata = {
-  title: "Transportation & Logistics Payroll Jamaica — Payroll for Drivers & Transport Companies | Payroll Jamaica",
+  title: "Transport Payroll Jamaica — Drivers & Logistics",
   description: ensureMinDescription(
-    "Payroll software for Jamaica's transport and logistics sector. Trucking companies, route taxis, shipping firms, and courier services trust Payroll Jamaica for compliant PAYE, NIS, NHT, and trip-based pay automation.",
+    "Payroll software for Jamaica's transport and logistics sector. Trucking companies, route taxis, shipping firms, and courier services trust Payroll Jamaica.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Transportation & Logistics Payroll Jamaica — Drivers, Trucking & Freight | Payroll Jamaica",
+    title: "Transport Payroll Jamaica — Drivers & Logistics",
     description: baseDescription,
     url: canonical("/transportation-payroll-jamaica"),
     type: "website",

@@ -13,9 +13,9 @@ const baseDescription =
   "Contact PayrollJamaica for payroll software support, demos, and partnership enquiries. Reach us via email, WhatsApp, or schedule a demo. We serve businesses across Jamaica.";
 
 export const metadata: Metadata = {
-  title: "Contact Us — PayrollJamaica | Payroll Software Support Jamaica",
+  title: "Contact Us — PayrollJamaica | Payroll Support",
   description: ensureMinDescription(
-    "Contact PayrollJamaica for support, demos, and payroll software enquiries. Reach us via email, WhatsApp, or schedule a demo. Serving Jamaican businesses nationwide.",
+    "Contact PayrollJamaica for support, demos, and enquiries. Reach us via email, WhatsApp, or schedule a demo. Serving Jamaica.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Us — PayrollJamaica | Payroll Software Support",
+    title: "Contact Us — PayrollJamaica | Payroll Support",
     description: baseDescription,
     images: [siteConfig.ogImage],
     site: "@payrolljamaica",

@@ -11,9 +11,9 @@ const baseDescription =
   "Church payroll Jamaica — Payroll Jamaica is the payroll software built for Jamaica's churches, ministries, and religious organisations. Handle pastor stipends, housing allowances, part-time church workers, and full statutory compliance (PAYE, NIS, NHT, Education Tax) with confidence. Trusted by Jamaican churches from Kingston to rural parishes.";
 
 export const metadata: Metadata = {
-  title: "Church Payroll Jamaica — Payroll Software for Churches & Ministries | Payroll Jamaica",
+  title: "Church Payroll Jamaica — Churches & Ministries",
   description: ensureMinDescription(
-    "Payroll software for Jamaican churches and religious organisations. Manage pastor stipends, housing allowances, part-time staff, PAYE, NIS, and NHT compliance. Built for churches of all sizes across Jamaica.",
+    "Payroll software for Jamaican churches and religious organisations. Manage pastor stipends, housing allowances, part-time staff, PAYE, NIS, and NHT.",
     baseDescription
   ),
   applicationName: siteConfig.name,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Church Payroll Jamaica — Built for Jamaica's Churches & Religious Organisations | Payroll Jamaica",
+    title: "Church Payroll Jamaica — Churches & Ministries",
     description: baseDescription,
     url: canonical("/payroll-jamaica-churches"),
     type: "website",

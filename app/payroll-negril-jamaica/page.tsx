@@ -14,7 +14,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Payroll Negril Jamaica — Hotel & Tourism Payroll",
   description: ensureMinDescription(
-    "Negril's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Negril hotel, resort, restaurant, or tourism business. Trusted by Westmoreland and Hanover businesses along Seven Mile Beach.",
+    "Negril's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Negril hotel, resort, restaurant, or tourism business. Trusted by.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

@@ -14,7 +14,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Payroll Savanna-la-Mar Jamaica — Westmoreland",
   description: ensureMinDescription(
-    "Savanna-la-Mar and Westmoreland's best payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Sav-la-Mar business. Trusted by Westmoreland businesses across tourism, agriculture, and services.",
+    "Savanna-la-Mar and Westmoreland's best payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Sav-la-Mar business. Trusted by Westmoreland.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Savanna-la-Mar Jamaica — Westmoreland Payroll Software | Payroll Jamaica",
+    title: "Payroll Services Savanna-la-Mar Jamaica — Westmoreland",
     description: baseDescription,
     url: canonical("/payroll-savanna-la-mar-jamaica"),
     type: "website",

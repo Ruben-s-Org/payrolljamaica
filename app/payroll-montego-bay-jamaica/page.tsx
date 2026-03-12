@@ -12,9 +12,9 @@ const baseDescription =
   "Payroll services in Montego Bay Jamaica — Payroll Jamaica is the payroll software built for Montego Bay businesses. Automate PAYE, NIS, NHT, and Education Tax for your MoBay employees. From the hotel strip in Rose Hall to business parks in Freeport, we handle payroll for Montego Bay's tourism, retail, and professional services sectors.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Montego Bay Jamaica — Payroll Software for MoBay Businesses | Payroll Jamaica",
+  title: "Payroll Montego Bay Jamaica — MoBay Payroll",
   description: ensureMinDescription(
-    "Montego Bay's payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Montego Bay business. Trusted by hotels, retailers, and SMEs across St. James Parish.",
+    "Montego Bay's payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Montego Bay business. Trusted by hotels, retailers, and SMEs across.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Montego Bay Jamaica — Built for MoBay Businesses | Payroll Jamaica",
+    title: "Payroll Montego Bay Jamaica — MoBay Payroll",
     description: baseDescription,
     url: canonical("/payroll-montego-bay-jamaica"),
     type: "website",

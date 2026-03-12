@@ -18,9 +18,9 @@ const baseDescription =
   "Join the PayrollJamaica Partner Program. Accounting firms and bookkeepers earn 15–25% recurring commission by referring clients to Jamaica's purpose-built payroll software. Free to join, no minimums.";
 
 export const metadata: Metadata = {
-  title: "Partner Program for Accountants & Bookkeepers | Payroll Jamaica",
+  title: "Partner Program — Accountants & Bookkeepers",
   description: ensureMinDescription(
-    "Earn recurring commission as a PayrollJamaica partner. Accounting firms and bookkeepers in Jamaica earn 15% referral or 25% reseller commission. Free to join — no minimum referrals. Reduce your clients' payroll risk with Jamaica's only purpose-built payroll software.",
+    "Earn recurring commission as a PayrollJamaica partner. Accounting firms and bookkeepers in Jamaica earn 15% referral or 25% reseller commission. Free to.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Partner Program for Accountants & Bookkeepers | Payroll Jamaica",
+    title: "Partner Program for Accountants & Bookkeepers",
     description: baseDescription,
     url: canonical("/partners"),
     type: "website",

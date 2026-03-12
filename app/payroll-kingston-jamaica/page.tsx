@@ -12,9 +12,9 @@ const baseDescription =
   "Payroll services in Kingston Jamaica — Payroll Jamaica is the #1 payroll software serving Kingston businesses. Automate PAYE, NIS, NHT, and Education Tax for your Kingston employees. From New Kingston to Downtown and Half Way Tree, we handle payroll for Kingston's SMEs, professionals, and corporates.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Kingston Jamaica — Payroll Software for Kingston Businesses | Payroll Jamaica",
+  title: "Payroll Kingston Jamaica — Kingston Payroll Software",
   description: ensureMinDescription(
-    "Kingston's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Kingston business. Trusted by businesses across New Kingston, Downtown Kingston, and Half Way Tree.",
+    "Kingston's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Kingston business. Trusted by businesses across New Kingston.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Kingston Jamaica — #1 Payroll Software for Kingston | Payroll Jamaica",
+    title: "Payroll Kingston Jamaica — Kingston Payroll Software",
     description: baseDescription,
     url: canonical("/payroll-kingston-jamaica"),
     type: "website",

@@ -13,7 +13,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Pricing — Payroll Software Jamaica Pricing | Payroll Jamaica",
   description: ensureMinDescription(
-    "PayrollJamaica pricing: Starter JMD $3,500/month (up to 10 employees), Business JMD $7,500/month (up to 50 employees), Enterprise custom. Affordable payroll software Jamaica pricing with no hidden fees. All plans include automated PAYE, NIS, NHT, Education Tax calculations, digital payslips, and statutory reports.",
+    "PayrollJamaica pricing: Starter JMD $3,500/month (up to 10 employees), Business JMD $7,500/month (up to 50 employees), Enterprise custom. Affordable.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

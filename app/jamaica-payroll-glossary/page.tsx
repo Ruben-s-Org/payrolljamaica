@@ -11,9 +11,9 @@ const baseDescription =
   "Complete Jamaica payroll glossary: PAYE, NIS, NHT, Education Tax, HEART, SO1, P45, P46, P6, TD4, TAJ, Statutory Income, Gross Emoluments, Insurable Wage, Emoluments, Pension, Remittance — every term defined with current 2026/27 rates.";
 
 export const metadata: Metadata = {
-  title: "Jamaica Payroll Glossary — PAYE, NIS, NHT, SO1, P45 & More Defined | Payroll Jamaica",
+  title: "Jamaica Payroll Glossary — PAYE, NIS, NHT & More",
   description: ensureMinDescription(
-    "Jamaica payroll glossary: PAYE, NIS, NHT, SO1, P45, P46, P6, TD4, TAJ, Statutory Income and more — every term defined with 2026/27 rates and links to further resources.",
+    "Jamaica payroll glossary: PAYE, NIS, NHT, SO1, P45, P46, P6, TD4, TAJ, Statutory Income and more — every term defined with 2026/27 rates and links to.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Jamaica Payroll Glossary — PAYE, NIS, NHT, SO1, P45 & More Defined",
+    title: "Jamaica Payroll Glossary — PAYE, NIS, NHT & More",
     description: baseDescription,
     url: canonical("/jamaica-payroll-glossary"),
     type: "website",

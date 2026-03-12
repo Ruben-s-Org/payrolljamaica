@@ -11,9 +11,9 @@ const baseDescription =
   "Payroll Jamaica is built for Jamaica's education sector — private schools, preparatory schools, early childhood institutions, HEART Trust training centers, tutoring businesses, and universities. Handle teacher salary scales, term-based contracts, part-time lecturer pay, pension contributions, and full PAYE, NIS, NHT, and Education Tax compliance. Built for Jamaican educational employers.";
 
 export const metadata: Metadata = {
-  title: "Education Sector Payroll Software Jamaica — Schools & Colleges | Payroll Jamaica",
+  title: "Education Payroll Jamaica — Schools & Colleges",
   description: ensureMinDescription(
-    "Payroll software for Jamaica's schools, colleges, and training centres. Handle teacher salary scales, term contracts, pension contributions, PAYE, NIS, NHT. Built for Jamaican educational employers.",
+    "Payroll software for Jamaica's schools, colleges, and training centres. Handle teacher salary scales, term contracts, pension contributions, PAYE, NIS.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Education Sector Payroll Software Jamaica — Schools & Colleges | Payroll Jamaica",
+    title: "Education Sector Payroll Software Jamaica — Schools &",
     description: baseDescription,
     url: canonical("/education-payroll-jamaica"),
     type: "website",

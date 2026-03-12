@@ -12,9 +12,9 @@ const baseDescription =
   "Use Jamaica's most accurate free PAYE calculator. Instantly compute Pay As You Earn income tax deductions for any gross salary using 2026 rates set by Tax Administration Jamaica (TAJ). Supports monthly, fortnightly, and weekly pay. See PAYE, NIS, NHT, and Education Tax breakdowns in seconds — no signup required.";
 
 export const metadata: Metadata = {
-  title: "PAYE Calculator Jamaica 2026 — Free Pay As You Earn Tax Calculator | Payroll Jamaica",
+  title: "PAYE Calculator Jamaica 2026 — Free Tax Calculator",
   description: ensureMinDescription(
-    "Free PAYE calculator for Jamaica 2026. Compute Pay As You Earn income tax from any gross salary using the current JMD $1,500,096 annual threshold and 25%/30% tax rates. See your full tax breakdown instantly.",
+    "Free PAYE calculator for Jamaica 2026. Compute Pay As You Earn income tax from any gross salary using the current JMD $1,500,096 annual threshold and.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "PAYE Calculator Jamaica 2026 — Free Pay As You Earn Tax Calculator",
+    title: "PAYE Calculator Jamaica 2026 — Free Tax Calculator",
     description: baseDescription,
     url: canonical("/paye-calculator-jamaica"),
     type: "website",

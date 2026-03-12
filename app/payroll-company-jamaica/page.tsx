@@ -11,9 +11,9 @@ const baseDescription =
   "Payroll Jamaica is Jamaica's leading payroll company — providing payroll software and managed payroll services to Jamaican businesses of every size. From Kingston to Montego Bay, we help employers automate PAYE, NIS, NHT, and Education Tax compliance. Choose a payroll company that actually understands Jamaica's statutory requirements.";
 
 export const metadata: Metadata = {
-  title: "Payroll Company Jamaica — Local Payroll Services & Software | Payroll Jamaica",
+  title: "Payroll Company Jamaica — Local Payroll Services",
   description: ensureMinDescription(
-    "Jamaica's #1 payroll company. Payroll Jamaica provides payroll software and managed payroll services with full PAYE, NIS, NHT, and Education Tax compliance built in. Serving Jamaican businesses from Kingston to Montego Bay.",
+    "Jamaica's #1 payroll company. Payroll Jamaica provides payroll software and managed payroll services with full PAYE, NIS, NHT, and Education Tax.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Company Jamaica — Local Payroll Services | Payroll Jamaica",
+    title: "Payroll Company Jamaica — Local Payroll Services",
     description: baseDescription,
     url: canonical("/payroll-company-jamaica"),
     type: "website",

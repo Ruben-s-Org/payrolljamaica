@@ -14,7 +14,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Payroll Mandeville Jamaica — Manchester Parish",
   description: ensureMinDescription(
-    "Payroll software for Mandeville and Manchester Parish businesses. Automate PAYE, NIS, NHT, Education Tax. Serving Mandeville's bauxite, retail, healthcare, and tourism employers.",
+    "Payroll software for Mandeville and Manchester Parish businesses. Automate PAYE, NIS, NHT, Education Tax. Serving Mandeville's bauxite, retail.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

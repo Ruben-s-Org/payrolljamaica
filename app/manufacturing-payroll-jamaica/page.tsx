@@ -11,9 +11,9 @@ const baseDescription =
   "Manufacturing payroll software built specifically for Jamaica's factories, Free Zones, and production facilities. Handle shift workers, overtime, piece-rate pay, union agreements, and all statutory deductions — PAYE, NIS, NHT, Education Tax — automated for Jamaica's manufacturing sector. Trusted by factories from Kingston to Spanish Town.";
 
 export const metadata: Metadata = {
-  title: "Manufacturing Payroll Jamaica — Factory & Production Payroll Software | Payroll Jamaica",
+  title: "Manufacturing Payroll Jamaica — Factory Payroll",
   description: ensureMinDescription(
-    "Payroll software built for Jamaica's manufacturers. Automate shift differentials, overtime, piece-rate pay, union deductions, and all statutory filings for factories, Free Zones, and production businesses across Jamaica.",
+    "Payroll software built for Jamaica's manufacturers. Automate shift differentials, overtime, piece-rate pay, union deductions, and all statutory filings.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Manufacturing Payroll Jamaica — Factory & Production Payroll Software | Payroll Jamaica",
+    title: "Manufacturing Payroll Jamaica — Factory & Production",
     description: baseDescription,
     url: canonical("/manufacturing-payroll-jamaica"),
     type: "website",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Manufacturing Payroll Jamaica | Factory Payroll Software | Payroll Jamaica",
+    title: "Manufacturing Payroll Jamaica — Factory Payroll",
     description: baseDescription,
     images: [siteConfig.ogImage],
     site: "@payrolljamaica",

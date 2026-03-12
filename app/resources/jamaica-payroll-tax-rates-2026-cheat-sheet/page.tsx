@@ -7,7 +7,7 @@ import { safeJsonLd } from "@/lib/jsonld";
 import { PrintButton } from "@/components/ui/print-button";
 
 export const metadata: Metadata = {
-  title: "Jamaica Payroll Tax Rates 2026 — Free Cheat Sheet | Payroll Jamaica",
+  title: "Jamaica Payroll Tax Rates 2026 — Free Cheat Sheet",
   description:
     "Free Jamaica payroll tax rates cheat sheet for 2026. All PAYE bands, NIS, NHT, Education Tax, and HEART/NSTA rates on one page. Download the PDF or print — updated for the 2026 budget.",
   keywords: [

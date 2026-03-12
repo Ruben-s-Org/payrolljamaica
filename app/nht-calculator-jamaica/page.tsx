@@ -12,9 +12,9 @@ const baseDescription =
   "Use Jamaica's free NHT calculator to compute National Housing Trust contributions for any salary. Calculate the 2% employee and 3% employer NHT deductions for 2026, with no annual ceiling. Find out how much your employees can reclaim after 7 years and how NHT contributions work for homeownership.";
 
 export const metadata: Metadata = {
-  title: "NHT Calculator Jamaica 2026 — Free National Housing Trust Contribution Calculator",
+  title: "NHT Calculator Jamaica 2026 — Free NHT Calculator",
   description: ensureMinDescription(
-    "Free NHT calculator for Jamaica 2026. Calculate National Housing Trust contributions — 2% employee + 3% employer — with no annual ceiling. Instant results for any pay frequency.",
+    "Free NHT calculator for Jamaica 2026. Calculate National Housing Trust contributions — 2% employee + 3% employer — with no annual ceiling. Instant results.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "NHT Calculator Jamaica 2026 — Free National Housing Trust Calculator",
+    title: "NHT Calculator Jamaica 2026 — Free NHT Calculator",
     description: baseDescription,
     url: canonical("/nht-calculator-jamaica"),
     type: "website",

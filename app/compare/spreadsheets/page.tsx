@@ -10,9 +10,9 @@ const baseDescription =
   "Jamaican businesses that rely on Excel spreadsheets for payroll face errors in PAYE calculations, manual NIS lookups, hours spent on payslips, and serious audit risk. Payroll Jamaica automates every statutory deduction — PAYE, NIS, NHT, and Education Tax — so you can switch from spreadsheets to compliant, automated payroll in days. See why hundreds of Jamaican employers have already made the switch.";
 
 export const metadata: Metadata = {
-  title: "Stop Doing Payroll in Spreadsheets — Switch to Payroll Jamaica",
+  title: "Spreadsheets vs Payroll Jamaica — Why Switch",
   description: ensureMinDescription(
-    "Payroll spreadsheets create PAYE errors, audit risk, and wasted hours for Jamaican employers. Switch to Payroll Jamaica and automate PAYE, NIS, NHT, and Education Tax — accurate every time, with no manual calculations.",
+    "Payroll spreadsheets create PAYE errors, audit risk, and wasted hours for Jamaican employers. Switch to Payroll Jamaica and automate PAYE, NIS, NHT, and.",
     baseDescription
   ),
   applicationName: siteConfig.name,
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Stop Doing Payroll in Spreadsheets — Switch to Payroll Jamaica",
+    title: "Stop Doing Payroll in Spreadsheets — Switch to Payroll",
     description: baseDescription,
     url: canonical("/compare/spreadsheets"),
     type: "website",

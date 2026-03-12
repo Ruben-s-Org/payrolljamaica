@@ -17,7 +17,7 @@ const baseDescription = "Payroll Jamaica is purpose-built payroll and HR softwar
 export const metadata: Metadata = {
   title: "Features — Jamaica Payroll & HR Software | Payroll Jamaica",
   description: ensureMinDescription(
-    "Discover all the features of Payroll Jamaica — Jamaica's most complete HR and payroll software. Automated PAYE, NIS, NHT, Education Tax, digital payslips, leave management, multi-branch support, bank-ready payments, and full statutory compliance.",
+    "Discover all the features of Payroll Jamaica — Jamaica's most complete HR and payroll software. Automated PAYE, NIS, NHT, Education Tax, digital payslips.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

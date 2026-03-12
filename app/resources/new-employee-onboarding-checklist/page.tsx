@@ -7,7 +7,7 @@ import { safeJsonLd } from "@/lib/jsonld";
 import { PrintButton } from "@/components/ui/print-button";
 
 export const metadata: Metadata = {
-  title: "New Employee Onboarding Compliance Checklist Jamaica 2026 | Payroll Jamaica",
+  title: "New Employee Onboarding Checklist Jamaica 2026",
   description:
     "Free Jamaica employer checklist for onboarding new employees: NIS registration, NHT registration, TRN requirements, statutory deduction setup, and employment contract requirements. Stay compliant from day one.",
   keywords: [

@@ -12,9 +12,9 @@ const baseDescription =
   "Complete payroll setup checklist for new Jamaican businesses. Step-by-step guide to registering with TAJ, NIS, and NHT, setting up PAYE, hiring your first employee, and running your first payroll — all compliant with Jamaica's statutory requirements.";
 
 export const metadata: Metadata = {
-  title: "New Business Payroll Checklist Jamaica — First-Time Employer Guide 2026",
+  title: "New Business Payroll Checklist Jamaica 2026",
   description: ensureMinDescription(
-    "Starting a business in Jamaica? Complete payroll checklist for first-time employers: register with TAJ, NIS, NHT, set up PAYE, hire your first employee, and run compliant payroll. Step-by-step 2026 guide.",
+    "Starting a business in Jamaica? Complete payroll checklist for first-time employers: register with TAJ, NIS, NHT, set up PAYE, hire your first employee.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "New Business Payroll Checklist Jamaica 2026 | Payroll Jamaica",
+    title: "New Business Payroll Checklist Jamaica 2026",
     description: baseDescription,
     images: [siteConfig.ogImage],
     site: "@payrolljamaica",

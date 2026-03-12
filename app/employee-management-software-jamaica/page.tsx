@@ -11,9 +11,9 @@ const baseDescription =
   "Looking for employee management software in Jamaica? Payroll Jamaica combines HR and payroll in one platform built for Jamaican businesses. Manage employee records, track attendance, handle PAYE, NIS, NHT, and Education Tax — all from one dashboard. Trusted by businesses from Kingston to Montego Bay.";
 
 export const metadata: Metadata = {
-  title: "Employee Management Software Jamaica — HR & Payroll for Jamaican Businesses | Payroll Jamaica",
+  title: "Employee Management Software Jamaica — HR & Payroll",
   description: ensureMinDescription(
-    "The #1 employee management software for Jamaica. Automate HR records, payroll, PAYE, NIS, NHT, and Education Tax from one platform. Built specifically for Jamaican businesses.",
+    "The #1 employee management software for Jamaica. Automate HR records, payroll, PAYE, NIS, NHT, and Education Tax from one platform. Built specifically for.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

@@ -11,9 +11,9 @@ const baseDescription =
   "Jamaica's payroll year-end deadline is March 31, 2026. Every Jamaican employer must file SO1 annual returns, NHT annual returns, TD4 summaries, and settle all PAYE, NIS, NHT, and Education Tax before the fiscal year closes. Payroll Jamaica automates every step — so you don't miss the deadline.";
 
 export const metadata: Metadata = {
-  title: "Jamaica Payroll Year-End 2026 — March 31 Deadline Checklist | Payroll Jamaica",
+  title: "Jamaica Payroll Year-End 2026 — March 31 Checklist",
   description: ensureMinDescription(
-    "March 31, 2026 is Jamaica's payroll year-end deadline. SO1 returns, NHT annual return, TD4 summaries all due. Payroll Jamaica automates every filing — get compliant before the deadline.",
+    "March 31, 2026 is Jamaica's payroll year-end deadline. SO1 returns, NHT annual return, TD4 summaries all due. Payroll Jamaica automates every filing — get.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Jamaica Payroll Year-End 2026 — March 31 Deadline | Payroll Jamaica",
+    title: "Jamaica Payroll Year-End 2026 — March 31 Checklist",
     description: baseDescription,
     url: canonical("/payroll-year-end-jamaica"),
     type: "website",

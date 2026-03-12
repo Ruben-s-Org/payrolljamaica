@@ -12,7 +12,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Healthcare Payroll Software Jamaica | Payroll Jamaica",
   description: ensureMinDescription(
-    "Payroll software for Jamaica's hospitals, clinics, and medical practices. Automate shift differentials, overtime, on-call pay, PAYE for healthcare professionals, NIS, NHT, and multi-department payroll management. Built for Jamaican healthcare employers.",
+    "Payroll software for Jamaica's hospitals, clinics, and medical practices. Automate shift differentials, overtime, on-call pay, PAYE for healthcare.",
     baseDescription
   ),
   applicationName: siteConfig.name,

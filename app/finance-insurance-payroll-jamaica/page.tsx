@@ -11,9 +11,9 @@ const baseDescription =
   "Payroll for Jamaica's finance and insurance sector — Payroll Jamaica automates PAYE, NIS, NHT, and Education Tax for banks, credit unions, insurance companies, and financial services firms. Built for the compliance demands of Jamaica's regulated financial industry. Trusted by Kingston's New Kingston financial district and Jamaica's credit union network.";
 
 export const metadata: Metadata = {
-  title: "Finance & Insurance Payroll Jamaica — Payroll Software for Banks & Credit Unions | Payroll Jamaica",
+  title: "Finance & Insurance Payroll Jamaica — Banks",
   description: ensureMinDescription(
-    "Payroll software for Jamaica's finance and insurance industry. Banks, credit unions, insurance brokers, and financial services firms trust Payroll Jamaica for compliant PAYE, NIS, NHT, and Education Tax automation.",
+    "Payroll software for Jamaica's finance and insurance industry. Banks, credit unions, insurance brokers, and financial services firms trust Payroll Jamaica.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Finance & Insurance Payroll Jamaica — Banks, Credit Unions & Insurers | Payroll Jamaica",
+    title: "Finance & Insurance Payroll Jamaica — Banks",
     description: baseDescription,
     url: canonical("/finance-insurance-payroll-jamaica"),
     type: "website",

@@ -11,9 +11,9 @@ const baseDescription =
   "Security company payroll Jamaica — Payroll Jamaica is built for Jamaica's security firms and guard companies. Handle shift differentials, night premiums, overtime, multiple client sites, and full statutory compliance (PAYE, NIS, NHT, Education Tax). Trusted by security companies across Kingston, Montego Bay, and the wider Jamaica.";
 
 export const metadata: Metadata = {
-  title: "Security Company Payroll Jamaica — Payroll Software for Security Firms | Payroll Jamaica",
+  title: "Security Company Payroll Jamaica — Guard Payroll",
   description: ensureMinDescription(
-    "Payroll software for Jamaican security companies and guard firms. Manage shift workers, overtime, night differentials, multiple client sites, PAYE, NIS, and NHT. Built for Jamaica's security industry.",
+    "Payroll software for Jamaican security companies and guard firms. Manage shift workers, overtime, night differentials, multiple client sites, PAYE, NIS.",
     baseDescription
   ),
   applicationName: siteConfig.name,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Security Company Payroll Jamaica — Built for Jamaica's Security Industry | Payroll Jamaica",
+    title: "Security Company Payroll Jamaica — Guard Payroll",
     description: baseDescription,
     url: canonical("/payroll-jamaica-security"),
     type: "website",

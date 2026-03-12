@@ -12,7 +12,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Construction Payroll Software Jamaica | Payroll Jamaica",
   description: ensureMinDescription(
-    "Payroll software for Jamaican construction companies. Manage daily wage workers, project-based payroll, multiple construction sites, and full PAYE, NIS, NHT compliance. Built for contractors and construction employers in Jamaica.",
+    "Payroll software for Jamaican construction companies. Manage daily wage workers, project-based payroll, multiple construction sites, and full PAYE, NIS.",
     baseDescription
   ),
   applicationName: siteConfig.name,

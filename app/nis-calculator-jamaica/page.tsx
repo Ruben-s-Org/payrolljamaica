@@ -12,9 +12,9 @@ const baseDescription =
   "Calculate National Insurance Scheme (NIS) contributions instantly with Jamaica's free NIS calculator. Compute the exact 3% employee and 3% employer NIS deductions for any salary, including the JMD $5,000,000 annual wage ceiling. Updated for 2026 NIS rates set by the Ministry of Labour and Social Security.";
 
 export const metadata: Metadata = {
-  title: "NIS Calculator Jamaica 2026 — Free National Insurance Scheme Contribution Calculator",
+  title: "NIS Calculator Jamaica 2026 — Free NIS Calculator",
   description: ensureMinDescription(
-    "Free NIS calculator for Jamaica 2026. Compute National Insurance Scheme contributions — 3% employee + 3% employer — with the JMD $5,000,000 annual wage ceiling applied automatically.",
+    "Free NIS calculator for Jamaica 2026. Compute National Insurance Scheme contributions — 3% employee + 3% employer — with the JMD $5,000,000 annual wage.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "NIS Calculator Jamaica 2026 — Free National Insurance Scheme Calculator",
+    title: "NIS Calculator Jamaica 2026 — Free NIS Calculator",
     description: baseDescription,
     url: canonical("/nis-calculator-jamaica"),
     type: "website",

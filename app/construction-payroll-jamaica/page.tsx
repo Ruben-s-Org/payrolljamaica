@@ -11,9 +11,9 @@ const baseDescription =
   "Construction payroll Jamaica — Payroll Jamaica handles the complexity of Jamaica's construction industry payroll. Daily-rated workers, contract labour, NIS construction rates, overtime pay, subcontractors, and project-based staffing. PAYE and statutory compliance built in.";
 
 export const metadata: Metadata = {
-  title: "Construction Payroll Jamaica — Payroll Software for Construction Companies | Payroll Jamaica",
+  title: "Construction Payroll Jamaica — Builder Payroll",
   description: ensureMinDescription(
-    "Payroll software built for Jamaica's construction industry. Handle daily-rated workers, contract labour, overtime, NIS, NHT, and PAYE. Stop doing construction payroll by hand.",
+    "Payroll software built for Jamaica's construction industry. Handle daily-rated workers, contract labour, overtime, NIS, NHT, and PAYE. Stop doing.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Construction Payroll Jamaica — Built for Jamaica's Building Industry | Payroll Jamaica",
+    title: "Construction Payroll Jamaica — Builder Payroll",
     description: baseDescription,
     url: canonical("/construction-payroll-jamaica"),
     type: "website",

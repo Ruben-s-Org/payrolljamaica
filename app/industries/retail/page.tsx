@@ -12,7 +12,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Retail Payroll Software Jamaica | Payroll Jamaica",
   description: ensureMinDescription(
-    "Payroll software for Jamaica's retail stores, supermarkets, and shops. Manage part-time staff, commission pay, peak-period overtime, and PAYE, NIS, NHT compliance. Consolidate payroll across multiple branches with ease.",
+    "Payroll software for Jamaica's retail stores, supermarkets, and shops. Manage part-time staff, commission pay, peak-period overtime, and PAYE, NIS, NHT.",
     baseDescription
   ),
   applicationName: siteConfig.name,

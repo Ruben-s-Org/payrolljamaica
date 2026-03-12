@@ -14,7 +14,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Payroll Ocho Rios Jamaica — St. Ann Payroll",
   description: ensureMinDescription(
-    "Ocho Rios payroll software for hotels, attractions, and restaurants. Automate PAYE, NIS, NHT, gratuity, and seasonal worker payroll for St. Ann tourism businesses. Jamaica-compliant from day one.",
+    "Ocho Rios payroll software for hotels, attractions, and restaurants. Automate PAYE, NIS, NHT, gratuity, and seasonal worker payroll for St. Ann tourism.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Ocho Rios Jamaica — Hotel & Tourism Payroll for St. Ann | Payroll Jamaica",
+    title: "Payroll Services Ocho Rios Jamaica — Hotel & Tourism",
     description: baseDescription,
     url: canonical("/payroll-ocho-rios-jamaica"),
     type: "website",

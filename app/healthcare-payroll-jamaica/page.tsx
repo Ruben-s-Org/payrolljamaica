@@ -11,9 +11,9 @@ const baseDescription =
   "Healthcare payroll software built specifically for Jamaica's hospitals, clinics, and medical facilities. Handle nurse shift premiums, doctor sessional pay, NHF health surcharge, on-call allowances, and TAJ statutory filings — all automated for Jamaica's healthcare sector. Trusted by medical facilities from Kingston to Montego Bay.";
 
 export const metadata: Metadata = {
-  title: "Healthcare Payroll Jamaica — Hospitals, Clinics & Medical Staff Payroll | Payroll Jamaica",
+  title: "Healthcare Payroll Jamaica — Hospitals & Clinics",
   description: ensureMinDescription(
-    "Payroll software built for Jamaica's healthcare sector. Automate nurse shift differentials, doctor locum pay, NHF contributions, on-call allowances, and TAJ filings for hospitals, clinics, and medical facilities across Jamaica.",
+    "Payroll software built for Jamaica's healthcare sector. Automate nurse shift differentials, doctor locum pay, NHF contributions, on-call allowances, and.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Healthcare Payroll Jamaica — Hospitals, Clinics & Medical Staff | Payroll Jamaica",
+    title: "Healthcare Payroll Jamaica — Hospitals & Clinics",
     description: baseDescription,
     url: canonical("/healthcare-payroll-jamaica"),
     type: "website",

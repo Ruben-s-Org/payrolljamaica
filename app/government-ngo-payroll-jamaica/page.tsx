@@ -11,9 +11,9 @@ const baseDescription =
   "Payroll software built for Jamaica's government agencies, crown agencies, local authorities, and NGOs. Handle salary scales, grade steps, government pension tracking, grant-funded staff separation, MOFPS reporting formats, and TAJ statutory filings — all automated for Jamaica's public sector and non-profit organisations.";
 
 export const metadata: Metadata = {
-  title: "Government & NGO Payroll Jamaica — Public Sector & Non-Profit Payroll | Payroll Jamaica",
+  title: "Government & NGO Payroll Jamaica — Public Sector",
   description: ensureMinDescription(
-    "Payroll software for Jamaica's public sector and NGOs. Automate salary scales, government pension contributions, grant-funded staff tracking, NHF for government employees, and MOFPS-compatible reporting — built for Jamaican civil service and non-profit payroll requirements.",
+    "Payroll software for Jamaica's public sector and NGOs. Automate salary scales, government pension contributions, grant-funded staff tracking, NHF for.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Government & NGO Payroll Jamaica — Public Sector & Non-Profit Payroll | Payroll Jamaica",
+    title: "Government & NGO Payroll Jamaica — Public Sector &",
     description: baseDescription,
     url: canonical("/government-ngo-payroll-jamaica"),
     type: "website",

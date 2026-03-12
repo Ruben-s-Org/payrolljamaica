@@ -15,7 +15,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Jamaica Minimum Wage 2026 — Current Rates & Payroll Impact",
   description: ensureMinDescription(
-    "Jamaica minimum wage 2026: current rates per 40-hour week for all worker categories. See how PAYE, NIS, NHT, and Education Tax apply to minimum wage workers. Free payroll calculator included.",
+    "Jamaica minimum wage 2026: current rates per 40-hour week for all worker categories. See how PAYE, NIS, NHT, and Education Tax apply to minimum wage.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jamaica Minimum Wage 2026 — Rates & Payroll Impact | Payroll Jamaica",
+    title: "Jamaica Minimum Wage 2026 — Rates & Impact",
     description: baseDescription,
     images: [siteConfig.ogImage],
     site: "@payrolljamaica",

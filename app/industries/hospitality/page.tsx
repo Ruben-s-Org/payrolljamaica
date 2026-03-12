@@ -10,9 +10,9 @@ const baseDescription =
   "Payroll Jamaica is built for Jamaica's hospitality industry — hotels, resorts, restaurants, and tourism businesses. Automate service charge distribution, tip and gratuity calculations, shift overtime compliance, seasonal staff payroll, PAYE, NIS, and NHT for tipped workers. Our software handles the unique payroll challenges facing Jamaican hotel and hospitality employers, from union deductions to part-time staff scheduling. Trusted by properties across Kingston, Montego Bay, Negril, and Ocho Rios.";
 
 export const metadata: Metadata = {
-  title: "Hotel & Hospitality Payroll Software Jamaica | Payroll Jamaica",
+  title: "Hotel & Hospitality Payroll Jamaica | Software",
   description: ensureMinDescription(
-    "Payroll software built for Jamaica's hotels, resorts, and restaurants. Automate service charge distribution, overtime compliance, seasonal staff payroll, PAYE, NIS, and NHT. Handles tipped workers, union deductions, and part-time staff with ease.",
+    "Payroll software built for Jamaica's hotels, resorts, and restaurants. Automate service charge distribution, overtime compliance, seasonal staff payroll.",
     baseDescription
   ),
   applicationName: siteConfig.name,
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Hotel & Hospitality Payroll Software Jamaica | Payroll Jamaica",
+    title: "Hotel & Hospitality Payroll Software Jamaica",
     description: baseDescription,
     url: canonical("/industries/hospitality"),
     type: "website",

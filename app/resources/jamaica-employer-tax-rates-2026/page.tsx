@@ -7,7 +7,7 @@ import { safeJsonLd } from "@/lib/jsonld";
 import { PrintButton } from "@/components/ui/print-button";
 
 export const metadata: Metadata = {
-  title: "Jamaica Employer Tax Rate Card 2026 — Free Reference | Payroll Jamaica",
+  title: "Jamaica Employer Tax Rates 2026 — Free Reference",
   description:
     "Complete 2026 Jamaica employer tax rate card. PAYE, NIS, NHT, Education Tax rates, thresholds, and remittance deadlines. Free one-page reference for Jamaican employers and HR teams.",
   keywords: [

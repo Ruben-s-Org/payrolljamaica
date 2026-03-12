@@ -12,9 +12,9 @@ const baseDescription =
   "Payroll Jamaica serves Portmore and St. Catherine Parish businesses with full PAYE, NIS, NHT, and Education Tax automation. Portmore is one of Jamaica's largest population centers — a business hub for retail, logistics, construction, and service industries. Payroll Jamaica is built for Portmore SMEs.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Portmore Jamaica — Payroll Software for St. Catherine | Payroll Jamaica",
+  title: "Payroll Portmore Jamaica — St. Catherine Payroll",
   description: ensureMinDescription(
-    "Payroll software for Portmore and St. Catherine businesses. Automate PAYE, NIS, NHT, Education Tax. Serving Portmore's retail, logistics, construction, and service employers.",
+    "Payroll software for Portmore and St. Catherine businesses. Automate PAYE, NIS, NHT, Education Tax. Serving Portmore's retail, logistics, construction.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Portmore Jamaica — St. Catherine | Payroll Jamaica",
+    title: "Payroll Portmore Jamaica — St. Catherine Payroll",
     description: baseDescription,
     url: canonical("/payroll-portmore-jamaica"),
     type: "website",

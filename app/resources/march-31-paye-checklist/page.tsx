@@ -7,7 +7,7 @@ import { safeJsonLd } from "@/lib/jsonld";
 import { PrintButton } from "@/components/ui/print-button";
 
 export const metadata: Metadata = {
-  title: "March 31 PAYE Filing Checklist 2026 — Free Download | Payroll Jamaica",
+  title: "March 31 PAYE Filing Checklist 2026 — Free Download",
   description:
     "Free March 31 PAYE filing checklist for Jamaican employers. Step-by-step guide for SO1 submission to Tax Administration Jamaica (TAJ). Avoid penalties with this 2026 deadline checklist.",
   keywords: [

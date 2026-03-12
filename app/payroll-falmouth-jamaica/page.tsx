@@ -14,7 +14,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Payroll Falmouth Jamaica — Trelawny Payroll Software",
   description: ensureMinDescription(
-    "Falmouth's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Trelawny business. Trusted by cruise tourism operators, banana exporters, hotels, restaurants, and SMEs across Falmouth, Duncans, Clark's Town, and the North Coast.",
+    "Falmouth's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Trelawny business. Trusted by cruise tourism operators, banana.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

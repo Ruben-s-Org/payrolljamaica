@@ -14,7 +14,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Payroll Port Antonio Jamaica — Portland Payroll",
   description: ensureMinDescription(
-    "Port Antonio's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Portland business. Trusted by boutique hotels, tour operators, banana exporters, and SMEs across Port Antonio and Portland parish.",
+    "Port Antonio's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Portland business. Trusted by boutique hotels, tour operators.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

@@ -10,9 +10,9 @@ const baseDescription =
   "Comparing payroll software options for your Jamaican business? Only Payroll Jamaica is built from the ground up for Jamaican statutory compliance — PAYE, NIS, NHT, Education Tax, NLA, and all Tax Administration Jamaica (TAJ) filing requirements. International software like Gusto, Sage, and QuickBooks Payroll were not built for Jamaica and cannot accurately handle your statutory deductions. See how Payroll Jamaica compares to every alternative and why hundreds of Jamaican employers have chosen us as the best payroll software in Jamaica.";
 
 export const metadata: Metadata = {
-  title: "Best Payroll Software Jamaica 2026 — Comparison & Reviews | Payroll Jamaica",
+  title: "Best Payroll Software Jamaica 2026 — Comparison",
   description: ensureMinDescription(
-    "Compare the best payroll software options for Jamaican businesses. Payroll Jamaica is the only solution built specifically for PAYE, NIS, NHT, Education Tax, and TAJ compliance. See how we compare to international software, spreadsheets, and managed services.",
+    "Compare the best payroll software options for Jamaican businesses. Payroll Jamaica is the only solution built specifically for PAYE, NIS, NHT, Education.",
     baseDescription
   ),
   applicationName: siteConfig.name,
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Best Payroll Software Jamaica 2026 — Comparison | Payroll Jamaica",
+    title: "Best Payroll Software Jamaica 2026 — Comparison",
     description: baseDescription,
     url: canonical("/compare/payroll-software-jamaica"),
     type: "website",

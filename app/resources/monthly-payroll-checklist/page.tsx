@@ -7,7 +7,7 @@ import { safeJsonLd } from "@/lib/jsonld";
 import { PrintButton } from "@/components/ui/print-button";
 
 export const metadata: Metadata = {
-  title: "Monthly Payroll Processing Checklist Jamaica 2026 — Free Download | Payroll Jamaica",
+  title: "Monthly Payroll Checklist Jamaica 2026 — Free",
   description:
     "Free monthly payroll checklist for Jamaican business owners. Step-by-step guide to processing payroll, calculating PAYE, NIS, NHT, Education Tax, and remitting by the 14th deadline.",
   keywords: [

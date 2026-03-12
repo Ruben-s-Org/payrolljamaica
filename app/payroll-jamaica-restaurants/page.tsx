@@ -11,9 +11,9 @@ const baseDescription =
   "Restaurant payroll Jamaica — Payroll Jamaica is the payroll software built for Jamaican restaurants, cafes, and food service businesses. Manage hourly staff, tip income, PAYE, NIS, NHT, and Education Tax. Handle variable hours and part-time workers with ease.";
 
 export const metadata: Metadata = {
-  title: "Restaurant Payroll Jamaica — Payroll Software for Jamaican Restaurants | Payroll Jamaica",
+  title: "Restaurant Payroll Jamaica — Software for Restaurants",
   description: ensureMinDescription(
-    "Payroll software built for Jamaican restaurants. Manage hourly staff, tip income, part-time workers, PAYE, NIS, and NHT — all compliant with Jamaica's tax rules.",
+    "Payroll software built for Jamaican restaurants. Manage hourly staff, tip income, part-time workers, PAYE, NIS, and NHT — all compliant with Jamaica's tax.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Restaurant Payroll Jamaica — Built for Jamaican Food Service | Payroll Jamaica",
+    title: "Restaurant Payroll Jamaica — Food Service Payroll",
     description: baseDescription,
     url: canonical("/payroll-jamaica-restaurants"),
     type: "website",

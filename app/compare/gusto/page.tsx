@@ -15,7 +15,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "PayrollJamaica vs Gusto — Best Payroll Software for Jamaica",
   description: ensureMinDescription(
-    "PayrollJamaica vs Gusto Payroll: which is better for Jamaican businesses? Compare PAYE, NIS, NHT compliance, local bank formats, SO1/P24 reports, Jamaica pricing, and local support.",
+    "PayrollJamaica vs Gusto Payroll: which is better for Jamaican businesses? Compare PAYE, NIS, NHT compliance, local bank formats, SO1/P24 reports, Jamaica.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

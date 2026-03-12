@@ -11,9 +11,9 @@ const baseDescription =
   "Retail payroll software built for Jamaica's shops, supermarkets, and retail businesses. Handle commission and base pay combinations, public holiday double-time, part-time and flexi-staff, Christmas bonus, multi-store payroll, and bank payment files for NCB, JN Bank, and Scotiabank — all automated for Jamaican retail payroll compliance.";
 
 export const metadata: Metadata = {
-  title: "Retail Payroll Jamaica — Shops, Supermarkets & Retail Staff Payroll | Payroll Jamaica",
+  title: "Retail Payroll Jamaica — Shops & Supermarkets",
   description: ensureMinDescription(
-    "Payroll software for Jamaica's retail businesses. Automate commission pay, public holiday double-time, part-time staff, Christmas bonuses, and multi-store payroll. Generate bank payment files for NCB, JN Bank, and Scotiabank — built for Jamaica's retail sector.",
+    "Payroll software for Jamaica's retail businesses. Automate commission pay, public holiday double-time, part-time staff, Christmas bonuses, and multi-store.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Retail Payroll Jamaica — Shops, Supermarkets & Retail Staff | Payroll Jamaica",
+    title: "Retail Payroll Jamaica — Shops & Supermarkets",
     description: baseDescription,
     url: canonical("/retail-payroll-jamaica"),
     type: "website",

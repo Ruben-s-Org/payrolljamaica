@@ -13,7 +13,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "About PayrollJamaica — Jamaica's Payroll & HR Software",
   description: ensureMinDescription(
-    "About PayrollJamaica — Jamaica's leading payroll and HR software company. Built by Jamaicans, for Jamaican businesses. Automate PAYE, NIS, NHT, payslips, and compliance.",
+    "About PayrollJamaica — Jamaica's leading payroll and HR software company. Built by Jamaicans, for Jamaican businesses. Automate PAYE, NIS, NHT, payslips.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

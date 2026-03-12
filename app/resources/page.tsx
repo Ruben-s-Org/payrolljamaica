@@ -10,9 +10,9 @@ const baseDescription =
   "Jamaica payroll resources, guides, and compliance tools for Jamaican employers and HR professionals. Find authoritative guides on PAYE, NIS, NHT, and Education Tax, use the free payroll calculator, and explore industry-specific payroll resources for hospitality, retail, construction, and healthcare businesses across Jamaica.";
 
 export const metadata: Metadata = {
-  title: "Jamaica Payroll Resources — Guides, Calculator & Compliance Tools | Payroll Jamaica",
+  title: "Jamaica Payroll Resources — Guides & Tools",
   description: ensureMinDescription(
-    "Free Jamaica payroll resources: guides on PAYE, NIS, NHT, and Education Tax; a free payroll calculator; industry-specific compliance tools for hospitality, retail, construction, and healthcare. Everything Jamaican employers need to stay compliant.",
+    "Free Jamaica payroll resources: guides on PAYE, NIS, NHT, and Education Tax; a free payroll calculator; industry-specific compliance tools for.",
     baseDescription
   ),
   applicationName: siteConfig.name,
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Jamaica Payroll Resources — Guides, Calculator & Compliance Tools | Payroll Jamaica",
+    title: "Jamaica Payroll Resources — Guides, Calculator &",
     description: baseDescription,
     url: canonical("/resources"),
     type: "website",

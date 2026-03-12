@@ -11,9 +11,9 @@ const baseDescription =
   "Payroll software designed for Jamaica's small businesses. Payroll Jamaica handles PAYE, NIS, NHT, and Education Tax automatically — so you can run compliant payroll in minutes, not hours, with no accounting degree required. Starting from J$2,500/month.";
 
 export const metadata: Metadata = {
-  title: "Small Business Payroll Jamaica — Affordable Payroll Software | Payroll Jamaica",
+  title: "Small Business Payroll Jamaica — Affordable Software",
   description: ensureMinDescription(
-    "The easiest payroll software for Jamaican small businesses. Automate PAYE, NIS, NHT, and Education Tax. Generate compliant payslips and TAJ remittances in minutes. Affordable plans starting from J$2,500/month — no accounting expertise needed.",
+    "The easiest payroll software for Jamaican small businesses. Automate PAYE, NIS, NHT, and Education Tax. Generate compliant payslips and TAJ remittances in.",
     baseDescription
   ),
   applicationName: siteConfig.name,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Small Business Payroll Jamaica — Affordable Payroll Software | Payroll Jamaica",
+    title: "Small Business Payroll Jamaica — Affordable Payroll Software",
     description: baseDescription,
     url: canonical("/small-business-payroll-jamaica"),
     type: "website",

@@ -11,9 +11,9 @@ const baseDescription =
   "Hotel payroll Jamaica — Payroll Jamaica is the payroll software built for Jamaica's hotel and hospitality industry. Manage seasonal staff, tip income, PAYE, NIS, NHT, and Education Tax for your property. Trusted by Jamaican hotels from Kingston to Negril.";
 
 export const metadata: Metadata = {
-  title: "Hotel Payroll Jamaica — Payroll Software for Jamaica's Hotel Industry | Payroll Jamaica",
+  title: "Hotel Payroll Jamaica — Tourism Industry Payroll",
   description: ensureMinDescription(
-    "Payroll software built for Jamaican hotels. Manage seasonal workers, tip declarations, PAYE, NIS, NHT, and Education Tax — all in one place. Jamaica's tourism sector demands accuracy.",
+    "Payroll software built for Jamaican hotels. Manage seasonal workers, tip declarations, PAYE, NIS, NHT, and Education Tax — all in one place. Jamaica's.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Hotel Payroll Jamaica — Built for Jamaica's Tourism Industry | Payroll Jamaica",
+    title: "Hotel Payroll Jamaica — Tourism Industry Payroll",
     description: baseDescription,
     url: canonical("/payroll-jamaica-hotels"),
     type: "website",

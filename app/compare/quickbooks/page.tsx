@@ -13,9 +13,9 @@ const baseDescription =
   "PayrollJamaica vs QuickBooks Payroll for Jamaican businesses. Compare features, statutory compliance (PAYE, NIS, NHT, Education Tax), pricing, local support, and Jamaica-specific reports. See why Jamaican employers choose PayrollJamaica over QuickBooks for compliant, automated payroll.";
 
 export const metadata: Metadata = {
-  title: "PayrollJamaica vs QuickBooks — Best Payroll Software for Jamaica",
+  title: "PayrollJamaica vs QuickBooks — Jamaica Payroll",
   description: ensureMinDescription(
-    "PayrollJamaica vs QuickBooks Payroll: which is better for Jamaican businesses? Compare PAYE, NIS, NHT compliance, local bank formats, SO1/P24 reports, Jamaica pricing, and local support.",
+    "PayrollJamaica vs QuickBooks Payroll: which is better for Jamaican businesses? Compare PAYE, NIS, NHT compliance, local bank formats, SO1/P24 reports.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

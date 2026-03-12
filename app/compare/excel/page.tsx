@@ -13,9 +13,9 @@ const baseDescription =
   "PayrollJamaica vs Excel spreadsheets for Jamaican payroll. Compare automation, compliance, accuracy, audit trails, bank file exports, and time savings. See why Jamaican businesses switch from Excel to PayrollJamaica for error-free, compliant payroll processing.";
 
 export const metadata: Metadata = {
-  title: "PayrollJamaica vs Excel Spreadsheets — Automate Your Jamaica Payroll",
+  title: "PayrollJamaica vs Excel — Automate Payroll",
   description: ensureMinDescription(
-    "PayrollJamaica vs Excel for Jamaican payroll: compare automation, compliance updates, audit trails, bank file exports, and digital payslips. Stop risking formula errors and manual calculations.",
+    "PayrollJamaica vs Excel for Jamaican payroll: compare automation, compliance updates, audit trails, bank file exports, and digital payslips. Stop risking.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

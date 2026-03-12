@@ -14,7 +14,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Payroll Morant Bay Jamaica — St. Thomas Payroll",
   description: ensureMinDescription(
-    "Morant Bay's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your St. Thomas parish business. Trusted by banana farms, fishing cooperatives, tourism operators, and SMEs across Morant Bay, Port Morant, Bath, and Yallahs.",
+    "Morant Bay's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your St. Thomas parish business. Trusted by banana farms, fishing.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

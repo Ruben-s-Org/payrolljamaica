@@ -12,9 +12,9 @@ const baseDescription =
   "Calculate Jamaica Education Tax contributions instantly with our free calculator. Compute the 2.25% employee and 3.5% employer Education Tax deductions for any salary using 2026 TAJ rates. No ceiling applies — Education Tax is due on all earnings. Includes remittance deadlines, filing requirements, and step-by-step guide.";
 
 export const metadata: Metadata = {
-  title: "Education Tax Calculator Jamaica 2026 — Free Employee & Employer Education Tax Calculator",
+  title: "Education Tax Calculator Jamaica 2026 — Free",
   description: ensureMinDescription(
-    "Free Education Tax calculator for Jamaica 2026. Calculate 2.25% employee + 3.5% employer Education Tax deductions on any salary. No annual ceiling. Updated TAJ rates, instant results.",
+    "Free Education Tax calculator for Jamaica 2026. Calculate 2.25% employee + 3.5% employer Education Tax deductions on any salary. No annual ceiling.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Education Tax Calculator Jamaica 2026 — Free Employee & Employer Calculator",
+    title: "Education Tax Calculator Jamaica 2026 — Free",
     description: baseDescription,
     url: canonical("/education-tax-calculator-jamaica"),
     type: "website",

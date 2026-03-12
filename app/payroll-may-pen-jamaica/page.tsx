@@ -14,7 +14,7 @@ const baseDescription =
 export const metadata: Metadata = {
   title: "Payroll May Pen Jamaica — Clarendon Payroll",
   description: ensureMinDescription(
-    "May Pen's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Clarendon business. Trusted by sugar industry, farms, SMEs, and commercial businesses across May Pen, Lionel Town, and Four Paths.",
+    "May Pen's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your Clarendon business. Trusted by sugar industry, farms, SMEs, and.",
     baseDescription
   ),
   keywords: ensureMinKeywords([

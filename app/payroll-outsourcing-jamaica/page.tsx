@@ -11,9 +11,9 @@ const baseDescription =
   "Payroll outsourcing in Jamaica — let Payroll Jamaica manage your entire payroll process. We handle PAYE calculations, NIS, NHT, and Education Tax deductions, payslip generation, and TAJ statutory remittances. Your team focuses on the business; we handle the compliance.";
 
 export const metadata: Metadata = {
-  title: "Payroll Outsourcing Jamaica — Managed Payroll Services | Payroll Jamaica",
+  title: "Payroll Outsourcing Jamaica — Managed Services",
   description: ensureMinDescription(
-    "Outsource your Jamaica payroll to the experts. Payroll Jamaica handles PAYE, NIS, NHT, Education Tax, payslips, and TAJ filings for your business every pay cycle. Accurate, compliant, stress-free payroll outsourcing in Jamaica.",
+    "Outsource your Jamaica payroll to the experts. Payroll Jamaica handles PAYE, NIS, NHT, Education Tax, payslips, and TAJ filings for your business every.",
     baseDescription
   ),
   applicationName: siteConfig.name,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Outsourcing Jamaica — Managed Payroll Services | Payroll Jamaica",
+    title: "Payroll Outsourcing Jamaica — Managed Payroll Services",
     description: baseDescription,
     url: canonical("/payroll-outsourcing-jamaica"),
     type: "website",

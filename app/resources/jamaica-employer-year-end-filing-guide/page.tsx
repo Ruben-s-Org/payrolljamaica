@@ -7,7 +7,7 @@ import { safeJsonLd } from "@/lib/jsonld";
 import { PrintButton } from "@/components/ui/print-button";
 
 export const metadata: Metadata = {
-  title: "March 31 Year-End Filing Guide for Jamaica Employers | Payroll Jamaica",
+  title: "March 31 Year-End Filing Guide Jamaica Employers",
   description:
     "Complete March 31 year-end filing guide for Jamaican employers. SO1 annual return, P24, NIS reconciliation, NHT returns — every filing you need before the deadline. Free downloadable PDF checklist.",
   keywords: [

@@ -11,9 +11,9 @@ const baseDescription =
   "Payroll processing in Jamaica — Payroll Jamaica automates your entire payroll processing cycle. From salary calculation to PAYE deductions, NIS, NHT, Education Tax, statutory reports, and payslip delivery. Run compliant Jamaica payroll in under 10 minutes.";
 
 export const metadata: Metadata = {
-  title: "Payroll Processing Jamaica — Automated Payroll for Jamaican Businesses | Payroll Jamaica",
+  title: "Payroll Processing Jamaica — Automated Payroll",
   description: ensureMinDescription(
-    "The fastest payroll processing in Jamaica. Automate salary calculations, PAYE, NIS, NHT, and Education Tax deductions. Generate statutory reports and payslips in minutes.",
+    "The fastest payroll processing in Jamaica. Automate salary calculations, PAYE, NIS, NHT, and Education Tax deductions. Generate statutory reports and.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Processing Jamaica — Run Compliant Payroll in Minutes | Payroll Jamaica",
+    title: "Payroll Processing Jamaica — Automated Payroll",
     description: baseDescription,
     url: canonical("/payroll-processing-jamaica"),
     type: "website",

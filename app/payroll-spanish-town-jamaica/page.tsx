@@ -12,9 +12,9 @@ const baseDescription =
   "Payroll services in Spanish Town, Jamaica — Payroll Jamaica is the #1 payroll software serving St. Catherine businesses. Automate PAYE, NIS, NHT, and Education Tax for your Spanish Town employees. From the Spanish Town Free Zone to Old Harbour, we handle payroll for St. Catherine's factories, SMEs, and commercial businesses.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Spanish Town Jamaica — Payroll Software for St. Catherine | Payroll Jamaica",
+  title: "Payroll Spanish Town Jamaica — St. Catherine",
   description: ensureMinDescription(
-    "Spanish Town's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your St. Catherine business. Trusted by factories, free zone businesses, and SMEs across Spanish Town, Old Harbour, and Linstead.",
+    "Spanish Town's top payroll software. Automate PAYE, NIS, NHT, and Education Tax for your St. Catherine business. Trusted by factories, free zone.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   openGraph: {
-    title: "Payroll Services Spanish Town Jamaica — #1 Payroll Software for St. Catherine | Payroll Jamaica",
+    title: "Payroll Spanish Town Jamaica — St. Catherine",
     description: baseDescription,
     url: canonical("/payroll-spanish-town-jamaica"),
     type: "website",

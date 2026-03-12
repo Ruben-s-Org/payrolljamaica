@@ -9,9 +9,9 @@ import { safeJsonLd } from "@/lib/jsonld";
 const baseDescription = "Payroll Jamaica offers comprehensive payroll services for Jamaican businesses of all sizes. Whether you are a sole trader, small business, or growing enterprise, our managed payroll service handles PAYE, NIS, NHT, Education Tax, payslip generation, and statutory filing — so you can focus on running your business.";
 
 export const metadata: Metadata = {
-  title: "Payroll Services Jamaica — Managed Payroll for Jamaican Businesses | Payroll Jamaica",
+  title: "Payroll Services Jamaica — Managed Payroll",
   description: ensureMinDescription(
-    "Professional payroll services for Jamaica. Payroll Jamaica manages PAYE, NIS, NHT, Education Tax, and statutory compliance for businesses of all sizes. Accurate payslips, remittance reports, and bank-ready payment files — handled for you.",
+    "Professional payroll services for Jamaica. Payroll Jamaica manages PAYE, NIS, NHT, Education Tax, and statutory compliance for businesses of all sizes.",
     baseDescription
   ),
   keywords: ensureMinKeywords([
