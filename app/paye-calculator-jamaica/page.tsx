@@ -100,6 +100,43 @@ export default function PayeCalculatorJamaicaPage() {
         <div className="w-full px-4 pb-20">
           <div className="max-w-3xl mx-auto space-y-10 text-sm leading-7 text-muted-foreground">
 
+            <section id="paye-threshold-jamaica-2026">
+              <h2 className="text-foreground text-xl font-semibold mb-3">What Is the PAYE Threshold in Jamaica for 2026?</h2>
+              <p>
+                The PAYE income tax threshold in Jamaica for 2026 is{" "}
+                <strong className="text-foreground">J$1,500,096 per year (J$125,008 per month)</strong>.
+                Employees earning below this threshold pay zero PAYE income tax. Income above the threshold is taxed at 25% up to J$6,000,000 and 30% on any excess, as set by Tax Administration Jamaica (TAJ).
+              </p>
+              <div className="mt-4 overflow-x-auto">
+                <table className="w-full border-collapse text-sm">
+                  <thead>
+                    <tr className="border-b border-border">
+                      <th className="text-left py-2 pr-4 text-foreground font-medium">Period</th>
+                      <th className="text-left py-2 text-foreground font-medium">PAYE threshold amount</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-border">
+                    <tr>
+                      <td className="py-2 pr-4">Annual</td>
+                      <td className="py-2 text-foreground font-medium">J$1,500,096</td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 pr-4">Monthly</td>
+                      <td className="py-2 text-foreground font-medium">J$125,008</td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 pr-4">Fortnightly</td>
+                      <td className="py-2 text-foreground font-medium">J$57,696</td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 pr-4">Weekly</td>
+                      <td className="py-2 text-foreground font-medium">J$28,848</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+
             <section>
               <h2 className="text-foreground text-xl font-semibold mb-3">What is PAYE in Jamaica?</h2>
               <p>
@@ -366,7 +403,15 @@ export default function PayeCalculatorJamaicaPage() {
                 name: "What is the PAYE threshold in Jamaica for 2026?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The PAYE income tax threshold in Jamaica for 2026 is JMD $1,500,096 per year (JMD $125,008 per month), effective from April 1, 2026. Employees earning below this threshold pay zero PAYE.",
+                  text: "The PAYE income tax threshold in Jamaica for 2026 is J$1,500,096 per year (J$125,008 per month). Employees earning below this threshold pay zero PAYE income tax. The threshold is set by Tax Administration Jamaica (TAJ) and applies from April 1, 2026.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "PAYE threshold Jamaica 2026",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The Jamaica PAYE threshold for 2026 is J$1,500,096 per year, which is J$125,008 per month. Income below this amount is tax-free. Income above the threshold is taxed at 25% (up to J$6,000,000) and 30% on any excess.",
                 },
               },
               {

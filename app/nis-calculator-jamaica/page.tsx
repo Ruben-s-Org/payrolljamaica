@@ -100,6 +100,52 @@ export default function NisCalculatorJamaicaPage() {
         <div className="w-full px-4 pb-20">
           <div className="max-w-3xl mx-auto space-y-10 text-sm leading-7 text-muted-foreground">
 
+            <section id="how-to-calculate-nis-jamaica">
+              <h2 className="text-foreground text-xl font-semibold mb-3">How to Calculate NIS in Jamaica</h2>
+              <p>
+                NIS (National Insurance Scheme) in Jamaica is calculated at{" "}
+                <strong className="text-foreground">3% of gross pay for the employee and 3% for the employer</strong>,
+                subject to an annual insurable wage ceiling of{" "}
+                <strong className="text-foreground">J$5,000,000 per year</strong>.
+                Once an employee&apos;s cumulative earnings exceed the ceiling in a tax year, no further NIS is deducted on additional earnings.
+              </p>
+              <div className="mt-4 overflow-x-auto">
+                <table className="w-full border-collapse text-sm">
+                  <thead>
+                    <tr className="border-b border-border">
+                      <th className="text-left py-2 pr-4 text-foreground font-medium">Item</th>
+                      <th className="text-left py-2 text-foreground font-medium">Amount</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-border">
+                    <tr>
+                      <td className="py-2 pr-4">Employee NIS rate</td>
+                      <td className="py-2 text-foreground font-medium">3% of gross pay</td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 pr-4">Employer NIS rate</td>
+                      <td className="py-2 text-foreground font-medium">3% of gross pay</td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 pr-4">Annual wage ceiling</td>
+                      <td className="py-2 text-foreground font-medium">J$5,000,000/year</td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 pr-4">Max annual employee NIS</td>
+                      <td className="py-2 text-foreground font-medium">J$150,000 (J$12,500/month)</td>
+                    </tr>
+                    <tr>
+                      <td className="py-2 pr-4">Max annual employer NIS</td>
+                      <td className="py-2 text-foreground font-medium">J$150,000 (J$12,500/month)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p className="mt-3">
+                <strong className="text-foreground">Example:</strong> An employee earning J$200,000/month pays J$6,000 in NIS (200,000 x 3%), and the employer contributes an additional J$6,000. Total monthly NIS remittance: J$12,000.
+              </p>
+            </section>
+
             <section>
               <h2 className="text-foreground text-xl font-semibold mb-3">What is NIS in Jamaica?</h2>
               <p>
@@ -341,10 +387,18 @@ export default function NisCalculatorJamaicaPage() {
               },
               {
                 "@type": "Question",
+                name: "How to calculate NIS Jamaica",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "To calculate NIS in Jamaica, multiply the employee's gross pay by 3% for the employee contribution and 3% for the employer contribution. The annual insurable wage ceiling is J$5,000,000, so the maximum employee NIS is J$150,000/year (J$12,500/month). Once earnings exceed the ceiling in a tax year, no further NIS is deducted.",
+                },
+              },
+              {
+                "@type": "Question",
                 name: "How do you calculate NIS in Jamaica?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "To calculate NIS in Jamaica: multiply the employee's gross salary by 3% (employee contribution) and 3% again (employer contribution). If the employee's annual earnings have exceeded JMD $5,000,000 (the wage ceiling), no additional NIS is deducted. Use our free NIS calculator Jamaica tool above for instant results.",
+                  text: "To calculate NIS in Jamaica: multiply the employee's gross salary by 3% (employee contribution) and 3% again (employer contribution). If the employee's annual earnings have exceeded J$5,000,000 (the wage ceiling), no additional NIS is deducted. Use our free NIS calculator Jamaica tool above for instant results.",
                 },
               },
               {

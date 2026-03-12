@@ -91,6 +91,10 @@ const checklistItems = [
 
 const faqItems = [
   {
+    q: "What is the SO1 return deadline in Jamaica?",
+    a: "The SO1 (Annual PAYE Employer Return) deadline in Jamaica is March 31 every year. All Jamaican employers must file the SO1 with Tax Administration Jamaica (TAJ) by March 31 following the end of the tax year (April 1 – March 31), reporting total earnings and PAYE deducted for each employee.",
+  },
+  {
     q: "What is the S01 Annual Return in Jamaica?",
     a: "The S01 is the Annual PAYE Employer Return submitted to Tax Administration Jamaica (TAJ). It details each employee's total earnings and total PAYE deducted for the tax year. It must be submitted by March 31 following the tax year end.",
   },
@@ -144,6 +148,46 @@ export default function March31DeadlinePage() {
               >
                 View pricing
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Featured snippet target: SO1 return deadline */}
+        <section className="w-full px-4 pb-12" id="so1-return-deadline-jamaica">
+          <div className="max-w-3xl mx-auto space-y-4">
+            <h2 className="text-2xl sm:text-3xl font-semibold">SO1 Return Deadline Jamaica</h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              The SO1 (Annual PAYE Employer Return) deadline in Jamaica is{" "}
+              <strong className="text-foreground">March 31 every year</strong>.
+              All Jamaican employers must file the SO1 with Tax Administration Jamaica (TAJ) by March 31 following the end of the tax year (April 1 &ndash; March 31), reporting each employee&apos;s total earnings and PAYE deducted.
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-border">
+                    <th className="text-left py-2 pr-4 text-foreground font-medium">Filing</th>
+                    <th className="text-left py-2 pr-4 text-foreground font-medium">Deadline</th>
+                    <th className="text-left py-2 text-foreground font-medium">Filed with</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-border">
+                  <tr>
+                    <td className="py-2 pr-4">SO1 Annual PAYE Return</td>
+                    <td className="py-2 pr-4 text-foreground font-medium">March 31</td>
+                    <td className="py-2">Tax Administration Jamaica (TAJ)</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-4">NHT Annual Return</td>
+                    <td className="py-2 pr-4 text-foreground font-medium">March 31</td>
+                    <td className="py-2">National Housing Trust</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-4">P6 (TD4) forms to employees</td>
+                    <td className="py-2 pr-4 text-foreground font-medium">March 31</td>
+                    <td className="py-2">Issued to each employee</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </section>

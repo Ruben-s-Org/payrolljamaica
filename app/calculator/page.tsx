@@ -88,23 +88,24 @@ export default function CalculatorPage() {
         {/* SEO content block */}
         <div className="w-full px-4 pb-16">
           <div className="max-w-container mx-auto max-w-3xl space-y-8 text-sm leading-7 text-muted-foreground">
-            <section>
-              <h2 className="text-foreground text-xl font-semibold mb-3">How is PAYE calculated in Jamaica?</h2>
+            <section id="paye-threshold-jamaica-2026">
+              <h2 className="text-foreground text-xl font-semibold mb-3">PAYE Threshold Jamaica 2026</h2>
               <p>
-                PAYE (Pay As You Earn) is Jamaica&apos;s income tax withheld from employee salaries each pay period.
-                For the current tax year (ending March 31, 2026), the annual income tax threshold is <strong className="text-foreground">JMD $1,500,096</strong> (JMD $125,008/month).
-                Income above the threshold is taxed at <strong className="text-foreground">25%</strong> up to JMD $6,000,000,
-                and <strong className="text-foreground">30%</strong> on the remainder. Employers remit PAYE to
-                Tax Administration Jamaica (TAJ) on behalf of employees.
+                The PAYE income tax threshold in Jamaica for 2026 is{" "}
+                <strong className="text-foreground">J$1,500,096 per year (J$125,008 per month)</strong>.
+                Employees earning below this threshold pay zero PAYE income tax. Income above the threshold is taxed at{" "}
+                <strong className="text-foreground">25%</strong> up to J$6,000,000 and{" "}
+                <strong className="text-foreground">30%</strong> on any excess, as set by Tax Administration Jamaica (TAJ).
               </p>
             </section>
-            <section>
-              <h2 className="text-foreground text-xl font-semibold mb-3">What is NIS and how much is deducted?</h2>
+            <section id="how-to-calculate-nis-jamaica">
+              <h2 className="text-foreground text-xl font-semibold mb-3">How to Calculate NIS in Jamaica</h2>
               <p>
-                NIS (National Insurance Scheme) provides social security benefits to Jamaican workers.
-                In 2026, both employees and employers contribute <strong className="text-foreground">3%</strong> of gross
-                salary, subject to a ceiling of <strong className="text-foreground">JMD $5,000,000 per year</strong>.
-                The maximum employee NIS contribution is JMD $150,000 annually (JMD $12,500/month).
+                NIS (National Insurance Scheme) is calculated at{" "}
+                <strong className="text-foreground">3% of gross pay for the employee and 3% for the employer</strong>,
+                subject to an annual wage ceiling of{" "}
+                <strong className="text-foreground">J$5,000,000 per year</strong>.
+                The maximum employee NIS contribution is J$150,000 annually (J$12,500/month). NIS is deducted before PAYE is calculated, reducing taxable income.
               </p>
             </section>
             <section>
@@ -211,18 +212,18 @@ export default function CalculatorPage() {
             },
             {
               "@type": "Question",
-              name: "What is the income tax threshold in Jamaica for 2026?",
+              name: "What is the PAYE threshold in Jamaica for 2026?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "The Jamaica income tax threshold for the 2025/2026 tax year is JMD $1,500,096 per year (JMD $125,008 per month). Income below this threshold is not subject to PAYE income tax.",
+                text: "The PAYE income tax threshold in Jamaica for 2026 is J$1,500,096 per year (J$125,008 per month). Employees earning below this threshold pay zero PAYE income tax.",
               },
             },
             {
               "@type": "Question",
-              name: "How much is NIS in Jamaica?",
+              name: "How to calculate NIS Jamaica",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "NIS (National Insurance Scheme) in Jamaica is 3% of gross salary for employees and 3% for employers. The maximum insurable wage is JMD $5,000,000/year, so the maximum employee NIS is JMD $12,500/month.",
+                text: "To calculate NIS in Jamaica, multiply gross pay by 3% for the employee contribution and 3% for the employer contribution. The annual wage ceiling is J$5,000,000, so the maximum employee NIS is J$150,000/year (J$12,500/month).",
               },
             },
             {
