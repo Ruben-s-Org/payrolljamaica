@@ -75,7 +75,9 @@ export default function FooterSection({
         { text: "Best Payroll Software Jamaica", href: "/compare/payroll-software-jamaica" },
         { text: "Compare vs Spreadsheets", href: "/compare/spreadsheets" },
         { text: "Compare vs QuickBooks", href: "/compare/quickbooks" },
+        { text: "Compare vs Sage", href: "/compare/sage" },
         { text: "Minimum Wage Jamaica", href: "/minimum-wage-jamaica" },
+        { text: "Payroll Glossary", href: "/glossary" },
       ],
     },
     {
