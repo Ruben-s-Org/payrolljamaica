@@ -29,13 +29,33 @@ export const metadata: Metadata = {
     "start business payroll Jamaica",
     "employer registration Jamaica",
   ]),
-  alternates: { canonical: canonical("/new-business-payroll-checklist-jamaica") },
-  robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
+  alternates: {
+    canonical: canonical("/new-business-payroll-checklist-jamaica"),
+    languages: {
+      "en-JM": canonical("/new-business-payroll-checklist-jamaica"),
+      en: canonical("/new-business-payroll-checklist-jamaica"),
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
+  },
   openGraph: {
     title: "New Business Payroll Checklist Jamaica 2026",
     description: baseDescription,
     url: canonical("/new-business-payroll-checklist-jamaica"),
     type: "article",
+    siteName: siteConfig.name,
+    locale: "en_JM",
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: "New Business Payroll Checklist Jamaica 2026" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "New Business Payroll Checklist Jamaica 2026 | Payroll Jamaica",
+    description: baseDescription,
+    images: [siteConfig.ogImage],
+    site: "@payrolljamaica",
   },
 };
 

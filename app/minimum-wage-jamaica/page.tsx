@@ -29,13 +29,33 @@ export const metadata: Metadata = {
     "Jamaica national minimum wage",
     "minimum wage calculator Jamaica",
   ]),
-  alternates: { canonical: canonical("/minimum-wage-jamaica") },
-  robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
+  alternates: {
+    canonical: canonical("/minimum-wage-jamaica"),
+    languages: {
+      "en-JM": canonical("/minimum-wage-jamaica"),
+      en: canonical("/minimum-wage-jamaica"),
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
+  },
   openGraph: {
     title: "Jamaica Minimum Wage 2026 — Current Rates & Payroll Impact",
     description: baseDescription,
     url: canonical("/minimum-wage-jamaica"),
     type: "article",
+    siteName: siteConfig.name,
+    locale: "en_JM",
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: "Jamaica Minimum Wage 2026" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jamaica Minimum Wage 2026 — Rates & Payroll Impact | Payroll Jamaica",
+    description: baseDescription,
+    images: [siteConfig.ogImage],
+    site: "@payrolljamaica",
   },
 };
 

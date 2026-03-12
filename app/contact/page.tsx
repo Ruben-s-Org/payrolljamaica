@@ -26,13 +26,33 @@ export const metadata: Metadata = {
     "payroll demo Jamaica",
     "payroll Jamaica WhatsApp",
   ]),
-  alternates: { canonical: canonical("/contact") },
-  robots: { index: true, follow: true },
+  alternates: {
+    canonical: canonical("/contact"),
+    languages: {
+      "en-JM": canonical("/contact"),
+      en: canonical("/contact"),
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
+  },
   openGraph: {
     title: "Contact Us — PayrollJamaica",
     description: baseDescription,
     url: canonical("/contact"),
     type: "website",
+    siteName: siteConfig.name,
+    locale: "en_JM",
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: "Contact PayrollJamaica" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Us — PayrollJamaica | Payroll Software Support",
+    description: baseDescription,
+    images: [siteConfig.ogImage],
+    site: "@payrolljamaica",
   },
 };
 

@@ -31,13 +31,33 @@ export const metadata: Metadata = {
     "emoluments Jamaica",
     "payroll definitions Jamaica",
   ]),
-  alternates: { canonical: canonical("/glossary") },
-  robots: { index: true, follow: true },
+  alternates: {
+    canonical: canonical("/glossary"),
+    languages: {
+      "en-JM": canonical("/glossary"),
+      en: canonical("/glossary"),
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
+  },
   openGraph: {
     title: "Jamaica Payroll Glossary — Key Terms & Definitions",
     description: baseDescription,
     url: canonical("/glossary"),
     type: "website",
+    siteName: siteConfig.name,
+    locale: "en_JM",
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: "Jamaica Payroll Glossary" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jamaica Payroll Glossary | PayrollJamaica",
+    description: baseDescription,
+    images: [siteConfig.ogImage],
+    site: "@payrolljamaica",
   },
 };
 
