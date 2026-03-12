@@ -8,6 +8,12 @@ This guide covers exactly what the SO1 is, what you need to prepare, how to file
 
 ---
 
+## When Is the SO1 Annual Return Deadline in Jamaica?
+
+The SO1 Annual Return must be filed with Tax Administration Jamaica (TAJ) by March 31 each year. This statutory return summarizes all employee earnings and deductions for the tax year ending March 31.
+
+---
+
 ## What is the SO1 Annual Return?
 
 The SO1 (also written as S01) is the employer's annual summary of statutory deductions remitted to TAJ throughout the fiscal year. It reconciles your monthly S01 remittances (which you should have filed every month) with the annual totals for each employee.

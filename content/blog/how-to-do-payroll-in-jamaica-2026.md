@@ -17,6 +17,12 @@ This guide walks through every step, in order, with the correct 2026 rates.
 
 ---
 
+## How to Calculate NIS in Jamaica
+
+NIS (National Insurance Scheme) contributions in Jamaica are calculated at 3% of gross pay for employees and 3% for employers, applied to earnings up to the maximum insurable earnings ceiling. For 2026, the maximum insurable wage is J$125,000 per month (J$1,500,000 per year) — once an employee's cumulative earnings reach this cap, NIS contributions stop for the remainder of the tax year.
+
+---
+
 ## Before You Run Your First Payroll: Registration
 
 Before you can legally run payroll in Jamaica, you need to be registered with the relevant statutory agencies.

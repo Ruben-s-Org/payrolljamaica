@@ -17,6 +17,12 @@ Bookmark this. Print it. Or better yet, use payroll software that handles it aut
 
 ---
 
+## What Is the PAYE Threshold in Jamaica for 2026?
+
+The PAYE income tax threshold in Jamaica for 2026 is J$1,500,096 per year (J$125,008 per month). Employees earning below this threshold pay no income tax under Jamaica's PAYE system.
+
+---
+
 ## The Four Statutory Deductions: Quick Overview
 
 | Deduction | Purpose | Employee Rate | Employer Rate | Who Receives |
