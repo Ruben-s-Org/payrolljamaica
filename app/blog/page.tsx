@@ -43,11 +43,29 @@ export const metadata: Metadata = {
   },
 };
 
+const blogJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "PayrollJamaica Blog",
+  "description": "Expert guides on Jamaican payroll, PAYE, NIS, NHT, and HR compliance for business owners.",
+  "url": "https://payrolljamaica.com/blog",
+  "inLanguage": "en-JM",
+  "publisher": {
+    "@type": "Organization",
+    "name": "PayrollJamaica",
+    "url": "https://payrolljamaica.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://payrolljamaica.com/logo.png"
+    }
+  }
+};
+
 export default function BlogPage() {
   const posts = getAllPosts();
 
   return (
-    <div className="min-h-screen flex flex-col"> 
+    <div className="min-h-screen flex flex-col">
       <Navbar />
       <main className="w-full px-4 pb-28 flex-1">
         <div className="max-w-container mx-auto py-12">
@@ -77,6 +95,10 @@ export default function BlogPage() {
       </main>
       <FooterSection />
       <FloatingCTA />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
+      />
     </div>
   );
 }

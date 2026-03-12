@@ -223,6 +223,15 @@ const PAGE_PRIORITIES = {
   '/': '1.0',
   '/features': '0.8',
   '/payroll-services': '0.8',
+  '/payroll-company-jamaica': '0.9',
+  '/hr-software-jamaica': '0.9',
+  '/employee-management-software-jamaica': '0.8',
+  '/payroll-outsourcing-jamaica': '0.8',
+  '/small-business-payroll-jamaica': '0.8',
+  '/payroll-processing-jamaica': '0.8',
+  '/payroll-year-end-jamaica': '0.8',
+  '/compare': '0.8',
+  '/industries': '0.8',
 };
 
 function getPagePriority(u) {
@@ -270,6 +279,31 @@ async function main() {
   // Include legal pages
   urls.add('/privacy');
   urls.add('/terms');
+  // Main service / landing pages (priority 0.8–0.9)
+  urls.add('/payroll-company-jamaica');
+  urls.add('/hr-software-jamaica');
+  urls.add('/employee-management-software-jamaica');
+  urls.add('/payroll-outsourcing-jamaica');
+  urls.add('/small-business-payroll-jamaica');
+  urls.add('/payroll-processing-jamaica');
+  urls.add('/payroll-year-end-jamaica');
+  urls.add('/compare');
+  urls.add('/industries');
+  // Location pages (priority 0.7)
+  urls.add('/payroll-kingston-jamaica');
+  urls.add('/payroll-montego-bay-jamaica');
+  urls.add('/payroll-mandeville-jamaica');
+  urls.add('/payroll-portmore-jamaica');
+  // Industry-specific landing pages (priority 0.7)
+  urls.add('/construction-payroll-jamaica');
+  urls.add('/education-payroll-jamaica');
+  urls.add('/government-ngo-payroll-jamaica');
+  urls.add('/healthcare-payroll-jamaica');
+  urls.add('/retail-payroll-jamaica');
+  urls.add('/payroll-jamaica-churches');
+  urls.add('/payroll-jamaica-hotels');
+  urls.add('/payroll-jamaica-restaurants');
+  urls.add('/payroll-jamaica-security');
 
   // Only blog routes from /content
   for (const p of getBlogRoutes()) urls.add(p);

@@ -155,7 +155,7 @@ export default function Home() {
             ratingValue: "4.8",
             bestRating: "5",
             worstRating: "1",
-            ratingCount: "47",
+            ratingCount: 47,
           },
         }) }}
       />
