@@ -281,6 +281,27 @@ export default function PayrollMayPenPage() {
           </div>
         </section>
 
+        {/* Internal links */}
+        <section className="w-full px-4 py-12 bg-muted/30">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-xl font-semibold text-center mb-8">Explore more of Payroll Jamaica</h2>
+            <div className="grid sm:grid-cols-4 gap-4 text-sm text-center">
+              <Link href="/calculator" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
+                Payroll Calculator
+              </Link>
+              <Link href="/payroll-software-jamaica" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
+                Payroll Software Jamaica
+              </Link>
+              <Link href="/pricing" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
+                Pricing Plans
+              </Link>
+              <Link href="/payroll-kingston-jamaica" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
+                Payroll Kingston
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="w-full px-4 py-20">
           <div className="max-w-2xl mx-auto text-center space-y-6">
@@ -298,10 +319,9 @@ export default function PayrollMayPenPage() {
                 Get started free
               </Link>
               <Link
-                href="/payroll-company-jamaica"
-                className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-base font-medium hover:bg-muted transition-colors"
-              >
-                See all Jamaica services
+                href="/pricing"
+                className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-base font-medium hover:bg-muted transition-colors">
+                See pricing plans
               </Link>
             </div>
           </div>

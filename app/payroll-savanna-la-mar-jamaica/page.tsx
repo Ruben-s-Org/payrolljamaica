@@ -184,6 +184,27 @@ export default function SavannaLaMarPage() {
           </div>
         </section>
 
+        {/* Internal links */}
+        <section className="w-full px-4 py-12 bg-muted/30">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-xl font-semibold text-center mb-8">Explore more of Payroll Jamaica</h2>
+            <div className="grid sm:grid-cols-4 gap-4 text-sm text-center">
+              <Link href="/calculator" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
+                Payroll Calculator
+              </Link>
+              <Link href="/payroll-software-jamaica" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
+                Payroll Software Jamaica
+              </Link>
+              <Link href="/pricing" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
+                Pricing Plans
+              </Link>
+              <Link href="/payroll-kingston-jamaica" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
+                Payroll Kingston
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-16 px-4 bg-green-800 text-white">
           <div className="max-w-2xl mx-auto text-center">
