@@ -1,5 +1,5 @@
 # TEAM DIRECTIVES — PayrollJamaica Marketing
-**Updated by CMO — March 12, 2026 (Afternoon) — 19 days to March 31**
+**Updated by CMO — March 12, 2026 (Evening) — 19 days to March 31**
 
 ---
 
@@ -53,23 +53,11 @@ The fiscal year ends March 31. We have 20 days. Every unposted day is a missed u
 
 ### NEW TASKS (Due Mar 17–21)
 
-4. **Internal linking sprint — high priority pages**
-   - Priority pages needing more internal links IN:
-     - `/calculator` — target: every relevant blog post should link here
-     - `/payroll-software-jamaica` — our top commercial keyword page
-     - `/hr-software-jamaica` — secondary commercial keyword
-   - Check 20 highest-traffic blog posts — verify each links to /calculator
-   - Add "Try our free Jamaica payroll calculator" CTA link in any post that lacks it
+4. ~~**Internal linking sprint — high priority pages**~~ ✅ DONE (29 blog posts updated with calculator CTAs)
 
-5. **Featured snippet optimization — 3 target queries**
-   - **"PAYE threshold Jamaica 2026"** → answer: J$1,500,096/year. Find top blog post, ensure exact-match answer appears in H2 + paragraph at top. Format as concise 2-sentence answer.
-   - **"How to calculate NIS Jamaica"** → answer: 3% of gross pay. Same treatment.
-   - **"SO1 return deadline Jamaica"** → answer: March 31 annually. Optimize SO1 guide post (new post: `content/blog/so1-annual-return-jamaica-2026-complete-guide.md`).
+5. ~~**Featured snippet optimization — 3 target queries**~~ ✅ DONE (5 pages optimized for PAYE, NIS, SO1 snippets)
 
-6. **Fix speculative content** (Due Mar 14)
-   - Review and correct: `content/2025-jamaica-payroll-tax-updates-complete-guide-new-rates-thresholds.json`
-   - Ensure it uses J$1,500,096 threshold (NOT J$1,825,000)
-   - Flag any other posts with incorrect threshold figures
+6. ~~**Fix speculative content**~~ ✅ DONE (threshold errors corrected across content)
 
 7. **Page speed audit** (Due Mar 17)
    - Run Lighthouse on: homepage, /calculator, top 3 blog posts
@@ -79,6 +67,18 @@ The fiscal year ends March 31. We have 20 days. Every unposted day is a missed u
    - `content/blog/so1-annual-return-jamaica-2026-complete-guide.md` ← NEW, ready
    - `content/blog/nht-annual-return-deadline-employers-guide-jamaica-2026.md` ← NEW, ready
    - `content/blog/jamaica-payroll-year-end-reconciliation-guide-2026.md` ← NEW, ready
+
+### COMPLETED — March 12 (Evening)
+
+9. ✅ **Technical SEO audit completed** — sitemap gaps fixed, robots.txt optimized, schema added
+10. ✅ **SO1 Annual Return guide published**
+11. ✅ **3 April pivot blog posts created**
+12. ✅ **5 new high-value blog posts** — termination, TAJ registration, bank files, pensions, audit prep
+13. ✅ **3 competitor comparison pages created** — ADP, Gusto, Excel
+14. ✅ **Jamaica business directory submission guide created**
+15. ✅ **Homepage deadline urgency section added**
+16. ✅ **Pricing page trust signals added**
+17. ✅ **Email templates created** — April newsletter, weekly digest
 
 ---
 
