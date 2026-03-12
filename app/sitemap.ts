@@ -40,6 +40,7 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${SITE_URL}/nis-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
   { url: `${SITE_URL}/nht-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
   { url: `${SITE_URL}/education-tax-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
+  { url: `${SITE_URL}/minimum-wage-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
 
   // === Comparison pages ===
   { url: `${SITE_URL}/compare/payroll-software-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
