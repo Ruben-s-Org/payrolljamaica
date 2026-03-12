@@ -38,6 +38,7 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${SITE_URL}/payroll-year-end-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
   { url: `${SITE_URL}/new-business-payroll-checklist-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
   { url: `${SITE_URL}/paye-registration-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
+  { url: `${SITE_URL}/so1-return-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
 
   // === Calculator landing pages (high search volume) ===
   { url: `${SITE_URL}/paye-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
@@ -45,6 +46,7 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${SITE_URL}/nht-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
   { url: `${SITE_URL}/education-tax-calculator-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
   { url: `${SITE_URL}/minimum-wage-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
+  { url: `${SITE_URL}/statutory-deductions-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.85 },
 
   // === Comparison pages ===
   { url: `${SITE_URL}/compare/payroll-software-jamaica`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
