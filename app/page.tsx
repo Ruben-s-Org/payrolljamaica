@@ -70,7 +70,8 @@ export const metadata: Metadata = {
   openGraph: {
     title:
       "Payroll Jamaica — #1 Payroll & HR Software for Jamaica",
-    description: homeBaseDescription,
+    description:
+      "Automate PAYE, NIS, NHT & Education Tax for your Jamaica business. Compliant payslips, SO1 filing, and statutory reporting built for local rules.",
     url: canonical("/"),
     type: "website",
     siteName: siteConfig.name,
@@ -80,15 +81,16 @@ export const metadata: Metadata = {
         url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: siteConfig.name,
+        alt: "PayrollJamaica — Payroll & HR software for Jamaican businesses",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Payroll Jamaica – Best HR & Payroll Software in Jamaica",
-    description: homeBaseDescription,
+      "Payroll Jamaica — #1 Payroll & HR Software for Jamaica",
+    description:
+      "Automate PAYE, NIS, NHT & Education Tax for your Jamaica business. Compliant payslips, SO1 filing, and statutory reporting built for local rules.",
     images: [siteConfig.ogImage],
     site: "@payrolljamaica",
     creator: "@payrolljamaica",

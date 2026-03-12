@@ -71,13 +71,13 @@ export default function FooterSection({
       links: [
         { text: "Blog", href: "/blog" },
         { text: "Partner Program", href: "/partners" },
-        { text: "Payroll Setup Guide", href: "/blog/how-to-set-up-payroll-for-first-employee-jamaica" },
-        { text: "Best Payroll Software Jamaica", href: "/compare/payroll-software-jamaica" },
-        { text: "Compare vs Spreadsheets", href: "/compare/spreadsheets" },
-        { text: "Compare vs QuickBooks", href: "/compare/quickbooks" },
-        { text: "Compare vs Sage", href: "/compare/sage" },
+        { text: "Statutory Deductions Jamaica", href: "/statutory-deductions-jamaica" },
+        { text: "SO1 Return Guide", href: "/so1-return-jamaica" },
+        { text: "March 31 Deadline", href: "/march-31-payroll-deadline-jamaica" },
         { text: "Minimum Wage Jamaica", href: "/minimum-wage-jamaica" },
         { text: "Payroll Glossary", href: "/glossary" },
+        { text: "Compare Payroll Software", href: "/compare/payroll-software-jamaica" },
+        { text: "Testimonials", href: "/testimonials" },
       ],
     },
     {
