@@ -1,5 +1,5 @@
 # PayrollJamaica — First Week Launch Battle Plan
-**Launch Week:** [Insert your go-live date — target week before March 31]
+**Launch Week:** ASAP — accounts pending creation (see RUBEN_30MIN_SETUP_GUIDE.md). Original target was week of March 11, 2026. Every day delayed = fewer days before March 31 fiscal year-end. Launch TODAY when accounts go live.
 **Fiscal year-end:** March 31, 2026 — use this deadline in every piece of communication
 **Goal:** Maximum organic reach in the Jamaica business community in the first 7 days
 **Constraint:** Zero paid media. All organic. All hustle.
