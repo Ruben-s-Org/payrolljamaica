@@ -288,4 +288,4 @@ If you're still compiling payroll data manually and the deadline feels close, th
 
 ---
 
-*PayrollJamaica automatically prepares your SO1 annual return from your existing payroll data — no manual data assembly, no spreadsheet reconciliations, no last-minute scramble. [Start your free trial today](/) and have your 2026 annual return ready before March 31.*
+*PayrollJamaica automatically prepares your SO1 annual return from your existing payroll data — no manual data assembly, no spreadsheet reconciliations, no last-minute scramble. [Start your free trial today](/) or [explore the payroll software features](https://payrolljamaica.com/payroll-software-jamaica) and have your 2026 annual return ready before March 31.*

@@ -1,7 +1,12 @@
 "use client";
 
 import React, { createContext, useCallback, useContext, useMemo, useState } from "react";
-import { FilloutPopupEmbed } from "@fillout/react";
+import dynamic from "next/dynamic";
+
+const FilloutPopupEmbed = dynamic(
+  () => import("@fillout/react").then((m) => m.FilloutPopupEmbed),
+  { ssr: false }
+);
 
 interface FilloutContextValue {
   open: () => void;
@@ -21,13 +26,15 @@ export default function FilloutProvider({ children }: { children: React.ReactNod
   return (
     <FilloutContext.Provider value={value}>
       {children}
-      <FilloutPopupEmbed
-        filloutId="9YAcx65V79us"
-        isOpen={isOpen}
-        onClose={close}
-        width={"900px"}
-        height={"80vh"}
-      />
+      {isOpen && (
+        <FilloutPopupEmbed
+          filloutId="9YAcx65V79us"
+          isOpen={isOpen}
+          onClose={close}
+          width={"900px"}
+          height={"80vh"}
+        />
+      )}
     </FilloutContext.Provider>
   );
 }

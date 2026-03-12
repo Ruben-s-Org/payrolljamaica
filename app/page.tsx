@@ -7,6 +7,9 @@ import Items from "../components/sections/items/default";
 import Navbar from "../components/sections/navbar/default";
 import Pricing from "../components/sections/pricing/default";
 import Stats from "../components/sections/stats/default";
+import Testimonials from "../components/sections/testimonials/default";
+import HowItWorks from "../components/sections/how-it-works/default";
+import DeadlineUrgency from "../components/sections/deadline-urgency/default";
 import { LayoutLines } from "../components/ui/layout-lines";
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
@@ -97,19 +100,16 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
-      {/* March 31 Jamaica tax year-end deadline banner */}
-      <div className="w-full bg-amber-500 text-black text-sm font-semibold text-center py-2 px-4">
-        <a href="/payroll-year-end-jamaica" className="hover:underline">
-          ⚠️ Jamaica&apos;s payroll year-end deadline is March 31, 2026 — SO1 returns, NHT annual return, TD4 summaries all due. Get compliant now →
-        </a>
-      </div>
       <Navbar />
-      <main className="flex-1">
+      <main id="main-content" className="flex-1">
         <LayoutLines />
         <Hero />
         <TrustSignals />
         <Items />
+        <HowItWorks />
         <Stats />
+        <DeadlineUrgency />
+        <Testimonials />
         <Pricing />
         <FAQ />
         <CTA />
@@ -232,6 +232,43 @@ export default function Home() {
             "https://linkedin.com/company/payrolljamaica",
             "https://facebook.com/payrolljamaica",
             "https://instagram.com/payrolljamaica",
+          ],
+        }) }}
+      />
+      {/* JSON-LD: HowTo */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: "How to Run Payroll in Jamaica",
+          description: "Run compliant payroll in Jamaica in three simple steps using PayrollJamaica software.",
+          totalTime: "PT10M",
+          tool: [
+            { "@type": "HowToTool", name: "PayrollJamaica software" },
+          ],
+          step: [
+            {
+              "@type": "HowToStep",
+              position: 1,
+              name: "Add your employees",
+              text: "Import from a spreadsheet or enter employee details manually. Set salary structures, allowances, and deductions.",
+              url: `${siteConfig.url}/#how-it-works`,
+            },
+            {
+              "@type": "HowToStep",
+              position: 2,
+              name: "Run payroll",
+              text: "PAYE, NIS, NHT, and Education Tax are calculated automatically. Review the summary and approve with one click.",
+              url: `${siteConfig.url}/#how-it-works`,
+            },
+            {
+              "@type": "HowToStep",
+              position: 3,
+              name: "Export and file",
+              text: "Download payslips, bank-ready payment files, and statutory returns (SO1, P24) formatted for TAJ and your bank.",
+              url: `${siteConfig.url}/#how-it-works`,
+            },
           ],
         }) }}
       />

@@ -174,4 +174,4 @@ If your annual return preparation is going to take significant time, start today
 
 ---
 
-*Payroll Jamaica automatically prepares your SO1 annual return from your existing payroll data — no manual data assembly required. [Get started today](/) or [use our free payroll calculator](/calculator) to see how Jamaica's only purpose-built payroll software handles your compliance obligations.*
+*Payroll Jamaica automatically prepares your SO1 annual return from your existing payroll data — no manual data assembly required. [Get started today](/) | [See all features](https://payrolljamaica.com/payroll-software-jamaica) | [Use our free payroll calculator](/calculator) to see how Jamaica's only purpose-built payroll software handles your compliance obligations.*

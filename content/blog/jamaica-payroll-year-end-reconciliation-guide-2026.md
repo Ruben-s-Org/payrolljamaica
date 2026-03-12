@@ -42,7 +42,7 @@ If this information is in different spreadsheets or files, consolidate it now. Y
 
 The current annual tax-free threshold is **J$1,500,096** (J$125,008/month).
 
-**Check:** Was this applied correctly from April 1, 2025? If you were using a different threshold number — particularly J$1,600,000 or the old J$1,825,000 — your PAYE calculations are wrong.
+**Check:** Was this applied correctly from April 1, 2025? If you were using a different threshold number — particularly an outdated figure from a previous fiscal year — your PAYE calculations are wrong.
 
 If the threshold was incorrect, you may have:
 - **Over-deducted PAYE** (employees are owed a refund via their personal tax return)
@@ -70,9 +70,9 @@ Also check: did any employee leave during the year? Their contributions still ne
 
 ### Step 5: Check NIS Against the Ceiling
 
-NIS contributions (3% employee + 3% employer) are capped once an employee's annual earnings hit approximately **J$1.5 million**. At that point, NIS contributions stop for that employee for the rest of the year.
+NIS contributions (3% employee + 3% employer) are capped once an employee's annual earnings hit approximately **J$5 million**. At that point, NIS contributions stop for that employee for the rest of the year.
 
-If any employee earned over J$1.5M, check that contributions stopped at the ceiling — continuing to deduct past the ceiling is an error that employees are entitled to have corrected.
+If any employee earned over J$5M, check that contributions stopped at the ceiling — continuing to deduct past the ceiling is an error that employees are entitled to have corrected.
 
 ### Step 6: Confirm Education Tax and HEART
 
@@ -128,7 +128,7 @@ Every deduction is tracked automatically, every month, with the correct Jamaica 
 
 **Free calculator:** [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) — check your numbers right now, no sign-up needed.
 
-**Full payroll system:** [payrolljamaica.com](https://payrolljamaica.com) — from J$3,500/month, with S01-ready reports and automatic P6 generation.
+**Full payroll system:** [payrolljamaica.com](https://payrolljamaica.com) — from J$3,500/month, with S01-ready reports and automatic P6 generation. [See all features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 ---
 

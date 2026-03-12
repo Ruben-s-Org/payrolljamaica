@@ -446,11 +446,23 @@ export default function CompareSpreadsheetsPage() {
                 <a href="/calculator" className="text-foreground underline hover:no-underline">
                   free payroll calculator
                 </a>
-                , or browse our{" "}
+                , see our{" "}
+                <a href="/pricing" className="text-foreground underline hover:no-underline">
+                  pricing plans
+                </a>{" "}
+                starting from JMD 3,500/month, or browse our{" "}
                 <a href="/resources" className="text-foreground underline hover:no-underline">
                   Jamaica payroll resources
                 </a>{" "}
-                to understand what compliant payroll looks like for your business.
+                to understand what compliant payroll looks like for your business. You can also{" "}
+                <a href="/compare/payroll-software-jamaica" className="text-foreground underline hover:no-underline">
+                  compare all payroll software options for Jamaica
+                </a>{" "}
+                or learn more about our{" "}
+                <a href="/payroll-software-jamaica" className="text-foreground underline hover:no-underline">
+                  payroll software features
+                </a>
+                .
               </p>
               <a
                 href="/calculator"
@@ -474,13 +486,21 @@ export default function CompareSpreadsheetsPage() {
               Automate PAYE, NIS, NHT, and Education Tax with Payroll Jamaica.
               Accurate, compliant payroll — without the manual work.
             </p>
-            <a
-              href="/calculator"
-              data-open-fillout="true"
-              className="inline-block bg-background text-foreground font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity"
-            >
-              Switch from spreadsheets — it&apos;s free to start
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="/calculator"
+                data-open-fillout="true"
+                className="inline-block bg-background text-foreground font-semibold px-8 py-3 rounded-lg hover:opacity-90 transition-opacity"
+              >
+                Switch from spreadsheets — it&apos;s free to start
+              </a>
+              <a
+                href="/payroll-software-jamaica"
+                className="inline-block border border-background/30 text-background font-semibold px-8 py-3 rounded-lg hover:bg-background/10 transition-colors"
+              >
+                See all features
+              </a>
+            </div>
           </div>
         </section>
 
@@ -493,6 +513,57 @@ export default function CompareSpreadsheetsPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: safeJsonLd({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Can I import my existing employee data from Excel?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. Payroll Jamaica accepts employee imports from CSV or Excel files. Our team assists with the import process to ensure your salary structures, allowances, and employee records are correctly configured in the new system.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How long does the migration take?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Most businesses complete the migration and run their first automated payroll within one to five business days, depending on the number of employees and complexity of pay structures.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Will my historical payroll data be available?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Payroll history prior to migrating to Payroll Jamaica lives in your old spreadsheets. Going forward, all payroll runs processed in Payroll Jamaica are stored permanently with full audit trails. You can export historical payroll data at any time.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What if I have a complex pay structure with allowances and deductions?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Payroll Jamaica supports configurable salary components — overtime, travel allowances, housing allowances, loan deductions, union dues, and any custom deduction type. Our team works with you during onboarding to replicate your existing structure in the system.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Why is spreadsheet payroll risky for Jamaican employers?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jamaican payroll law requires employers to correctly calculate and remit four separate statutory contributions — PAYE, NIS, NHT, and Education Tax — every month. Spreadsheets have no built-in version control or audit log, formulas break when rates change, and manual data entry introduces compounding errors that create serious TAJ compliance risk.",
+                },
+              },
+            ],
+          }),
+        }}
       />
     </div>
   );

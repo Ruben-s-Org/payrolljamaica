@@ -56,7 +56,7 @@ These answers are ready to paste (with slight edits for context). Use when the m
 > - Taxable: J$74,992
 > - PAYE to deduct: ~J$18,748 (25%)
 >
-> You also pay NHT (3%), NIS (3%), and Education Tax (3.75%) as the employer on top of the salary.
+> You also pay NHT (3%), NIS (3%), and Education Tax (3.5%) as the employer on top of the salary.
 >
 > Miss the 14th deadline? 50% penalty on the outstanding PAYE. TAJ enforces this.
 >
@@ -125,8 +125,8 @@ These answers are ready to paste (with slight edits for context). Use when the m
 > | Gross salary | J$100,000 |
 > | NHT (employer, 3%) | J$3,000 |
 > | NIS (employer, 3%) | J$3,000 |
-> | Education Tax (employer, 3.75%) | J$3,750 |
-> | **Total employer cost** | **J$109,750** |
+> | Education Tax (employer, 3.5%) | J$3,500 |
+> | **Total employer cost** | **J$109,500** |
 >
 > That's nearly 10% on top. If you're hiring 5 people at J$100K, you're spending J$548,750/month — not J$500,000.
 >

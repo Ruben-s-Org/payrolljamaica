@@ -364,6 +364,38 @@ export default function PayrollSoftwareJamaicaPage() {
                   text: "Yes. Payroll Jamaica is fully cloud-based — access it from any device. No software installation required. Employees access payslips through a self-service portal.",
                 },
               },
+              {
+                "@type": "Question",
+                name: "How much does payroll software cost in Jamaica?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Payroll Jamaica is priced for Jamaican business realities — from small businesses with a handful of staff to larger enterprises. Pricing is based on employee count, not features, so you get full access to all Jamaica payroll functionality at every tier.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What statutory deductions does Payroll Jamaica handle?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Payroll Jamaica automatically calculates and manages all Jamaican statutory deductions: PAYE (income tax using the J$1,500,096 annual threshold), NIS (National Insurance Scheme), NHT (National Housing Trust), and Education Tax. Employer and employee portions are split correctly, and rates are updated when the Ministry of Finance announces changes.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the PAYE threshold in Jamaica for 2026?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The PAYE income tax threshold in Jamaica for 2026 is J$1,500,096 per year (J$125,008 per month). Employees earning below this amount pay zero PAYE. Payroll Jamaica applies this threshold automatically when calculating payroll.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "When is the SO1 return deadline in Jamaica?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The SO1 (Annual PAYE Employer Return) deadline in Jamaica is March 31 every year. Payroll Jamaica generates SO1-ready data exports so employers can file on time with Tax Administration Jamaica (TAJ).",
+                },
+              },
             ],
           }),
         }}

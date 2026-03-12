@@ -1,7 +1,7 @@
 import "@/app/globals.css";
 
 import type { Metadata, Viewport } from "next";
-// removed fillout script
+import Script from "next/script";
 
 import { ThemeProvider } from "@/components/contexts/theme-provider";
 import { inter } from "@/lib/fonts";
@@ -9,6 +9,7 @@ import FilloutProvider from "@/components/clients/fillout-provider";
 import FilloutListener from "@/components/clients/fillout-listener";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 import { DeadlineBanner } from "@/components/ui/deadline-banner";
+import GoogleAnalytics from "@/components/clients/analytics";
 
 import { siteConfig } from "../config/site";
 
@@ -89,7 +90,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-JM" style={{ colorScheme: "dark" }} className="dark">
+      <head>
+        <Script
+          defer
+          data-domain="payrolljamaica.com"
+          src="https://plausible.io/js/script.file-downloads.outbound-links.js"
+          strategy="afterInteractive"
+        />
+      </head>
+      <GoogleAnalytics />
       <body className={`${inter.className} bg-background antialiased`}>
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:rounded-lg focus:bg-primary focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-primary-foreground focus:shadow-lg"
+        >
+          Skip to main content
+        </a>
         <ThemeProvider>
           <FilloutProvider>
             <DeadlineBanner />

@@ -269,7 +269,7 @@ export default function ResourcesPage() {
                 <div className="mt-4 pt-4 border-t border-border text-xs text-muted-foreground space-y-1">
                   <div className="flex justify-between">
                     <span>PAYE threshold 2026</span>
-                    <span className="font-semibold text-foreground">JMD $1,902,360</span>
+                    <span className="font-semibold text-foreground">JMD $1,500,096</span>
                   </div>
                   <div className="flex justify-between">
                     <span>NIS rate</span>
@@ -285,6 +285,81 @@ export default function ResourcesPage() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Free Downloadable Resources */}
+        <section className="w-full px-4 py-16">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-3">Free Downloadable Resources</h2>
+            <p className="text-muted-foreground mb-10 max-w-2xl">
+              Print-ready checklists and reference cards for Jamaican employers. Updated for 2026.
+              No sign-up required — just click and print.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {[
+                {
+                  icon: "📋",
+                  title: "March 31 PAYE Filing Checklist",
+                  description:
+                    "Step-by-step SO1 submission guide. Reconcile records, prepare the return, submit to TAJ, and prepare for the new tax year.",
+                  href: "/resources/march-31-paye-checklist",
+                  tag: "Deadline: March 31",
+                  tagColor: "text-amber-700 bg-amber-50 dark:text-amber-300 dark:bg-amber-950/30",
+                },
+                {
+                  icon: "📊",
+                  title: "2026 Jamaica Employer Tax Rate Card",
+                  description:
+                    "One-page reference: PAYE rates & thresholds, NIS, NHT, Education Tax rates, total employer cost, and the full remittance calendar.",
+                  href: "/resources/jamaica-employer-tax-rates-2026",
+                  tag: "2026 Budget Rates",
+                  tagColor: "text-blue-700 bg-blue-50 dark:text-blue-300 dark:bg-blue-950/30",
+                },
+                {
+                  icon: "👤",
+                  title: "New Employee Onboarding Checklist",
+                  description:
+                    "Everything to do when you hire someone: NIS registration, NHT setup, PAYE configuration, TD1 forms, and HR records.",
+                  href: "/resources/new-employee-onboarding-checklist",
+                  tag: "HR & Compliance",
+                  tagColor: "text-green-700 bg-green-50 dark:text-green-300 dark:bg-green-950/30",
+                },
+                {
+                  icon: "🗓️",
+                  title: "Monthly Payroll Processing Checklist",
+                  description:
+                    "Run payroll correctly every month. Collect timesheets, calculate deductions, process payments, remit by the 14th, and keep records.",
+                  href: "/resources/monthly-payroll-checklist",
+                  tag: "Monthly Use",
+                  tagColor: "text-purple-700 bg-purple-50 dark:text-purple-300 dark:bg-purple-950/30",
+                },
+              ].map((resource) => (
+                <a
+                  key={resource.href}
+                  href={resource.href}
+                  className="group block bg-background border border-border rounded-xl p-6 hover:shadow-md hover:border-foreground/20 transition-all"
+                >
+                  <div className="flex items-start gap-4">
+                    <span className="text-3xl shrink-0">{resource.icon}</span>
+                    <div className="flex-1">
+                      <span className={`inline-block text-xs font-semibold px-2 py-0.5 rounded-full mb-2 ${resource.tagColor}`}>
+                        {resource.tag}
+                      </span>
+                      <h3 className="font-bold text-base mb-2 group-hover:underline leading-snug">
+                        {resource.title}
+                      </h3>
+                      <p className="text-sm text-muted-foreground leading-relaxed">
+                        {resource.description}
+                      </p>
+                      <span className="inline-block mt-3 text-sm font-semibold text-foreground group-hover:underline">
+                        View checklist →
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              ))}
             </div>
           </div>
         </section>
@@ -525,6 +600,24 @@ export default function ResourcesPage() {
                     Payroll blog and guides
                   </a>{" "}
                   — in-depth articles on all aspects of Jamaica payroll compliance.
+                </li>
+                <li>
+                  <a href="/glossary" className="text-foreground underline hover:no-underline">
+                    Payroll glossary
+                  </a>{" "}
+                  — 25+ Jamaica payroll terms defined (PAYE, NIS, NHT, SO1, P24, and more).
+                </li>
+                <li>
+                  <a href="/minimum-wage-jamaica" className="text-foreground underline hover:no-underline">
+                    Jamaica minimum wage 2026
+                  </a>{" "}
+                  — current minimum wage rates, statutory deductions impact, and employer cost breakdown.
+                </li>
+                <li>
+                  <a href="/compare/quickbooks" className="text-foreground underline hover:no-underline">
+                    PayrollJamaica vs QuickBooks
+                  </a>{" "}
+                  — see why Jamaica businesses choose local payroll software over QuickBooks.
                 </li>
               </ul>
             </div>

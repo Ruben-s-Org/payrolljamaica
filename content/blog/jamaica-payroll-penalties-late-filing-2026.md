@@ -191,4 +191,4 @@ With 20 days to the deadline, there is still time to process your payroll year c
 
 **The J$10,000-per-employee penalty is entirely avoidable.** The NHT 10% surcharge is avoidable. The compounding NIS monthly charges are avoidable. What they all have in common: they only hit employers who don't have their payroll systems in order.
 
-*[Get started with Payroll Jamaica today](/) — Jamaica's purpose-built payroll compliance software — or [use the free calculator](https://payrolljamaica.com/calculator) to audit your current deductions against statutory requirements.*
+*[Get started with Payroll Jamaica today](/) — Jamaica's purpose-built payroll compliance software — [see all features](https://payrolljamaica.com/payroll-software-jamaica) — or [use the free calculator](https://payrolljamaica.com/calculator) to audit your current deductions against statutory requirements.*

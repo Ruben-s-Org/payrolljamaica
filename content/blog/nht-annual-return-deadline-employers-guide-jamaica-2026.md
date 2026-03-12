@@ -117,7 +117,7 @@ Not sure if your NHT numbers are right? Check them before you submit.
 
 Our free payroll calculator at [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) handles NHT (employee 2% + employer 3%), PAYE, NIS, and Education Tax simultaneously — no sign-up required.
 
-For automated NHT tracking and instant annual return reports, [PayrollJamaica](https://payrolljamaica.com) starts at J$3,500/month.
+For automated NHT tracking and instant annual return reports, [PayrollJamaica](https://payrolljamaica.com) starts at J$3,500/month. [See all payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 ---
 

@@ -28,7 +28,7 @@ Priority 1: Pull your S01 return from TAJ's system. Does every month match your 
 
 Priority 2: Check your NHT employer portal. Are all contributions posted? NHT is aggressive about the 20% late surcharge — they enforce it consistently.
 
-Priority 3: Confirm NIS — did any employee hit the J$1.5M ceiling this year? Contributions stop at ceiling. Your records should show the cutoff clearly.
+Priority 3: Confirm NIS — did any employee hit the J$5M ceiling this year? Contributions stop at ceiling. Your records should show the cutoff clearly.
 
 Priority 4: Prepare P6 forms. Your employees need them for their personal income tax filing by April 14. You're legally required to provide them.
 

@@ -18,7 +18,7 @@ Visual: Simple flowchart: Gross → NIS → PAYE
 
 **Mistake 3 (35–50s):**
 Text: "MISTAKE #3: Forgetting Education Tax"
-Voiceover: "Education Tax. It's 2.25% from the employee, 3.75% from you the employer. A lot of business owners leave it out completely. TAJ will come for you."
+Voiceover: "Education Tax. It's 2.25% from the employee, 3.5% from you the employer. A lot of business owners leave it out completely. TAJ will come for you."
 Visual: Education Tax rate card
 
 **CTA (50–60s):**
@@ -45,11 +45,11 @@ Text overlay sequence:
 - "You pay $100,000 basic salary"
 - "NHT: +$3,000 from you"
 - "NIS: +$3,000 from you"
-- "Education Tax: +$3,750 from you"
-- "TOTAL cost to YOU: $109,750"
+- "Education Tax: +$3,500 from you"
+- "TOTAL cost to YOU: $109,500"
 - "Employee receives: $100,000 minus their deductions"
 
-Voiceover: "For every $100,000 you pay an employee, you're actually spending around $109,750 minimum. That's nearly 10% more. Are you budgeting for that?"
+Voiceover: "For every $100,000 you pay an employee, you're actually spending around $109,500 minimum. That's 9.5% more. Are you budgeting for that?"
 
 **Solution (35–45s):**
 Text: "Know your true payroll costs before you hire"

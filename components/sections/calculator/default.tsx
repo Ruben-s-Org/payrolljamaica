@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useCallback } from "react";
 import {
   calculate,
   calculateMonthly,
@@ -8,6 +8,8 @@ import {
   type PayFrequency,
   type PayrollResult,
 } from "@/lib/payroll-calculator";
+import { trackEvent } from "@/lib/plausible";
+import { trackCalculatorUsage } from "@/lib/analytics";
 import { Section } from "../../ui/section";
 import { Button } from "../../ui/button";
 
@@ -37,6 +39,9 @@ export default function PayrollCalculator() {
   const [result, setResult] = useState<PayrollResult | null>(null);
   const [error, setError] = useState("");
   const [activeTab, setActiveTab] = useState<Tab>("deductions");
+  const [emailInput, setEmailInput] = useState("");
+  const [emailStatus, setEmailStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [emailError, setEmailError] = useState("");
   const printRef = useRef<HTMLDivElement>(null);
 
   function handleCalculate() {
@@ -53,6 +58,8 @@ export default function PayrollCalculator() {
     }
     setError("");
     setResult(calculate({ grossMonthly: gross, frequency }));
+    trackEvent("Calculator Used", { frequency, gross });
+    trackCalculatorUsage({ grossSalary: gross, frequency });
   }
 
   function handleKeyDown(e: React.KeyboardEvent) {
@@ -62,6 +69,32 @@ export default function PayrollCalculator() {
   function handlePrint() {
     window.print();
   }
+
+  const handleEmailSubmit = useCallback(async () => {
+    const email = emailInput.trim().toLowerCase();
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      setEmailError("Please enter a valid email address.");
+      return;
+    }
+    setEmailError("");
+    setEmailStatus("sending");
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, tag: "calculator-lead" }),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || "Something went wrong.");
+      }
+      setEmailStatus("sent");
+      trackEvent("Email Captured", { source: "calculator" });
+    } catch (err: unknown) {
+      setEmailStatus("error");
+      setEmailError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
+    }
+  }, [emailInput]);
 
   // Compute comparison across all frequencies
   function getComparison() {
@@ -473,31 +506,75 @@ export default function PayrollCalculator() {
                 <p>This is an estimate only. Consult a qualified payroll professional for official calculations.</p>
               </div>
 
-              {/* Signup bridge CTA */}
+              {/* Email capture CTA */}
               <div className="rounded-2xl border-2 border-primary/30 bg-gradient-to-br from-blue-50 to-indigo-50 p-8 text-center dark:from-blue-950/30 dark:to-indigo-950/30 print:hidden">
                 <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
                 </div>
-                <h3 className="text-xl font-semibold">Save Your Calculation</h3>
-                <p className="text-muted-foreground mt-2 text-base max-w-md mx-auto">
-                  Create a free account to save, export, and revisit your payroll
-                  calculations. Plus, automate payslips and statutory reports for
-                  your entire team.
-                </p>
-                <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
-                  <Button size="lg" asChild>
-                    <a href="#" data-open-fillout="true">
-                      Create Free Account
-                    </a>
-                  </Button>
-                  <Button size="lg" variant="outline" onClick={handlePrint} className="gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                    Download PDF
-                  </Button>
-                </div>
-                <p className="text-muted-foreground mt-3 text-xs">
-                  No credit card required. Set up in under 2 minutes.
-                </p>
+
+                {emailStatus === "sent" ? (
+                  <>
+                    <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-green-100 dark:bg-green-900/30">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-green-600 dark:text-green-400"><path d="M20 6 9 17l-5-5"/></svg>
+                    </div>
+                    <h3 className="text-xl font-semibold text-green-700 dark:text-green-400">You&apos;re on the list!</h3>
+                    <p className="text-muted-foreground mt-2 text-base max-w-md mx-auto">
+                      Check your inbox for your free 2026 Jamaica Payroll Compliance Checklist.
+                    </p>
+                    <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
+                      <Button size="lg" asChild>
+                        <a href="#" data-open-fillout="true">
+                          Create Free Account
+                        </a>
+                      </Button>
+                      <Button size="lg" variant="outline" onClick={handlePrint} className="gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download PDF
+                      </Button>
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <h3 className="text-xl font-semibold">Email Me These Results</h3>
+                    <p className="text-muted-foreground mt-2 text-base max-w-md mx-auto">
+                      Get your PAYE breakdown by email — plus a free 2026 Jamaica Payroll Compliance Checklist.
+                    </p>
+                    <div className="mt-6 mx-auto max-w-sm">
+                      <div className="flex gap-2">
+                        <input
+                          type="email"
+                          placeholder="you@company.com"
+                          value={emailInput}
+                          onChange={(e) => setEmailInput(e.target.value)}
+                          onKeyDown={(e) => {
+                            if (e.key === "Enter") handleEmailSubmit();
+                          }}
+                          className="border-input bg-background placeholder:text-muted-foreground focus-visible:ring-ring flex-1 rounded-lg border px-4 py-3 text-sm focus-visible:outline-none focus-visible:ring-2"
+                          disabled={emailStatus === "sending"}
+                        />
+                        <Button
+                          size="lg"
+                          onClick={handleEmailSubmit}
+                          disabled={emailStatus === "sending"}
+                        >
+                          {emailStatus === "sending" ? "Sending..." : "Send"}
+                        </Button>
+                      </div>
+                      {emailError && (
+                        <p className="text-destructive mt-2 text-sm text-left">{emailError}</p>
+                      )}
+                    </div>
+                    <p className="text-muted-foreground mt-3 text-xs">
+                      Free. No spam. Unsubscribe anytime.
+                    </p>
+                    <div className="mt-4 flex items-center justify-center gap-3">
+                      <Button size="lg" variant="outline" onClick={handlePrint} className="gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download PDF
+                      </Button>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           )}

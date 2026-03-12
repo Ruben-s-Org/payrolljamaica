@@ -54,7 +54,7 @@ Here's the complete Jamaica employer checklist:
 
 ☑️ Monthly S01s filed for all 11 months (Apr 2025–Feb 2026)?
 ☑️ PAYE threshold correct — J$1,500,096/year?
-☑️ NIS contributions remitted every pay period (ceiling: J$1.5M)?
+☑️ NIS contributions remitted every pay period (ceiling: J$5M)?
 ☑️ NHT contributions remitted every pay period?
 ☑️ Education Tax at 2.25% employee / 3.5% employer?
 ☑️ P6 forms being prepared for all employees?

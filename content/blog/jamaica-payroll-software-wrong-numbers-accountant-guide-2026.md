@@ -110,4 +110,4 @@ If the numbers don't match, you've found the error.
 
 If you find that several clients are using software with systematic calculation errors, it may be worth running a broader payroll compliance review across your client base before March 31.
 
-PayrollJamaica offers accounting firm partnerships for firms that want to move clients to a compliant platform. Details at [payrolljamaica.com/partners](https://payrolljamaica.com/partners).
+PayrollJamaica offers accounting firm partnerships for firms that want to move clients to a compliant platform. Details at [payrolljamaica.com/partners](https://payrolljamaica.com/partners). You can also [review the full payroll software features](https://payrolljamaica.com/payroll-software-jamaica) to see how the platform handles Jamaica's statutory calculations.

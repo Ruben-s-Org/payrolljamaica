@@ -512,8 +512,16 @@ export default function ComparePage() {
                 See the full feature set
               </h2>
               <p>
-                Ready to compare in more detail? Explore our full list of features at{" "}
-                <a href="/features" className="text-foreground underline hover:no-underline">/features</a>, or
+                Ready to compare in more detail? Explore our{" "}
+                <a href="/payroll-software-jamaica" className="text-foreground underline hover:no-underline">
+                  full payroll software overview
+                </a>{" "}
+                to see every feature included, or check our{" "}
+                <a href="/pricing" className="text-foreground underline hover:no-underline">
+                  transparent pricing plans
+                </a>{" "}
+                starting from JMD 3,500/month. You can also browse our{" "}
+                <a href="/features" className="text-foreground underline hover:no-underline">feature list</a>, or
                 learn about our industry-specific solutions for{" "}
                 <a href="/industries/hospitality" className="text-foreground underline hover:no-underline">hotels and hospitality</a>,{" "}
                 <a href="/industries/construction" className="text-foreground underline hover:no-underline">construction</a>,{" "}
@@ -523,6 +531,9 @@ export default function ComparePage() {
               <p className="mt-3">
                 If you are currently using spreadsheets, read our guide on{" "}
                 <a href="/compare/spreadsheets" className="text-foreground underline hover:no-underline">switching from spreadsheets to payroll software</a>.
+                You can also see our detailed comparisons with{" "}
+                <a href="/compare/quickbooks" className="text-foreground underline hover:no-underline">QuickBooks</a> and{" "}
+                <a href="/compare/sage" className="text-foreground underline hover:no-underline">Sage</a>.
               </p>
               <a
                 href="/calculator"
@@ -572,10 +583,10 @@ export default function ComparePage() {
                 Get started free
               </a>
               <a
-                href="/payroll-software-jamaica"
+                href="/pricing"
                 className="inline-block border border-background/30 text-background font-semibold px-8 py-3 rounded-lg hover:bg-background/10 transition-colors"
               >
-                Learn about our software
+                View pricing plans
               </a>
             </div>
           </div>

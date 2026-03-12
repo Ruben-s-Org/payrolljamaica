@@ -29,6 +29,7 @@ export interface PricingColumnProps
     VariantProps<typeof pricingColumnVariants> {
   name: string;
   icon?: ReactNode;
+  badge?: string;
   description: string;
   price: number | null;
   priceNote: string;
@@ -47,6 +48,7 @@ export interface PricingColumnProps
 export function PricingColumn({
   name,
   icon,
+  badge,
   description,
   price,
   priceNote,
@@ -70,6 +72,11 @@ export function PricingColumn({
           variant === "glow-brand" && "via-brand",
         )}
       />
+      {badge && (
+        <div className="absolute top-4 right-4 rounded-full bg-brand px-3 py-1 text-xs font-semibold text-brand-foreground">
+          {badge}
+        </div>
+      )}
       <div className="flex flex-col gap-7">
         <div className="flex flex-col gap-2">
           <h2 className="flex items-center gap-2 font-bold">

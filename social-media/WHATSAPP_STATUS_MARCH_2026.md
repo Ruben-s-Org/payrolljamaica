@@ -67,7 +67,7 @@ Salary: J$100,000
 + NIS (employer): J$3,000
 + Ed Tax (employer): J$3,500
 
-TRUE cost to you: J$109,750
+TRUE cost to you: J$109,500
 
 Are you budgeting for this?
 ```

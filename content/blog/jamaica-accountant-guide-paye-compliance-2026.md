@@ -186,3 +186,5 @@ Work through this checklist for each client:
 - [ ] Is the NHT annual return (P24) separate from the TAJ SO1 — both filed?
 
 One week before March 31 is enough time to find and correct most issues. The deadline itself is not the problem — discovering errors three days before is.
+
+*Need a better system for your clients? [Explore PayrollJamaica's payroll software](https://payrolljamaica.com/payroll-software-jamaica) — built for Jamaican statutory compliance.*

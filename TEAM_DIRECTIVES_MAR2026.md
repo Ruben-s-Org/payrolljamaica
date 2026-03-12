@@ -1,5 +1,5 @@
 # TEAM DIRECTIVES — PayrollJamaica Marketing
-**Updated by CMO — March 11, 2026 (for week of March 13–17)**
+**Updated by CMO — March 12, 2026 (Afternoon) — 19 days to March 31**
 
 ---
 

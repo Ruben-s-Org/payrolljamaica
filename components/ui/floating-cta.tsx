@@ -1,7 +1,7 @@
 'use client';
 
-import { siteConfig } from "@/config/site";
 import { usePathname } from "next/navigation";
+import { trackEvent } from "@/lib/plausible";
 
 interface FloatingCTAProps {
   headline?: string;
@@ -31,6 +31,7 @@ export default function FloatingCTA({ headline, text }: FloatingCTAProps) {
             <div className="flex shrink-0 gap-3">
               <a
                 href="/calculator"
+                onClick={() => trackEvent("Floating CTA Clicked", { page: pathname || "/" })}
                 className="inline-flex h-9 items-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow hover:opacity-90"
               >
                 Try Free Calculator

@@ -130,7 +130,7 @@ Missing NIS: NIS has enforcement powers including court action for persistent no
 The tax year is closed but your obligations continue:
 
 - **April 14, 2026:** Employee personal income tax deadline. Your employees who earned above the threshold need to file their own returns and will need P6 forms from you.
-- **April 15, 2026:** New tax year begins (April 2026 – March 2027). New rates apply — confirm the 2026/27 income tax threshold, which is expected to rise to approximately $1,902,360/year based on the 2026 Budget.
+- **April 15, 2026:** New tax year begins (April 2026 – March 2027). New rates apply — confirm the 2026/27 income tax threshold, which is expected to rise to approximately $1,500,096/year based on the 2026 Budget.
 - **Monthly S02 returns continue:** First due for April payroll in May.
 
 ---
@@ -145,7 +145,7 @@ If you're doing this on spreadsheets, you know how painful this is. PayrollJamai
 - **NIS ceiling tracking** — auto-stops deductions when an employee hits the ceiling
 - **2025/26 rates built in** — no manual rate card lookups
 
-[Try PayrollJamaica free today — no credit card required →](https://payrolljamaica.com/calculator)
+[Try PayrollJamaica free today — no credit card required →](https://payrolljamaica.com/calculator) | [See payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 ---
 

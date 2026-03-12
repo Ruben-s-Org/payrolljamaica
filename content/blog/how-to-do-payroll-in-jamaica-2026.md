@@ -17,6 +17,12 @@ This guide walks through every step, in order, with the correct 2026 rates.
 
 ---
 
+## How to Calculate NIS in Jamaica
+
+NIS (National Insurance Scheme) contributions in Jamaica are calculated at 3% of gross pay for employees and 3% for employers, applied to earnings up to the maximum insurable earnings ceiling. For 2026, the maximum insurable wage is J$416,667 per month (J$5,000,000 per year) — once an employee's cumulative earnings reach this cap, NIS contributions stop for the remainder of the tax year.
+
+---
+
 ## Before You Run Your First Payroll: Registration
 
 Before you can legally run payroll in Jamaica, you need to be registered with the relevant statutory agencies.
@@ -106,17 +112,17 @@ For the J$180,000 gross salary example:
 
 | Contribution | Rate | Basis |
 |---|---|---|
-| Employee NIS | 3% | Insurable wages, capped at J$125,000/month |
+| Employee NIS | 3% | Insurable wages, capped at J$416,667/month |
 | Employer NIS | 3% | Same cap |
 
-The **maximum insurable wage** is J$1,500,000/year (J$125,000/month). If your employee earns more than J$125,000/month, NIS is calculated on J$125,000, not the full gross.
+The **maximum insurable wage** is J$5,000,000/year (J$416,667/month). If your employee earns more than J$416,667/month, NIS is calculated on J$416,667, not the full gross.
 
 For the J$180,000 gross salary example:
-- **Insurable wage:** capped at J$125,000
-- **Employee NIS:** J$125,000 × 3% = **J$3,750**
-- **Employer NIS:** J$125,000 × 3% = **J$3,750** (employer cost)
+- **Insurable wage:** J$180,000 (below the J$416,667/month cap)
+- **Employee NIS:** J$180,000 × 3% = **J$5,400**
+- **Employer NIS:** J$180,000 × 3% = **J$5,400** (employer cost)
 
-**Track each employee's cumulative NIS insurable wages.** Once they've reached J$1,500,000 for the year, NIS contributions stop for the remainder of the tax year and resume April 1.
+**Track each employee's cumulative NIS insurable wages.** Once they've reached J$5,000,000 for the year, NIS contributions stop for the remainder of the tax year and resume April 1.
 
 ---
 
@@ -143,15 +149,15 @@ Net pay is what the employee actually receives:
 
 | Deduction | Amount |
 |---|---|
-| PAYE | J$13,748 |
+| PAYE | J$12,398 |
 | NHT (employee) | J$3,600 |
-| NIS (employee) | J$3,750 |
+| NIS (employee) | J$5,400 |
 | Education Tax (employee) | J$4,050 |
-| **Total Deductions** | **J$25,148** |
+| **Total Deductions** | **J$25,448** |
 
-**Net Pay: J$154,852**
+**Net Pay: J$154,552**
 
-Note: The employer also bears their own NHT (J$5,400), NIS (J$3,750), and Education Tax (J$6,300) contributions — totalling J$15,450 in employer payroll costs on top of the gross salary. The **true cost of this employee to the employer is J$195,450/month**, not J$180,000.
+Note: The employer also bears their own NHT (J$5,400), NIS (J$5,400), and Education Tax (J$6,300) contributions — totalling J$17,100 in employer payroll costs on top of the gross salary. The **true cost of this employee to the employer is J$197,100/month**, not J$180,000.
 
 ---
 
@@ -213,7 +219,7 @@ Payroll software built for Jamaica handles all of this automatically:
 - **S01 return generation** ready to upload to TAJ e-Services
 - **Monthly remittance reminders** so you never miss the 14th
 
-[Try PayrollJamaica free for 30 days →](https://payrolljamaica.com/calculator)
+[Try PayrollJamaica free for 30 days →](https://payrolljamaica.com/calculator) | [See all payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 ---
 
@@ -223,7 +229,7 @@ Payroll software built for Jamaica handles all of this automatically:
 Jamaica's PAYE threshold changes periodically. Using an outdated threshold causes you to over- or under-withhold PAYE — both create problems. The 2026 annual threshold is J$1,500,096.
 
 **2. Missing the NIS wage cap**
-Continuing to deduct and remit NIS contributions after an employee has hit J$1,500,000 for the year is an overpayment that's complex to correct. Track cumulative wages per employee.
+Continuing to deduct and remit NIS contributions after an employee has hit J$5,000,000 for the year is an overpayment that's complex to correct. Track cumulative wages per employee.
 
 **3. Omitting Education Tax**
 Because Education Tax doesn't have a separate form, many employers simply forget it. It's included on the S01 — omitting it creates a discrepancy that the TAJ will flag.
@@ -242,7 +248,7 @@ Some benefits — company vehicles used for personal travel, housing provided by
 |---|---|---|---|
 | PAYE | 25% / 30% | — | Taxable income above threshold |
 | NHT | 2% | 3% | Gross wages |
-| NIS | 3% | 3% | Gross wages up to J$125,000/mo |
+| NIS | 3% | 3% | Gross wages up to J$416,667/mo |
 | Education Tax | 2.25% | 3.5% | Gross wages |
 
 ---

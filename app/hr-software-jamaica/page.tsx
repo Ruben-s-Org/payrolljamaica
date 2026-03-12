@@ -377,6 +377,30 @@ export default function HRSoftwareJamaicaPage() {
                   text: "Yes. HR software in Jamaica must comply with the Income Tax Act (PAYE), NIS Act, NHT Act, Education Tax Act, Employment (Termination and Redundancy Payments) Act, and Minimum Wage Orders. Payroll Jamaica incorporates all these requirements automatically.",
                 },
               },
+              {
+                "@type": "Question",
+                name: "What is the difference between HR software and payroll software in Jamaica?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Payroll software focuses on calculating wages, deductions, and generating payslips and statutory reports. HR software is broader — it includes payroll plus employee records management, onboarding, leave tracking, and workforce tools. Payroll Jamaica combines HR and payroll into one platform.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is Payroll Jamaica HR software cloud-based?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. Payroll Jamaica is a cloud-based HR and payroll platform — access it from anywhere in Jamaica. No software installation required. Multi-user access with role-based permissions allows HR, payroll, and management teams to access the information they need.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can Payroll Jamaica handle leave management for Jamaican employees?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. Payroll Jamaica tracks vacation, sick leave, compassionate leave, and maternity leave against Jamaica's Employment (Termination and Redundancy Payments) Act requirements. Leave balances are automatically integrated into each payroll run.",
+                },
+              },
             ],
           }),
         }}

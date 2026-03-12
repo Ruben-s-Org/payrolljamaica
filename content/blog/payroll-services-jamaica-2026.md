@@ -25,7 +25,7 @@ When a Jamaican business talks about payroll services, they're typically referri
 Computing gross pay, applying all deductions (statutory and voluntary), and arriving at net pay for each employee. In Jamaica, this means correctly applying:
 - **PAYE (Pay As You Earn):** Income tax withheld at source. For 2026, the annual tax-free threshold is J$1,500,096. Income above that is taxed at 25% up to J$6,000,000, then 30%.
 - **NHT (National Housing Trust):** 2% of gross wages from the employee, plus 3% employer contribution.
-- **NIS (National Insurance Scheme):** 3% employee / 3% employer on insurable wages up to J$1,500,000 per annum.
+- **NIS (National Insurance Scheme):** 3% employee / 3% employer on insurable wages up to J$5,000,000 per annum.
 - **Education Tax:** 2.25% employee / 3.5% employer on gross income.
 
 ### Payslip Generation
@@ -127,8 +127,16 @@ PayrollJamaica provides Jamaica-first payroll services with transparent pricing 
 
 ---
 
+## Check Your Statutory Deductions
+
+Before choosing a payroll service, make sure you understand exactly how much PAYE, NHT, NIS, and Education Tax should be deducted from each employee. **[Try our free Jamaica payroll calculator →](/calculator)** — calculate PAYE, NIS, NHT, and Education Tax instantly.
+
+---
+
 ## Get Started With PayrollJamaica
 
 Run your first payroll in under 15 minutes. Free 30-day trial — no credit card, no commitment.
 
-**[Start your free trial at payrolljamaica.com](https://payrolljamaica.com)** — and get your next payroll done right, on time, and without the compliance stress.
+**[Start your free trial at payrolljamaica.com](https://payrolljamaica.com)** — and get your next payroll done right, on time, and without the compliance stress. [See all payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
+
+*Need help managing employee records alongside payroll? See our guide to [HR Software in Jamaica 2026](/blog/hr-software-jamaica-2026).*

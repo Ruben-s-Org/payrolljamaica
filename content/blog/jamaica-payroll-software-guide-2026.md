@@ -278,7 +278,7 @@ Payroll compliance in Jamaica doesn't have to be stressful. The right software h
 
 **Try PayrollJamaica free for 30 days — no credit card required.**
 
-[Start Your Free Trial at payrolljamaica.com/calculator](https://payrolljamaica.com/calculator)
+[Start Your Free Trial at payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) | [Full feature breakdown →](https://payrolljamaica.com/payroll-software-jamaica)
 
 Questions? Contact our team at hello@payrolljamaica.com — we're happy to help you assess whether PayrollJamaica is right for your business.
 

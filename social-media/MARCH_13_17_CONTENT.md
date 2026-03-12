@@ -14,7 +14,7 @@ Here's a compliance checklist most Jamaican employers skip:
 ✅ Did you remit S01 every month this year? (Jan–Feb 2026 is recent — check your receipts)
 ✅ Is your PAYE calculated using the correct threshold? J$1,500,096/year — not last year's number
 ✅ Did NHT contributions go through every pay period? (Late NHT = 20% penalty)
-✅ Are your NIS records reconciled? (NIS ceiling is J$1.5M — check if any employee hit it)
+✅ Are your NIS records reconciled? (NIS ceiling is J$5M — check if any employee hit it)
 
 One error = TAJ assessment. One assessment = months of headache.
 
@@ -69,7 +69,7 @@ Tweet 1: 18 days until Jamaica's fiscal year ends. A thread on what every employ
 Tweet 2: 1/ S01 Returns — Did you file monthly with TAJ all year? Missing even one month triggers a late-filing notice. Check your TAJ receipts.
 Tweet 3: 2/ PAYE Threshold — The 2025/26 threshold is J$1,500,096/year (J$125,008/month). If you're still using J$1,825,000 from older spreadsheets — you have a problem.
 Tweet 4: 3/ NHT — 2% employee + 3% employer every month. Late NHT = 20% flat penalty. On J$50k owed, that's J$10k extra.
-Tweet 5: 4/ NIS — 3% + 3%. If any employee hit the J$1.5M ceiling, contributions stop there. Make sure you tracked this.
+Tweet 5: 4/ NIS — 3% + 3%. If any employee hit the J$5M ceiling, contributions stop there. Make sure you tracked this.
 Tweet 6: 5/ Education Tax — 2.25% employee + 3.5% employer. Often missed on part-time and commission employees. All statutory workers covered.
 Tweet 7: Free calculator that checks all of this: payrolljamaica.com/calculator — no sign-up, instant results. 18 days. Use it now. #PayrollJamaica #Jamaica
 ```

@@ -195,4 +195,4 @@ PayrollJamaica's free calculator applies all current 2026 rates automatically. E
 
 **[Calculate your payroll now — free, no sign-up required →](/calculator)**
 
-Running a team? Our full payroll service handles everything: calculations, payslips, S01 filings, and NIS/NHT remittances — so you can focus on running your business.
+Running a team? Our [full payroll software](https://payrolljamaica.com/payroll-software-jamaica) handles everything: calculations, payslips, S01 filings, and NIS/NHT remittances — so you can focus on running your business.

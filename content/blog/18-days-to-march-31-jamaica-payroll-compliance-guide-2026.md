@@ -177,7 +177,7 @@ If you're behind on payroll compliance, PayrollJamaica can help you get current 
 
 Our platform handles all four statutory deductions automatically, generates your SO1 report, and flags any reconciliation issues before you file.
 
-[Start a free trial → payrolljamaica.com](https://payrolljamaica.com)
+[Start a free trial → payrolljamaica.com](https://payrolljamaica.com) | [See payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 ---
 

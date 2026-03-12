@@ -221,26 +221,33 @@ function getOfferingsRoutes() {
 // Priority map for pages with non-default priorities
 const PAGE_PRIORITIES = {
   '/': '1.0',
-  '/features': '0.8',
-  '/payroll-services': '0.8',
-  '/payroll-company-jamaica': '0.9',
-  '/hr-software-jamaica': '0.9',
-  '/employee-management-software-jamaica': '0.8',
-  '/payroll-outsourcing-jamaica': '0.8',
-  '/small-business-payroll-jamaica': '0.8',
-  '/payroll-processing-jamaica': '0.8',
-  '/payroll-year-end-jamaica': '0.8',
-  '/compare': '0.8',
-  '/industries': '0.8',
-  '/pricing': '0.8',
-  '/partners': '0.8',
+  '/calculator': '0.9',
   '/payroll-software-jamaica': '0.9',
-  '/blog': '0.8',
+  '/march-31-payroll-deadline-jamaica': '0.9',
+  '/blog': '0.9',
+  '/paye-calculator-jamaica': '0.85',
+  '/nis-calculator-jamaica': '0.85',
+  '/nht-calculator-jamaica': '0.85',
+  '/payroll-company-jamaica': '0.85',
+  '/payroll-services': '0.85',
+  '/pricing': '0.8',
+  '/features': '0.8',
+  '/hr-software-jamaica': '0.8',
+  '/payroll-outsourcing-jamaica': '0.8',
+  '/payroll-processing-jamaica': '0.8',
+  '/small-business-payroll-jamaica': '0.8',
+  '/payroll-year-end-jamaica': '0.8',
+  '/education-tax-calculator-jamaica': '0.8',
+  '/employee-management-software-jamaica': '0.75',
+  '/compare': '0.7',
+  '/partners': '0.7',
+  '/resources': '0.7',
 };
 
 function getPagePriority(u) {
   if (PAGE_PRIORITIES[u]) return PAGE_PRIORITIES[u];
-  return '0.7';
+  if (u.startsWith('/blog/')) return '0.7';
+  return '0.6';
 }
 
 function buildXml(urls) {
@@ -298,7 +305,16 @@ async function main() {
   urls.add('/compare');
   urls.add('/compare/payroll-software-jamaica');
   urls.add('/industries');
-  // Location pages (priority 0.7)
+  // Main landing pages
+  urls.add('/march-31-payroll-deadline-jamaica');
+  urls.add('/hr-software-jamaica');
+  urls.add('/employee-management-software-jamaica');
+  // Calculator landing pages
+  urls.add('/paye-calculator-jamaica');
+  urls.add('/nis-calculator-jamaica');
+  urls.add('/nht-calculator-jamaica');
+  urls.add('/education-tax-calculator-jamaica');
+  // Location pages (priority 0.6)
   urls.add('/payroll-kingston-jamaica');
   urls.add('/payroll-savanna-la-mar-jamaica');
   urls.add('/payroll-montego-bay-jamaica');
@@ -309,7 +325,9 @@ async function main() {
   urls.add('/payroll-may-pen-jamaica');
   urls.add('/payroll-negril-jamaica');
   urls.add('/payroll-port-antonio-jamaica');
-  // Industry-specific landing pages (priority 0.7)
+  urls.add('/payroll-falmouth-jamaica');
+  urls.add('/payroll-morant-bay-jamaica');
+  // Industry-specific landing pages (priority 0.6)
   urls.add('/construction-payroll-jamaica');
   urls.add('/education-payroll-jamaica');
   urls.add('/government-ngo-payroll-jamaica');

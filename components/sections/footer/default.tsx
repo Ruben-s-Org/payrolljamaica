@@ -74,13 +74,19 @@ export default function FooterSection({
         { text: "Payroll Setup Guide", href: "/blog/how-to-set-up-payroll-for-first-employee-jamaica" },
         { text: "Best Payroll Software Jamaica", href: "/compare/payroll-software-jamaica" },
         { text: "Compare vs Spreadsheets", href: "/compare/spreadsheets" },
+        { text: "Compare vs QuickBooks", href: "/compare/quickbooks" },
+        { text: "Compare vs Sage", href: "/compare/sage" },
+        { text: "Minimum Wage Jamaica", href: "/minimum-wage-jamaica" },
+        { text: "Payroll Glossary", href: "/glossary" },
       ],
     },
     {
-      title: "Support",
+      title: "Company",
       links: [
+        { text: "About", href: "/about" },
+        { text: "Contact", href: "/contact" },
         { text: "Email", href: siteConfig.links.email },
-        { text: "Contact Form", href: "#", openFillout: true },
+        { text: "Request Demo", href: "#", openFillout: true },
       ],
     },
     {
