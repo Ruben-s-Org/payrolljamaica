@@ -1891,6 +1891,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://payrolljamaica.com/finance-insurance-payroll-jamaica</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://payrolljamaica.com/government-ngo-payroll-jamaica</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -1939,6 +1945,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://payrolljamaica.com/manufacturing-payroll-jamaica</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://payrolljamaica.com/payroll-company-jamaica</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -1981,7 +1993,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://payrolljamaica.com/payroll-may-pen-jamaica</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://payrolljamaica.com/payroll-montego-bay-jamaica</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://payrolljamaica.com/payroll-negril-jamaica</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://payrolljamaica.com/payroll-ocho-rios-jamaica</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1991,6 +2021,12 @@
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://payrolljamaica.com/payroll-port-antonio-jamaica</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://payrolljamaica.com/payroll-portmore-jamaica</loc>
@@ -2009,6 +2045,12 @@
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://payrolljamaica.com/payroll-spanish-town-jamaica</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://payrolljamaica.com/payroll-year-end-jamaica</loc>
@@ -2047,21 +2089,9 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://payrolljamaica.com/payroll-spanish-town-jamaica</loc>
+    <loc>https://payrolljamaica.com/transportation-payroll-jamaica</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://payrolljamaica.com/payroll-ocho-rios-jamaica</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://payrolljamaica.com/manufacturing-payroll-jamaica</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>

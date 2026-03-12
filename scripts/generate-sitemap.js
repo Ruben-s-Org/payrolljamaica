@@ -294,6 +294,11 @@ async function main() {
   urls.add('/payroll-montego-bay-jamaica');
   urls.add('/payroll-mandeville-jamaica');
   urls.add('/payroll-portmore-jamaica');
+  urls.add('/payroll-spanish-town-jamaica');
+  urls.add('/payroll-ocho-rios-jamaica');
+  urls.add('/payroll-may-pen-jamaica');
+  urls.add('/payroll-negril-jamaica');
+  urls.add('/payroll-port-antonio-jamaica');
   // Industry-specific landing pages (priority 0.7)
   urls.add('/construction-payroll-jamaica');
   urls.add('/education-payroll-jamaica');
@@ -304,6 +309,9 @@ async function main() {
   urls.add('/payroll-jamaica-hotels');
   urls.add('/payroll-jamaica-restaurants');
   urls.add('/payroll-jamaica-security');
+  urls.add('/manufacturing-payroll-jamaica');
+  urls.add('/finance-insurance-payroll-jamaica');
+  urls.add('/transportation-payroll-jamaica');
 
   // Only blog routes from /content
   for (const p of getBlogRoutes()) urls.add(p);
