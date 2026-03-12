@@ -1,3 +1,12 @@
+---
+title: "Jamaica Payroll Q1 Reconciliation 2026: The Employer's Guide to Verifying Jan–Mar Submissions"
+description: "How to reconcile Q1 (January–March 2026) payroll in Jamaica, verify your NIS, NHT, and PAYE submissions were correct, and correct errors before TAJ finds them. Complete guide for Jamaican employers."
+date: "2026-04-15"
+author: "PayrollJamaica Team"
+tags: ["payroll reconciliation Jamaica 2026", "Jamaica Q1 payroll audit", "PAYE reconciliation Jamaica", "TAJ S01 Jamaica", "NIS reconciliation Jamaica", "NHT employer compliance Jamaica"]
+canonical: "https://payrolljamaica.com/blog/jamaica-payroll-q1-reconciliation-april-2026-employer-guide"
+---
+
 # Jamaica Payroll Q1 Reconciliation Guide for Employers — April 2026
 
 **Meta description:** March 31 has passed. Here's how to reconcile your Q1 (January–March) Jamaica payroll, verify NIS/NHT/PAYE submissions, and correct errors before TAJ catches them.

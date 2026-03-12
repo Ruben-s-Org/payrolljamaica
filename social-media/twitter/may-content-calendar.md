@@ -1,632 +1,1124 @@
-# Twitter/X Content Calendar — May 2026
-**Platform:** Twitter/X @payrolljamaica
-**Month:** May 2026 (New Tax Year momentum + Labour Day)
-**Theme:** "Jamaica's New Tax Year — Start Right"
+# PayrollJamaica — Twitter/X Content Calendar: May 2026
+**Platform:** Twitter/X
+**Frequency:** 2 tweets per day (morning + evening)
+**Total Posts:** 60 tweets + 4 threads
+**Theme:** Q1 Reconciliation | May 14 PAYE Deadline | Labour Day Compliance | Service Charge | New Hire Season
+**Goal:** Own Jamaica's payroll compliance conversation on X. Drive traffic from compliance-focused professionals. Labour Day (May 23) is the May viral moment — dominate that conversation.
 
 ---
 
-## WEEK 1: MAY 1–7 (New Tax Year is here)
+## STRATEGIC OVERVIEW
 
-### May 1 — Thursday (Labour Day public holiday — not a post day. Schedule May 2 instead)
+May on Jamaica Twitter/X is defined by two events: the May 14 PAYE deadline (compliance urgency) and Labour Day May 23 (public holiday pay rules, widely debated). PayrollJamaica should own both. The audience on X in Jamaica includes journalists, policy followers, HR professionals, startup founders, and Kingston's professional class — exactly the people who share and amplify compliance content.
 
-**Tweet 1** (educational)
-```
-Jamaica's new tax year just started April 1.
+**Tone:** Short. Sharp. Authoritative. Occasionally witty. Always helpful.
 
-Have you updated your employees' PAYE codes?
-New income tax declarations (TD1) should be filed for any employee whose circumstances changed.
+**Key hashtags for May:**
+- #LabourDay (most important trending opportunity of month)
+- #JamaicaBusiness
+- #PAYEDeadline
+- #JamaicaPayroll
+- #NHT #NIS #PAYE
+- #JamaicaLabourLaw
+- #TAJJamaica
 
-Don't wait until year-end.
+---
 
-#JamaicaPayroll #PAYE #TAJ
-```
+## THREAD LIBRARY (4 Full Threads for May)
 
-**Tweet 2** (tip)
-```
-Quick April → May payroll checklist 🇯🇲
+---
 
-□ TD1 forms updated for changed circumstances
-□ NIS registration for new hires
-□ NHT employer number confirmed
-□ March year-end P6 forms issued to employees
+### THREAD 1 — May 1, 2026
+**"Jamaica payroll in May — here's everything that matters this month. A thread. 🧵"**
 
-All of these? You're compliant. Missing one? Fix it now.
+**Tweet 1 (anchor):**
+May 2026 Jamaica payroll priorities — in one thread.
+
+Two months into the new tax year. Here's what every employer needs to handle this month.
+
+🧵
+
+**Tweet 2:**
+May 14 — PAYE and Education Tax remittance due to TAJ for April payroll.
+
+This is the first major compliance deadline post-new-tax-year. April payroll had new rates, budget changes, Easter. Make sure the S01 reflects everything correctly.
+
+#PAYEDeadline #TAJJamaica
+
+**Tweet 3:**
+May 23 — Jamaica Labour Day. Gazetted public holiday.
+
+Employees working: double time (2x regular rate) or regular pay + day off in lieu.
+Employees resting: full day's pay (if they worked the day before).
+
+This is the law. Not a courtesy.
+
+#LabourDay #JamaicaLabourLaw
+
+**Tweet 4:**
+May is also peak new hire season for Jamaica hospitality, construction, and retail.
+
+New employee checklist before first payroll:
+→ TRN collected
+→ NIS number confirmed
+→ NHT registration initiated
+→ Employment contract signed
+
+All four. Before the first pay period.
+
+#JamaicaHR #NewHire
+
+**Tweet 5 (CTA):**
+And if you haven't done your Q1 reconciliation (Jan–Mar) yet — this month is the time.
+
+Pull your PAYE remittances, NIS contributions, NHT records, and pay slip records for January–March. Errors from that period feed into the annual S01.
+
+All auto-generated in @PayrollJamaica.
+
+→ payrolljamaica.com #PayrollJamaica #JamaicaBusiness
+
+---
+
+### THREAD 2 — May 14, 2026
+**"PAYE Deadline Day — everything you need to file today. A thread for Jamaica employers. 🧵"**
+
+**Tweet 1 (anchor):**
+🔴 TODAY IS MAY 14. PAYE DEADLINE DAY.
+
+Your April payroll PAYE and Education Tax remittance is due to TAJ right now.
+
+Step-by-step filing guide for Jamaica employers → 🧵
+
+**Tweet 2:**
+Step 1: Gather your April payroll totals.
+
+You need:
+→ Total gross wages by employee for April
+→ PAYE deducted per employee
+→ Education Tax deducted per employee
+→ Each employee's valid TRN
+
+Without TRNs, the S01 is incomplete.
+
+#PAYEDeadline
+
+**Tweet 3:**
+Step 2: Build your S01 return.
+
+The S01 is the TAJ monthly employer remittance form. Lists each employee with TRN, gross wages, PAYE, and Education Tax.
+
+If using @PayrollJamaica: it's already built. Go to Reports → Download April S01.
+
+If manual: TAJ template at etax.gov.jm.
+
+**Tweet 4:**
+Step 3: File at etax.gov.jm.
+
+Log in. Submit the S01 for April 2026. Download and save your confirmation receipt.
+
+Note: TAJ login issues on deadline day are common. Log in NOW — don't wait until 4pm.
+
+#TAJJamaica
+
+**Tweet 5:**
+Step 4: File your NHT employer contribution separately.
+
+The NHT employer portal (nht.gov.jm) is separate from TAJ. Your April NHT employer contribution schedule goes there.
+
+Also due today.
+
+#NHT #JamaicaPayroll
+
+**Tweet 6 (CTA):**
+Step 5: Confirm payment is processed, not just the filing.
+
+Filing the return and paying the balance are two separate steps in TAJ's system.
+
+Both must be done today to avoid interest from the 15th.
+
+All of this generated in one click → @PayrollJamaica payrolljamaica.com
+
+#PAYEDeadline #JamaicaBusiness
+
+---
+
+### THREAD 3 — May 20, 2026
+**"Jamaica Labour Day (May 23) payroll rules — everything employers need to know. 🧵"**
+
+**Tweet 1 (anchor):**
+Jamaica Labour Day is May 23. Three days away.
+
+If you have employees working on the holiday — or not working — your payroll obligations are different from a regular day.
+
+Thread for Jamaica employers 🧵
+
+#LabourDay #JamaicaLabourLaw
+
+**Tweet 2:**
+The law: Jamaica Holidays (Public General) Act.
+
+Labour Day is a gazetted public holiday. The rules are mandatory.
+
+Two scenarios. Two different obligations.
+
+**Tweet 3:**
+SCENARIO 1: Employee NOT working on Labour Day.
+
+They are entitled to: one full day's pay at their regular daily rate.
+
+Condition: They must have worked the last scheduled working day before the holiday (typically Friday, May 22).
+
+Absent May 22 without authorization = employer can deny holiday pay. But it must be documented.
+
+**Tweet 4:**
+SCENARIO 2: Employee IS working on Labour Day.
+
+They are entitled to (employer's choice):
+
+Option A: 2x their regular daily rate for hours worked
+Option B: Regular pay + a full compensatory day off at a mutually agreed date
+
+Neither option can pay less than double for the working day.
+
+**Tweet 5:**
+Sectors most affected:
+🏨 Hotels and resorts
+🍽️ Restaurants
+🛍️ Retail
+🔒 Security
+🏥 Healthcare
+🚌 Transportation
+
+If you run any of these: brief your payroll team NOW. Don't configure this on May 23.
+
+**Tweet 6 (CTA):**
+The mistake to avoid: running Labour Day at regular rates.
+
+Ministry of Labour claims for underpaid public holiday pay = time, legal fees, interest, and always costs more than the correct payment.
+
+@PayrollJamaica calculates this automatically for all Jamaica gazetted holidays.
+
+→ payrolljamaica.com #PayrollJamaica #LabourDay
+
+---
+
+### THREAD 4 — May 27, 2026
+**"Service charge payroll compliance in Jamaica — the hospitality sector's most common compliance gap. 🧵"**
+
+**Tweet 1 (anchor):**
+Jamaica hotel and restaurant owners — this thread is for you.
+
+Service charge distribution is one of the most commonly mishandled payroll elements in Jamaica's tourism sector.
+
+Here's what you might be doing wrong.
+
+🧵 #ServiceCharge #HospitalityJamaica
+
+**Tweet 2:**
+The Tourism Service Charge Act requires that service charges be distributed to qualifying staff.
+
+Most operators know this. The distribution part is not usually the problem.
+
+The compliance problem is HOW the distribution is handled.
+
+**Tweet 3:**
+Common (wrong) approach:
+Collect service charge from guests → calculate staff shares → distribute as CASH outside the payroll system.
+
+This is a compliance failure. Service charge is employment earnings. It creates PAYE liability. Distributing outside payroll means:
+→ Underreported income
+→ Incorrect statutory deductions
+→ Incomplete pay slips
+
+**Tweet 4:**
+The correct approach:
+→ Run service charge as a separate pay element in your payroll system
+→ Calculate NHT, NIS, Education Tax, and PAYE on total income (base salary + service charge)
+→ Pay slips show service charge as a distinct line item
+→ S01 filing reflects the full income including service charge
+
+**Tweet 5:**
+If TAJ audits a hotel and finds service charge distributed outside payroll:
+
+Back-PAYE assessment for every employee. Plus interest. Plus potential penalties.
+
+In a 60-person hotel receiving regular service charge, this is a material liability.
+
+**Tweet 6 (CTA):**
+@PayrollJamaica supports service charge as a payroll element.
+
+Separate line on the payslip. Correct deductions applied to total income. TAJ-ready documentation.
+
+If your hotel or restaurant isn't doing this → time to talk.
+
+→ payrolljamaica.com #PayrollJamaica #HospitalityJamaica
+
+---
+
+## DAILY TWEET CALENDAR — FULL MAY 2026
+
+### WEEK 1 (May 1–5)
+
+**Friday May 1 AM:**
+Happy International Labour Day, Jamaica. 🇯🇲
+
+Today we celebrate every worker contributing to NHT, NIS, and PAYE every month — trusting their employer to calculate it correctly.
+
+Getting payroll right is how employers say "I value you."
+
+payrolljamaica.com
+
+#LabourDay #JamaicaWorker #PayrollJamaica
+
+---
+
+**Friday May 1 PM:**
+May priorities for Jamaica employers:
+
+📅 May 14 — PAYE deadline for April payroll
+📅 May 23 — Labour Day (double-time rules apply)
+📅 Ongoing — Q1 reconciliation (Jan–Mar)
+📅 Ongoing — New hire season (TRN, NIS, NHT)
+
+Mark your calendar. Follow @PayrollJamaica for guides on all four.
 
 #JamaicaPayroll #PayrollJamaica
-```
-
-**Tweet 3** (engagement)
-```
-Poll: How did your Jamaica business handle March 31 year-end?
-
-🟢 Submitted everything on time
-🟡 Filed late, paid penalties
-🔴 Still haven't filed (send help)
-🤷 I outsource payroll
-
-Thousands of JA businesses face this every year.
-```
-
-**Tweet 4** (product)
-```
-If March 31 was stressful, there's a reason.
-
-Jamaica's payroll compliance isn't simple:
-• PAYE (25% or 30% depending on income)
-• NIS (3% employer + 3% employee)
-• NHT (3% + 2%)
-• Education Tax (3.5% + 2.25%)
-• S01 monthly returns to TAJ
-• Annual returns by March 31
-
-PayrollJamaica calculates all of this automatically.
-
-payrolljamaica.com
-```
 
 ---
 
-## WEEK 1 THREAD: May 5 (Tuesday)
+**Monday May 4 AM:**
+Q1 Jamaica payroll reconciliation — do this before June.
 
-**Thread: "What Every Jamaican Employer Gets Wrong in Q1"**
+✅ PAYE remittances matched your S01 filings Jan–Mar?
+✅ NIS contributions reconciled with NIS records?
+✅ NHT remittances went out by the 14th each month?
+✅ Pay slips issued for every January, February, March pay period?
+✅ All TRNs on file for every Q1 employee?
 
-```
-1/ Q1 (Jan–Mar) is the most compliance-intensive quarter for Jamaican employers.
+One hour. Five checks. Clean record.
 
-Here's what most small business owners get wrong — and how to fix it for next year. 🧵
-
-#JamaicaPayroll #TAJJamaica
-```
-```
-2/ MISTAKE #1: Forgetting the March 31 annual deadlines
-
-Most owners focus on monthly S01 filings. But March 31 requires THREE annual submissions:
-
-→ S01 Annual Return (12-month summary)
-→ NHT Annual Return
-→ P6 forms to employees
-
-Missing any of these = penalties + interest.
-```
-```
-3/ MISTAKE #2: Using the wrong PAYE threshold
-
-The income tax threshold in Jamaica is J$1,500,096 per year (J$125,008/month).
-
-Many payroll systems and Excel sheets use outdated numbers. This means employees are either over- or under-taxed all year.
-
-Always verify at: taj.gov.jm
-```
-```
-4/ MISTAKE #3: Missing employer contributions
-
-Employees see their deductions. Employers often forget THEIR OWN contributions:
-
-Per employee, per month:
-• NIS: 3% of gross
-• NHT: 3% of gross
-• Education Tax: 3.5% of gross
-• HEART/NSTA: 3% of gross
-
-That's 12.5% of every payroll dollar — on top of gross.
-```
-```
-5/ MISTAKE #4: Not registering new employees properly
-
-Before paying a new employee, you must:
-
-□ Get their TRN (Tax Registration Number)
-□ Register them with NIS
-□ Register them with NHT
-□ Get a signed TD1 declaration
-
-Skip any of these → personal liability for the employer.
-```
-```
-6/ MISTAKE #5: Treating service charge wrong (hospitality)
-
-If your restaurant/hotel collects service charge, Jamaica law requires you to distribute 100% to employees.
-
-It's NOT employer revenue. It's NOT subject to NHT/NIS in the same way as regular wages.
-
-Get this wrong and it's a Labour Department issue.
-```
-```
-7/ The fix: use payroll software built for Jamaica.
-
-PayrollJamaica calculates all deductions automatically using correct Jamaican statutory rates, reminds you of deadlines, and generates compliant payslips.
-
-Free to try: payrolljamaica.com
-
-Which mistake surprised you most? Reply 👇
-```
+#Q1Review #JamaicaPayroll #PayrollJamaica
 
 ---
 
-## WEEK 2: MAY 8–14
+**Monday May 4 PM:**
+[Post Thread 1 anchor tweet]
 
-**Tweet 5**
-```
-The first NIS return after the new tax year is due.
+May 2026 Jamaica payroll priorities — in one thread.
 
-If you hired anyone in April, they need to be registered before the return date.
+Two months into the new tax year. Here's what every employer needs to handle this month.
 
-NIS registration takes 1–2 weeks at minimum. Don't wait.
-
-#NIS #Jamaica #SmallBusiness
-```
-
-**Tweet 6**
-```
-Minimum wage in Jamaica (2025/2026): J$15,000/week
-
-If any of your workers are near minimum wage, verify:
-• Deductions don't push take-home below minimum
-• Overtime is calculated on correct base
-• Commission/tip structures are legally compliant
-
-#JamaicaLabour #MinimumWage
-```
-
-**Tweet 7** (engagement)
-```
-Hot take: Jamaica's payroll rules are MORE complicated than the US or UK.
-
-Between PAYE, NIS, NHT, Education Tax, HEART, service charge rules, and monthly TAJ filings — there's more moving parts per employee than most developed markets.
-
-Agree or disagree? 👇
-```
-
-**Tweet 8**
-```
-Number of Jamaican employers using dedicated payroll software: very few.
-
-Number using Excel: most of them.
-
-Number getting deductions wrong because of this: too many.
-
-You already know the answer.
-
-payrolljamaica.com — starts at J$3,500/month
-```
-
-**Tweet 9**
-```
-Did you issue P6 forms to all employees by March 31?
-
-The P6 is a certificate of pay and tax deducted — employees need it for their personal tax returns.
-
-Late P6s = your problem, not theirs. TAJ can fine employers for missing this.
-
-#P6 #JamaicaPayroll
-```
-
-**Tweet 10**
-```
-New hire checklist for Jamaican employers 🇯🇲
-
-Before first paycheck:
-□ TRN confirmed
-□ NIS registered (or registration in progress)
-□ NHT enrolled
-□ TD1 signed by employee
-□ Contract signed
-□ Bank details for EFT on file
-
-Save this tweet.
-
-#Jamaica #HR #Payroll
-```
+🧵
 
 ---
 
-## WEEK 2 THREAD: May 12 (Tuesday)
+**Tuesday May 5 AM:**
+The Q1 payroll error that's most expensive to fix:
 
-**Thread: "Jamaica Employee Benefits Guide — What's Required vs Optional"**
+Missing TRNs on January–March S01 filings.
 
-```
-1/ Every Jamaican employer knows about PAYE. But what about benefits?
+Without a valid TRN, an employee's PAYE record with TAJ may be incomplete. Amended S01 filings are possible — but time-consuming and subject to TAJ review.
 
-Required by law vs nice-to-have — here's the complete breakdown. 🧵
+Check your Q1 records now.
 
-#JamaicaEmployment #HR
-```
-```
-2/ LEGALLY REQUIRED — you have no choice:
-
-• NIS coverage (employer + employee contributions)
-• NHT contributions
-• Education Tax deductions
-• PAYE deduction and remittance
-• Maternity leave (12 weeks, 8 paid)
-• 2 weeks annual leave minimum (after 1 year)
-• Public holiday pay or time-off-in-lieu
-```
-```
-3/ NOT legally required but extremely common in Jamaica:
-
-• Health insurance
-• Group life insurance
-• Lunch allowance
-• Transportation allowance
-• Performance bonus
-• Company car or car allowance
-
-These are negotiated in employment contracts and can affect payroll deductions.
-```
-```
-4/ MATERNITY LEAVE — what most employers get wrong:
-
-Jamaica requires 12 weeks maternity leave. 8 weeks must be PAID.
-
-But NIS covers 8 weeks of maternity benefit — employers pay the difference (if any) based on employment contract.
-
-Don't assume NIS covers everything.
-```
-```
-5/ SERVICE CHARGE (hospitality employers):
-
-If you're in hotels, restaurants, tourism:
-
-→ 100% of service charge must go to employees
-→ Standard split: 85% front of house / 15% back of house
-→ Service charge IS taxable as employment income
-→ Keep records — Labour Department audits this
-
-This is the most commonly mishandled benefit in Jamaica.
-```
-```
-6/ GRATUITY vs REDUNDANCY:
-
-• Gratuity = voluntary payout at retirement/resignation (contract dependent)
-• Redundancy = legally required when you let someone go due to business reasons
-
-Redundancy calculation: 2 weeks' pay per year of service (minimum)
-
-Getting these backwards is expensive.
-```
-```
-7/ Bottom line: Jamaica's employment law is employee-protective.
-
-More so than many realize. If you're not sure whether something is legally required — assume it is until you verify.
-
-Questions? Reply below or visit payrolljamaica.com for guidance.
-```
+#TRN #TAJJamaica #JamaicaPayroll
 
 ---
 
-## WEEK 3: MAY 15–21 (Pre-Labour Day)
+**Tuesday May 5 PM:**
+Jamaica payroll quiz:
 
-**Tweet 11**
-```
-Labour Day is Monday May 25. 🇯🇲
+An employee earns $200,000/month gross.
 
-For Jamaican employers, that means:
-• If employees work, they're entitled to overtime pay (1.5x minimum)
-• If they don't work, they get the holiday paid at normal rate
-• Part-time employees with regular hours also qualify
+What are their monthly statutory deductions?
 
-Plan your payroll now.
-```
+Reply before you scroll. 👇
 
-**Tweet 12**
-```
-Jamaica public holiday pay rule (clear version):
+PAYE: ~$14,000 (annualise: $2.4M → above threshold → calculate on income above $1.5M after statutory deduction)
+NHT: $4,000 (2%)
+NIS: $6,000 (3%)
+Education Tax: ~$4,320 (2.25% on statutory income)
 
-• Employee works on holiday → normal pay + 50% premium (1.5x total)
-• Employee doesn't work → paid day off at normal rate
-• Employee doesn't normally work that day → no pay required
-
-Applies to ALL public holidays including Labour Day.
-```
-
-**Tweet 13**
-```
-Construction companies in Jamaica: season starts heating up in May.
-
-With seasonal and contract workers:
-□ Each worker still needs NIS/NHT registration
-□ Labour-only contractors still need proper contracts
-□ Project-based bonuses are still taxable income
-
-The "it's casual labour" defence doesn't hold up at TAJ.
-```
-
-**Tweet 14** (engagement)
-```
-Question for Jamaican business owners:
-
-What's your biggest payroll headache? 
-
-🔴 Keeping up with TAJ filing deadlines
-🟡 Calculating deductions correctly
-🟢 Managing seasonal/part-time staff
-🔵 Keeping employees happy with their payslips
-```
-
-**Tweet 15**
-```
-If your Jamaica business grew in Q1 (Jan–Mar):
-
-Time to review your payroll structure.
-
-Adding even 2 employees changes your:
-• Total NIS/NHT employer cost
-• TAJ filing complexity
-• Risk exposure for compliance errors
-
-Growing is great. Growing with the right payroll system is better.
-```
+#PAYE #JamaicaPayroll #PayrollQuiz
 
 ---
 
-## WEEK 3 THREAD: May 19 (Tuesday) — Labour Day Special
+**Wednesday May 6 AM:**
+10 days until May 14.
 
-**Thread: "Jamaica Labour Day — What Every Employer Needs to Know"**
+Jamaica employers — is your April S01 ready to submit?
 
-```
-1/ Jamaica Labour Day is May 25.
+The April S01 is the first post-new-tax-year filing. It needs to reflect the correct 2026/2027 PAYE threshold, any mid-April budget changes, and all April new hire TRNs.
 
-Most employers know it's a holiday. Few know all the payroll rules that come with it. 🧵
+→ payrolljamaica.com has your April S01 ready. One click.
 
-#LabourDay #Jamaica #Payroll
-```
-```
-2/ The Holidays With Pay Act is clear:
-
-If an employee's normal working day falls on a public holiday:
-→ They get the day off WITH PAY at their normal rate
-→ If you need them to work, you owe them 1.5x their daily rate on top
-
-There's no "I'll give them a day off next week instead" option (without their agreement).
-```
-```
-3/ The tricky cases:
-
-PART-TIME employees:
-→ If they would normally work that day of the week → entitled to holiday pay
-→ If they don't normally work Mondays → no holiday pay required
-
-CASUAL workers:
-→ Not covered by the Holidays With Pay Act
-→ But repeated casual work patterns can create de facto employment — seek legal advice
-```
-```
-4/ CONTRACTORS vs EMPLOYEES:
-
-Calling someone a "contractor" doesn't automatically exempt you from holiday pay.
-
-TAJ and the Labour Department look at:
-• Who controls when/how work is done
-• Whether there's a continuing relationship
-• Economic dependency
-
-If they're effectively your employee, they get holiday pay.
-```
-```
-5/ Payroll system tip:
-
-If you use PayrollJamaica, public holiday calculations are automatic.
-
-Set the holiday in the system, flag who worked, and it calculates:
-• Normal pay for those who had the day off
-• 1.5x premium for those who worked
-
-No manual calculation required.
-
-payrolljamaica.com
-```
-```
-6/ Beyond the pay calculation:
-
-Labour Day in Jamaica is also a day of voluntary community service — a national tradition.
-
-Many Jamaican businesses organize team clean-up projects, painting schools, or community projects.
-
-It builds culture AND shows employees you're a company worth working for.
-```
-```
-7/ Summary — Jamaica Labour Day employer checklist:
-
-□ Identify which employees normally work Mondays
-□ Confirm who is working vs taking the day off
-□ Calculate holiday pay correctly
-□ Process payroll to account for premium pay
-□ Consider a community service activity
-
-Anything I missed? Drop it below 👇
-```
+#PAYEDeadline #TAJJamaica #JamaicaPayroll
 
 ---
 
-## WEEK 4: MAY 22–31
+**Wednesday May 6 PM:**
+NHT reminder for May:
 
-**Tweet 16** (Labour Day Eve)
-```
-Tomorrow is Jamaica Labour Day.
+Your April NHT employer contribution is also due May 14.
 
-Whatever your team is doing — working, resting, or giving back to the community — make sure payroll is handled correctly.
+This is separate from your TAJ S01 filing. Separate portal (nht.gov.jm). Separate payment.
 
-If someone works, they earn the premium. No exceptions.
+Don't file TAJ and think you're done. NHT is a different deadline that runs on the same date.
 
-#LabourDay #Jamaica
-```
-
-**Tweet 17** (Labour Day)
-```
-Happy Labour Day Jamaica! 🇯🇲
-
-To every Jamaican worker and employer:
-
-The contribution of Jamaica's workforce — hotel staff, teachers, nurses, construction workers, farmers — is what keeps this island running.
-
-Respect the labour. Pay it correctly.
-
-#LabourDayJamaica
-```
-
-**Tweet 18**
-```
-Post-Labour Day payroll processing checklist:
-
-□ Premium pay added for employees who worked
-□ Regular pay confirmed for those who had the day off
-□ Any part-timers' normal Monday hours confirmed
-□ Payslips will reflect the correct amounts
-
-PayrollJamaica handles this automatically.
-```
-
-**Tweet 19**
-```
-Halfway through Q2 (April–June).
-
-Quick check-in for Jamaican employers:
-• April NIS/NHT contributions submitted?
-• April S01 filed with TAJ?
-• Any new hires fully registered?
-• P6 forms issued to March departures?
-
-Compliance is monthly. Not annual.
-```
-
-**Tweet 20** (educational)
-```
-The HEART/NSTA levy: the most forgotten employer contribution in Jamaica.
-
-Rate: 3% of gross payroll
-Who pays: employers only (no employee deduction)
-Purpose: funds skills training programs
-
-Often missing from Excel payroll sheets. Quietly accumulates as arrears.
-
-#HEART #JamaicaPayroll
-```
+#NHT #JamaicaPayroll #PAYEDeadline
 
 ---
 
-## WEEK 4 THREAD: May 26 (Tuesday)
+**Thursday May 7 AM:**
+May is Jamaica's peak hiring month for tourism, construction, and retail.
 
-**Thread: "Mid-Year Payroll Health Check for Jamaican Businesses"**
+Before you hire anyone:
 
-```
-1/ You're halfway through the Jamaica tax year (April 2026–March 2027).
+1. Confirm they have a TRN
+2. Confirm or initiate their NIS registration
+3. Initiate NHT registration via employer portal
+4. Get the employment contract signed
 
-Mid-year is the best time to audit your payroll before problems compound. Here's your checklist. 🧵
-```
-```
-2/ CHECK #1: Are your PAYE calculations still correct?
+All four before their first payroll. Not after.
 
-If any employee got a raise, bonus, or changed from part-time to full-time since April 1 — their PAYE code may need updating.
-
-PAYE is annualized. A raise in January could mean under-deduction all year.
-```
-```
-3/ CHECK #2: Are all employees registered?
-
-Anyone hired since April 1 should have:
-□ TRN confirmed
-□ NIS registration submitted (or confirmed)
-□ NHT registration confirmed
-□ TD1 signed
-
-If any of these are outstanding — fix them now, not in March.
-```
-```
-4/ CHECK #3: Are your contribution rates current?
-
-• NIS employer rate: 3%
-• NHT employer rate: 3%
-• Education Tax: 3.5%
-• HEART/NSTA: 3%
-
-These don't change often, but budgets update them. Verify against taj.gov.jm and nis.gov.jm.
-```
-```
-5/ CHECK #4: Are monthly returns filed and paid?
-
-S01 returns are due to TAJ by the 14th of each month for the previous month.
-
-If you've missed one, the penalty is 5% of tax due per month + interest.
-
-The problem compounds. Fix arrears ASAP — TAJ does offer payment plans.
-```
-```
-6/ CHECK #5: Are you tracking cash flow for year-end?
-
-March 31 costs include:
-• Annual S01 filing
-• NHT Annual Return
-• P6 forms to employees
-• Potential reconciliation adjustments
-
-Budget for these now. Don't get surprised again.
-```
-```
-7/ Mid-year audit = 2 hours of work that saves you months of stress.
-
-PayrollJamaica gives you a real-time compliance dashboard showing exactly where you stand.
-
-Free trial: payrolljamaica.com
-
-Which check surprised you? 👇
-```
+#JamaicaHR #NewHire #JamaicaPayroll
 
 ---
 
-## BONUS TWEETS (evergreen — schedule to fill gaps)
+**Thursday May 7 PM:**
+Education Tax — the deduction Jamaica employers forget most often.
 
-**Evergreen 1**
-```
-The #1 reason Jamaican SMEs get hit with TAJ penalties:
+Employee: 2.25% of statutory income
+Employer: 3.5% of statutory income
 
-Filing on time. Not paying on time.
+Calculated on STATUTORY income — which is gross salary minus NIS. Not gross salary.
 
-You can file your S01 return on the 14th and then not remit the actual tax.
+Get the order wrong and you're under-remitting Education Tax to TAJ every month.
 
-TAJ charges both a late filing penalty AND late payment interest. Two different things.
+#EducationTax #JamaicaPayroll #PAYE
 
-File AND pay by the 14th.
-```
+---
 
-**Evergreen 2**
-```
-Free payroll calculator for Jamaica: payrolljamaica.com/calculator
+**Friday May 8 AM:**
+8 days to May 14 PAYE deadline.
 
-Enter gross salary → instantly see:
-• PAYE deduction
-• NIS contribution
-• NHT deduction
-• Education Tax
-• Take-home pay
+Jamaica employer checklist:
 
-No sign-up. No ads. Just correct Jamaican numbers.
+☑ April payroll approved?
+☑ All employee TRNs in the system?
+☑ S01 return built for April?
+☑ TAJ eServices login working?
+☑ NHT employer contribution schedule ready?
+☑ Payment method confirmed for both?
 
-Share with a business owner who needs this. 👇
-```
+6 checkboxes. Start now.
 
-**Evergreen 3**
-```
-"My accountant does payroll so I don't worry about it."
+#PAYEDeadline #JamaicaPayroll #PayrollJamaica
 
-Understandable. But do you know:
+---
 
-→ When your monthly S01 is filed?
-→ Whether your NHT contributions are current?
-→ That NIS audits look back 6 years?
+**Friday May 8 PM:**
+Something Jamaica's HR community doesn't talk about enough:
 
-You're legally responsible, even if someone else handles it.
+The statutory income deduction.
 
-#Jamaica #BusinessOwner
-```
+Under PAYE rules: 1/3 of gross income (max $500,000) is deducted BEFORE calculating taxable income.
 
-**Evergreen 4**
-```
-Cost of payroll clerk in Jamaica: J$80,000–120,000/month
+Employers who skip this over-deduct PAYE every month. Their employees take home less than they're legally entitled to.
 
-Cost of PayrollJamaica software: from J$3,500/month
+Is your payroll applying this?
 
-The software doesn't call in sick, doesn't forget filing deadlines, and doesn't need training.
+#PAYE #JamaicaPayroll #StatutoryDeduction
 
-Just saying. payrolljamaica.com
-```
+---
+
+### WEEK 2 (May 11–15)
+
+**Monday May 11 AM:**
+NHT fact every Jamaica employer should share with their team:
+
+After 7 years of NHT contributions, employees are eligible for a FULL REFUND of their employee contributions — with interest.
+
+Most Jamaican workers don't know this.
+
+Share this. Let your team know what their 2% is building toward.
+
+#NHT #JamaicaHousing #JamaicaPayroll
+
+---
+
+**Monday May 11 PM:**
+NHT mortgage rates for qualifying contributors: as low as 0%.
+
+Commercial bank mortgage rates in Jamaica: 8–10%.
+
+On a $12 million property over 30 years — the interest savings from an NHT mortgage are life-changing.
+
+Your employees are building toward this with every payslip. Make sure your NHT remittances are correct.
+
+#NHT #NationalHousingTrust #JamaicaHousing
+
+---
+
+**Tuesday May 12 AM:**
+3 days until May 14.
+
+If you haven't started building your April S01 yet: today is the day.
+
+TAJ eServices login → new filing → April 2026 S01 → employee data entry → submit.
+
+If you're using @PayrollJamaica: the S01 is already generated. Go to Reports. Download. Submit.
+
+#PAYEDeadline #TAJJamaica #S01Jamaica
+
+---
+
+**Tuesday May 12 PM:**
+Signs your Jamaica payroll needs a Q1 audit:
+
+❌ You can't reconcile your Jan–Mar PAYE remittances to your payroll totals
+❌ Any employee was on your January payroll without a TRN in the system
+❌ NIS contributions don't match NIS portal records for Q1
+❌ Pay slips weren't issued for every January–March pay period
+
+Any of these? → payrolljamaica.com
+
+#Q1Review #JamaicaPayroll #PAYECompliance
+
+---
+
+**Wednesday May 13 AM:**
+Tomorrow is May 14.
+
+If your April S01 isn't built: tonight.
+
+What you need:
+→ April gross wages per employee
+→ PAYE + Education Tax deducted per employee
+→ Valid TRN for every employee
+→ etax.gov.jm login credentials
+
+File tomorrow. Pay tomorrow. Save your confirmation receipt.
+
+#PAYEDeadline #TAJJamaica #JamaicaPayroll
+
+---
+
+**Wednesday May 13 PM:**
+[Post Thread 2 anchor tweet]
+
+🔴 TOMORROW IS MAY 14. PAYE DEADLINE DAY.
+
+Step-by-step filing guide for Jamaica employers who haven't filed yet.
+
+🧵
+
+---
+
+**Thursday May 14 AM:**
+🚨 TODAY IS MAY 14. PAYE DEADLINE.
+
+April PAYE + Education Tax → TAJ (etax.gov.jm)
+April NHT employer contribution → NHT portal (nht.gov.jm)
+
+Both. Today. Not tomorrow.
+
+Interest starts from May 15 on any outstanding balance.
+
+Have you filed? Reply ✅ or 🔴
+
+#PAYEDeadline #TAJJamaica #JamaicaPayroll #PayrollJamaica
+
+---
+
+**Thursday May 14 PM:**
+Filing reminder: TAJ filing and payment are TWO separate steps.
+
+You can submit the S01 return and still have an outstanding payment. Interest accrues on the unpaid balance.
+
+Make sure both the return is filed AND the payment is processed before end of business today.
+
+#PAYEDeadline #TAJJamaica #PAYE
+
+---
+
+**Friday May 15 AM:**
+If you filed your April PAYE yesterday — well done. 🇯🇲
+
+If you didn't: file today with an interest payment. Late is always better than non-compliant. Contact TAJ if you need to discuss a payment arrangement.
+
+Next milestone: May 23 — Jamaica Labour Day. Employers with staff working: prepare your double-time calculations now.
+
+#JamaicaPayroll #LabourDay #PayrollJamaica
+
+---
+
+**Friday May 15 PM:**
+May 23 = Jamaica Labour Day (gazetted public holiday).
+
+If your employees are working that day:
+
+→ 2x their regular daily rate, OR
+→ Regular pay + compensatory day off in lieu
+
+This applies to every sector — hotels, restaurants, retail, security, healthcare.
+
+Brief your payroll team now. Don't discover this on May 23.
+
+#LabourDay #JamaicaLabourLaw #JamaicaPayroll
+
+---
+
+### WEEK 3 (May 18–24) — Labour Day Week
+
+**Monday May 18 AM:**
+5 days until Jamaica Labour Day (May 23).
+
+The Holidays (Public General) Act — here's what it actually says:
+
+Employees NOT working: full day's regular pay (if they worked the day before).
+Employees working: double time OR regular pay + day in lieu.
+
+Not a suggestion. The law.
+
+#LabourDay #JamaicaLabourLaw
+
+---
+
+**Monday May 18 PM:**
+[Post Thread 3 anchor tweet]
+
+Jamaica Labour Day is May 23. Three days away.
+
+If you have employees working on the holiday — or not working — your payroll obligations are different from a regular day.
+
+Thread for Jamaica employers 🧵
+
+#LabourDay #JamaicaLabourLaw
+
+---
+
+**Tuesday May 19 AM:**
+Hotels in Jamaica on Labour Day:
+
+24/7 operations mean most staff are rostered. Here's the calculation:
+
+→ Regular shift worked on May 23: 2x regular daily rate for the full shift
+→ Called in on unscheduled Labour Day shift: same rule
+→ Overtime beyond regular hours: double-time PLUS overtime premium stacked
+
+Brief your front office manager. Brief your F&B manager. Do it this week.
+
+#HospitalityJamaica #LabourDay #JamaicaPayroll
+
+---
+
+**Tuesday May 19 PM:**
+Security companies in Jamaica — Labour Day note:
+
+Guards on 12-hour shifts on May 23:
+→ First 8 hours (regular shift hours): double time
+→ Hours 9–12: double time PLUS overtime premium
+
+The stacking of public holiday and overtime rates is required. Not optional.
+
+Is your payroll system configured to stack these?
+
+#SecurityJamaica #LabourDay #JamaicaPayroll
+
+---
+
+**Wednesday May 20 AM:**
+The "day before" Labour Day rule:
+
+An employee absent without authorization on Friday May 22 (the last scheduled working day before the holiday) loses their entitlement to Labour Day holiday pay.
+
+This is a legitimate basis for denying the holiday pay.
+
+But it MUST be documented with an attendance record.
+
+"I think they were absent" is not documentation.
+
+#LabourDay #JamaicaLabourLaw #HRJamaica
+
+---
+
+**Wednesday May 20 PM:**
+Why Labour Day pay disputes in Jamaica are so common:
+
+→ Many employers pay regular rates thinking "it's just another day"
+→ Employees now know their rights (social media, Ministry of Labour resources)
+→ Filing a claim with MLSS is easier than most employers realize
+→ The claim includes interest on the underpayment
+→ Total dispute cost always exceeds the original correct payment
+
+Pay double time. It's cheaper.
+
+#LabourDay #JamaicaLabourLaw
+
+---
+
+**Thursday May 21 AM:**
+Jamaica Labour Day tomorrow.
+
+10-second payroll prep:
+→ Employees rostered for May 23: flagged for double time?
+→ Employees off May 23 who worked May 22: flagged for paid holiday?
+→ Pay slips will show Labour Day premium separately?
+
+If yes: close the laptop. You're ready.
+
+If no: @PayrollJamaica has this pre-configured for all Jamaica gazetted holidays.
+
+#LabourDay #JamaicaPayroll #PayrollJamaica
+
+---
+
+**Thursday May 21 PM:**
+Jamaica National Labour Day. Big up to every worker who builds this island. 🇯🇲
+
+And to every employer who pays their team correctly, on time, with full statutory compliance — you're doing something that matters.
+
+→ payrolljamaica.com
+
+#LabourDay #JamaicaWorker #JamaicaBusiness #BuildingJamaica
+
+---
+
+**Friday May 22 AM:**
+Labour Day is tomorrow.
+
+Last reminder: employees scheduled to work May 23 are entitled to double time (or regular pay + day in lieu). Under the Holidays (Public General) Act.
+
+Do this today: confirm your payroll manager has the Labour Day flag set for all rostered staff.
+
+One conversation now. Prevents a Ministry of Labour claim in June.
+
+#LabourDay #JamaicaLabourLaw #JamaicaPayroll
+
+---
+
+**Friday May 22 PM:**
+Happy Labour Day weekend, Jamaica. 🇯🇲
+
+Whether you're resting or your team is working — make sure everyone is compensated correctly.
+
+Workers on the job tomorrow: they earned their double time.
+Workers at rest: they earned their paid holiday.
+
+Both are the law.
+
+→ payrolljamaica.com
+
+#LabourDay #JamaicaHoliday #JamaicaWorker
+
+---
+
+**Saturday May 23 AM — LABOUR DAY:**
+Happy Jamaica Labour Day. 🇯🇲
+
+Big up to every Jamaican worker. The ones who build this island — the hotel staff working today, the security guards, the nurses, the construction crews.
+
+And big up to every employer paying their team the double time they're legally owed. That's how you build a team that stays.
+
+#LabourDay2026 #JamaicaLabourDay #JamaicaWorker
+
+---
+
+**Saturday May 23 PM:**
+Labour Day reminder for any employer who hasn't configured this yet:
+
+Employees working today: double time.
+
+If that's not in your payroll system — add a manual override. Document it. It will be on your next payslip run.
+
+Late is better than wrong.
+
+#LabourDay #JamaicaLabourLaw #JamaicaPayroll
+
+---
+
+### WEEK 4 (May 25–29) — Service Charge + Month Close
+
+**Monday May 25 AM:**
+Jamaica hospitality employers — a compliance issue that often goes undetected until TAJ audit:
+
+Service charge distributed as cash outside the payroll system is an underreported income violation.
+
+Service charge is earnings. It creates PAYE liability. It must go through payroll.
+
+Is yours?
+
+#ServiceCharge #HospitalityJamaica #TAJJamaica
+
+---
+
+**Monday May 25 PM:**
+The correct Jamaica service charge payroll flow:
+
+1. Collect service charge from guests
+2. Calculate employee shares per Tourism Service Charge Act
+3. Run as separate pay element in payroll
+4. Statutory deductions (NHT, NIS, Ed Tax, PAYE) applied to total income
+5. Pay slips show service charge separately
+6. S01 filing includes service charge income
+
+If steps 3–6 aren't happening: compliance gap.
+
+#ServiceCharge #JamaicaPayroll #HospitalityJamaica
+
+---
+
+**Tuesday May 26 AM:**
+[Post Thread 4 anchor tweet]
+
+Jamaica hotel and restaurant owners — this thread is for you.
+
+Service charge distribution is one of the most commonly mishandled payroll elements in Jamaica's tourism sector.
+
+Here's what you might be doing wrong.
+
+🧵 #ServiceCharge #HospitalityJamaica
+
+---
+
+**Tuesday May 26 PM:**
+June 1 — Whit Monday. Jamaica gazetted public holiday.
+
+Same rules as Labour Day:
+→ Employees working: double time or regular pay + day in lieu
+→ Employees resting (who worked May 29): full day's paid holiday
+
+Brief your team now. It's 6 days away.
+
+#WhitMonday #JamaicaHoliday #JamaicaLabourLaw
+
+---
+
+**Wednesday May 27 AM:**
+Mid-year check: two months into Jamaica's new tax year.
+
+Has your payroll system:
+✅ Applied 2026/2027 PAYE threshold ($1,500,096/year) to every pay run?
+✅ Used correct NHT rates (2% employee / 3% employer)?
+✅ Applied NIS ceiling correctly?
+✅ Generated accurate S01 returns for TAJ?
+
+If any are ❌ — fix before June payroll.
+
+#JamaicaPayroll #PAYE #TaxYear2026
+
+---
+
+**Wednesday May 27 PM:**
+Reminder: NHT contributions build toward your employees' home ownership.
+
+After 7 years → refund eligibility. Or: NHT mortgage at rates as low as 0%.
+
+Your remittance accuracy protects their benefit.
+
+Late or incorrect NHT employer remittances can stall an employee's mortgage or refund application.
+
+→ payrolljamaica.com
+
+#NHT #JamaicaHousing #JamaicaPayroll
+
+---
+
+**Thursday May 28 AM:**
+End of May Jamaica payroll close checklist:
+
+☑ May payroll approved?
+☑ May pay slips issued?
+☑ April PAYE filed May 14?
+☑ Labour Day (May 23) pay calculated correctly?
+☑ June 1 (Whit Monday) flagged in payroll?
+☑ June 14 PAYE deadline calendared?
+
+Six checks. One minute.
+
+#JamaicaPayroll #MayClose #PayrollJamaica
+
+---
+
+**Thursday May 28 PM:**
+Fun fact nobody tells Jamaica employers:
+
+When TAJ audits your payroll, they're looking at 3–5 years of records.
+
+Spreadsheet from 2022 with no version history? That's your evidence.
+
+Payroll software with timestamped calculations, approved pay runs, and exportable reports? That's your defence.
+
+Which one do you have?
+
+#TAJJamaica #JamaicaPayroll #PayrollAudit
+
+---
+
+**Friday May 29 AM:**
+May 2026 Jamaica payroll summary:
+
+📅 May 14 — PAYE/NHT deadline (April payroll) — hopefully done ✅
+📅 May 23 — Labour Day — double time paid correctly?
+📅 May → Q1 reconciliation (Jan–Mar) — completed?
+📅 May → New hires onboarded (TRN, NIS, NHT)?
+
+Next: June 1 (Whit Monday) + June 14 (PAYE deadline for May payroll).
+
+Don't let June sneak up.
+
+→ payrolljamaica.com #JamaicaPayroll #PayrollJamaica
+
+---
+
+**Friday May 29 PM:**
+Month close tweet:
+
+May 2026 done. 🇯🇲
+
+To every Jamaica business owner who ran payroll correctly this month — PAYE filed, Labour Day handled, team paid right:
+
+That's how you build a business worth working for.
+
+See you in June. First up: June 1 (Whit Monday) + June 14 (PAYE).
+
+Both already tracked in @PayrollJamaica.
+
+#PayrollJamaica #May2026 #JamaicaBusiness
+
+---
+
+### BONUS TWEETS — Additional Content (for overflow days or scheduling gaps)
+
+**Bonus 1:**
+Jamaica employer reality check:
+
+4 statutory deductions.
+3 different government agencies.
+2 different payment portals.
+Multiple monthly deadlines.
+
+PAYE + Ed Tax → TAJ (14th)
+NHT → NHT portal (14th)
+NIS → NIS office (their schedule)
+
+This is why payroll software exists.
+
+#JamaicaPayroll #PAYE #NHT #NIS
+
+---
+
+**Bonus 2:**
+To every Jamaica HR manager spending Saturday sorting out Labour Day payroll:
+
+You should not be working a holiday weekend to fix a payroll error.
+
+@PayrollJamaica calculates all Jamaica public holiday pay automatically.
+
+Every gazetted holiday. Every sector. Pre-configured.
+
+→ payrolljamaica.com
+
+#HRJamaica #LabourDay #PayrollJamaica
+
+---
+
+**Bonus 3:**
+The most underrated payroll compliance tip in Jamaica:
+
+Document the "day before" attendance for every public holiday.
+
+If an employee was absent without authorization on the working day before Labour Day, Whit Monday, etc. — you can legally deny their public holiday pay.
+
+But you must have the attendance record.
+
+#JamaicaLabourLaw #HRJamaica #PayrollCompliance
+
+---
+
+**Bonus 4:**
+Quick PAYE calculation sequence for Jamaica employers:
+
+1. Gross salary
+2. Subtract NIS contribution → Statutory Income
+3. Apply 1/3 deduction to Statutory Income (max $500K) → Taxable Income
+4. Check against threshold ($1,500,096/year)
+5. Apply 25% on income up to $6M / 30% above
+
+That's PAYE for a Jamaica employee. Every step matters.
+
+#PAYE #JamaicaPayroll #PayrollTips
+
+---
+
+**Bonus 5:**
+Jamaica payroll fact that surprises employers:
+
+Education Tax is NOT calculated on gross salary.
+
+It's calculated on STATUTORY INCOME — which is gross minus NIS.
+
+So the correct order is:
+1. Gross salary
+2. Subtract NIS
+3. Apply Education Tax (2.25% employee / 3.5% employer) on THAT number
+
+Getting this wrong = incorrect Education Tax remittances every month.
+
+#EducationTax #JamaicaPayroll #PAYE
+
+---
+
+**Bonus 6:**
+The NHT refund conversation Jamaica employers should have with their teams:
+
+After 7 years of NHT contributions, employees can get all their money back — with interest.
+
+Or use it toward an NHT mortgage at rates as low as 0%.
+
+This is a real benefit. Most employees don't know it exists.
+
+Tell them.
+
+#NHT #JamaicaHousing #EmployeeBenefits
+
+---
+
+**Bonus 7:**
+Genuine question for Jamaica employers on X:
+
+What is your biggest payroll headache right now?
+
+Reply with one word or one sentence. I'll build content around the top answers.
+
+Because if you're struggling with it — so is everyone else running a business in Jamaica.
+
+#JamaicaBusiness #JamaicaPayroll
+
+---
+
+**Bonus 8:**
+New hire season reminder for Jamaica:
+
+NIS registration for first-time formal employees can take 2–4 weeks.
+
+Don't wait until payroll day to initiate it.
+
+Register them at the NIS office in their first week. TRN collection same week.
+
+Their first payroll should be compliant from day one.
+
+#NewHire #NIS #JamaicaHR
+
+---
+
+**Bonus 9:**
+To every Jamaica accountant managing payroll for multiple clients:
+
+May 14 hits all your clients on the same day.
+
+A single platform where you can manage and generate S01 reports for all clients simultaneously is worth evaluating.
+
+@PayrollJamaica supports accountant multi-client access.
+
+→ payrolljamaica.com
+
+#JamaicaAccountant #PayrollJamaica #TAJJamaica
+
+---
+
+**Bonus 10:**
+Hot take: The biggest payroll risk for Jamaica small businesses isn't making a calculation error.
+
+It's not being able to PROVE the correct calculation to TAJ when asked.
+
+Spreadsheets have no audit trail. Software does.
+
+#JamaicaPayroll #TAJJamaica #PayrollCompliance
+
+---
+
+**Bonus 11:**
+Jamaica restaurant operators — a service charge compliance question:
+
+When you calculate PAYE for your servers, are you including their service charge distribution as part of their income?
+
+You should be. Service charge is earnings. PAYE applies to total income.
+
+Cash distribution outside payroll = underreported income.
+
+#ServiceCharge #RestaurantJamaica #JamaicaPayroll
+
+---
+
+**Bonus 12:**
+The June 14 PAYE deadline is exactly 30 days from May 14.
+
+If you struggled with May 14 — use the next 30 days to set up a system that makes June 14 easy.
+
+30 days is enough time to migrate to @PayrollJamaica, run your first automated payroll, and have your June S01 ready to go.
+
+→ payrolljamaica.com
+
+#PAYEDeadline #JamaicaPayroll #PayrollJamaica
+
+---
+
+## ENGAGEMENT STRATEGY — Replies & Retweets
+
+**Accounts to engage with regularly:**
+- @TAJJamaica — Comment on any tax/compliance posts with employer-angle context
+- @NHTJamaica — Engage on housing policy posts; add employer remittance perspective
+- @NISJamaica — Engage on contribution/benefit posts
+- @MLSS_Jamaica (Ministry of Labour) — Engage on Labour Day and employment rights posts
+- @JamaicaObserver — Comment on payroll/budget/tax news articles
+- @PSOJ — Engage on SME and labour policy discussions
+
+**Labour Day strategy (May 21–24):**
+This is the highest-engagement window of the month. Tweet every 2–3 hours on May 23 Labour Day. Join the #LabourDay and #JamaicaLabourDay conversation. Every tweet should add compliance value — "what employees are owed," "how to calculate correctly," "which sectors this applies to." Aim to be the most authoritative and useful payroll voice in the Labour Day conversation.
+
+---
+
+## PINNED TWEET — May 2026
+
+**Pin for the first half of May (replace with Labour Day pin May 21–31):**
+
+🇯🇲 May 14 = PAYE deadline for April payroll.
+
+TAJ S01 return + NHT employer contribution. Both due May 14.
+
+@PayrollJamaica has your April reports ready. Login → Download → Submit.
+
+For everyone else: etax.gov.jm is open.
+
+#PAYEDeadline #PayrollJamaica #JamaicaBusiness
+
+**Replace with Labour Day pinned tweet May 21–31:**
+
+🇯🇲 Jamaica Labour Day = May 23.
+
+Employees working: double time (2x regular rate).
+Employees resting: full day's paid holiday.
+
+This is the Holidays (Public General) Act. Not optional.
+
+@PayrollJamaica calculates this automatically.
+
+#LabourDay #JamaicaLabourLaw #PayrollJamaica
+
+---
+
+## TWITTER/X ANALYTICS TARGETS — May 2026
+
+| Metric | Target |
+|--------|--------|
+| Impressions per tweet | 600–6,000 |
+| Thread impressions | 3,000–20,000 |
+| Engagement rate | 2–6% |
+| Followers gained in May | 75–200 |
+| Link clicks to payrolljamaica.com | 150+ |
+| Labour Day thread impressions | 15,000–60,000 (trending potential) |
+| Replies to tweets | 8–25 per engagement post |
+
+**Labour Day note (May 23):** This is the single highest-leverage Twitter/X moment of the month. Tweet frequently on May 23 — every 2–3 hours. Join the #LabourDay Jamaica conversation. Being the most informative account on Labour Day pay rules is how PayrollJamaica gains 50+ followers in a single day and positions itself as the definitive Jamaica payroll authority.

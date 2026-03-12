@@ -1,3 +1,12 @@
+---
+title: "Onboarding New Employees in Jamaica for the 2026/2027 Tax Year: The Complete Employer Guide"
+description: "Comprehensive guide to onboarding employees at the start of Jamaica's new 2026/2027 tax year: TD1 forms, PAYE tax codes, NIS registration, NHT registration, statutory deduction rates, and how to set up payroll correctly from day one."
+date: "2026-04-20"
+author: "PayrollJamaica Team"
+tags: ["onboard new employee Jamaica 2026", "Jamaica new employee payroll setup 2026", "TD1 form Jamaica 2026", "NIS registration Jamaica employer", "NHT new employee registration Jamaica", "PAYE new employee Jamaica 2026 2027"]
+canonical: "https://payrolljamaica.com/blog/onboarding-new-employees-jamaica-new-tax-year-2026-2027"
+---
+
 # How to Onboard New Employees in Jamaica for the 2026/2027 Tax Year
 
 **Meta description:** Starting a new hire in Jamaica's 2026/2027 tax year? Here's the complete guide to TD1 forms, NIS registration, NHT enrolment, and tax code setup from day one.

@@ -1,3 +1,12 @@
+---
+title: "Labour Day Jamaica 2026: Employer Payroll Guide — What You Owe Your Employees on May 23"
+description: "Complete employer guide to Labour Day Jamaica 2026 (May 23). Learn the legal requirements for public holiday pay, overtime rules, how to calculate double time, and which sectors are most affected."
+date: "2026-05-01"
+author: "PayrollJamaica Team"
+tags: ["Labour Day Jamaica 2026 employer guide", "Jamaica public holiday pay", "double time Jamaica", "Holidays Public General Act Jamaica", "Jamaica payroll public holiday", "Labour Day pay calculation Jamaica"]
+canonical: "https://payrolljamaica.com/blog/jamaica-labour-day-2026-employer-payroll-guide"
+---
+
 # Jamaica Labour Day 2026 Employer Guide — Pay Rules, Overtime, and What You Owe
 
 **Meta description:** Jamaica Labour Day is May 25, 2026. Here's what every Jamaican employer needs to know about holiday pay, overtime, and payroll compliance for the public holiday.
