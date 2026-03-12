@@ -258,7 +258,7 @@ Don't let March 31 catch you slipping."
 "April 1 — new Jamaica tax year begins. If you made it through March 31 clean — congrats, you're compliant."
 
 [Educational pivot]
-"For the new year, remember: PAYE thresholds may update. Always check TAJ's official notices in April for any changes to the J$1.5M threshold or contribution ceilings."
+"For the new year, remember: PAYE thresholds may update. Always check TAJ's official notices in April for any changes to the J$1,500,096 threshold or contribution ceilings."
 
 [Product mention]
 "PayrollJamaica automatically updates when new rates drop. So if you're a user, you're already covered."
