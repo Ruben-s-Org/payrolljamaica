@@ -79,11 +79,24 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     url: postUrl,
     datePublished: publishDate,
     dateModified: publishDate,
-    author: {
-      "@type": "Organization",
-      name: "Payroll Jamaica",
-      url: "https://payrolljamaica.com",
-    },
+    author: [
+      {
+        "@type": "Person",
+        name: "Ruben Touitou",
+        url: "https://payrolljamaica.com/about/ruben-touitou",
+        jobTitle: "Founder & CEO",
+        worksFor: {
+          "@type": "Organization",
+          name: "PayrollJamaica",
+          url: "https://payrolljamaica.com",
+        },
+      },
+      {
+        "@type": "Organization",
+        name: "PayrollJamaica",
+        url: "https://payrolljamaica.com",
+      },
+    ],
     publisher: {
       "@type": "Organization",
       name: "Payroll Jamaica",
