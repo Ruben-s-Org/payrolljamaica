@@ -211,6 +211,65 @@ export default function PricingPage() {
           </div>
         </section>
 
+        {/* Trust signals */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-4xl mx-auto">
+            <div className="rounded-2xl border border-border bg-muted/20 p-8">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center text-sm">
+                {[
+                  { badge: "TAJ Compliant", detail: "SO1, P24 reports accepted by TAJ" },
+                  { badge: "All Statutory Deductions", detail: "PAYE, NIS, NHT, Ed Tax included in every plan" },
+                  { badge: "No Hidden Fees", detail: "Flat monthly rate — no per-employee charges" },
+                  { badge: "Cancel Anytime", detail: "Month-to-month, no contracts" },
+                ].map((item, i) => (
+                  <div key={i} className="space-y-2">
+                    <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 mx-auto">
+                      <span className="text-green-600 dark:text-green-400 font-bold text-lg">&#10003;</span>
+                    </div>
+                    <div className="font-semibold text-foreground">{item.badge}</div>
+                    <div className="text-xs text-muted-foreground">{item.detail}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Social proof — testimonial highlight */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-3xl mx-auto text-center space-y-4">
+            <blockquote className="text-lg italic text-muted-foreground leading-relaxed">
+              &ldquo;We were always worried about compliance — getting the NHT or Education Tax wrong and facing penalties from TAJ. PayrollJamaica keeps everything current so we can focus on running the business.&rdquo;
+            </blockquote>
+            <div className="text-sm">
+              <span className="font-semibold text-foreground">Marcus Brown</span>
+              <span className="text-muted-foreground"> — Finance Manager, Montego Bay Resort Group</span>
+            </div>
+            <a href="/testimonials" className="text-sm underline underline-offset-2 text-muted-foreground hover:text-foreground transition-colors">
+              Read more testimonials
+            </a>
+          </div>
+        </section>
+
+        {/* Related pages */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-semibold text-center mb-6">Explore more</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {[
+                { href: "/payroll-software-jamaica", label: "Payroll Software Jamaica", desc: "Full feature overview" },
+                { href: "/calculator", label: "Free Payroll Calculator", desc: "Try PAYE, NIS, NHT calculations" },
+                { href: "/march-31-payroll-deadline-jamaica", label: "March 31 Deadline", desc: "SO1, NHT filing checklist" },
+              ].map((link, i) => (
+                <a key={i} href={link.href} className="p-4 rounded-xl border border-border hover:bg-muted/50 transition-colors block space-y-1">
+                  <div className="font-semibold text-sm">{link.label}</div>
+                  <div className="text-xs text-muted-foreground">{link.desc}</div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* SEO content */}
         <div className="w-full px-4 pb-16">
           <div className="max-w-3xl mx-auto space-y-8 text-sm leading-7 text-muted-foreground">

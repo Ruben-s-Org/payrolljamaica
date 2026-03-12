@@ -195,6 +195,49 @@ export default function PayrollSoftwareJamaicaPage() {
           </div>
         </section>
 
+        {/* Trust signals */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-4xl mx-auto">
+            <div className="rounded-2xl border border-border bg-muted/20 p-8 sm:p-10">
+              <h2 className="text-2xl font-semibold text-center mb-6">
+                Built for Jamaica compliance from day one
+              </h2>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center text-sm">
+                {[
+                  { badge: "TAJ Compliant", detail: "PAYE, SO1, P24 reports in TAJ-accepted formats" },
+                  { badge: "NIS Automated", detail: "Employee & employer NIS portions calculated automatically" },
+                  { badge: "NHT Automated", detail: "NHT contributions & annual returns handled" },
+                  { badge: "Ed Tax Included", detail: "Education Tax deducted at the correct rate every pay run" },
+                ].map((item, i) => (
+                  <div key={i} className="space-y-2">
+                    <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 mx-auto">
+                      <span className="text-green-600 dark:text-green-400 font-bold text-lg">&#10003;</span>
+                    </div>
+                    <div className="font-semibold text-foreground">{item.badge}</div>
+                    <div className="text-xs text-muted-foreground">{item.detail}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Social proof — testimonial highlight */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-3xl mx-auto text-center space-y-4">
+            <blockquote className="text-lg italic text-muted-foreground leading-relaxed">
+              &ldquo;Before PayrollJamaica, I spent two full days every month doing payroll by hand in Excel. Now it takes me under an hour. The PAYE and NIS calculations are spot-on every time.&rdquo;
+            </blockquote>
+            <div className="text-sm">
+              <span className="font-semibold text-foreground">Andrea Campbell</span>
+              <span className="text-muted-foreground"> — Managing Director, Kingston Manufacturing Ltd</span>
+            </div>
+            <Link href="/testimonials" className="text-sm underline underline-offset-2 text-muted-foreground hover:text-foreground transition-colors">
+              Read more testimonials
+            </Link>
+          </div>
+        </section>
+
         {/* Industries */}
         <section className="w-full px-4 pb-24">
           <div className="max-w-4xl mx-auto space-y-8">
@@ -219,6 +262,25 @@ export default function PayrollSoftwareJamaicaPage() {
                 >
                   {industry}
                 </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Internal links */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-semibold text-center mb-6">Related resources</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {[
+                { href: "/pricing", label: "View pricing plans", desc: "From JMD $3,500/month" },
+                { href: "/calculator", label: "Free payroll calculator", desc: "Calculate PAYE, NIS, NHT instantly" },
+                { href: "/march-31-payroll-deadline-jamaica", label: "March 31 deadline checklist", desc: "SO1, NHT returns & P6 forms" },
+              ].map((link, i) => (
+                <Link key={i} href={link.href} className="p-4 rounded-xl border border-border hover:bg-muted/50 transition-colors block space-y-1">
+                  <div className="font-semibold text-sm">{link.label}</div>
+                  <div className="text-xs text-muted-foreground">{link.desc}</div>
+                </Link>
               ))}
             </div>
           </div>

@@ -303,6 +303,46 @@ export default function March31DeadlinePage() {
           </div>
         </section>
 
+        {/* Trust signals */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-4xl mx-auto">
+            <div className="rounded-2xl border border-border bg-muted/20 p-8">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center text-sm">
+                {[
+                  { badge: "SO1 Ready", detail: "Annual PAYE Return data exported in TAJ format" },
+                  { badge: "NHT Returns", detail: "Annual Return summary auto-generated" },
+                  { badge: "TD4 / P6 Forms", detail: "One-click generation for all employees" },
+                  { badge: "Reconciliation", detail: "Year-end dashboard catches discrepancies" },
+                ].map((item, i) => (
+                  <div key={i} className="space-y-2">
+                    <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 mx-auto">
+                      <span className="text-green-600 dark:text-green-400 font-bold text-lg">&#10003;</span>
+                    </div>
+                    <div className="font-semibold text-foreground">{item.badge}</div>
+                    <div className="text-xs text-muted-foreground">{item.detail}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Social proof — testimonial */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-3xl mx-auto text-center space-y-4">
+            <blockquote className="text-lg italic text-muted-foreground leading-relaxed">
+              &ldquo;Setting up was simple and the support team actually understands Jamaican payroll. We migrated 85 employees from spreadsheets in less than a week. Best decision we made this year.&rdquo;
+            </blockquote>
+            <div className="text-sm">
+              <span className="font-semibold text-foreground">Shanice Edwards</span>
+              <span className="text-muted-foreground"> — HR Director, Caribbean Fresh Foods Ltd</span>
+            </div>
+            <Link href="/testimonials" className="text-sm underline underline-offset-2 text-muted-foreground hover:text-foreground transition-colors">
+              Read more testimonials
+            </Link>
+          </div>
+        </section>
+
         {/* Penalty section */}
         <section className="w-full px-4 pb-24">
           <div className="max-w-3xl mx-auto space-y-8">
@@ -351,6 +391,25 @@ export default function March31DeadlinePage() {
             </div>
           </div>
         </div>
+
+        {/* Related pages */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-semibold text-center mb-6">Related resources</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {[
+                { href: "/payroll-software-jamaica", label: "Payroll Software Jamaica", desc: "See all features & compliance tools" },
+                { href: "/pricing", label: "View pricing", desc: "Plans from JMD $3,500/month" },
+                { href: "/calculator", label: "Free payroll calculator", desc: "Calculate PAYE, NIS, NHT instantly" },
+              ].map((link, i) => (
+                <Link key={i} href={link.href} className="p-4 rounded-xl border border-border hover:bg-muted/50 transition-colors block space-y-1">
+                  <div className="font-semibold text-sm">{link.label}</div>
+                  <div className="text-xs text-muted-foreground">{link.desc}</div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
 
         {/* CTA */}
         <section className="w-full px-4 pb-24">
