@@ -392,3 +392,41 @@ Content infrastructure status: **COMPLETE for March 11–31 AND all of April acr
 All 70+ posts remain in queue. Every day without accounts is a lost post. Priority: get accounts created TODAY.
 
 ---
+---
+## Session 16 — March 12, 2026 (Afternoon)
+
+**Date:** March 12, 2026  
+**SMM:** Active  
+**Days to March 31:** 19
+
+### Status Check
+- Accounts created: 0/4 — blocker unchanged, Day 2
+- Posts published: 0
+- Content ready: 75+ assets across all platforms through March 31
+- Campaign week: Week 1 "Get Ready" (Mar 11–15)
+
+### Session Output
+
+**New asset created:** `social-media/RUBEN_PERSONAL_POSTS_MAR13_17.md`
+
+Identified and closed a critical gap: we had personal LinkedIn content for Mar 12 only. Created 5 ready-to-paste personal LinkedIn + Facebook posts for Mar 13–17 (one per day). These posts:
+- Require NO company social accounts
+- Cover: true cost of employees, PAYE story/founder post, NHT/NIS/PAYE ceiling explainer, Week 2 launch urgency post, SO1 education + Facebook group scripts for Mar 17 outreach
+- Drive traffic to payrolljamaica.com/calculator TODAY
+- Build Ruben's personal brand as "the Jamaica payroll authority"
+- Seed followers for company pages once created
+
+**Why this matters:** Personal LinkedIn posts get 3–5x more organic reach than company pages. While accounts are pending, Ruben posting daily from his personal profile is the HIGHEST-ROI action available to us. The 5 posts cover the exact "Get Ready" → "Check Your Numbers" theme arc.
+
+### Ruben Action Items (This Afternoon)
+| Priority | Action | Time | File |
+|----------|--------|------|------|
+| 🔴 1 | Post today's personal LinkedIn (Mar 12 post) | 2 min | `RUBEN_LINKEDIN_PERSONAL_POST_MAR12.md` |
+| 🔴 2 | Create social media accounts (4 platforms) | 45 min | `RUBEN_30MIN_SETUP_GUIDE.md` |
+| 🟡 3 | Send 5 press/partnership emails | 20 min | `marketing/pr/SEND_TODAY_MARCH_11.md` |
+| 🟡 4 | WhatsApp calculator link to 20 contacts | 10 min | `WHATSAPP_SETUP_5MIN.md` |
+
+### Tomorrow's Plan (Mar 13)
+- Ruben posts personal LinkedIn: `RUBEN_PERSONAL_POSTS_MAR13_17.md` — March 13 post
+- If accounts created: publish catch-up bundle (15+ posts in 2 hours)
+- Facebook group outreach begins (5 groups, see `facebook/group-outreach-scripts-march17.md`)
