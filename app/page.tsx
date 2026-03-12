@@ -233,6 +233,43 @@ export default function Home() {
           ],
         }) }}
       />
+      {/* JSON-LD: HowTo */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: safeJsonLd({
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: "How to Run Payroll in Jamaica",
+          description: "Run compliant payroll in Jamaica in three simple steps using PayrollJamaica software.",
+          totalTime: "PT10M",
+          tool: [
+            { "@type": "HowToTool", name: "PayrollJamaica software" },
+          ],
+          step: [
+            {
+              "@type": "HowToStep",
+              position: 1,
+              name: "Add your employees",
+              text: "Import from a spreadsheet or enter employee details manually. Set salary structures, allowances, and deductions.",
+              url: `${siteConfig.url}/#how-it-works`,
+            },
+            {
+              "@type": "HowToStep",
+              position: 2,
+              name: "Run payroll",
+              text: "PAYE, NIS, NHT, and Education Tax are calculated automatically. Review the summary and approve with one click.",
+              url: `${siteConfig.url}/#how-it-works`,
+            },
+            {
+              "@type": "HowToStep",
+              position: 3,
+              name: "Export and file",
+              text: "Download payslips, bank-ready payment files, and statutory returns (SO1, P24) formatted for TAJ and your bank.",
+              url: `${siteConfig.url}/#how-it-works`,
+            },
+          ],
+        }) }}
+      />
       {/* JSON-LD: FAQPage */}
       <script
         type="application/ld+json"
