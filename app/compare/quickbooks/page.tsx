@@ -7,6 +7,7 @@ import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
 import { CheckIcon, XIcon, MinusIcon } from "lucide-react";
+import RelatedPages from "@/components/ui/related-pages";
 
 const baseDescription =
   "PayrollJamaica vs QuickBooks Payroll for Jamaican businesses. Compare features, statutory compliance (PAYE, NIS, NHT, Education Tax), pricing, local support, and Jamaica-specific reports. See why Jamaican employers choose PayrollJamaica over QuickBooks for compliant, automated payroll.";
@@ -258,6 +259,8 @@ export default function CompareQuickBooksPage() {
               </a>
             </div>
           </section>
+
+          <RelatedPages exclude="/compare/quickbooks" />
         </div>
       </main>
       <Footer />
