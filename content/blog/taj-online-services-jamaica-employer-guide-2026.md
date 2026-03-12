@@ -209,4 +209,4 @@ Allow 2–3 business days for account issues to be resolved. **Do not wait until
 
 ---
 
-*PayrollJamaica is a payroll platform built for Jamaican businesses. It calculates PAYE, NIS, NHT, and Education Tax automatically and exports in TAJ's required formats. [Start free at PayrollJamaica.com](https://payrolljamaica.com).*
+*PayrollJamaica is a payroll platform built for Jamaican businesses. It calculates PAYE, NIS, NHT, and Education Tax automatically and exports in TAJ's required formats. [Start free at PayrollJamaica.com](https://payrolljamaica.com) | [See all features](https://payrolljamaica.com/payroll-software-jamaica).*

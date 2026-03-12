@@ -154,4 +154,4 @@ If you are not using payroll software and want to make this year's filing — an
 
 ---
 
-*Payroll Jamaica is Jamaica's leading payroll software, built specifically for Jamaican statutory compliance — PAYE, NIS, NHT, Education Tax, and TAJ filings. [Book a free demo](/calculator) to see how we handle your annual returns automatically.*
+*Payroll Jamaica is Jamaica's leading payroll software, built specifically for Jamaican statutory compliance — PAYE, NIS, NHT, Education Tax, and TAJ filings. [Book a free demo](/calculator) or [see all software features](https://payrolljamaica.com/payroll-software-jamaica) to see how we handle your annual returns automatically.*

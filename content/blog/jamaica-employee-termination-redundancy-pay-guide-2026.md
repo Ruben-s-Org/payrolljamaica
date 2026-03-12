@@ -185,4 +185,4 @@ Termination payroll is one area where errors are most costly — and most common
 
 ---
 
-*This guide reflects Jamaican employment law as of 2026. For legal advice specific to your situation, consult a qualified Jamaican employment attorney or labour relations specialist.*
+*This guide reflects Jamaican employment law as of 2026. For legal advice specific to your situation, consult a qualified Jamaican employment attorney or labour relations specialist. For automated payroll processing, [explore PayrollJamaica's payroll software](https://payrolljamaica.com/payroll-software-jamaica).*

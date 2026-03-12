@@ -174,4 +174,4 @@ The ones who end up in trouble are the ones who say "I'll deal with it next week
 
 Start with Step 1 today. Pull your S02 receipts. Then work the list.
 
-[Check your statutory deduction calculations now at payrolljamaica.com/calculator](https://payrolljamaica.com/calculator)
+[Check your statutory deduction calculations now at payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) | [Explore payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)

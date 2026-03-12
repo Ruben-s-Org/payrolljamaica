@@ -131,4 +131,4 @@ If you are approaching March 31, the priority is:
 
 [PayrollJamaica](https://payrolljamaica.com) generates your S02 figures automatically from payroll data and exports the numbers in the format required by eTAJ. The SO1, NHT Annual Return, and NIS reconciliation reports are also generated directly from the platform at year-end.
 
-Use the [PayrollJamaica calculator](https://payrolljamaica.com/calculator) to verify your current payroll deductions, or visit [payrolljamaica.com](https://payrolljamaica.com) to see how the platform simplifies monthly and annual compliance.
+Use the [PayrollJamaica calculator](https://payrolljamaica.com/calculator) to verify your current payroll deductions, or [explore the payroll software features](https://payrolljamaica.com/payroll-software-jamaica) to see how the platform simplifies monthly and annual compliance.

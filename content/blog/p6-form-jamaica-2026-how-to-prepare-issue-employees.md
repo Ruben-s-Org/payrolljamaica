@@ -214,4 +214,4 @@ Provide your payslip records for each month. The monthly payslips should reconci
 
 ---
 
-*PayrollJamaica is a payroll platform built specifically for Jamaican businesses. It automates PAYE, NIS, NHT, and Education Tax calculations and generates SO1 returns and P6 certificates automatically. [Try it free at PayrollJamaica.com](https://payrolljamaica.com). See our full [Jamaica Payroll Software Guide 2026](/blog/jamaica-payroll-software-guide-2026) for a detailed comparison of available options.*
+*PayrollJamaica is a payroll platform built specifically for Jamaican businesses. It automates PAYE, NIS, NHT, and Education Tax calculations and generates SO1 returns and P6 certificates automatically. [Try it free at PayrollJamaica.com](https://payrolljamaica.com) | [See all features](https://payrolljamaica.com/payroll-software-jamaica). See our full [Jamaica Payroll Software Guide 2026](/blog/jamaica-payroll-software-guide-2026) for a detailed comparison of available options.*

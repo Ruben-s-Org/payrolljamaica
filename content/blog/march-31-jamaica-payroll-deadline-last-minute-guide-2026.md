@@ -145,7 +145,7 @@ If you're doing this on spreadsheets, you know how painful this is. PayrollJamai
 - **NIS ceiling tracking** — auto-stops deductions when an employee hits the ceiling
 - **2025/26 rates built in** — no manual rate card lookups
 
-[Try PayrollJamaica free today — no credit card required →](https://payrolljamaica.com/calculator)
+[Try PayrollJamaica free today — no credit card required →](https://payrolljamaica.com/calculator) | [See payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 ---
 

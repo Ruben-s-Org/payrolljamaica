@@ -100,7 +100,7 @@ When you process payroll through PayrollJamaica, every calculation is recorded a
 
 You also get automatic reminders before every filing deadline, so the gaps never accumulate in the first place.
 
-Start your free trial at [payrolljamaica.com](https://payrolljamaica.com) or use the [free PAYE calculator](https://payrolljamaica.com/calculator) to spot-check your deduction calculations right now.
+Start your free trial at [payrolljamaica.com](https://payrolljamaica.com), [see all payroll software features](https://payrolljamaica.com/payroll-software-jamaica), or use the [free PAYE calculator](https://payrolljamaica.com/calculator) to spot-check your deduction calculations right now.
 
 ---
 

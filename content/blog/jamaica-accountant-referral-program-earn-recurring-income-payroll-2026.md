@@ -148,4 +148,4 @@ Or email us directly: **partnerships@payrolljamaica.com**
 
 We'll set up your partner account, send you the referral link and materials, and you'll be ready to refer within 24 hours.
 
-*Want to learn more about how PayrollJamaica compares to other options? See our [Jamaica Payroll Software Guide 2026](/blog/jamaica-payroll-software-guide-2026).*
+*Want to learn more about how PayrollJamaica compares to other options? See our [Jamaica Payroll Software Guide 2026](/blog/jamaica-payroll-software-guide-2026) or [explore the payroll software features](https://payrolljamaica.com/payroll-software-jamaica).*

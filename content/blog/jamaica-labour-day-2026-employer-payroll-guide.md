@@ -111,4 +111,4 @@ If you are running a small business in Jamaica, consider giving your team the op
 - [ ] Ensure payslips reflect the correct amounts
 - [ ] Consider organizing a community service activity for your team
 
-Questions about Jamaica payroll and public holidays? Use our [free payroll calculator](https://payrolljamaica.com/calculator) or explore [PayrollJamaica](https://payrolljamaica.com) — built specifically for Jamaican businesses.
+Questions about Jamaica payroll and public holidays? Use our [free payroll calculator](https://payrolljamaica.com/calculator) or [explore PayrollJamaica's payroll software](https://payrolljamaica.com/payroll-software-jamaica) — built specifically for Jamaican businesses.
