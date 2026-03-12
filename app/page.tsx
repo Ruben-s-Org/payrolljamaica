@@ -7,6 +7,7 @@ import Items from "../components/sections/items/default";
 import Navbar from "../components/sections/navbar/default";
 import Pricing from "../components/sections/pricing/default";
 import Stats from "../components/sections/stats/default";
+import Testimonials from "../components/sections/testimonials/default";
 import { LayoutLines } from "../components/ui/layout-lines";
 import type { Metadata } from "next";
 import { siteConfig } from "@/config/site";
@@ -104,6 +105,7 @@ export default function Home() {
         <TrustSignals />
         <Items />
         <Stats />
+        <Testimonials />
         <Pricing />
         <FAQ />
         <CTA />
