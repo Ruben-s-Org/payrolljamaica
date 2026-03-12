@@ -5,6 +5,7 @@ import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import FAQ from "@/components/sections/faq/default";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import RelatedPages from "@/components/ui/related-pages";
 import { safeJsonLd } from "@/lib/jsonld";
 import { siteConfig } from "@/config/site";
 
@@ -361,6 +362,8 @@ export default function MinimumWagePage() {
             ]}
             className="mt-12"
           />
+
+          <RelatedPages exclude="/minimum-wage-jamaica" />
         </div>
       </main>
       <Footer />

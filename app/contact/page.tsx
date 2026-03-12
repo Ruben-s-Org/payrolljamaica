@@ -3,6 +3,7 @@ import Navbar from "@/components/sections/navbar/default";
 import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import RelatedPages from "@/components/ui/related-pages";
 import { safeJsonLd } from "@/lib/jsonld";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
@@ -159,6 +160,7 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
+          <RelatedPages exclude="/contact" />
         </div>
       </main>
       <Footer />
