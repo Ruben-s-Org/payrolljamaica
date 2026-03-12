@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll processing in Jamaica — Payroll Jamaica automates your entire payroll processing cycle. From salary calculation to PAYE deductions, NIS, NHT, Education Tax, statutory reports, and payslip delivery. Run compliant Jamaica payroll in under 10 minutes.";

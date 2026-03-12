@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Hotel payroll Jamaica — Payroll Jamaica is the payroll software built for Jamaica's hotel and hospitality industry. Manage seasonal staff, tip income, PAYE, NIS, NHT, and Education Tax for your property. Trusted by Jamaican hotels from Kingston to Negril.";

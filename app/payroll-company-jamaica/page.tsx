@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll Jamaica is Jamaica's leading payroll company — providing payroll software and managed payroll services to Jamaican businesses of every size. From Kingston to Montego Bay, we help employers automate PAYE, NIS, NHT, and Education Tax compliance. Choose a payroll company that actually understands Jamaica's statutory requirements.";

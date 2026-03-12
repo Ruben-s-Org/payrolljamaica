@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Healthcare payroll software built specifically for Jamaica's hospitals, clinics, and medical facilities. Handle nurse shift premiums, doctor sessional pay, NHF health surcharge, on-call allowances, and TAJ statutory filings — all automated for Jamaica's healthcare sector. Trusted by medical facilities from Kingston to Montego Bay.";

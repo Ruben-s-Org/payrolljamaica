@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Looking for payroll software in Jamaica? Payroll Jamaica is the leading payroll software built specifically for Jamaican businesses. Automate PAYE, NIS, NHT, and Education Tax calculations, generate compliant payslips, and manage your entire payroll in minutes — not hours. Trusted by Jamaican businesses from Kingston to Montego Bay.";

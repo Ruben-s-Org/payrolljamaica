@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Jamaica's payroll year-end deadline is March 31, 2026. Every Jamaican employer must file SO1 annual returns, NHT annual returns, TD4 summaries, and settle all PAYE, NIS, NHT, and Education Tax before the fiscal year closes. Payroll Jamaica automates every step — so you don't miss the deadline.";

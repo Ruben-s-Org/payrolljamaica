@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
+import { safeJsonLd } from "@/lib/jsonld";
 import Link from "next/link";
 
 const baseDescription =

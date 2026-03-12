@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll outsourcing in Jamaica — let Payroll Jamaica manage your entire payroll process. We handle PAYE calculations, NIS, NHT, and Education Tax deductions, payslip generation, and TAJ statutory remittances. Your team focuses on the business; we handle the compliance.";

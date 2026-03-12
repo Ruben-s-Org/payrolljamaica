@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll Jamaica is built for Jamaica's education sector — private schools, preparatory schools, early childhood institutions, HEART Trust training centers, tutoring businesses, and universities. Handle teacher salary scales, term-based contracts, part-time lecturer pay, pension contributions, and full PAYE, NIS, NHT, and Education Tax compliance. Built for Jamaican educational employers.";

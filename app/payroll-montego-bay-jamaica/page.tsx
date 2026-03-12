@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll services in Montego Bay Jamaica — Payroll Jamaica is the payroll software built for Montego Bay businesses. Automate PAYE, NIS, NHT, and Education Tax for your MoBay employees. From the hotel strip in Rose Hall to business parks in Freeport, we handle payroll for Montego Bay's tourism, retail, and professional services sectors.";

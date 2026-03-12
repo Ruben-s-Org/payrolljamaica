@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll Jamaica serves Portmore and St. Catherine Parish businesses with full PAYE, NIS, NHT, and Education Tax automation. Portmore is one of Jamaica's largest population centers — a business hub for retail, logistics, construction, and service industries. Payroll Jamaica is built for Portmore SMEs.";

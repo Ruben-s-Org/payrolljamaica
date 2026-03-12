@@ -55,13 +55,14 @@ export default function Hero({
   ),
   buttons = [
     {
-      href: "#",
-      text: "Start Free",
+      href: "/calculator",
+      text: "Calculate Your Payroll Free",
       variant: "default" as const,
+      iconRight: <ArrowRightIcon className="ml-2 size-4" />,
     },
     {
-      href: "/calculator",
-      text: "Calculate Your Payroll",
+      href: "#",
+      text: "Get Started",
       variant: "ghost" as const,
     },
   ],

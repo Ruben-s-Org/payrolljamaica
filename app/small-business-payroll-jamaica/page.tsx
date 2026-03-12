@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll software designed for Jamaica's small businesses. Payroll Jamaica handles PAYE, NIS, NHT, and Education Tax automatically — so you can run compliant payroll in minutes, not hours, with no accounting degree required. Starting from J$2,500/month.";

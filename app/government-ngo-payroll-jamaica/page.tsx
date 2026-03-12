@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll software built for Jamaica's government agencies, crown agencies, local authorities, and NGOs. Handle salary scales, grade steps, government pension tracking, grant-funded staff separation, MOFPS reporting formats, and TAJ statutory filings — all automated for Jamaica's public sector and non-profit organisations.";

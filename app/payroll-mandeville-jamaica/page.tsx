@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll Jamaica serves Mandeville and Manchester Parish businesses with full PAYE, NIS, NHT, and Education Tax automation. Mandeville is Jamaica's third-largest commercial center — home to bauxite/alumina industries, retail, healthcare, and tourism. Payroll Jamaica is built for the Manchester parish business community.";

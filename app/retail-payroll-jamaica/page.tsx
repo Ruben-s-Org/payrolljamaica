@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Retail payroll software built for Jamaica's shops, supermarkets, and retail businesses. Handle commission and base pay combinations, public holiday double-time, part-time and flexi-staff, Christmas bonus, multi-store payroll, and bank payment files for NCB, JN Bank, and Scotiabank — all automated for Jamaican retail payroll compliance.";

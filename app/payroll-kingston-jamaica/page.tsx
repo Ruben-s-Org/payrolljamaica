@@ -5,6 +5,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import { siteConfig } from "@/config/site";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/jsonld";
 
 const baseDescription =
   "Payroll services in Kingston Jamaica — Payroll Jamaica is the #1 payroll software serving Kingston businesses. Automate PAYE, NIS, NHT, and Education Tax for your Kingston employees. From New Kingston to Downtown and Half Way Tree, we handle payroll for Kingston's SMEs, professionals, and corporates.";
