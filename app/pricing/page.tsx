@@ -74,6 +74,12 @@ export default function PricingPage() {
             <p className="text-xl text-muted-foreground font-medium text-balance max-w-2xl mx-auto">
               No hidden fees, no per-employee surprises. Choose the plan that fits your team and start automating PAYE, NIS, NHT, and Education Tax today.
             </p>
+            <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground pt-2">
+              <span className="flex items-center gap-1.5"><span className="text-green-500">&#10003;</span> No setup fees</span>
+              <span className="flex items-center gap-1.5"><span className="text-green-500">&#10003;</span> Cancel anytime</span>
+              <span className="flex items-center gap-1.5"><span className="text-green-500">&#10003;</span> JMD pricing</span>
+              <span className="flex items-center gap-1.5"><span className="text-green-500">&#10003;</span> Free onboarding</span>
+            </div>
           </div>
         </section>
 
