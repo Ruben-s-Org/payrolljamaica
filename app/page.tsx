@@ -97,6 +97,12 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground w-full">
+      {/* March 31 Jamaica tax year-end deadline banner */}
+      <div className="w-full bg-amber-500 text-black text-sm font-semibold text-center py-2 px-4">
+        <a href="/payroll-year-end-jamaica" className="hover:underline">
+          ⚠️ Jamaica&apos;s payroll year-end deadline is March 31, 2026 — SO1 returns, NHT annual return, TD4 summaries all due. Get compliant now →
+        </a>
+      </div>
       <Navbar />
       <main className="flex-1">
         <LayoutLines />

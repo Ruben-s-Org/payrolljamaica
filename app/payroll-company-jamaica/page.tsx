@@ -220,6 +220,55 @@ export default function PayrollCompanyJamaicaPage() {
           </div>
         </div>
 
+        {/* Parishes & industries */}
+        <section className="w-full px-4 pb-16">
+          <div className="max-w-5xl mx-auto space-y-12">
+            <div>
+              <h2 className="text-2xl font-semibold text-center mb-6">Serving every Jamaica parish</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+                {[
+                  { name: "Kingston", href: "/payroll-kingston-jamaica" },
+                  { name: "Montego Bay", href: "/payroll-montego-bay-jamaica" },
+                  { name: "Spanish Town", href: "/payroll-spanish-town-jamaica" },
+                  { name: "Portmore", href: "/payroll-portmore-jamaica" },
+                  { name: "Mandeville", href: "/payroll-mandeville-jamaica" },
+                  { name: "Ocho Rios", href: "/payroll-ocho-rios-jamaica" },
+                  { name: "May Pen", href: "/payroll-may-pen-jamaica" },
+                  { name: "Negril", href: "/payroll-negril-jamaica" },
+                  { name: "Port Antonio", href: "/payroll-port-antonio-jamaica" },
+                ].map((loc) => (
+                  <a key={loc.href} href={loc.href} className="rounded-lg border border-border p-3 text-center text-sm font-medium hover:bg-muted transition-colors">
+                    {loc.name}
+                  </a>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h2 className="text-2xl font-semibold text-center mb-6">Payroll by industry</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                {[
+                  { name: "Construction", href: "/construction-payroll-jamaica" },
+                  { name: "Education", href: "/education-payroll-jamaica" },
+                  { name: "Healthcare", href: "/healthcare-payroll-jamaica" },
+                  { name: "Government & NGO", href: "/government-ngo-payroll-jamaica" },
+                  { name: "Retail", href: "/retail-payroll-jamaica" },
+                  { name: "Hotels & Resorts", href: "/payroll-jamaica-hotels" },
+                  { name: "Restaurants", href: "/payroll-jamaica-restaurants" },
+                  { name: "Security", href: "/payroll-jamaica-security" },
+                  { name: "Churches", href: "/payroll-jamaica-churches" },
+                  { name: "Manufacturing", href: "/manufacturing-payroll-jamaica" },
+                  { name: "Finance & Insurance", href: "/finance-insurance-payroll-jamaica" },
+                  { name: "Transportation", href: "/transportation-payroll-jamaica" },
+                ].map((ind) => (
+                  <a key={ind.href} href={ind.href} className="rounded-lg border border-border p-3 text-center text-sm font-medium hover:bg-muted transition-colors">
+                    {ind.name}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="w-full px-4 pb-24">
           <div className="max-w-2xl mx-auto text-center space-y-6 p-10 rounded-2xl border border-border bg-muted/20">
@@ -259,6 +308,10 @@ export default function PayrollCompanyJamaicaPage() {
               { "@type": "City", name: "Portmore" },
               { "@type": "City", name: "Spanish Town" },
               { "@type": "City", name: "Ocho Rios" },
+              { "@type": "City", name: "Mandeville" },
+              { "@type": "City", name: "May Pen" },
+              { "@type": "City", name: "Negril" },
+              { "@type": "City", name: "Port Antonio" },
               { "@type": "Country", name: "Jamaica" },
             ],
             serviceType: ["Payroll Software", "Managed Payroll Services", "HR Software"],
