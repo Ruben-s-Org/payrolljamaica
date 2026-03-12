@@ -164,15 +164,15 @@ export default function HotelPayrollJamaicaPage() {
               Seasonal workers, service charges, PAYE, NIS, NHT — Payroll Jamaica handles the complexity of hotel payroll so your HR team doesn't have to.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2">
-              <a
-                href="/calculator"
-                className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
+              <Link
+                href={siteConfig.links.app}
+                className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3 text-base font-medium hover:bg-primary/90 transition-colors"
               >
                 Start free trial
-              </a>
+              </Link>
               <Link
                 href="/calculator"
-                className="inline-flex items-center justify-center rounded-md border border-border px-8 py-3 font-semibold hover:bg-muted transition-colors"
+                className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-base font-medium hover:bg-muted transition-colors"
               >
                 Try payroll calculator
               </Link>
@@ -328,15 +328,18 @@ export default function HotelPayrollJamaicaPage() {
         <section className="w-full px-4 py-12 bg-muted/30">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-xl font-semibold text-center mb-8">Explore more payroll resources</h2>
-            <div className="grid sm:grid-cols-3 gap-4 text-sm text-center">
+            <div className="grid sm:grid-cols-4 gap-4 text-sm text-center">
               <Link href="/payroll-jamaica-restaurants" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
-                Restaurant Payroll Jamaica →
-              </Link>
-              <Link href="/industries/hospitality" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
-                Hospitality Industry Payroll →
+                Restaurant Payroll Jamaica
               </Link>
               <Link href="/payroll-software-jamaica" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
-                Payroll Software Jamaica →
+                Payroll Software Jamaica
+              </Link>
+              <Link href="/pricing" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
+                Pricing Plans
+              </Link>
+              <Link href="/payroll-montego-bay-jamaica" className="p-4 rounded-lg border border-border hover:bg-muted transition-colors">
+                Payroll Montego Bay
               </Link>
             </div>
           </div>
@@ -351,12 +354,20 @@ export default function HotelPayrollJamaicaPage() {
             <p className="text-muted-foreground">
               Join Jamaican hotels that run accurate, TAJ-compliant payroll with Payroll Jamaica.
             </p>
-            <a
-              href="/calculator"
-              className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
-            >
-              Get started free
-            </a>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Link
+                href={siteConfig.links.app}
+                className="inline-flex items-center justify-center rounded-lg bg-primary text-primary-foreground px-8 py-3 text-base font-medium hover:bg-primary/90 transition-colors"
+              >
+                Get started free
+              </Link>
+              <Link
+                href="/pricing"
+                className="inline-flex items-center justify-center rounded-lg border border-border px-8 py-3 text-base font-medium hover:bg-muted transition-colors"
+              >
+                See pricing plans
+              </Link>
+            </div>
           </div>
         </section>
       </main>
