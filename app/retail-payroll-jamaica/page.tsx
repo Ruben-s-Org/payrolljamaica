@@ -81,8 +81,7 @@ export default function RetailPayrollJamaicaPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="#"
-                data-open-fillout="true"
+                href="/calculator"
                 className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
               >
                 Start free trial
@@ -264,8 +263,7 @@ export default function RetailPayrollJamaicaPage() {
               Jamaica retail businesses trust Payroll Jamaica for commission pay, holiday double-time, and multi-store payroll — all automated.
             </p>
             <a
-              href="#"
-              data-open-fillout="true"
+              href="/calculator"
               className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
             >
               Get started free
