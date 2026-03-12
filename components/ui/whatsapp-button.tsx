@@ -1,6 +1,7 @@
 "use client";
 
 import { siteConfig } from "@/config/site";
+import { trackEvent } from "@/lib/plausible";
 
 export function WhatsAppButton() {
   return (
@@ -8,6 +9,7 @@ export function WhatsAppButton() {
       href={siteConfig.links.whatsapp}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={() => trackEvent("WhatsApp Clicked")}
       className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full shadow-lg transition-transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2"
       style={{ backgroundColor: "#25D366" }}
       aria-label="Chat with us on WhatsApp"
