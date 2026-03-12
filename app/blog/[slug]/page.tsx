@@ -7,6 +7,7 @@ import FloatingCTA from "@/components/ui/floating-cta";
 import BlogRelatedResources from "@/components/ui/blog-related-resources";
 import BlogPostCTA from "@/components/ui/blog-post-cta";
 import BlogEmailCapture from "@/components/ui/blog-email-capture";
+import BlogScrollTracker from "@/components/clients/blog-scroll-tracker";
 import { getAllSlugs, getPostBySlug } from "@/lib/content";
 import { safeJsonLd } from "@/lib/jsonld";
 import { ensureMinDescription, ensureMinKeywords, canonical } from "@/lib/seo";
@@ -116,6 +117,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
+      <BlogScrollTracker slug={slug} />
       <Navbar />
       <main id="main-content" className="w-full px-4 pb-28 flex-1">
         <div className="max-w-5xl mx-auto py-14">

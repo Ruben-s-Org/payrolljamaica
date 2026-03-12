@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import { siteConfig } from "@/config/site";
 import { canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
+import { PrintButton } from "@/components/ui/print-button";
 
 export const metadata: Metadata = {
   title: "Jamaica Employer Tax Rate Card 2026 — Free Reference | Payroll Jamaica",
@@ -66,12 +67,7 @@ export default function JamaicaTaxRates2026() {
               All rates, thresholds, and remittance deadlines for Jamaican employers in one place.
               Updated for the 2026 national budget. Print and keep at your desk.
             </p>
-            <button
-              onClick={() => window.print()}
-              className="inline-flex items-center gap-2 bg-foreground text-background font-semibold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity print:hidden"
-            >
-              <span>🖨️</span> Print / Save as PDF
-            </button>
+            <PrintButton />
           </div>
         </section>
 

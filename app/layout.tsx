@@ -9,6 +9,7 @@ import FilloutProvider from "@/components/clients/fillout-provider";
 import FilloutListener from "@/components/clients/fillout-listener";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 import { DeadlineBanner } from "@/components/ui/deadline-banner";
+import GoogleAnalytics from "@/components/clients/analytics";
 
 import { siteConfig } from "../config/site";
 
@@ -97,6 +98,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
       </head>
+      <GoogleAnalytics />
       <body className={`${inter.className} bg-background antialiased`}>
         <a
           href="#main-content"

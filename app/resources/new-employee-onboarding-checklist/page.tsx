@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import { siteConfig } from "@/config/site";
 import { canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
+import { PrintButton } from "@/components/ui/print-button";
 
 export const metadata: Metadata = {
   title: "New Employee Onboarding Compliance Checklist Jamaica 2026 | Payroll Jamaica",
@@ -65,12 +66,7 @@ export default function NewEmployeeOnboardingChecklist() {
               From NIS registration to PAYE setup — get it right from day one to avoid penalties.
             </p>
             <div className="flex flex-wrap gap-3">
-              <button
-                onClick={() => window.print()}
-                className="inline-flex items-center gap-2 bg-foreground text-background font-semibold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity print:hidden"
-              >
-                <span>🖨️</span> Print / Save as PDF
-              </button>
+              <PrintButton />
               <a
                 href="/resources/march-31-paye-checklist"
                 className="inline-flex items-center gap-2 border border-border font-semibold px-6 py-3 rounded-lg hover:bg-muted transition-colors print:hidden"

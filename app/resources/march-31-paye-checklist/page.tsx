@@ -4,6 +4,7 @@ import Footer from "@/components/sections/footer/default";
 import { siteConfig } from "@/config/site";
 import { canonical } from "@/lib/seo";
 import { safeJsonLd } from "@/lib/jsonld";
+import { PrintButton } from "@/components/ui/print-button";
 
 export const metadata: Metadata = {
   title: "March 31 PAYE Filing Checklist 2026 — Free Download | Payroll Jamaica",
@@ -71,12 +72,7 @@ export default function March31PAYEChecklist() {
               before the March 31 deadline. Missing this deadline triggers penalties and interest.
             </p>
             <div className="flex flex-wrap gap-3">
-              <button
-                onClick={() => window.print()}
-                className="inline-flex items-center gap-2 bg-foreground text-background font-semibold px-6 py-3 rounded-lg hover:opacity-90 transition-opacity print:hidden"
-              >
-                <span>🖨️</span> Print / Save as PDF
-              </button>
+              <PrintButton />
               <a
                 href="/calculator"
                 className="inline-flex items-center gap-2 border border-border font-semibold px-6 py-3 rounded-lg hover:bg-muted transition-colors print:hidden"

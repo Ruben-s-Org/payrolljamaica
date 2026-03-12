@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useFillout } from "@/components/clients/fillout-provider";
 import { trackEvent } from "@/lib/plausible";
+import { trackFilloutOpen } from "@/lib/analytics";
 
 export default function FilloutListener() {
   const { open } = useFillout();
@@ -17,6 +18,8 @@ export default function FilloutListener() {
       // Stop Next/Link navigation
       (e as any).stopImmediatePropagation?.();
       (e as any).stopPropagation?.();
+      const source = el.getAttribute("data-fillout-source") ?? el.textContent?.trim().slice(0, 50) ?? "cta";
+      trackFilloutOpen(source);
       open();
       trackEvent("Signup Form Opened", {
         source: el.textContent?.trim().slice(0, 50) || "unknown",

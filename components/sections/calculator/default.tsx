@@ -9,6 +9,7 @@ import {
   type PayrollResult,
 } from "@/lib/payroll-calculator";
 import { trackEvent } from "@/lib/plausible";
+import { trackCalculatorUsage } from "@/lib/analytics";
 import { Section } from "../../ui/section";
 import { Button } from "../../ui/button";
 
@@ -58,6 +59,7 @@ export default function PayrollCalculator() {
     setError("");
     setResult(calculate({ grossMonthly: gross, frequency }));
     trackEvent("Calculator Used", { frequency, gross });
+    trackCalculatorUsage({ grossSalary: gross, frequency });
   }
 
   function handleKeyDown(e: React.KeyboardEvent) {
