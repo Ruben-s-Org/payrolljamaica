@@ -246,6 +246,6 @@ Being a director doesn't exempt you from Jamaica's payroll system — it makes t
 
 **[Use our free calculator to model your director salary and see the exact deductions →](/calculator)**
 
-PayrollJamaica makes it simple to run payroll for directors alongside your regular employees — the same platform, the same calculations, the same compliance. No spreadsheets, no missed filings.
+[PayrollJamaica's payroll software](https://payrolljamaica.com/payroll-software-jamaica) makes it simple to run payroll for directors alongside your regular employees — the same platform, the same calculations, the same compliance. No spreadsheets, no missed filings.
 
 **[Read more Jamaica payroll guides →](/blog)**

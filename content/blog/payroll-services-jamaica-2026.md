@@ -137,6 +137,6 @@ Before choosing a payroll service, make sure you understand exactly how much PAY
 
 Run your first payroll in under 15 minutes. Free 30-day trial — no credit card, no commitment.
 
-**[Start your free trial at payrolljamaica.com](https://payrolljamaica.com)** — and get your next payroll done right, on time, and without the compliance stress.
+**[Start your free trial at payrolljamaica.com](https://payrolljamaica.com)** — and get your next payroll done right, on time, and without the compliance stress. [See all payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 *Need help managing employee records alongside payroll? See our guide to [HR Software in Jamaica 2026](/blog/hr-software-jamaica-2026).*

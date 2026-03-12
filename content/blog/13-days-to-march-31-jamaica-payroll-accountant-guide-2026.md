@@ -42,6 +42,8 @@ With your client tiers established, here is how to allocate the remaining 13 day
 **Days 1–3 (March 18–20): Tier 1 clients**
 Run all clean-data clients through the SO1 generation and review process. For each one: export the annual payroll summary, verify the PAYE threshold has been applied correctly, confirm NHT contributions at 2% employee / 3% employer, confirm NIS at 3% / 3%, confirm Education Tax at 2.25% employee / 3.5% employer, confirm HEART/NSTA at 3% employer only, and submit. Get written confirmation of each filing. Move on.
 
+Use the [PayrollJamaica calculator](https://payrolljamaica.com/calculator) to spot-check any client's deductions in under 30 seconds — enter the gross pay and compare every statutory line against the client's records.
+
 **Days 4–7 (March 21–24): Tier 2 clients**
 Contact every Tier 2 client today — before you start their work — and tell them you need their complete payroll register by March 20 at the latest. Do not start the work without it. When you receive the data, audit the formulas before you trust the numbers. Check that terminated employees are included in the year-end figures even though they are no longer active. Check that commission employees' variable pay was handled correctly each month.
 
@@ -89,7 +91,7 @@ If the 13-day sprint you just read through is how your March always looks, there
 
 The partner program includes a recurring referral income structure for clients you introduce, and a white-label option for firms that want to offer the platform under their own brand. If you are managing more than five payroll clients and at least some of them are still on manual or Excel-based payroll, the economics of migrating them are straightforward.
 
-Visit [payrolljamaica.com/accountants](https://payrolljamaica.com/accountants) to learn more about the partner program, or reach out directly through the site to discuss your client volume and what a partnership would look like in practice.
+Visit [payrolljamaica.com/accountants](https://payrolljamaica.com/accountants) to learn more about the partner program, or [explore the payroll software](https://payrolljamaica.com/payroll-software-jamaica) to see how automatic SO1 generation, NHT returns, and NIS reconciliation work in practice.
 
 ---
 

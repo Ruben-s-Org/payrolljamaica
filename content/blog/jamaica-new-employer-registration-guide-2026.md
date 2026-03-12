@@ -203,6 +203,6 @@ Registration is only half the battle. Once you're registered, you need to accura
 
 That's where PayrollJamaica comes in. Our free payroll calculator handles all 2026 statutory rates automatically — enter your employees' gross pay and get an instant breakdown of every deduction and employer contribution.
 
-**[Try the PayrollJamaica free payroll calculator →](/calculator)**
+**[Try the PayrollJamaica free payroll calculator →](/calculator)** | **[See full payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)**
 
 No sign-up required. See exactly what you owe before your first payday.

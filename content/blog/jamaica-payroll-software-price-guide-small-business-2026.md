@@ -132,7 +132,7 @@ There are no fully-featured free payroll software options built for the Jamaican
 
 PayrollJamaica offers a **free first pay run** — no credit card required. This lets you verify that the software calculates correctly for your team before committing to a subscription.
 
-Try it at [payrolljamaica.com](https://payrolljamaica.com) or use the free calculator (no sign-up) at [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator).
+Try it at [payrolljamaica.com](https://payrolljamaica.com), [explore the full feature list](https://payrolljamaica.com/payroll-software-jamaica), or use the free calculator (no sign-up) at [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator).
 
 ---
 

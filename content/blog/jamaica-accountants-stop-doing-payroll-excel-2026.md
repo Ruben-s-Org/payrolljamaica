@@ -131,4 +131,4 @@ If you want to explore what the platform looks like for a firm managing multiple
 
 The March 31 deadline is approaching. The filings your clients need to submit by then will reflect the accuracy of the payroll data you have been maintaining all year. If you have any uncertainty about whether your Excel calculations have been applying current rates correctly, now is the time to check.
 
-[Try the free Jamaica payroll calculator →](https://payrolljamaica.com/calculator)
+[Try the free Jamaica payroll calculator →](https://payrolljamaica.com/calculator) | [See full payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)

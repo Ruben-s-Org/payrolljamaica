@@ -128,7 +128,7 @@ Every deduction is tracked automatically, every month, with the correct Jamaica 
 
 **Free calculator:** [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) — check your numbers right now, no sign-up needed.
 
-**Full payroll system:** [payrolljamaica.com](https://payrolljamaica.com) — from J$3,500/month, with S01-ready reports and automatic P6 generation.
+**Full payroll system:** [payrolljamaica.com](https://payrolljamaica.com) — from J$3,500/month, with S01-ready reports and automatic P6 generation. [See all features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 ---
 

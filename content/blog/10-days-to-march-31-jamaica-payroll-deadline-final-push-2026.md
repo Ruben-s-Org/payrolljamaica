@@ -83,7 +83,7 @@ Log into eTAJ and verify your SO1 submission shows as received and processed. Co
 
 ## Don't Do This Manually
 
-Reconstructing a year of payroll data in the final 10 days is hard. [PayrollJamaica](https://payrolljamaica.com) is built specifically for Jamaican payroll compliance. The platform calculates PAYE at the correct threshold, NHT at 2% employee / 3% employer, NIS at 3% / 3%, Education Tax at 2.25% employee / 3.5% employer, and HEART/NSTA at 3% employer — automatically, every pay run, throughout the year. At year-end, the SO1, NHT Annual Return, and NIS Reconciliation are generated directly from data entered during the year.
+Reconstructing a year of payroll data in the final 10 days is hard. [PayrollJamaica](https://payrolljamaica.com) is built specifically for Jamaican payroll compliance — [see the full software features](https://payrolljamaica.com/payroll-software-jamaica). The platform calculates PAYE at the correct threshold, NHT at 2% employee / 3% employer, NIS at 3% / 3%, Education Tax at 2.25% employee / 3.5% employer, and HEART/NSTA at 3% employer — automatically, every pay run, throughout the year. At year-end, the SO1, NHT Annual Return, and NIS Reconciliation are generated directly from data entered during the year.
 
 Use the [PayrollJamaica calculator](https://payrolljamaica.com/calculator) right now to verify your current payroll deductions are accurate. If they're not, you have 10 days to correct the annual figures before filing.
 

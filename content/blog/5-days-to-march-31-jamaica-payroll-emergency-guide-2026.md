@@ -114,6 +114,6 @@ Use the [PayrollJamaica calculator](https://payrolljamaica.com/calculator) to ve
 
 Once you've filed, the next Jamaica tax year begins April 1, 2026. If this March was chaotic, April 1 is your clean start date to get organized.
 
-[PayrollJamaica](https://payrolljamaica.com) automates the monthly S02 calculations, tracks contributions throughout the year, and generates the SO1 and annual returns automatically at year-end. The goal is that March 2027 looks nothing like March 2026.
+[PayrollJamaica's payroll software](https://payrolljamaica.com/payroll-software-jamaica) automates the monthly S02 calculations, tracks contributions throughout the year, and generates the SO1 and annual returns automatically at year-end. The goal is that March 2027 looks nothing like March 2026.
 
 You have 5 days. Use today. The employers who act now file on time. The ones who wait until March 30 don't.

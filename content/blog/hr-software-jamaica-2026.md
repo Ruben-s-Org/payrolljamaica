@@ -161,6 +161,6 @@ Before committing to any HR or payroll platform, it helps to understand exactly 
 
 Ready to see what integrated HR and payroll looks like for a Jamaican business? PayrollJamaica offers a personalised demo where we walk you through the platform using your actual business context — your team size, your payroll structure, your leave policies.
 
-**[Book your free demo at PayrollJamaica.com](https://payrolljamaica.com/demo)** — and see how much time your team gets back when HR and payroll actually work together, built for Jamaica.
+**[Book your free demo at PayrollJamaica.com](https://payrolljamaica.com/demo)** — and see how much time your team gets back when HR and payroll actually work together, built for Jamaica. [View full payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 Looking for a complete payroll solution alongside your HR platform? Read our [Jamaica Payroll Software Guide 2026](/blog/jamaica-payroll-software-guide-2026) for a full breakdown of what's available.

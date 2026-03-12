@@ -124,7 +124,7 @@ When you add a new employee in PayrollJamaica, the system walks you through the 
 
 You also get a compliance reminder on the 14th of the following month — the S01 deadline — so the first return for your new hire is never missed.
 
-Try it free at [payrolljamaica.com](https://payrolljamaica.com).
+Try it free at [payrolljamaica.com](https://payrolljamaica.com), or [explore the payroll software features](https://payrolljamaica.com/payroll-software-jamaica) in detail. You can also [use the free payroll calculator](https://payrolljamaica.com/calculator) to verify any new employee's deductions before running your first payroll.
 
 ---
 

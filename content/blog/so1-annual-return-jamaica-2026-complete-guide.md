@@ -134,7 +134,7 @@ PayrollJamaica automatically tracks every deduction every pay period, generates 
 
 **Free payroll calculator:** [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator) — check your numbers before you file.
 
-**Full payroll system:** Starting from J$3,500/month for Jamaica-compliant payroll, automated S01 reports, and no year-end scramble. [payrolljamaica.com](https://payrolljamaica.com)
+**Full payroll system:** Starting from J$3,500/month for Jamaica-compliant payroll, automated S01 reports, and no year-end scramble. [payrolljamaica.com](https://payrolljamaica.com) | [See all features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 ---
 

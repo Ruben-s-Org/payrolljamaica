@@ -148,7 +148,7 @@ If you're reading this stressed about a spreadsheet or trying to remember what y
 
 PayrollJamaica keeps every month's payroll data, calculates everything at correct Jamaica rates, and generates the annual returns and P6 forms automatically. No spreadsheets. No calculator. No trying to remember.
 
-[Start your free trial at payrolljamaica.com →](https://payrolljamaica.com)
+[Start your free trial at payrolljamaica.com →](https://payrolljamaica.com) | [See payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 7 days. You have enough time. Start today.
 

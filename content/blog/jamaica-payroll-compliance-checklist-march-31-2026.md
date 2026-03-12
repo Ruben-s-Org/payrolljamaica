@@ -178,7 +178,7 @@ If you're looking at this checklist and realising you're behind, act now — not
 
 **[Use our free Jamaica PAYE calculator](https://payrolljamaica.com/calculator)** — run a quick check on any employee's statutory deductions before you file.
 
-**[Start a 30-day free trial](https://payrolljamaica.com/calculator)** — if you're running payroll manually, you can migrate to PayrollJamaica and run your March payroll clean. The annual return data will be organised and ready to export.
+**[Start a 30-day free trial](https://payrolljamaica.com/calculator)** — if you're running payroll manually, you can migrate to PayrollJamaica and run your March payroll clean. The annual return data will be organised and ready to export. [See all payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 **Email us directly:** [info@payrolljamaica.com](mailto:info@payrolljamaica.com) — we're Jamaica-based and available to help you get compliant before the deadline.
 

@@ -165,7 +165,7 @@ The businesses that breeze through March 31 year after year are the ones that ru
 
 PayrollJamaica automates the statutory calculations every month (PAYE, NIS, NHT, Education Tax) and keeps per-employee contribution records that make the annual return a report, not a manual exercise.
 
-[Start before April 1](https://payrolljamaica.com) — the new fiscal year is the cleanest possible starting point.
+[Start before April 1](https://payrolljamaica.com) — the new fiscal year is the cleanest possible starting point. [See all payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 Or at minimum, [use the free calculator](https://payrolljamaica.com/calculator) to verify your March deductions are correct before you file.
 

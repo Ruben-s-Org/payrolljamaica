@@ -300,6 +300,6 @@ The biggest mistakes employers make are starting work before the permit and TRN 
 
 **[Use our free payroll calculator to see the exact PAYE, NIS, NHT, and Education Tax for any salary →](/calculator)**
 
-Running a team that includes foreign workers? PayrollJamaica handles multi-employee payroll with the same accuracy for expat staff as for local staff — all rates, all deductions, all filings, in one platform.
+Running a team that includes foreign workers? [PayrollJamaica's payroll software](https://payrolljamaica.com/payroll-software-jamaica) handles multi-employee payroll with the same accuracy for expat staff as for local staff — all rates, all deductions, all filings, in one platform.
 
 **[Browse all Jamaica payroll guides →](/blog)**

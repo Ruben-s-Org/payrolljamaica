@@ -89,6 +89,6 @@ Late or missed NIS reconciliation carries a surcharge on the outstanding contrib
 
 [PayrollJamaica](https://payrolljamaica.com) calculates NIS contributions for every employee, every month, automatically — including for part-time workers, commission earners, and mid-year hires. The platform tracks contributions throughout the year so that reconciliation at year-end is a report run, not a manual audit.
 
-Use the [PayrollJamaica calculator](https://payrolljamaica.com/calculator) to check whether your current NIS deductions are being calculated correctly, or visit [payrolljamaica.com](https://payrolljamaica.com) to learn how the platform handles full statutory compliance including NIS, NHT, PAYE, Education Tax, and HEART.
+Use the [PayrollJamaica calculator](https://payrolljamaica.com/calculator) to check whether your current NIS deductions are being calculated correctly, or [explore the payroll software](https://payrolljamaica.com/payroll-software-jamaica) to see how PayrollJamaica handles full statutory compliance including NIS, NHT, PAYE, Education Tax, and HEART.
 
 You have 16 days. Use them.

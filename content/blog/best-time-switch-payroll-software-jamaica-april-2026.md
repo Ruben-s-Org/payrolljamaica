@@ -64,7 +64,7 @@ There are no setup fees and no long-term contracts to start. You get the full pl
 
 Every April 1, Jamaica's fiscal year resets. Your payroll can reset with it. No legacy spreadsheet baggage. No mid-year migration headaches. Just clean, compliant payroll from day one — with every statutory rate correct and your first S01 due date already on the calendar (May 14, 2026).
 
-**Make the switch before April.** Visit [payrolljamaica.com](https://payrolljamaica.com) to get started, or run your numbers first at [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator).
+**Make the switch before April.** [See what PayrollJamaica's payroll software includes](https://payrolljamaica.com/payroll-software-jamaica), or run your numbers first at [payrolljamaica.com/calculator](https://payrolljamaica.com/calculator).
 
 ---
 

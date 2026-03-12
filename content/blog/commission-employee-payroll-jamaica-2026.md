@@ -240,6 +240,6 @@ Commission payroll is one of the more complex areas of Jamaica's PAYE system —
 
 **[Use our free payroll calculator to see exactly how PAYE works on commission income →](/calculator)**
 
-Need to run payroll for a team of commission-based employees every month without the spreadsheet headaches? PayrollJamaica handles every calculation, every deduction, and every statutory filing — so you stay compliant without the manual work.
+Need to run payroll for a team of commission-based employees every month without the spreadsheet headaches? [PayrollJamaica's payroll software](https://payrolljamaica.com/payroll-software-jamaica) handles every calculation, every deduction, and every statutory filing — so you stay compliant without the manual work.
 
 **[Explore more payroll guides →](/blog)**

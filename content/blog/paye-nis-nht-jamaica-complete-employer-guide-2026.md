@@ -240,6 +240,7 @@ Enter an employee's gross salary and get an instant breakdown of PAYE, NHT, NIS,
 If you're managing these four deductions manually across multiple employees, the compliance risk compounds quickly. PayrollJamaica automates every calculation, enforces the NIS wage cap per employee, tracks cumulative PAYE across the tax year, and generates your S01 return ready to file.
 
 - **[Start a 30-day free trial](https://payrolljamaica.com/calculator)** — no credit card required
+- **[Explore payroll software features](https://payrolljamaica.com/payroll-software-jamaica)** — see how PayrollJamaica handles PAYE, NIS, NHT, and Education Tax
 - **[Contact us](mailto:info@payrolljamaica.com)** — email us for a personalised payroll compliance review
 
 Jamaica's tax year closes March 31. If you're behind on filings, there is still time to correct — but act now.

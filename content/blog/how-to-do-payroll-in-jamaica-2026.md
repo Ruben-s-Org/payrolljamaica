@@ -219,7 +219,7 @@ Payroll software built for Jamaica handles all of this automatically:
 - **S01 return generation** ready to upload to TAJ e-Services
 - **Monthly remittance reminders** so you never miss the 14th
 
-[Try PayrollJamaica free for 30 days →](https://payrolljamaica.com/calculator)
+[Try PayrollJamaica free for 30 days →](https://payrolljamaica.com/calculator) | [See all payroll software features →](https://payrolljamaica.com/payroll-software-jamaica)
 
 ---
 

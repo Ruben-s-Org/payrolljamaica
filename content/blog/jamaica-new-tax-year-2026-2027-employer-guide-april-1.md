@@ -70,7 +70,7 @@ April 1, 2026 is not just a date on the calendar. It is the cleanest starting li
 
 The choice is straightforward. Start the year right.
 
-**Ready to run compliant payroll from day one?** Visit [payrolljamaica.com](https://payrolljamaica.com) to get set up before April.
+**Ready to run compliant payroll from day one?** Visit [payrolljamaica.com](https://payrolljamaica.com) to get set up before April, or [explore the payroll software features](https://payrolljamaica.com/payroll-software-jamaica).
 
 ---
 

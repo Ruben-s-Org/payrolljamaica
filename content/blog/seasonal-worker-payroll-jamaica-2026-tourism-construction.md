@@ -249,6 +249,7 @@ A: Each employer is responsible only for their own statutory deductions. The wor
 - [P6 Form Jamaica 2026 Guide](https://payrolljamaica.com/blog/p6-form-jamaica-2026-how-to-prepare-issue-employees)
 - [Jamaica Payroll Penalties Guide](https://payrolljamaica.com/blog/jamaica-payroll-penalties-late-filing-2026)
 - [How to Do Payroll in Jamaica](https://payrolljamaica.com/blog/how-to-do-payroll-in-jamaica-2026)
+- [Payroll Software Jamaica — Full Feature Guide](https://payrolljamaica.com/payroll-software-jamaica)
 
 ---
 

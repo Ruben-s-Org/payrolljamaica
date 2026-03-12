@@ -194,4 +194,4 @@ Once you see what proper payroll calculation looks like, the case for doing the 
 
 ---
 
-*PayrollJamaica helps Jamaican businesses manage payroll and employee records with correct statutory deductions, payslip generation, and compliance support. Built for Jamaica. [Get started.](https://payrolljamaica.com)*
+*PayrollJamaica helps Jamaican businesses manage payroll and employee records with correct statutory deductions, payslip generation, and compliance support. Built for Jamaica. [Get started.](https://payrolljamaica.com) | [See payroll software features](https://payrolljamaica.com/payroll-software-jamaica)*

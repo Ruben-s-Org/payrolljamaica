@@ -98,7 +98,7 @@ These seven steps are straightforward in principle. In practice, they take time 
 
 PayrollJamaica handles all of it automatically. Employee records, statutory rates, YTD tracking, and S01 preparation — all in one place, for businesses starting from J$3,500/month.
 
-**Set up your payroll correctly from April 1.** Start at [payrolljamaica.com](https://payrolljamaica.com).
+**Set up your payroll correctly from April 1.** Start at [payrolljamaica.com](https://payrolljamaica.com) or [explore the payroll software features](https://payrolljamaica.com/payroll-software-jamaica).
 
 ---
 
