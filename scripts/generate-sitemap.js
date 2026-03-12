@@ -289,7 +289,17 @@ async function main() {
   urls.add('/industries/healthcare');
   // Resource and comparison pages
   urls.add('/resources');
+  urls.add('/resources/jamaica-employer-tax-rates-2026');
+  urls.add('/resources/march-31-paye-checklist');
+  urls.add('/resources/monthly-payroll-checklist');
+  urls.add('/resources/new-employee-onboarding-checklist');
   urls.add('/compare/spreadsheets');
+  urls.add('/compare/adp');
+  urls.add('/compare/gusto');
+  // Core pages
+  urls.add('/about');
+  urls.add('/contact');
+  urls.add('/glossary');
   // Include legal pages
   urls.add('/privacy');
   urls.add('/terms');
