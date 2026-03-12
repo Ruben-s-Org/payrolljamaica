@@ -47,13 +47,14 @@ export default function Navbar({
   mobileLinks = [
     { text: "Features", href: "/features" },
     { text: "Industries", href: "/industries/hospitality" },
+    { text: "Pricing", href: "/pricing" },
     { text: "Calculator", href: "/calculator" },
     { text: "Partners", href: "/partners" },
     { text: "Contact", href: siteConfig.getStartedUrl },
   ],
   actions = [
     { text: "Features", href: "/features", isButton: false },
-    { text: "Industries", href: "/industries/hospitality", isButton: false },
+    { text: "Pricing", href: "/pricing", isButton: false },
     { text: "Calculator", href: "/calculator", isButton: false },
     { text: "Partners", href: "/partners", isButton: false },
     { text: "Contact us", href: "#contact", isButton: false },

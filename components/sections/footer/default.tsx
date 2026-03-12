@@ -42,7 +42,7 @@ export default function FooterSection({
         { text: "Features", href: "/features" },
         { text: "Payroll Services", href: "/payroll-services" },
         { text: "Payroll Calculator", href: "/calculator" },
-        { text: "Pricing", href: "/#pricing" },
+        { text: "Pricing", href: "/pricing" },
       ],
     },
     {
