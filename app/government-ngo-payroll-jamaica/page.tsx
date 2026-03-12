@@ -81,7 +81,7 @@ export default function GovernmentNgoPayrollJamaicaPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="#"
+                href="/calculator"
                 data-open-fillout="true"
                 className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
               >
@@ -264,7 +264,7 @@ export default function GovernmentNgoPayrollJamaicaPage() {
               Government agencies, crown bodies, and NGOs across Jamaica trust Payroll Jamaica for accurate, auditable payroll.
             </p>
             <a
-              href="#"
+              href="/calculator"
               data-open-fillout="true"
               className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
             >
