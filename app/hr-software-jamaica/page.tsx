@@ -286,13 +286,28 @@ export default function HRSoftwareJamaicaPage() {
             <p className="text-muted-foreground">
               Payroll, leave, compliance, and employee management — in one Jamaica-first platform.
             </p>
-            <a
-              href="/calculator"
-              data-open-fillout="true"
-              className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
-            >
-              Start free trial
-            </a>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a
+                href="#"
+                data-open-fillout="true"
+                className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-8 py-3 font-semibold hover:opacity-90 transition-opacity"
+              >
+                Start free trial
+              </a>
+              <Link
+                href="/pricing"
+                className="inline-flex items-center justify-center rounded-md border border-border px-8 py-3 font-semibold hover:bg-muted transition-colors"
+              >
+                View pricing
+              </Link>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              Also available as part of our full{" "}
+              <Link href="/payroll-software-jamaica" className="underline hover:text-foreground">
+                payroll software for Jamaica
+              </Link>
+              .
+            </p>
           </div>
         </section>
       </main>

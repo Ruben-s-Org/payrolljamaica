@@ -388,6 +388,58 @@ export default function MinimumWagePage() {
       </main>
       <Footer />
       <FloatingCTA />
+      {/* FAQPage schema — powers "People Also Ask" boxes for minimum wage queries */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: safeJsonLd({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is the current minimum wage in Jamaica?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The current minimum wage in Jamaica is J$13,000 per 40-hour work week for general workers (J$325/hour), J$14,000 for security guards (J$350/hour), and J$16,000 for industrial security guards (J$400/hour). These rates were set effective 2026.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do minimum wage workers pay PAYE tax in Jamaica?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No. At current minimum wage levels, annual earnings fall below the PAYE threshold of J$1,500,096 per year, so no income tax is deducted. However, NIS (3%), NHT (2%), and Education Tax (2.25%) still apply to minimum wage earnings.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does it cost an employer to hire a minimum wage worker in Jamaica?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "For a general worker at J$56,333/month gross, the total employer cost is approximately J$63,375/month including employer NIS (3%), NHT (3%), Education Tax (3.5%), and HEART/NSTA (3%) — adding roughly 12.5% on top of the gross wage.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "When was Jamaica minimum wage last increased?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Jamaica's minimum wage was last adjusted effective 2026. The general minimum wage is now J$13,000 per 40-hour work week. The Ministry of Labour and Social Security announces minimum wage changes which then require employer payroll updates.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What statutory deductions apply to minimum wage workers in Jamaica?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Minimum wage workers in Jamaica are subject to NIS (3% employee), NHT (2% employee), and Education Tax (2.25% employee). PAYE income tax does not apply because minimum wage earnings fall below the J$1,500,096 annual threshold. Employers also pay NIS (3%), NHT (3%), Education Tax (3.5%), and HEART/NSTA (3%).",
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }
