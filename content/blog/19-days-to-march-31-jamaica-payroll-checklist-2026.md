@@ -1,0 +1,177 @@
+---
+title: "19 Days to March 31: Jamaica Payroll Compliance Checklist for Employers"
+description: "19 days until Jamaica's March 31 payroll deadline. Here's your numbered checklist of every action Jamaican employers must complete before the SO1, NHT annual return, and NIS reconciliation deadline — with penalties for missing it."
+date: "2026-03-12"
+tags: ["Jamaica payroll deadline 2026", "March 31 TAJ filing", "SO1 annual return Jamaica", "PAYE deadline Jamaica", "NHT annual return 2026", "Jamaica tax year end", "NIS reconciliation", "employer compliance Jamaica"]
+author: "Payroll Jamaica Team"
+canonical: "https://payrolljamaica.com/blog/19-days-to-march-31-jamaica-payroll-checklist-2026"
+---
+
+# 19 Days to March 31: Jamaica Payroll Compliance Checklist for Employers
+
+**March 31, 2026 is 19 days away.** Jamaica's tax year ends. Every employer must have their annual payroll returns filed — SO1 with TAJ, NHT annual return, NIS reconciliation — or face penalties that compound fast.
+
+This checklist tells you exactly what to do and in what order. Print it out. Work through it. Do not wait until March 30.
+
+---
+
+## Why This Deadline Is Different from Monthly Filing
+
+You already file S02 remittances every month. March 31 is not just another monthly payment. It is the year-end close for the 2025/26 tax year and triggers three separate annual obligations simultaneously:
+
+- **SO1 Annual Return** — submitted to TAJ, summarises every employee's full-year earnings and statutory deductions
+- **NHT Annual Return** — submitted to the National Housing Trust, confirms employee and employer NHT contributions for the year
+- **NIS Annual Reconciliation** — submitted to the National Insurance Scheme, reconciles your 12 months of contributions
+
+All three are due March 31. Miss any one of them and the penalties start accumulating the next business day.
+
+---
+
+## Jamaica Statutory Rates You Need to Verify Against
+
+Before you can complete any of these returns, confirm your records used the correct rates for the 2025/26 year:
+
+| Deduction | Employee Rate | Employer Rate |
+|---|---|---|
+| **NIS** | 3% | 3% |
+| **NHT** | 2% | 3% |
+| **Education Tax** | 2.25% | 3.5% |
+| **HEART/NSTA Trust** | — | 3% |
+| **PAYE** | Progressive (0% below threshold) | N/A |
+
+**PAYE Income Tax Threshold: J$1,500,096 per year** (J$125,008 per month). Employees earning below this threshold pay no PAYE. Above it, the standard rate applies. If your payroll software used the wrong threshold at any point in the year, your SO1 will not balance — fix it now, not at 11pm on March 30.
+
+Use the [PayrollJamaica calculator](https://payrolljamaica.com/calculator) to cross-check any employee's deductions against these rates before you finalise your returns.
+
+---
+
+## Your 19-Day Checklist: 10 Actions Before March 31
+
+Work through this list in order. Each item feeds into the next.
+
+### 1. Pull All 12 Monthly S02 Remittance Receipts (Do This Today)
+
+Log into the eTAJ portal or visit your TAJ office and confirm you have receipts for every S02 remittance from April 2025 through March 2026. This is your source of truth. If a month is missing, resolve it before you attempt the SO1 — a missing month creates a discrepancy that flags your account.
+
+**Deadline for this action: March 13-14**
+
+---
+
+### 2. Reconcile Monthly S02 Totals Against Your Payroll Records
+
+Add up what you actually remitted across the 12 S02 returns. Compare it to the sum of what your payroll records say you deducted across the year. These numbers must match employee by employee, not just in aggregate.
+
+Common mismatches: mid-year salary changes, new hires after April, employees who left, one-off bonuses that should have attracted PAYE. Fix discrepancies now by filing any amended S02 before submitting the SO1.
+
+**Deadline for this action: March 15-17**
+
+---
+
+### 3. Prepare the SO1 Annual Return
+
+The SO1 is a line-by-line summary of every employee's full-year figures: gross pay, PAYE, NIS (both shares), NHT (both shares), Education Tax (both shares). Every number on the SO1 must tie back to your monthly S02s.
+
+Download the SO1 template from the TAJ website or use the eTAJ portal to complete it online. If you have more than 10 employees, the online filing route through eTAJ is significantly faster than paper.
+
+**Deadline for this action: March 18-21**
+
+---
+
+### 4. File the SO1 with TAJ — Online or In Person
+
+Submit via the eTAJ portal at **etaj.gov.jm** or deliver in person to your nearest TAJ office. Keep your submission confirmation number. If you file online, download and save the acknowledgement receipt immediately.
+
+TAJ offices in Kingston (Constant Spring Road and downtown), Montego Bay, Mandeville, and Ocho Rios handle walk-in SO1 filings. Expect queues during the final week of March — the eTAJ portal route saves you hours.
+
+**Deadline: March 31, 2026**
+
+---
+
+### 5. Prepare the NHT Annual Return
+
+The NHT annual return confirms that every employee's NHT contributions (2% employee + 3% employer) were correctly calculated and remitted throughout the year. You will need each employee's NHT registration number and their full-year contribution totals.
+
+If any employee doesn't have an NHT number, get them registered at **nht.gov.jm** before you file. Missing NHT numbers delay processing and can trigger follow-up letters that arrive months later.
+
+**Deadline for this action: March 19-22**
+
+---
+
+### 6. File the NHT Annual Return
+
+Submit at **nht.gov.jm** online or visit an NHT office. The NHT online portal allows employers to upload contribution data in bulk, which matters if you have more than 5 employees.
+
+**Deadline: March 31, 2026**
+
+---
+
+### 7. Complete the NIS Annual Reconciliation
+
+NIS reconciliation confirms that your 12 months of NIS contributions (3% employee + 3% employer, capped at the annual ceiling) match NIS records. Contact your nearest NIS branch or visit **mis.gov.jm** for the reconciliation form.
+
+If you have employees who joined or left mid-year, their partial-year NIS contributions need to be shown separately. NIS officers are generally helpful if you show up with organised records — disorganised visits take much longer.
+
+**Deadline for this action: March 20-24**
+
+---
+
+### 8. Issue P6 Earnings Certificates to Employees Who Request Them
+
+Employees need P6 certificates (confirming their annual earnings and deductions) to file their own income tax returns by April 14. While P6s are issued on demand, not on March 31, the information on the P6 must match your SO1 exactly.
+
+Prepare P6s for all employees at the same time you finalise the SO1 — the data is the same. This prevents situations where an employee's P6 contradicts your SO1 after you've already submitted.
+
+**Complete alongside SO1 preparation: March 18-22**
+
+---
+
+### 9. Verify March 2026 Payroll Is Processed Before Month-End
+
+Your March 2026 payroll — the final payroll of the tax year — must be processed and the S02 remittance made before or on March 31. The March S02 is both a monthly obligation and part of the year-end total. Do not leave March payroll processing until the last week when you are also dealing with annual returns.
+
+If your business banks with NCB, Scotiabank, CIBC FirstCaribbean, or JN Bank, confirm your bank's cut-off times for statutory payment transfers in the final days of March — some cut off same-day transfers at 2pm.
+
+**Complete March payroll: March 25-28**
+
+---
+
+### 10. File Any Outstanding Prior Months Before March 31
+
+If you have any S02 remittances from April 2025 through February 2026 that were late or not filed, get them in now. TAJ allows late filing, but interest and penalties are still charged. Filing before March 31 stops additional penalties from accruing and prevents your SO1 from being rejected for outstanding obligations.
+
+Check your TAJ account balance through the eTAJ portal or by calling 1-888-TAX-HELP.
+
+**Complete by: March 26**
+
+---
+
+## Penalties for Missing the March 31 Deadline
+
+TAJ is not lenient on this deadline. The penalties are statutory and applied automatically:
+
+- **Late filing penalty**: A fixed penalty plus a percentage of the tax outstanding for each month (or part month) late
+- **Interest on outstanding tax**: Currently charged at a rate set by the Minister of Finance — applied from the date the payment was due, not from when TAJ contacts you
+- **NHT late contributions**: NHT charges interest on late employer contributions; persistent non-compliance can be referred for legal action
+- **NIS default**: NIS can pursue arrears through the courts; directors of companies can be held personally liable
+
+The pattern TAJ and NHT follow is this: a first warning letter in April, a second in May with calculated interest, and a notice of legal proceedings by June if there's no response. None of this is necessary if you file on time.
+
+---
+
+## Still Behind? Use the Calculator to Catch Up Fast
+
+If your records are messy and you're not sure your figures are right, run your numbers through the [PayrollJamaica calculator](https://payrolljamaica.com/calculator) first. Enter gross pay by employee, the calculator applies the correct statutory rates for 2025/26 automatically, and shows you exactly what should have been deducted each month.
+
+This takes the guesswork out of reconciliation and gives you a defensible set of numbers to take to TAJ, NHT, and NIS.
+
+---
+
+## 19 Days Is Enough — If You Start Now
+
+The employers who miss the March 31 deadline almost always had enough time — they just didn't start early enough. Nineteen days is plenty of time to complete every item on this checklist if you start today.
+
+The ones who end up in trouble are the ones who say "I'll deal with it next week" on March 12, and then again on March 19, and then find themselves at a TAJ office at 4:30pm on March 31 with incomplete records.
+
+Start with Step 1 today. Pull your S02 receipts. Then work the list.
+
+[Check your statutory deduction calculations now at payrolljamaica.com/calculator](https://payrolljamaica.com/calculator)
