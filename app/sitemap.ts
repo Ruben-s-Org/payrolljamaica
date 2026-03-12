@@ -22,6 +22,7 @@ const STATIC_ROUTES: MetadataRoute.Sitemap = [
   { url: `${SITE_URL}/glossary`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
   { url: `${SITE_URL}/partners`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
   { url: `${SITE_URL}/compare`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.7 },
+  { url: `${SITE_URL}/faq`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.8 },
   { url: `${SITE_URL}/industries`, lastModified: TODAY, changeFrequency: "monthly", priority: 0.6 },
 
   // === Main commercial landing pages ===
