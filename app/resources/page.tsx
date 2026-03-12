@@ -526,6 +526,24 @@ export default function ResourcesPage() {
                   </a>{" "}
                   — in-depth articles on all aspects of Jamaica payroll compliance.
                 </li>
+                <li>
+                  <a href="/glossary" className="text-foreground underline hover:no-underline">
+                    Payroll glossary
+                  </a>{" "}
+                  — 25+ Jamaica payroll terms defined (PAYE, NIS, NHT, SO1, P24, and more).
+                </li>
+                <li>
+                  <a href="/minimum-wage-jamaica" className="text-foreground underline hover:no-underline">
+                    Jamaica minimum wage 2026
+                  </a>{" "}
+                  — current minimum wage rates, statutory deductions impact, and employer cost breakdown.
+                </li>
+                <li>
+                  <a href="/compare/quickbooks" className="text-foreground underline hover:no-underline">
+                    PayrollJamaica vs QuickBooks
+                  </a>{" "}
+                  — see why Jamaica businesses choose local payroll software over QuickBooks.
+                </li>
               </ul>
             </div>
 
